@@ -1,0 +1,51 @@
+{
+  "_comment": "Seed labels. tier_1 = explicitly beginner-targeted. tier_2 = open for contribution, difficulty unstated (higher score threshold applies). See docs/07 §1.",
+  "tier_1": [
+    "good first issue",
+    "good-first-issue",
+    "beginner friendly",
+    "beginner-friendly",
+    "first-timers-only",
+    "up-for-grabs",
+    "low hanging fruit",
+    "E-easy",
+    "D-easy",
+    "difficulty:easy",
+    "level:starter"
+  ],
+  "tier_2": [
+    "help wanted",
+    "help-wanted",
+    "contributions welcome",
+    "pr welcome",
+    "hacktoberfest"
+  ],
+  "blocking": [
+    "wontfix",
+    "invalid",
+    "duplicate",
+    "blocked",
+    "on-hold",
+    "needs-triage",
+    "needs-info",
+    "question",
+    "discussion",
+    "rfc",
+    "epic",
+    "meta",
+    "tracking",
+    "stale"
+  ],
+  "languages": [
+    "TypeScript",
+    "JavaScript",
+    "Python",
+    "Go",
+    "Rust",
+    "Java",
+    "C++",
+    "C#",
+    "Ruby",
+    "PHP"
+  ]
+}
