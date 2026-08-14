@@ -58,6 +58,7 @@ async function main() {
         const before = seen.size
         await harvestShard({ label, language, tier, from, to }, 0, shardLog)
         if (seen.size > before) {
+          process.stdout.write('\r' + ' '.repeat(78) + '\r')
           console.log(`  ${label} / ${language}: +${seen.size - before} (total ${seen.size})`)
         }
       }
@@ -163,6 +164,10 @@ async function paginate(q, expected, shard) {
       issue._seedLabel = shard.label
       seen.set(issue.id, issue)
     }
+    process.stdout.write(
+      `\r  ${shard.label}/${shard.language} ${iso(shard.from)}→${iso(shard.to)}` +
+      `  ${seen.size}/${TARGET}   `
+    )
     if (!data.search?.pageInfo?.hasNextPage) break
     after = data.search.pageInfo.endCursor
   }

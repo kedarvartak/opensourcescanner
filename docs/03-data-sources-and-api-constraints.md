@@ -105,8 +105,8 @@ stall resumes rather than restarts. See [09](09-refresh-and-freshness.md) §4.
 
 ## 5. GitHub Actions constraints
 
-- **Public repo ⇒ unlimited free Actions minutes.** The repo must be public. (Also good
-  for trust: the validity model is auditable.)
+> **Repo is PRIVATE** (`kedarvartak/unclaimed`, decided 2026-08-15). That reverses the
+> assumption below — see §5a for what it costs.
 - **Scheduled workflows are unreliable in two specific ways:**
   1. `schedule:` triggers are **delayed**, sometimes 30+ minutes, and can be **silently
      dropped** under load. GitHub does not notify you about a skipped run.
@@ -125,6 +125,41 @@ stall resumes rather than restarts. See [09](09-refresh-and-freshness.md) §4.
 
 **Sources:** [Scheduled workflow delays](https://github.com/orgs/community/discussions/156282) ·
 [60-day auto-disable](https://github.com/efrecon/gh-action-keepalive)
+
+## 5a. Consequences of a private repo
+
+**Minutes are no longer unlimited.** Private repos get **2,000 free Actions minutes/month**
+(Free plan; 3,000 on Pro). Our budget:
+
+| Job | Per run | Runs/month | Minutes/month |
+|---|---|---|---|
+| Daily full/delta refresh | ~25 min | 30 | 750 |
+| 6-hourly re-validation (D18) | ~2 min | 120 | 240 |
+| Watchdog | ~0.5 min | 120 | 60 |
+| **Total** | | | **~1,050 / 2,000** |
+
+Fits, with ~45% headroom — but the margin is real, not comfortable. **Guard rails:**
+- Keep the weekly full sweep to Sundays; deltas on other days (D19).
+- If minutes get tight, move the 6-hourly re-validation to Cloudflare Pages build hooks
+  or drop it to 12-hourly. Re-validation is the *last* thing to cut, since it backs the
+  headline freshness claim.
+- Add a monthly minute-usage check to the watchdog so this is measured, not assumed.
+
+**Two things private-repo status changes for the better:**
+- The 60-day scheduled-workflow auto-disable applies to *public* repos; private repos are
+  not covered by that statement. The commit-every-run mechanism stays anyway — it's still
+  our freshness signal and revert point.
+- The harvest token and any future secrets are less exposed.
+
+**One thing it costs:** the validity model is no longer publicly auditable, which was a
+trust argument in [02](02-competitive-landscape.md) §4. Mitigation: the `/how-it-works`
+page publishes the gate list and the live rejection histogram, so the *claims* stay
+verifiable even while the source isn't. If the repo is ever made public, that argument
+returns for free.
+
+**GitHub Pages from a private repo requires a paid plan** — another reason
+[05](05-architecture.md) §6 lands on **Cloudflare Pages**, which builds from private repos
+on the free tier.
 
 ## 6. Other data sources considered
 
