@@ -239,10 +239,12 @@ async function enrichRepos(names) {
   process.stdout.write('\n')
 
   // Beginner-label ratio for G6.1, in a second batched pass.
-  const beginnerFragment = LABELS.tier_1
-    .slice(0, 4)
-    .map((l) => `label:"${l}"`)
-    .join(' ')
+  //
+  // NOTE: repeated `label:` qualifiers are AND-ed by GitHub search, not OR-ed —
+  // `label:"a" label:"b"` means "has both". The comma form is the OR. Getting
+  // this wrong made G6.1 silently return a 0.000 ratio for every repo, so the
+  // anti-farming gate never fired at all.
+  const beginnerFragment = `label:${LABELS.tier_1.slice(0, 5).map((l) => `"${l}"`).join(',')}`
   const RATIO_BATCH = 15
   for (let i = 0; i < names.length; i += RATIO_BATCH) {
     const batch = names.slice(i, i + RATIO_BATCH)
