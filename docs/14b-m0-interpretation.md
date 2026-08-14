@@ -6,12 +6,33 @@
 
 ## The headline numbers
 
-| | |
-|---|---|
-| Candidates analyzed | 2,500 |
-| Survived every hard gate | 47 |
-| **Joint pass rate** | **1.9%** |
-| **Already taken (RQ1)** | **12.5%** |
+Two runs, and the difference between them is the main finding.
+
+| | Run A — no prefilter | Run B — production (`--fresh`) |
+|---|---|---|
+| Candidates | 2,500 | 3,000 |
+| Survivors | 47 | **531** |
+| Pass rate | 1.9% | **17.7%** |
+| **Already taken (RQ1)** | 12.5% | **28.9%** |
+| Languages on the board | 1 | **11** |
+
+Run B is the production configuration: activity filter pushed into the search query, plus
+a per-shard cap for language breadth. **Final board after scoring and the per-repo cap:
+304 issues across 196 repos, 11 languages, 43 KB brotli.**
+
+> **The pass rate went from 1.9% to 17.7% without loosening a single gate.** Every gate is
+> byte-identical between the runs. The difference is entirely *which issues we asked
+> GitHub for*. Had we shipped Run A's configuration, we'd have concluded the gates were
+> far too strict and started weakening them — the exact wrong move.
+
+### RQ1 got stronger, not weaker, under the honest configuration
+
+**28.9% of issues GitHub reports as unassigned are already being worked on** — 575 with an
+open linked PR, 223 with a merged PR that should have closed the issue, 9 soft-claimed in
+comments. On *fresh, active* issues the problem is worse than on stale ones, which makes
+sense: active issues are the ones people actually pick up.
+
+That lands squarely in the 15–30% band hypothesised in doc 01 before any data existed.
 
 ## 1. RQ1 is confirmed, and it's the launch stat
 
@@ -75,6 +96,15 @@ That's a stronger claim than the filtered number, and it's true.
    *title*. Found by looking at the actual site — which is an argument for rendering early.
 4. **Page size is adaptive.** GitHub enforces an undocumented per-query resource limit well
    below the documented 500,000-node ceiling.
+5. **The label-ratio query was silently broken.** Repeated `label:` qualifiers are **AND-ed**
+   by GitHub search, not OR-ed, so the beginner-ratio query asked for issues carrying all
+   four labels at once and returned `0` for **all 1,359 repos**. G6.1 had therefore never
+   fired once. The comma form is the OR. *A gate that silently returns "everything is fine"
+   is worse than no gate, because it also reports success.*
+6. **Template-farm detection added** as a second, independent anti-farming signal —
+   precisely so a single broken query can't disable G6 again. Caught three repos on the
+   first run, including one generating 93 issues promising a contribution "in under 60
+   seconds" with no code.
 
 ## 5. The cost model was wrong in our favour
 
@@ -89,11 +119,21 @@ harvest with 1,359 repos took 17 minutes, of which ~13 was repo enrichment.
 the difference between a 30-minute and a 5-minute nightly run. Second and subsequent runs
 reuse it.
 
-## 6. Honest limitations of this measurement
+## 6. Verdict against the M0 gate
 
-- **Single-shard sample.** This corpus is essentially all TypeScript, because the run
-  predated the per-shard fix. Per-gate rates for other ecosystems may differ — Rust's
-  earlier 120-issue sample showed 66.7% G3 rejection vs 85.4% here.
-- **No hand audit yet** (docs/11's actual M0 gate). Run `npm run m0:audit` against a
-  representative corpus and check 30 by hand before trusting the precision claim.
-- **G6 under-firing** needs a look before launch.
+**Pass rate 17.7%, well above the 4% viability threshold.** The browse product works as
+designed — no pivot to a curation-only product needed, though "Today's 10" ships anyway
+because it's the DAU surface (D26).
+
+## 7. Honest limitations of this measurement
+
+- **No hand audit yet.** This is docs/11's actual M0 gate (≥80% of 30 sampled survivors
+  genuinely takeable) and it is the one thing here a machine can't do. Run
+  `npm run m0:audit` and spend 30 minutes on `docs/14a-m0-audit.md` before making any
+  public precision claim.
+- **Run B's per-gate rates predate the two G6 fixes**, so anti-farming rejections are
+  undercounted in the generated report. Re-run `npm run m0:analyze` for corrected numbers.
+- **Health data covers 287 of 304 listed issues.** The other 17 fall back to activity
+  proxies, capped at 60/100 so they can't outrank a measured-good repo.
+- **10 languages seeded.** Broadening the language list is the cheapest way to grow the
+  board and the number of SEO landing pages that clear the 8-issue minimum.
