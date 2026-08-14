@@ -62,6 +62,10 @@ export const CLAIM_PATTERNS = [
   /\blet me (?:try|take|work on) (?:this|it)\b/i,
 ]
 
+// Umbrella markers that appear in titles rather than as checkbox lists.
+const UMBRELLA_TITLE =
+  /^\s*[\[(]?\s*(meta|tracking|epic|umbrella|roadmap|rfc)\s*[\])]?\s*[:\-–]?\s/i
+
 const daysSince = (iso, now) => (now - new Date(iso).getTime()) / DAY
 const lower = (s) => (s || '').toLowerCase()
 
@@ -177,6 +181,11 @@ export function G4_relevance(issue, now = Date.now()) {
   if (unchecked > THRESHOLDS.MAX_TASKLIST_ITEMS) {
     return no(`umbrella issue (${unchecked} unchecked tasks)`)
   }
+  // Maintainers also mark umbrellas in the TITLE, and those carry no checkboxes
+  // at all — found by eye in the first real board, where "[META] Adding
+  // subfeatures to audits" sailed through the checkbox test.
+  if (UMBRELLA_TITLE.test(issue.title ?? '')) return no('umbrella/tracking issue (title)')
+
   return ok
 }
 

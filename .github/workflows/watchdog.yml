@@ -1,0 +1,44 @@
+name: Watchdog
+
+# GitHub does not notify you when a scheduled run is silently dropped — and they
+# are dropped, regularly, under load. This job fails loudly if the data goes
+# stale, which turns a silent outage into an email.
+#
+# It runs on the same unreliable cron it monitors, so it narrows the blind window
+# rather than closing it. The true backstop is the client-side staleness banner,
+# which is computed in the user's browser from the data itself and cannot fail
+# silently.
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assert data freshness
+        run: |
+          node -e "
+            const m = require('./data/meta.json');
+            const hours = (Date.now() - new Date(m.generatedAt)) / 3600000;
+            console.log('Data age:', hours.toFixed(1), 'hours');
+            if (hours > 30) {
+              console.error('STALE: refresh has not run in', hours.toFixed(1), 'hours');
+              process.exit(1);
+            }
+            if (m.counts.issues < 50) {
+              console.error('THIN: only', m.counts.issues, 'issues on the board');
+              process.exit(1);
+            }
+          "
+      - name: Report Actions minutes used
+        # Private repos have a 2,000 min/month budget (docs/03 §5a). Measure it
+        # rather than assuming the estimate holds.
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api /repos/${{ github.repository }}/actions/workflows --jq '.workflows[].name' || true

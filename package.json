@@ -9,6 +9,12 @@
     "m0:harvest": "node m0/harvest.mjs",
     "m0:analyze": "node m0/analyze.mjs",
     "m0:audit": "node m0/audit.mjs",
-    "m0": "npm run m0:harvest && npm run m0:analyze && npm run m0:audit"
+    "m0": "npm run m0:harvest && npm run m0:analyze && npm run m0:audit",
+    "harvest": "node m0/harvest.mjs --fresh --target 4000",
+    "emit": "node pipeline/emit.mjs",
+    "revalidate": "node pipeline/revalidate.mjs",
+    "build": "node site/build.mjs",
+    "refresh": "npm run harvest && npm run emit && npm run build",
+    "dev": "node site/build.mjs && node site/serve.mjs"
   }
 }

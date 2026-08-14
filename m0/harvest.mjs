@@ -38,6 +38,14 @@ const client = new GitHubClient()
 const seen = new Map()
 const done = () => seen.size >= TARGET
 
+// Per-shard cap. Without it the first shard (TypeScript "good first issue" has
+// 6,000+ matches) consumes the entire target and every other language gets zero
+// — which starves the language landing pages that drive traffic. Round-robin
+// breadth beats depth here.
+const PER_SHARD = Number(args['per-shard'] ?? Math.max(60, Math.ceil(TARGET / 12)))
+let shardTaken = 0
+const shardFull = () => shardTaken >= PER_SHARD
+
 async function main() {
   await mkdir(CACHE, { recursive: true })
   const t0 = Date.now()
@@ -56,6 +64,7 @@ async function main() {
       for (const language of LANGUAGES) {
         if (done()) break outer
         const before = seen.size
+        shardTaken = 0
         await harvestShard({ label, language, tier, from, to }, 0, shardLog)
         if (seen.size > before) {
           process.stdout.write('\r' + ' '.repeat(78) + '\r')
@@ -105,7 +114,7 @@ async function main() {
 
 /** Recursive bisecting harvest — guarantees every executed query is under the cap. */
 async function harvestShard(shard, depth, shardLog) {
-  if (done()) return
+  if (done() || shardFull()) return
   const q = buildQuery(shard)
   const { search } = await client.graphql(COUNT_ISSUES, { q })
   const total = search.issueCount
@@ -139,7 +148,7 @@ async function paginate(q, expected, shard) {
   let after = null
   let first = pageSize
 
-  while (fetched < expected && !done()) {
+  while (fetched < expected && !done() && !shardFull()) {
     let data
     try {
       data = await client.graphql(SEARCH_ISSUES, { q, after, first })
@@ -163,6 +172,7 @@ async function paginate(q, expected, shard) {
       issue._tier = shard.tier
       issue._seedLabel = shard.label
       seen.set(issue.id, issue)
+      shardTaken++
     }
     process.stdout.write(
       `\r  ${shard.label}/${shard.language} ${iso(shard.from)}→${iso(shard.to)}` +

@@ -1,0 +1,47 @@
+name: Revalidate board
+
+# The highest value-per-request job in the system.
+#
+# It re-checks ONLY the issues currently on the board — the ones people actually
+# clicked, and therefore the ones most likely to have just been claimed. That's
+# ~30 GraphQL requests, and it cuts worst-case claim staleness from 24h to 6h,
+# which is what makes the "verified free 4h ago" badge honest.
+
+on:
+  schedule:
+    - cron: '0 9,15,21 * * *' # between daily full refreshes
+  workflow_dispatch:
+
+concurrency:
+  group: refresh # shares the lock with the full refresh — never both at once
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  revalidate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Re-check every listed issue
+        env:
+          GH_HARVEST_TOKEN: ${{ secrets.GH_HARVEST_TOKEN }}
+        run: node pipeline/revalidate.mjs
+
+      - name: Commit
+        run: |
+          git config user.name  "unclaimed-bot"
+          git config user.email "bot@unclaimed.dev"
+          git add data state
+          if git diff --staged --quiet; then
+            echo "Board unchanged"
+          else
+            git commit -m "data: revalidate $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi

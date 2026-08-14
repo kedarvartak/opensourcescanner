@@ -36,7 +36,8 @@ Date: 2026-08-15. Owner: Kedar.
 
 | # | Question | **Decision** | Reasoning |
 |---|---|---|---|
-| D16 | Framework | **Astro** | Forced by programmatic SEO (doc 12 §1). Supersedes doc 08 §4. |
+| D16 | Framework | ~~Astro~~ → **zero-dependency generator** (`site/build.mjs`) | **Reversed 2026-08-15 during build.** Astro was locked when the site was hypothetical. Built out, the site is "render JSON to HTML" — thousands of templated pages plus one filter bar. Astro's value is component authoring and partial hydration; we use neither. A plain generator gives identical SEO with no `node_modules`, sub-second builds, and no dependency supply chain running unattended in a nightly cron. Fewer moving parts wins for a job that must run for years without attention. |
+| D16a | Client-side JS | **Progressive enhancement only** | Every card is in the HTML at build time. `app.js` filters what's already there; with JS off the page is a complete working list. This is what makes the SEO strategy real rather than aspirational. |
 | D17 | Hosting | **Cloudflare Pages** | `_headers` control is required for the cache strategy; free analytics; free edge. |
 | D18 | Refresh cadence | **Full pipeline daily 03:00 UTC + re-validation-only pass every 6 hours** | The 6-hourly pass was v1.1; **promoted to v1** because "verified free 4h ago" is the headline marketing claim and it costs ~30 API requests. |
 | D19 | Weekly full sweep | **Sundays**, delta harvest other days | |

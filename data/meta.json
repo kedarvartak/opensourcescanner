@@ -1,0 +1,41 @@
+{
+  "v": 1,
+  "generatedAt": "2026-08-14T19:22:48.040Z",
+  "nextRefreshAt": "2026-08-15T19:22:48.040Z",
+  "counts": {
+    "issues": 4,
+    "repos": 4,
+    "languages": 1
+  },
+  "todaysPicks": [
+    "orhun/git-cliff#1182",
+    "Oxen-AI/Oxen#104",
+    "Rust-GPU/rust-gpu#315",
+    "zizmorcore/zizmor#963"
+  ],
+  "shards": {
+    "issues": [
+      "issues.77b462.json"
+    ],
+    "repos": "repos.657116.json",
+    "facets": "facets.027f8b.json"
+  },
+  "labels": [
+    "feature/request",
+    "good first issue",
+    "enhancement",
+    "help wanted",
+    "performance"
+  ],
+  "stats": {
+    "candidatesScanned": 120,
+    "rejected": {
+      "G5_actionability": 4,
+      "G4_relevance": 104,
+      "G2_takeability": 6,
+      "G3_repoViability": 1,
+      "G1_structural": 1
+    },
+    "passRate": 0.0333
+  }
+}

@@ -1,0 +1,77 @@
+name: Refresh issues
+
+# The 24-hour refresh, fully automatic. No manual step.
+#
+#   cron → harvest → validate → score → emit → commit → Cloudflare rebuilds
+#
+# The commit is load-bearing in three ways: it publishes the data, it gives the
+# site an honest "generated at" timestamp, and it counts as repo activity (which
+# is what stops GitHub disabling scheduled workflows on inactive repos).
+
+on:
+  schedule:
+    - cron: '0 3 * * *' # 03:00 UTC — low GitHub API contention
+  workflow_dispatch: # the manual "run now" button, in the Actions tab
+    inputs:
+      target:
+        description: 'Issues to harvest'
+        default: '4000'
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false # never kill a build mid-write to state/
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Harvest candidates
+        env:
+          GH_HARVEST_TOKEN: ${{ secrets.GH_HARVEST_TOKEN }}
+        run: node m0/harvest.mjs --target ${{ inputs.target || '4000' }} --fresh
+
+      - name: Score, validate and emit
+        env:
+          GH_HARVEST_TOKEN: ${{ secrets.GH_HARVEST_TOKEN }}
+        run: node pipeline/emit.mjs
+
+      - name: Build site
+        run: node site/build.mjs
+
+      # If any assertion in emit.mjs failed, the job already stopped and
+      # yesterday's data is still live. Serving day-old validated data always
+      # beats serving fresh broken data.
+      - name: Commit data
+        run: |
+          git config user.name  "unclaimed-bot"
+          git config user.email "bot@unclaimed.dev"
+          git add data state
+          if git diff --staged --quiet; then
+            echo "No data change"
+          else
+            git commit -m "data: refresh $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Summary
+        run: |
+          echo "### Refresh complete" >> $GITHUB_STEP_SUMMARY
+          node -e "
+            const m = require('./data/meta.json');
+            console.log('| metric | value |'); console.log('|---|---|');
+            console.log('| issues listed |', m.counts.issues, '|');
+            console.log('| repos |', m.counts.repos, '|');
+            console.log('| languages |', m.counts.languages, '|');
+            console.log('| scanned |', m.stats.candidatesScanned, '|');
+            console.log('| pass rate |', (m.stats.passRate*100).toFixed(1)+'%', '|');
+          " >> $GITHUB_STEP_SUMMARY

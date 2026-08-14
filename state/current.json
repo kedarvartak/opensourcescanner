@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-08-14T19:22:48.040Z",
+  "issues": [
+    {
+      "k": "orhun/git-cliff#1182",
+      "fs": 1786735368,
+      "sc": 68
+    },
+    {
+      "k": "zizmorcore/zizmor#963",
+      "fs": 1786735368,
+      "sc": 62
+    },
+    {
+      "k": "Rust-GPU/rust-gpu#315",
+      "fs": 1786735368,
+      "sc": 61
+    },
+    {
+      "k": "Oxen-AI/Oxen#104",
+      "fs": 1786735368,
+      "sc": 58
+    }
+  ]
+}
