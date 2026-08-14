@@ -9,7 +9,7 @@
 // Writes docs/14-m0-findings.md. Re-runnable offline against the cache.
 
 import { readFile, writeFile } from 'node:fs/promises'
-import { GATES, validate, validateAll, linkedPRs, softClaim, cleanBody } from './lib/gates.mjs'
+import { GATES, validate, validateAll, linkedPRs, softClaim, cleanBody, annotateTemplateFarms } from './lib/gates.mjs'
 
 const CACHE = new URL('../.cache/', import.meta.url)
 const OUT = new URL('../docs/14-m0-findings.md', import.meta.url)
@@ -19,6 +19,8 @@ async function main() {
   const issues = raw.trim().split('\n').filter(Boolean).map((l) => JSON.parse(l))
   const stats = JSON.parse(await readFile(new URL('harvest-stats.json', CACHE), 'utf8'))
   const now = Date.now()
+
+  annotateTemplateFarms(issues)
 
   console.log(`\n▶ analyzing ${issues.length} issues\n`)
 

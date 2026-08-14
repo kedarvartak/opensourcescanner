@@ -8,7 +8,7 @@
 
 import { readFile, writeFile, mkdir, readdir, unlink } from 'node:fs/promises'
 import { createHash } from 'node:crypto'
-import { validate } from '../m0/lib/gates.mjs'
+import { validate, annotateTemplateFarms } from '../m0/lib/gates.mjs'
 import { scoreIssue, flagsFor, selectBoard, todaysPicks } from './scoring/score.mjs'
 import { TODAYS_PICK_COUNT } from './scoring/weights.mjs'
 import { fetchHealth } from './repo-health.mjs'
@@ -29,6 +29,12 @@ async function main() {
   // between validation and emit letting a claimed issue onto the board.
   const raw = await readFile(new URL('issues.jsonl', CACHE), 'utf8')
   const all = raw.trim().split('\n').filter(Boolean).map((l) => JSON.parse(l))
+
+  // Cross-issue pre-pass: template farming is only visible across a repo's
+  // issues at once, so it must run before the per-issue gates.
+  const farms = annotateTemplateFarms(all)
+  if (farms.size) console.log(`  template farms: ${[...farms.keys()].join(', ')}`)
+
   const survivors = all.filter((i) => validate(i, now).ok)
 
   console.log(`\n▶ emit: ${survivors.length} survivors from ${all.length} candidates`)

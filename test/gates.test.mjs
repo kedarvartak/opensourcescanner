@@ -9,6 +9,7 @@ import assert from 'node:assert/strict'
 import {
   G1_structural, G2_takeability, G3_repoViability, G4_relevance,
   G5_actionability, G6_antiFarming, softClaim, validate, cleanBody,
+  annotateTemplateFarms, titleSkeleton,
 } from '../m0/lib/gates.mjs'
 
 const NOW = Date.parse('2026-08-15T00:00:00Z')
@@ -187,6 +188,38 @@ test('G6 rejects contribution playgrounds by name', () => {
 test('G6 does not punish a small repo with a high ratio but few issues', () => {
   const repo = { ...good().repository, beginnerLabelRatio: 0.9, openIssues: { totalCount: 4 } }
   assert.equal(G6_antiFarming(good({ repository: repo })).ok, true)
+})
+
+test('template farms are detected across a repo and rejected', () => {
+  // Regression: lingdojo/kana-dojo shipped 93 issues titled "[Good First
+  // Issue] <emoji> Add new <Thing> <N> - Beginner-Friendly Open-source
+  // Contribution", body promising a contribution "in under 60 seconds" with no
+  // code. Every one passed every other gate and reached the live board.
+  const things = ['Trivia Question', 'Grammar Point', 'Japanese Proverb', 'Japan Fact', 'Anime Quote', 'Video Game Quote']
+  const farmed = things.map((thing, n) =>
+    good({
+      number: 100 + n,
+      title: `[Good First Issue] 🍣 Add new ${thing} ${n * 7} - Beginner-Friendly Open-source Contribution`,
+      repository: { ...good().repository, nameWithOwner: 'farm/kana' },
+    })
+  )
+  const honest = good({ repository: { ...good().repository, nameWithOwner: 'acme/widget' } })
+
+  const farms = annotateTemplateFarms([...farmed, honest])
+
+  assert.equal(farms.has('farm/kana'), true)
+  assert.equal(farms.has('acme/widget'), false)
+  assert.equal(G6_antiFarming(farmed[0]).ok, false)
+  assert.match(G6_antiFarming(farmed[0]).reason, /template-farmed/)
+  assert.equal(G6_antiFarming(honest).ok, true)
+})
+
+test('titleSkeleton collapses generated titles but keeps distinct ones apart', () => {
+  const a = titleSkeleton('[Good First Issue] 🍣 Add new Trivia Question 42 - Beginner-Friendly Open-source Contribution')
+  const b = titleSkeleton('[Good First Issue] 🎐 Add new Japan Fact 117 - Beginner-Friendly Open-source Contribution')
+  const c = titleSkeleton('Fix off-by-one in pagination cursor when limit exceeds page size')
+  assert.equal(a, b)
+  assert.notEqual(a, c)
 })
 
 // ─── G1 ─────────────────────────────────────────────────────────────────────

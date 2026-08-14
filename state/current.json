@@ -1,25 +1,1525 @@
 {
-  "generatedAt": "2026-08-14T19:22:48.040Z",
+  "generatedAt": "2026-08-14T20:06:15.420Z",
   "issues": [
+    {
+      "k": "sipyourdrink-ltd/bernstein#3679",
+      "fs": 1786737612,
+      "sc": 98
+    },
+    {
+      "k": "sipyourdrink-ltd/bernstein#3674",
+      "fs": 1786737612,
+      "sc": 98
+    },
+    {
+      "k": "sipyourdrink-ltd/bernstein#3671",
+      "fs": 1786737612,
+      "sc": 98
+    },
+    {
+      "k": "sipyourdrink-ltd/bernstein#3670",
+      "fs": 1786737612,
+      "sc": 98
+    },
+    {
+      "k": "syntasso/kratix#427",
+      "fs": 1786737612,
+      "sc": 93
+    },
+    {
+      "k": "bolshakov/stoplight#782",
+      "fs": 1786737612,
+      "sc": 93
+    },
+    {
+      "k": "Redential/redential-cli#81",
+      "fs": 1786737612,
+      "sc": 93
+    },
+    {
+      "k": "bolshakov/stoplight#813",
+      "fs": 1786737612,
+      "sc": 91
+    },
+    {
+      "k": "Berserk-hub150/moodle-ai-skill-navigator#157",
+      "fs": 1786737612,
+      "sc": 91
+    },
+    {
+      "k": "Berserk-hub150/moodle-ai-skill-navigator#156",
+      "fs": 1786737612,
+      "sc": 91
+    },
+    {
+      "k": "Berserk-hub150/moodle-ai-skill-navigator#115",
+      "fs": 1786737612,
+      "sc": 91
+    },
+    {
+      "k": "bolshakov/stoplight#746",
+      "fs": 1786737612,
+      "sc": 90
+    },
+    {
+      "k": "Berserk-hub150/moodle-ai-skill-navigator#170",
+      "fs": 1786737612,
+      "sc": 90
+    },
+    {
+      "k": "rust-lang/rust-analyzer#23114",
+      "fs": 1786737612,
+      "sc": 89
+    },
+    {
+      "k": "bolshakov/stoplight#745",
+      "fs": 1786737612,
+      "sc": 88
+    },
+    {
+      "k": "Redential/redential-cli#83",
+      "fs": 1786737612,
+      "sc": 88
+    },
+    {
+      "k": "absolute-version/commit-and-tag-version#263",
+      "fs": 1786737612,
+      "sc": 88
+    },
+    {
+      "k": "LeyckerS/moondownloader#93",
+      "fs": 1786737612,
+      "sc": 88
+    },
+    {
+      "k": "PowerShell/PowerShell#26375",
+      "fs": 1786737612,
+      "sc": 88
+    },
+    {
+      "k": "Quantinuum/guppylang#2114",
+      "fs": 1786737612,
+      "sc": 88
+    },
+    {
+      "k": "pulumi/pulumi-kubernetes#3549",
+      "fs": 1786737612,
+      "sc": 87
+    },
+    {
+      "k": "ui5-community/ui5-ecosystem-showcase#1231",
+      "fs": 1786737612,
+      "sc": 87
+    },
+    {
+      "k": "ueberdosis/tiptap#6621",
+      "fs": 1786737612,
+      "sc": 86
+    },
+    {
+      "k": "electron/electron#48316",
+      "fs": 1786737612,
+      "sc": 86
+    },
+    {
+      "k": "Agent-Field/agentfield#391",
+      "fs": 1786737612,
+      "sc": 86
+    },
+    {
+      "k": "adobe/react-spectrum#9031",
+      "fs": 1786737612,
+      "sc": 86
+    },
+    {
+      "k": "nodejs/userland-migrations#132",
+      "fs": 1786737612,
+      "sc": 86
+    },
+    {
+      "k": "absolute-version/commit-and-tag-version#217",
+      "fs": 1786737612,
+      "sc": 85
+    },
+    {
+      "k": "getplumber/plumber#127",
+      "fs": 1786737612,
+      "sc": 85
+    },
+    {
+      "k": "getplumber/plumber#150",
+      "fs": 1786737612,
+      "sc": 85
+    },
+    {
+      "k": "supercollider/supercollider#7556",
+      "fs": 1786737612,
+      "sc": 85
+    },
+    {
+      "k": "getplumber/plumber#151",
+      "fs": 1786737612,
+      "sc": 84
+    },
+    {
+      "k": "VoidenHQ/voiden#529",
+      "fs": 1786737612,
+      "sc": 84
+    },
+    {
+      "k": "actualbudget/actual#5682",
+      "fs": 1786737612,
+      "sc": 84
+    },
+    {
+      "k": "packit/packit-service#3073",
+      "fs": 1786737612,
+      "sc": 83
+    },
+    {
+      "k": "pulumi/pulumi-azure#3175",
+      "fs": 1786737612,
+      "sc": 83
+    },
+    {
+      "k": "carlos-emr/carlos#850",
+      "fs": 1786737612,
+      "sc": 83
+    },
+    {
+      "k": "carlos-emr/carlos#873",
+      "fs": 1786737612,
+      "sc": 82
+    },
+    {
+      "k": "google/heir#1946",
+      "fs": 1786737612,
+      "sc": 82
+    },
+    {
+      "k": "manyfold3d/manyfold#6447",
+      "fs": 1786737612,
+      "sc": 82
+    },
+    {
+      "k": "pulumi/pulumi-azure-native#4267",
+      "fs": 1786737612,
+      "sc": 82
+    },
+    {
+      "k": "eclipse-che/che#23539",
+      "fs": 1786737612,
+      "sc": 82
+    },
+    {
+      "k": "VoidenHQ/voiden#546",
+      "fs": 1786737612,
+      "sc": 81
+    },
+    {
+      "k": "VoidenHQ/voiden#389",
+      "fs": 1786737612,
+      "sc": 81
+    },
+    {
+      "k": "callstackincubator/react-native-node-api#14",
+      "fs": 1786737612,
+      "sc": 81
+    },
+    {
+      "k": "JoshuaKGoldberg/formatly#124",
+      "fs": 1786737612,
+      "sc": 81
+    },
+    {
+      "k": "StrikerX3/Ymir#342",
+      "fs": 1786737612,
+      "sc": 81
+    },
+    {
+      "k": "dotnet/BenchmarkDotNet#3231",
+      "fs": 1786737612,
+      "sc": 81
+    },
+    {
+      "k": "rust-lang/rustup#4858",
+      "fs": 1786737612,
+      "sc": 81
+    },
+    {
+      "k": "medic/cht-core#9860",
+      "fs": 1786737612,
+      "sc": 81
+    },
+    {
+      "k": "Quantinuum/guppylang#1623",
+      "fs": 1786737612,
+      "sc": 80
+    },
+    {
+      "k": "carlos-emr/carlos#3155",
+      "fs": 1786737612,
+      "sc": 80
+    },
+    {
+      "k": "hotosm/drone-tm#554",
+      "fs": 1786737612,
+      "sc": 80
+    },
+    {
+      "k": "perses/perses#3519",
+      "fs": 1786737612,
+      "sc": 80
+    },
+    {
+      "k": "openebs/zfs-localpv#677",
+      "fs": 1786737612,
+      "sc": 80
+    },
+    {
+      "k": "cqfn/aibolit#811",
+      "fs": 1786737612,
+      "sc": 80
+    },
+    {
+      "k": "tlaplus/tlaplus#1196",
+      "fs": 1786737612,
+      "sc": 80
+    },
+    {
+      "k": "orcasound/orcahello#588",
+      "fs": 1786737612,
+      "sc": 80
+    },
+    {
+      "k": "chatvector-ai/chatvector-ai#443",
+      "fs": 1786737612,
+      "sc": 80
+    },
+    {
+      "k": "chatvector-ai/chatvector-ai#442",
+      "fs": 1786737612,
+      "sc": 80
+    },
+    {
+      "k": "chatvector-ai/chatvector-ai#441",
+      "fs": 1786737612,
+      "sc": 80
+    },
+    {
+      "k": "webdriverio/webdriverio#14566",
+      "fs": 1786737612,
+      "sc": 80
+    },
+    {
+      "k": "ruvnet/ruflo#640",
+      "fs": 1786737612,
+      "sc": 80
+    },
+    {
+      "k": "manyfold3d/manyfold#6407",
+      "fs": 1786737612,
+      "sc": 79
+    },
+    {
+      "k": "orcasound/orcahello#574",
+      "fs": 1786737612,
+      "sc": 79
+    },
+    {
+      "k": "Wynntils/Wynntils#3329",
+      "fs": 1786737612,
+      "sc": 79
+    },
+    {
+      "k": "huseynovvusal/spring-blog-api#49",
+      "fs": 1786737612,
+      "sc": 79
+    },
+    {
+      "k": "canonical/multipass#3947",
+      "fs": 1786737612,
+      "sc": 79
+    },
+    {
+      "k": "juspay/hyperswitch#9199",
+      "fs": 1786737612,
+      "sc": 79
+    },
+    {
+      "k": "freelensapp/freelens#1199",
+      "fs": 1786737612,
+      "sc": 79
+    },
+    {
+      "k": "rust-lang/rustup#4987",
+      "fs": 1786737612,
+      "sc": 78
+    },
+    {
+      "k": "winboat-org/winboat#178",
+      "fs": 1786737612,
+      "sc": 78
+    },
+    {
+      "k": "nipoppy/nipoppy#646",
+      "fs": 1786737612,
+      "sc": 78
+    },
+    {
+      "k": "apache/hugegraph-computer#325",
+      "fs": 1786737612,
+      "sc": 78
+    },
+    {
+      "k": "OpenDreamProject/OpenDream#2694",
+      "fs": 1786737612,
+      "sc": 78
+    },
+    {
+      "k": "pulumi/pulumi-awsx#1743",
+      "fs": 1786737612,
+      "sc": 78
+    },
+    {
+      "k": "packit/ogr#895",
+      "fs": 1786737612,
+      "sc": 78
+    },
+    {
+      "k": "apache/cloudstack#11312",
+      "fs": 1786737612,
+      "sc": 78
+    },
+    {
+      "k": "ForNeVeR/Cesium#997",
+      "fs": 1786737612,
+      "sc": 78
+    },
+    {
+      "k": "he4rt/heartdevs.com#362",
+      "fs": 1786737612,
+      "sc": 78
+    },
+    {
+      "k": "livestorejs/livestore#680",
+      "fs": 1786737612,
+      "sc": 78
+    },
+    {
+      "k": "ueberdosis/tiptap#6689",
+      "fs": 1786737612,
+      "sc": 77
+    },
+    {
+      "k": "VoidenHQ/voiden#537",
+      "fs": 1786737612,
+      "sc": 77
+    },
+    {
+      "k": "Dispatcharr/Dispatcharr#330",
+      "fs": 1786737612,
+      "sc": 77
+    },
+    {
+      "k": "calkit/calkit#1362",
+      "fs": 1786737612,
+      "sc": 77
+    },
+    {
+      "k": "tailscale/tailscale#15401",
+      "fs": 1786737612,
+      "sc": 77
+    },
+    {
+      "k": "unchihugo/FluentFlyout#1021",
+      "fs": 1786737612,
+      "sc": 77
+    },
+    {
+      "k": "kubevirt/kubevirt#16998",
+      "fs": 1786737612,
+      "sc": 77
+    },
+    {
+      "k": "AngleSharp/AngleSharp.Io#44",
+      "fs": 1786737612,
+      "sc": 77
+    },
+    {
+      "k": "AprilSylph/XKit-Rewritten#1813",
+      "fs": 1786737612,
+      "sc": 77
+    },
+    {
+      "k": "actualbudget/actual#4742",
+      "fs": 1786737612,
+      "sc": 76
+    },
+    {
+      "k": "eclipse-che/che#23512",
+      "fs": 1786737612,
+      "sc": 76
+    },
+    {
+      "k": "livestorejs/livestore#807",
+      "fs": 1786737612,
+      "sc": 76
+    },
     {
       "k": "orhun/git-cliff#1182",
       "fs": 1786735368,
-      "sc": 68
-    },
-    {
-      "k": "zizmorcore/zizmor#963",
-      "fs": 1786735368,
-      "sc": 62
+      "sc": 76
     },
     {
       "k": "Rust-GPU/rust-gpu#315",
       "fs": 1786735368,
+      "sc": 76
+    },
+    {
+      "k": "kadai-io/kadai#1414",
+      "fs": 1786737612,
+      "sc": 76
+    },
+    {
+      "k": "floatpane/matcha#1619",
+      "fs": 1786737612,
+      "sc": 76
+    },
+    {
+      "k": "civiform/civiform#12534",
+      "fs": 1786737612,
+      "sc": 76
+    },
+    {
+      "k": "Quantinuum/hugr#3201",
+      "fs": 1786737612,
+      "sc": 76
+    },
+    {
+      "k": "plantain-00/type-coverage#146",
+      "fs": 1786737612,
+      "sc": 76
+    },
+    {
+      "k": "absolute-version/commit-and-tag-version#216",
+      "fs": 1786737612,
+      "sc": 75
+    },
+    {
+      "k": "actualbudget/actual#5640",
+      "fs": 1786737612,
+      "sc": 75
+    },
+    {
+      "k": "google/heir#2387",
+      "fs": 1786737612,
+      "sc": 75
+    },
+    {
+      "k": "eclipse-che/che#23589",
+      "fs": 1786737612,
+      "sc": 75
+    },
+    {
+      "k": "freelensapp/freelens#524",
+      "fs": 1786737612,
+      "sc": 75
+    },
+    {
+      "k": "opendatahub-io/notebooks#1031",
+      "fs": 1786737612,
+      "sc": 75
+    },
+    {
+      "k": "hashicorp/terraform-provider-aws#41680",
+      "fs": 1786737612,
+      "sc": 75
+    },
+    {
+      "k": "apache/seatunnel#9813",
+      "fs": 1786737612,
+      "sc": 75
+    },
+    {
+      "k": "Apicurio/apicurio-registry#7329",
+      "fs": 1786737612,
+      "sc": 75
+    },
+    {
+      "k": "brndnmtthws/conky#2247",
+      "fs": 1786737612,
+      "sc": 75
+    },
+    {
+      "k": "software-mansion/react-native-screens#4360",
+      "fs": 1786737612,
+      "sc": 75
+    },
+    {
+      "k": "graphistry/pygraphistry#1100",
+      "fs": 1786737612,
+      "sc": 75
+    },
+    {
+      "k": "boostorg/graph#471",
+      "fs": 1786737612,
+      "sc": 75
+    },
+    {
+      "k": "aces/Loris#9896",
+      "fs": 1786737612,
+      "sc": 75
+    },
+    {
+      "k": "ant-design/ant-design#53584",
+      "fs": 1786737612,
+      "sc": 75
+    },
+    {
+      "k": "perses/perses#3322",
+      "fs": 1786737612,
+      "sc": 74
+    },
+    {
+      "k": "perses/perses#3222",
+      "fs": 1786737612,
+      "sc": 74
+    },
+    {
+      "k": "AngleSharp/AngleSharp.Io#38",
+      "fs": 1786737612,
+      "sc": 74
+    },
+    {
+      "k": "pasqal-io/Pulser#848",
+      "fs": 1786737612,
+      "sc": 74
+    },
+    {
+      "k": "DependencyTrack/dependency-track#4847",
+      "fs": 1786737612,
+      "sc": 74
+    },
+    {
+      "k": "puzzle/skills#1030",
+      "fs": 1786737612,
+      "sc": 74
+    },
+    {
+      "k": "jannikmi/timezonefinder#504",
+      "fs": 1786737612,
+      "sc": 74
+    },
+    {
+      "k": "Gentleman-Programming/gentle-ai#1222",
+      "fs": 1786737612,
+      "sc": 74
+    },
+    {
+      "k": "RaspberryPiFoundation/blockly-samples#2520",
+      "fs": 1786737612,
+      "sc": 74
+    },
+    {
+      "k": "PowerShell/PowerShell#26161",
+      "fs": 1786737612,
+      "sc": 73
+    },
+    {
+      "k": "Quantinuum/guppylang#1697",
+      "fs": 1786737612,
+      "sc": 73
+    },
+    {
+      "k": "medic/cht-core#10155",
+      "fs": 1786737612,
+      "sc": 73
+    },
+    {
+      "k": "AngleSharp/AngleSharp.Io#47",
+      "fs": 1786737612,
+      "sc": 73
+    },
+    {
+      "k": "AngleSharp/AngleSharp.Io#42",
+      "fs": 1786737612,
+      "sc": 73
+    },
+    {
+      "k": "civiform/civiform#12362",
+      "fs": 1786737612,
+      "sc": 73
+    },
+    {
+      "k": "plantain-00/type-coverage#145",
+      "fs": 1786737612,
+      "sc": 73
+    },
+    {
+      "k": "crafter-station/text0#14",
+      "fs": 1786737612,
+      "sc": 73
+    },
+    {
+      "k": "alibaba/spring-cloud-alibaba#4081",
+      "fs": 1786737612,
+      "sc": 73
+    },
+    {
+      "k": "qualcomm/eld#339",
+      "fs": 1786737612,
+      "sc": 73
+    },
+    {
+      "k": "LMMS/lmms#7842",
+      "fs": 1786737612,
+      "sc": 73
+    },
+    {
+      "k": "AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet#3498",
+      "fs": 1786737612,
+      "sc": 73
+    },
+    {
+      "k": "tenstorrent/tt-metal#22885",
+      "fs": 1786737612,
+      "sc": 73
+    },
+    {
+      "k": "santifer/career-ops#2800",
+      "fs": 1786737612,
+      "sc": 73
+    },
+    {
+      "k": "santifer/career-ops#2799",
+      "fs": 1786737612,
+      "sc": 73
+    },
+    {
+      "k": "santifer/career-ops#1544",
+      "fs": 1786737612,
+      "sc": 73
+    },
+    {
+      "k": "tuirk/Kompl#54",
+      "fs": 1786737612,
+      "sc": 73
+    },
+    {
+      "k": "tuirk/Kompl#95",
+      "fs": 1786737612,
+      "sc": 73
+    },
+    {
+      "k": "PowerShell/DSC#1583",
+      "fs": 1786737612,
+      "sc": 73
+    },
+    {
+      "k": "josdejong/workerpool#513",
+      "fs": 1786737612,
+      "sc": 73
+    },
+    {
+      "k": "actualbudget/actual#5413",
+      "fs": 1786737612,
+      "sc": 72
+    },
+    {
+      "k": "perses/perses#3202",
+      "fs": 1786737612,
+      "sc": 72
+    },
+    {
+      "k": "huseynovvusal/spring-blog-api#15",
+      "fs": 1786737612,
+      "sc": 72
+    },
+    {
+      "k": "civiform/civiform#11493",
+      "fs": 1786737612,
+      "sc": 72
+    },
+    {
+      "k": "puzzle/skills#1232",
+      "fs": 1786737612,
+      "sc": 72
+    },
+    {
+      "k": "RaspberryPiFoundation/blockly-samples#2636",
+      "fs": 1786737612,
+      "sc": 72
+    },
+    {
+      "k": "tuirk/Kompl#144",
+      "fs": 1786737612,
+      "sc": 72
+    },
+    {
+      "k": "tuirk/Kompl#8",
+      "fs": 1786737612,
+      "sc": 72
+    },
+    {
+      "k": "darksworm/argonaut#137",
+      "fs": 1786737612,
+      "sc": 72
+    },
+    {
+      "k": "near/mpc#958",
+      "fs": 1786737612,
+      "sc": 72
+    },
+    {
+      "k": "FreeCAD/FreeCAD#20638",
+      "fs": 1786737612,
+      "sc": 72
+    },
+    {
+      "k": "pulse2percept/pulse2percept#690",
+      "fs": 1786737612,
+      "sc": 72
+    },
+    {
+      "k": "apache/lucenenet#1336",
+      "fs": 1786737612,
+      "sc": 72
+    },
+    {
+      "k": "VATSIM-UK/uk-controller-pack#1269",
+      "fs": 1786737612,
+      "sc": 72
+    },
+    {
+      "k": "dotnet/docker-tools#2080",
+      "fs": 1786737612,
+      "sc": 72
+    },
+    {
+      "k": "zerodytrash/TikTok-Live-Connector#280",
+      "fs": 1786737612,
+      "sc": 72
+    },
+    {
+      "k": "openstyles/stylus#1960",
+      "fs": 1786737612,
+      "sc": 72
+    },
+    {
+      "k": "supercollider/supercollider#6886",
+      "fs": 1786737612,
+      "sc": 71
+    },
+    {
+      "k": "carlos-emr/carlos#228",
+      "fs": 1786737612,
+      "sc": 71
+    },
+    {
+      "k": "eclipse-che/che#23488",
+      "fs": 1786737612,
+      "sc": 71
+    },
+    {
+      "k": "civiform/civiform#10204",
+      "fs": 1786737612,
+      "sc": 71
+    },
+    {
+      "k": "Gentleman-Programming/gentle-ai#703",
+      "fs": 1786737612,
+      "sc": 71
+    },
+    {
+      "k": "tenstorrent/tt-metal#45430",
+      "fs": 1786737612,
+      "sc": 71
+    },
+    {
+      "k": "tenstorrent/tt-metal#22753",
+      "fs": 1786737612,
+      "sc": 71
+    },
+    {
+      "k": "FreeCAD/FreeCAD#22995",
+      "fs": 1786737612,
+      "sc": 71
+    },
+    {
+      "k": "homarr-labs/homarr#3898",
+      "fs": 1786737612,
+      "sc": 71
+    },
+    {
+      "k": "intri-in/manage-my-damn-life-nextjs#278",
+      "fs": 1786737612,
+      "sc": 71
+    },
+    {
+      "k": "spcl/serverless-benchmarks#233",
+      "fs": 1786737612,
+      "sc": 71
+    },
+    {
+      "k": "xataio/pgstream#534",
+      "fs": 1786737612,
+      "sc": 71
+    },
+    {
+      "k": "score-spec/score-k8s#191",
+      "fs": 1786737612,
+      "sc": 71
+    },
+    {
+      "k": "manusa/helm-java#269",
+      "fs": 1786737612,
+      "sc": 71
+    },
+    {
+      "k": "manusa/helm-java#279",
+      "fs": 1786737612,
+      "sc": 71
+    },
+    {
+      "k": "manusa/helm-java#277",
+      "fs": 1786737612,
+      "sc": 71
+    },
+    {
+      "k": "AcademySoftwareFoundation/OpenImageIO#4713",
+      "fs": 1786737612,
+      "sc": 71
+    },
+    {
+      "k": "IntelPython/dpnp#2893",
+      "fs": 1786737612,
+      "sc": 71
+    },
+    {
+      "k": "hexlet-volunteers/hexlet-sicp#1798",
+      "fs": 1786737612,
+      "sc": 71
+    },
+    {
+      "k": "modoboa/modoboa-installer#637",
+      "fs": 1786737612,
+      "sc": 71
+    },
+    {
+      "k": "space-wizards/space-station-14#36364",
+      "fs": 1786737612,
+      "sc": 71
+    },
+    {
+      "k": "sahat/hackathon-starter#1357",
+      "fs": 1786737612,
+      "sc": 71
+    },
+    {
+      "k": "manyfold3d/manyfold#4540",
+      "fs": 1786737612,
+      "sc": 70
+    },
+    {
+      "k": "huseynovvusal/spring-blog-api#10",
+      "fs": 1786737612,
+      "sc": 70
+    },
+    {
+      "k": "Quantinuum/hugr#3042",
+      "fs": 1786737612,
+      "sc": 70
+    },
+    {
+      "k": "ant-design/ant-design#53636",
+      "fs": 1786737612,
+      "sc": 70
+    },
+    {
+      "k": "Gentleman-Programming/gentle-ai#1019",
+      "fs": 1786737612,
+      "sc": 70
+    },
+    {
+      "k": "Gentleman-Programming/gentle-ai#728",
+      "fs": 1786737612,
+      "sc": 70
+    },
+    {
+      "k": "tenstorrent/tt-metal#33361",
+      "fs": 1786737612,
+      "sc": 70
+    },
+    {
+      "k": "manusa/helm-java#266",
+      "fs": 1786737612,
+      "sc": 70
+    },
+    {
+      "k": "space-wizards/space-station-14#44823",
+      "fs": 1786737612,
+      "sc": 70
+    },
+    {
+      "k": "space-wizards/space-station-14#43683",
+      "fs": 1786737612,
+      "sc": 70
+    },
+    {
+      "k": "OpsiMate/OpsiMate#206",
+      "fs": 1786737612,
+      "sc": 70
+    },
+    {
+      "k": "OneUptime/oneuptime#2050",
+      "fs": 1786737612,
+      "sc": 70
+    },
+    {
+      "k": "nextcloud/spreed#14547",
+      "fs": 1786737612,
+      "sc": 70
+    },
+    {
+      "k": "nextcloud/spreed#15276",
+      "fs": 1786737612,
+      "sc": 70
+    },
+    {
+      "k": "stellar/stellar-rpc#477",
+      "fs": 1786737612,
+      "sc": 70
+    },
+    {
+      "k": "azerothcore/azerothcore-wotlk#21589",
+      "fs": 1786737612,
+      "sc": 70
+    },
+    {
+      "k": "huseynovvusal/spring-blog-api#45",
+      "fs": 1786737612,
+      "sc": 69
+    },
+    {
+      "k": "opendatahub-io/notebooks#1040",
+      "fs": 1786737612,
+      "sc": 69
+    },
+    {
+      "k": "jannikmi/timezonefinder#428",
+      "fs": 1786737612,
+      "sc": 69
+    },
+    {
+      "k": "FreeCAD/FreeCAD#21091",
+      "fs": 1786737612,
+      "sc": 69
+    },
+    {
+      "k": "FreeCAD/FreeCAD#24096",
+      "fs": 1786737612,
+      "sc": 69
+    },
+    {
+      "k": "apache/lucenenet#1201",
+      "fs": 1786737612,
+      "sc": 69
+    },
+    {
+      "k": "agama-project/agama#2703",
+      "fs": 1786737612,
+      "sc": 69
+    },
+    {
+      "k": "meshery-extensions/shape-builder#76",
+      "fs": 1786737612,
+      "sc": 69
+    },
+    {
+      "k": "KubeElasti/KubeElasti#193",
+      "fs": 1786737612,
+      "sc": 69
+    },
+    {
+      "k": "zizmorcore/zizmor#827",
+      "fs": 1786737612,
+      "sc": 69
+    },
+    {
+      "k": "EngineSquared/EngineSquared#608",
+      "fs": 1786737612,
+      "sc": 69
+    },
+    {
+      "k": "hackclub/hcb#13940",
+      "fs": 1786737612,
+      "sc": 69
+    },
+    {
+      "k": "jonathanpeppers/dotnes#523",
+      "fs": 1786737612,
+      "sc": 69
+    },
+    {
+      "k": "jonathanpeppers/dotnes#520",
+      "fs": 1786737612,
+      "sc": 69
+    },
+    {
+      "k": "manyfold3d/manyfold#4430",
+      "fs": 1786737612,
+      "sc": 68
+    },
+    {
+      "k": "ant-design/ant-design#53638",
+      "fs": 1786737612,
+      "sc": 68
+    },
+    {
+      "k": "KubeElasti/KubeElasti#127",
+      "fs": 1786737612,
+      "sc": 68
+    },
+    {
+      "k": "jonathanpeppers/dotnes#526",
+      "fs": 1786737612,
+      "sc": 68
+    },
+    {
+      "k": "jonathanpeppers/dotnes#524",
+      "fs": 1786737612,
+      "sc": 68
+    },
+    {
+      "k": "joshuakto/fit#65",
+      "fs": 1786737612,
+      "sc": 68
+    },
+    {
+      "k": "immich-app/immich#21855",
+      "fs": 1786737612,
+      "sc": 68
+    },
+    {
+      "k": "envoyproxy/gateway#5694",
+      "fs": 1786737612,
+      "sc": 68
+    },
+    {
+      "k": "rancher/k3k#561",
+      "fs": 1786737612,
+      "sc": 68
+    },
+    {
+      "k": "zitadel/zitadel#10130",
+      "fs": 1786737612,
+      "sc": 68
+    },
+    {
+      "k": "ngx-l402/ngx-l402#36",
+      "fs": 1786737612,
+      "sc": 68
+    },
+    {
+      "k": "MobiFlight/MobiFlight-Connector#2869",
+      "fs": 1786737612,
+      "sc": 68
+    },
+    {
+      "k": "Vets-Who-Code/vets-who-code-app#1234",
+      "fs": 1786737612,
+      "sc": 68
+    },
+    {
+      "k": "callstackincubator/react-native-node-api#56",
+      "fs": 1786737612,
+      "sc": 67
+    },
+    {
+      "k": "RaspberryPiFoundation/blockly-samples#2554",
+      "fs": 1786737612,
+      "sc": 67
+    },
+    {
+      "k": "xataio/pgstream#261",
+      "fs": 1786737612,
+      "sc": 67
+    },
+    {
+      "k": "Azure/LogicAppsUX#8531",
+      "fs": 1786737612,
+      "sc": 67
+    },
+    {
+      "k": "Azure/LogicAppsUX#8233",
+      "fs": 1786737612,
+      "sc": 67
+    },
+    {
+      "k": "Azure/LogicAppsUX#8559",
+      "fs": 1786737612,
+      "sc": 67
+    },
+    {
+      "k": "siemens/element#851",
+      "fs": 1786737612,
+      "sc": 67
+    },
+    {
+      "k": "Foundryborne/daggerheart#1092",
+      "fs": 1786737612,
+      "sc": 67
+    },
+    {
+      "k": "rancher/dashboard#16389",
+      "fs": 1786737612,
+      "sc": 67
+    },
+    {
+      "k": "LottieFiles/dotlottie-web#625",
+      "fs": 1786737612,
+      "sc": 67
+    },
+    {
+      "k": "letmaik/vscode-git-tree-compare#108",
+      "fs": 1786737612,
+      "sc": 67
+    },
+    {
+      "k": "layer5io/docs#496",
+      "fs": 1786737612,
+      "sc": 67
+    },
+    {
+      "k": "livestorejs/livestore#298",
+      "fs": 1786737612,
+      "sc": 66
+    },
+    {
+      "k": "hashicorp/terraform-provider-aws#42644",
+      "fs": 1786737612,
+      "sc": 66
+    },
+    {
+      "k": "qualcomm/eld#418",
+      "fs": 1786737612,
+      "sc": 66
+    },
+    {
+      "k": "space-wizards/space-station-14#44017",
+      "fs": 1786737612,
+      "sc": 66
+    },
+    {
+      "k": "upstash/context7#339",
+      "fs": 1786737612,
+      "sc": 66
+    },
+    {
+      "k": "Kuadrant/kuadrant-operator#1420",
+      "fs": 1786737612,
+      "sc": 66
+    },
+    {
+      "k": "pulumi/pulumi-command#888",
+      "fs": 1786737612,
+      "sc": 66
+    },
+    {
+      "k": "shopware/meteor#1152",
+      "fs": 1786737612,
+      "sc": 66
+    },
+    {
+      "k": "DSpace/dspace-angular#4481",
+      "fs": 1786737612,
+      "sc": 66
+    },
+    {
+      "k": "meshery/meshery#14206",
+      "fs": 1786737612,
+      "sc": 66
+    },
+    {
+      "k": "flibustier/pokemon-tcg-pocket-database#4",
+      "fs": 1786737612,
+      "sc": 66
+    },
+    {
+      "k": "OCA/website#1128",
+      "fs": 1786737612,
+      "sc": 66
+    },
+    {
+      "k": "apache/lucenenet#1274",
+      "fs": 1786737612,
+      "sc": 65
+    },
+    {
+      "k": "EngineSquared/EngineSquared#599",
+      "fs": 1786737612,
+      "sc": 65
+    },
+    {
+      "k": "Azure/LogicAppsUX#8555",
+      "fs": 1786737612,
+      "sc": 65
+    },
+    {
+      "k": "shopware/meteor#1316",
+      "fs": 1786737612,
+      "sc": 65
+    },
+    {
+      "k": "opossum-tool/OpossumUI#2879",
+      "fs": 1786737612,
+      "sc": 65
+    },
+    {
+      "k": "VoltAgent/voltagent#143",
+      "fs": 1786737612,
+      "sc": 65
+    },
+    {
+      "k": "nautobot/nautobot#7145",
+      "fs": 1786737612,
+      "sc": 65
+    },
+    {
+      "k": "open-feature/python-sdk#511",
+      "fs": 1786737612,
+      "sc": 65
+    },
+    {
+      "k": "onflow/flow-go#8090",
+      "fs": 1786737612,
+      "sc": 65
+    },
+    {
+      "k": "apache/arrow-rs#7297",
+      "fs": 1786737612,
+      "sc": 65
+    },
+    {
+      "k": "spiceai/spiceai#4869",
+      "fs": 1786737612,
+      "sc": 65
+    },
+    {
+      "k": "spiceai/spiceai#6597",
+      "fs": 1786737612,
+      "sc": 65
+    },
+    {
+      "k": "deskflow/deskflow#9135",
+      "fs": 1786737612,
+      "sc": 65
+    },
+    {
+      "k": "anchore/grype#3607",
+      "fs": 1786737612,
+      "sc": 65
+    },
+    {
+      "k": "jatinkrmalik/LLMFeeder#36",
+      "fs": 1786737612,
+      "sc": 65
+    },
+    {
+      "k": "dotnet/docker-tools#2094",
+      "fs": 1786737612,
+      "sc": 64
+    },
+    {
+      "k": "EngineSquared/EngineSquared#590",
+      "fs": 1786737612,
+      "sc": 64
+    },
+    {
+      "k": "EngineSquared/EngineSquared#519",
+      "fs": 1786737612,
+      "sc": 64
+    },
+    {
+      "k": "apache/arrow-rs-object-store#342",
+      "fs": 1786737612,
+      "sc": 64
+    },
+    {
+      "k": "magemonkeystudio/fabled#1318",
+      "fs": 1786737612,
+      "sc": 64
+    },
+    {
+      "k": "apache/iceberg#13580",
+      "fs": 1786737612,
+      "sc": 64
+    },
+    {
+      "k": "ilios/ilios#7351",
+      "fs": 1786737612,
+      "sc": 64
+    },
+    {
+      "k": "pulumi/pulumi-kubernetes-operator#844",
+      "fs": 1786737612,
+      "sc": 64
+    },
+    {
+      "k": "VATSIM-UK/UK-Sector-File#6038",
+      "fs": 1786737612,
+      "sc": 64
+    },
+    {
+      "k": "Open-EO/openeo-python-client#796",
+      "fs": 1786737612,
+      "sc": 64
+    },
+    {
+      "k": "risingwavelabs/risingwave#21411",
+      "fs": 1786737612,
+      "sc": 64
+    },
+    {
+      "k": "external-secrets/external-secrets#5296",
+      "fs": 1786737612,
+      "sc": 63
+    },
+    {
+      "k": "SolarLiner/interflow#39",
+      "fs": 1786737612,
+      "sc": 63
+    },
+    {
+      "k": "open-telemetry/opentelemetry-js#6541",
+      "fs": 1786737612,
+      "sc": 63
+    },
+    {
+      "k": "boa-dev/temporal#380",
+      "fs": 1786737612,
+      "sc": 63
+    },
+    {
+      "k": "shopware/meteor#1188",
+      "fs": 1786737612,
+      "sc": 62
+    },
+    {
+      "k": "glific/glific-frontend#3538",
+      "fs": 1786737612,
+      "sc": 62
+    },
+    {
+      "k": "AxaFrance/design-system#950",
+      "fs": 1786737612,
+      "sc": 62
+    },
+    {
+      "k": "maximhq/bifrost#432",
+      "fs": 1786737612,
+      "sc": 62
+    },
+    {
+      "k": "sigp/lighthouse#8100",
+      "fs": 1786737612,
+      "sc": 62
+    },
+    {
+      "k": "jfalcou/eve#2098",
+      "fs": 1786737612,
+      "sc": 62
+    },
+    {
+      "k": "utksh1/SecuScan#105",
+      "fs": 1786737612,
+      "sc": 62
+    },
+    {
+      "k": "decision-labs/geoai.js#99",
+      "fs": 1786737612,
       "sc": 61
     },
     {
-      "k": "Oxen-AI/Oxen#104",
-      "fs": 1786735368,
+      "k": "arkade-os/arkd#794",
+      "fs": 1786737612,
+      "sc": 61
+    },
+    {
+      "k": "apache/lucene#14845",
+      "fs": 1786737612,
+      "sc": 61
+    },
+    {
+      "k": "tchiotludo/akhq#2633",
+      "fs": 1786737612,
+      "sc": 61
+    },
+    {
+      "k": "paulirwin/JavaToCSharp#137",
+      "fs": 1786737612,
+      "sc": 61
+    },
+    {
+      "k": "AxaFrance/design-system#971",
+      "fs": 1786737612,
+      "sc": 60
+    },
+    {
+      "k": "cadeyrn/enterprise-policy-generator#326",
+      "fs": 1786737612,
+      "sc": 60
+    },
+    {
+      "k": "gambitproject/gambit#500",
+      "fs": 1786737612,
+      "sc": 60
+    },
+    {
+      "k": "modoboa/modoboa-installer#633",
+      "fs": 1786737612,
+      "sc": 59
+    },
+    {
+      "k": "metatensor/metatrain#857",
+      "fs": 1786737612,
+      "sc": 59
+    },
+    {
+      "k": "scroll-tech/ceno#1116",
+      "fs": 1786737612,
+      "sc": 59
+    },
+    {
+      "k": "NatLabRockies/routee-compass#340",
+      "fs": 1786737612,
+      "sc": 59
+    },
+    {
+      "k": "meilisearch/meilisearch-java#886",
+      "fs": 1786737612,
+      "sc": 59
+    },
+    {
+      "k": "antgroup/YASA-Engine#57",
+      "fs": 1786737612,
       "sc": 58
+    },
+    {
+      "k": "bekk/db-scheduler-ui#135",
+      "fs": 1786737612,
+      "sc": 58
+    },
+    {
+      "k": "shopware/meteor#1154",
+      "fs": 1786737612,
+      "sc": 57
+    },
+    {
+      "k": "ytsaurus/ytsaurus#1401",
+      "fs": 1786737612,
+      "sc": 55
     }
   ]
 }

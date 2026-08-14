@@ -231,6 +231,13 @@ export function G6_antiFarming(issue) {
   }
   if (r.denylisted) return no('denylisted')
 
+  // Template-farmed issues: a repo mass-producing near-identical tasks
+  // ("[Good First Issue] Add new Trivia Question 42", ×93) to harvest
+  // contributors. Set by annotateTemplateFarms(). This is deliberately
+  // independent of the label-ratio check — that one depends on a separate
+  // search query, and a silent failure there once disabled G6 entirely.
+  if (r.templateFarm) return no(`template-farmed issues (${r.templateFarm} near-identical titles)`)
+
   // Legitimate projects label a MINORITY of their backlog as beginner-friendly.
   // A repo where most issues carry the label is farming (docs/04 G6.1).
   if (r.beginnerLabelRatio != null && r.openIssues?.totalCount >= 10) {
@@ -240,6 +247,58 @@ export function G6_antiFarming(issue) {
   }
   if (!r.primaryLanguage?.name) return no('no primary language')
   return ok
+}
+
+// ─── Cross-issue pre-pass: template farms ───────────────────────────────────
+//
+// Most gates judge one issue in isolation. Template farming can only be seen
+// across a repo's issues at once, so this runs first and annotates the repos.
+//
+// Found in real data: lingdojo/kana-dojo had 16 issues in one sample titled
+// "[Good First Issue] <emoji> Add new <Thing> <N> - Beginner-Friendly
+// Open-source Contribution", body promising a contribution "in under 60
+// seconds" with no code. Every one passed every other gate.
+
+const TEMPLATE_FARM_MIN = 5
+
+/** Strip emoji, digits and punctuation so generated titles collapse together. */
+export function titleSkeleton(title = '') {
+  const words = title
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}\s-]/gu, ' ')
+    .replace(/\d+/g, ' ')
+    .split(/\s+/)
+    .filter(Boolean)
+  if (words.length < 4) return null
+  return `${words.slice(0, 3).join(' ')}|${words.slice(-3).join(' ')}`
+}
+
+/**
+ * Mark repos that mass-produce near-identical issue titles. Mutates the repo
+ * objects in place so the gate can stay a pure per-issue predicate.
+ */
+export function annotateTemplateFarms(issues) {
+  const byRepo = new Map()
+  for (const issue of issues) {
+    const repo = issue.repository?.nameWithOwner
+    const skel = titleSkeleton(issue.title)
+    if (!repo || !skel) continue
+    if (!byRepo.has(repo)) byRepo.set(repo, new Map())
+    const counts = byRepo.get(repo)
+    counts.set(skel, (counts.get(skel) ?? 0) + 1)
+  }
+
+  const farms = new Map()
+  for (const [repo, counts] of byRepo) {
+    const worst = Math.max(...counts.values())
+    if (worst >= TEMPLATE_FARM_MIN) farms.set(repo, worst)
+  }
+
+  for (const issue of issues) {
+    const n = farms.get(issue.repository?.nameWithOwner)
+    if (n) issue.repository.templateFarm = n
+  }
+  return farms
 }
 
 // ─── Composition ────────────────────────────────────────────────────────────
