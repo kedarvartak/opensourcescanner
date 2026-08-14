@@ -15,6 +15,46 @@ statistic. Nothing is blocked on it.
 ([D30](docs/13-decision-log.md)). Target launch: first week of October, timed to the
 Hacktoberfest demand spike.
 
+## Run it
+
+```bash
+npm run dev        # build the site + preview at localhost:4321
+npm test           # gate tests (zero dependencies, node:test)
+npm run refresh    # full pipeline: harvest → validate → score → emit → build
+```
+
+No `npm install`. The whole project is zero-dependency by design — a nightly cron job
+should have no supply chain to break. See [SETUP.md](SETUP.md) to deploy.
+
+## How the 24-hour refresh works
+
+```
+GitHub Actions cron (03:00 UTC)
+  → harvest      sharded GraphQL search, bisecting to stay under the 1,000-result cap
+  → validate     six hard gates; any failure excludes the issue
+  → score        five weighted dimensions → ranked board + "Today's 10"
+  → emit         data/*.json + assertions (abort keeps yesterday's data live)
+  → commit       the commit IS the publish step
+  → Cloudflare Pages rebuilds and deploys automatically
+```
+
+Plus a **6-hourly revalidation** pass that re-checks only the listed issues (~30 requests)
+and drops any that got claimed — that's what makes "verified free 4h ago" true rather than
+aspirational. A watchdog fails loudly if data goes stale, and the site itself shows a
+banner if it's over 30 hours old.
+
+Everything is automatic. `gh workflow run refresh.yml` is the manual override.
+
+## Layout
+
+| Path | What |
+|---|---|
+| `m0/` | Measurement spike — harvest, gates, analysis. Gates here are the reference implementation |
+| `pipeline/` | Scoring, repo health, emit, revalidate |
+| `site/` | Zero-dependency static generator → `dist/` |
+| `data/`, `state/` | Build output and lifecycle history, both committed (Git is the database) |
+| `docs/` | Research and decisions — 00 through 14b |
+
 ## The thesis
 
 Existing tools answer *"which issues have the `good first issue` label?"* — a question

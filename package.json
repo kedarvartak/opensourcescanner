@@ -15,6 +15,7 @@
     "revalidate": "node pipeline/revalidate.mjs",
     "build": "node site/build.mjs",
     "refresh": "npm run harvest && npm run emit && npm run build",
-    "dev": "node site/build.mjs && node site/serve.mjs"
+    "dev": "node site/build.mjs && node site/serve.mjs",
+    "test": "node --test test/*.test.mjs"
   }
 }
