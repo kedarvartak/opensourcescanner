@@ -791,3 +791,4 @@
 {"ts":1786876446,"k":"gambitproject/gambit#500","e":"dropped","why":"not_in_board"}
 {"ts":1786876446,"k":"meilisearch/meilisearch-java#886","e":"dropped","why":"not_in_board"}
 {"ts":1786876446,"k":"shopware/meteor#1154","e":"dropped","why":"not_in_board"}
+{"ts":1786893473,"k":"falconry/falcon#2525","e":"dropped","why":"takeability: open linked PR"}
