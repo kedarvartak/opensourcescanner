@@ -31,7 +31,7 @@ jobs:
 
       - name: Re-check every listed issue
         env:
-          GH_HARVEST_TOKEN: ${{ secrets.GH_HARVEST_TOKEN }}
+          GH_HARVEST_TOKEN: ${{ secrets.GH_HARVEST_TOKEN || github.token }}
         run: node pipeline/revalidate.mjs
 
       - name: Commit

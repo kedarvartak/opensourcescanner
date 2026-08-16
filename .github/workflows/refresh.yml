@@ -37,12 +37,22 @@ jobs:
 
       - name: Harvest candidates
         env:
-          GH_HARVEST_TOKEN: ${{ secrets.GH_HARVEST_TOKEN }}
-        run: node m0/harvest.mjs --target ${{ inputs.target || '4000' }} --fresh
+          # Falls back to the built-in token so the workflow runs before the PAT
+          # secret exists. GITHUB_TOKEN is capped at 1,000 req/hr, so the harvest
+          # target is reduced automatically in that case.
+          GH_HARVEST_TOKEN: ${{ secrets.GH_HARVEST_TOKEN || github.token }}
+          HAS_PAT: ${{ secrets.GH_HARVEST_TOKEN != '' }}
+        run: |
+          if [ "$HAS_PAT" = "true" ]; then
+            node m0/harvest.mjs --target ${{ inputs.target || '4000' }} --fresh
+          else
+            echo "::warning::No GH_HARVEST_TOKEN secret — running a reduced harvest on the built-in token. See SETUP.md."
+            node m0/harvest.mjs --target 800 --per-shard 40 --fresh
+          fi
 
       - name: Score, validate and emit
         env:
-          GH_HARVEST_TOKEN: ${{ secrets.GH_HARVEST_TOKEN }}
+          GH_HARVEST_TOKEN: ${{ secrets.GH_HARVEST_TOKEN || github.token }}
         run: node pipeline/emit.mjs
 
       - name: Build site

@@ -19,18 +19,35 @@ const TYPES = {
   '.svg': 'image/svg+xml',
 }
 
-createServer(async (req, res) => {
-  let path = decodeURIComponent(req.url.split('?')[0])
-  if (path.endsWith('/')) path += 'index.html'
-  const url = new URL('.' + path, DIST)
+/**
+ * Resolve a request path the way a static host does, so the preview isn't
+ * stricter than production: `/browse`, `/browse/` and `/browse/index.html` all
+ * have to reach the same file, otherwise you chase 404s that don't exist live.
+ */
+async function resolve(path) {
+  const candidates = path.endsWith('/')
+    ? [path + 'index.html']
+    : [path, path + '/index.html', path + '.html']
 
-  try {
-    const info = await stat(url)
-    if (info.isDirectory()) throw new Error('dir')
-    const body = await readFile(url)
-    res.writeHead(200, { 'content-type': TYPES[extname(path)] ?? 'application/octet-stream' })
+  for (const candidate of candidates) {
+    const url = new URL('.' + candidate, DIST)
+    try {
+      if ((await stat(url)).isDirectory()) continue
+      return { url, ext: extname(candidate) }
+    } catch {}
+  }
+  return null
+}
+
+createServer(async (req, res) => {
+  const path = decodeURIComponent(req.url.split('?')[0])
+  const hit = await resolve(path)
+
+  if (hit) {
+    const body = await readFile(hit.url)
+    res.writeHead(200, { 'content-type': TYPES[hit.ext] ?? 'application/octet-stream' })
     res.end(body)
-  } catch {
+  } else {
     res.writeHead(404, { 'content-type': 'text/html; charset=utf-8' })
     res.end('<h1>404</h1><p><a href="/">home</a></p>')
   }

@@ -45,7 +45,7 @@ export function layout({
 <meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="${root}/assets/style.css">
 <link rel="alternate" type="application/rss+xml" title="${SITE} — new issues" href="${root}/feed.xml">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%F0%9F%94%93</text></svg>">
+<link rel="icon" href="${root}/assets/favicon.svg" type="image/svg+xml">
 ${jsonLd ? `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>` : ''}
 </head>
 <body class="${bodyClass}">

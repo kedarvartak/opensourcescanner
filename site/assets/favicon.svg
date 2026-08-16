@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="18" fill="#0b0d10"/>
+  <!-- An open shackle: the whole product is "nobody has claimed this yet". -->
+  <path d="M32 46V32a18 18 0 0 1 34-8"
+        fill="none" stroke="#4ade80" stroke-width="9" stroke-linecap="round"/>
+  <rect x="22" y="46" width="46" height="34" rx="7" fill="#4ade80"/>
+</svg>
