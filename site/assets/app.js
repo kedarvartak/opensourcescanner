@@ -4,24 +4,7 @@
 // docs/12 §2). This script filters what's already there. With JS disabled the
 // page is a complete, working list of issues; nothing here is load-bearing.
 
-// ── Theme ──────────────────────────────────────────────────────────────────
-// The initial value is applied by an inline script in <head>; this only handles
-// the click, so there is no flash of the wrong theme on a deferred script.
 (function () {
-  'use strict'
-  const btn = document.getElementById('themer')
-  if (!btn) return
-  const root = document.documentElement
-  btn.addEventListener('click', () => {
-    const dark = matchMedia('(prefers-color-scheme: dark)').matches
-    const current = root.getAttribute('data-theme') || (dark ? 'dark' : 'light')
-    const next = current === 'dark' ? 'light' : 'dark'
-    root.setAttribute('data-theme', next)
-    try { localStorage.setItem('unclaimed:theme', next) } catch (e) {}
-  })
-})()
-
-;(function () {
   'use strict'
 
   const board = document.getElementById('board')
@@ -72,7 +55,7 @@
 
     let shown = 0
     for (const li of cards) {
-      const card = li.querySelector('.card') || li
+      const card = li.querySelector('.row') || li
       const d = card.dataset
       let ok = true
       if (lang && d.lang !== lang) ok = false
@@ -122,7 +105,7 @@
     visible.sort((a, b) => key(a) - key(b)).forEach((li) => board.appendChild(li))
   }
 
-  const num = (li, k) => Number((li.querySelector('.card') || li).dataset[k] || 0)
+  const num = (li, k) => Number((li.querySelector('.row') || li).dataset[k] || 0)
 
   let t
   for (const el of Object.values(controls)) {

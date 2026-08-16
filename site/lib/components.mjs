@@ -1,11 +1,12 @@
-// Card and badge rendering.
+// Row rendering.
+//
+// A board is a list, not a deck of cards. Each row runs the full width of the
+// viewport and is separated from its neighbours by a hairline: a mono rail of
+// identity on the left, the issue in the middle, the verdict on the right.
 //
 // Design rule from D05: never show the raw score. Show the FACTS behind it —
 // "7/10 outsider PRs merged" is checkable; "87/100" invites arguing with an
 // algorithm the reader can't see.
-//
-// Colour is load-bearing, not decorative: blue means we cleared it, rust means
-// somebody is already on it or the project will make you wait.
 
 import { esc, ago, compactNum, slug } from './html.mjs'
 
@@ -25,7 +26,7 @@ const sig = (text, kind = '', extra = '') =>
 const bar = (fraction) =>
   `<span class="bar"><i style="--f:${fraction.toFixed(2)}"></i></span>`
 
-/** Signals shown on a card. Facts only, each one actionable. */
+/** Signals shown on a row. Facts only, each one actionable. */
 export function signals(issue, repo) {
   const out = []
   const h = repo.h
@@ -55,10 +56,19 @@ export function signals(issue, repo) {
   return `<div class="signals">${out.join('')}</div>`
 }
 
-export function issueCard(issue, repo, { root = '.' } = {}) {
+export function issueRow(issue, repo, { root = '.' } = {}) {
   const url = `https://github.com/${repo.n}/issues/${issue.n}`
   const lang = repo.l
-  return `<article class="card"
+  // Kept to one short line: the identity, then the attributes, then the age.
+  // Letting these run together wraps mid-attribute and reads as noise.
+  const attrs = [
+    `#${issue.n}`,
+    lang ? `<a href="${root}/${slug(lang)}/">${esc(lang)}</a>` : '',
+    `★ ${compactNum(repo.s)}`,
+    repo.lic ? esc(repo.lic) : '',
+  ].filter(Boolean)
+
+  return `<article class="row"
   data-lang="${esc(lang ?? '')}"
   data-type="${esc(issue.ty)}"
   data-stars="${repo.s}"
@@ -66,20 +76,19 @@ export function issueCard(issue, repo, { root = '.' } = {}) {
   data-comments="${issue.c}"
   data-resp="${repo.h?.rh ?? ''}"
   data-text="${esc((issue.t + ' ' + repo.n + ' ' + (issue.x || '')).toLowerCase())}">
-  <div class="card-top">
-    <a class="slug" href="${root}/repo/${repo.n}/">${esc(repo.n)}</a>
-    <span class="num">#${issue.n}</span>
-    <span class="stamp">cleared ${ago(issue.vf)}</span>
+  <div class="row-head">
+    <p class="rowmeta"><a class="slug" href="${root}/repo/${repo.n}/">${esc(repo.n)}</a></p>
+    <h3><a href="${url}" rel="noopener">${esc(issue.t)}</a></h3>
+    <p class="attrs">${attrs.join(' · ')} · updated ${ago(issue.u)}</p>
   </div>
-  <h3><a href="${url}" rel="noopener">${esc(issue.t)}</a></h3>
-  ${issue.x ? `<p class="excerpt">${esc(issue.x)}</p>` : ''}
-  <div class="facts">
-    ${lang ? `<a href="${root}/${slug(lang)}/">${esc(lang)}</a>` : ''}
-    <span>★ ${compactNum(repo.s)}</span>
-    ${repo.lic ? `<span>${esc(repo.lic)}</span>` : ''}
-    <span>updated ${ago(issue.u)}</span>
+  <div class="row-body">
+    ${issue.x ? `<p class="excerpt">${esc(issue.x)}</p>` : ''}
+    ${signals(issue, repo)}
   </div>
-  ${signals(issue, repo)}
+  <div class="verdict">
+    <span class="stamp">Cleared ${ago(issue.vf)}</span>
+    <span class="arrow" aria-hidden="true">&rarr;</span>
+  </div>
 </article>`
 }
 
@@ -87,19 +96,15 @@ export function boardList(issues, repos, opts = {}) {
   if (!issues.length) {
     return `<div class="empty"><p>No issues match. Try widening the filters.</p></div>`
   }
-  return `<ul class="board" id="board">${issues
-    .map((i) => `<li>${issueCard(i, repos[i.r], opts)}</li>`)
+  return `<ul class="rows" id="board">${issues
+    .map((i) => `<li>${issueRow(i, repos[i.r], opts)}</li>`)
     .join('')}</ul>`
 }
 
 // Deliberately not an <ol> with visible ordinals: the ten picks are chosen for
 // language and project spread, not ranked against each other, so numbering them
 // would assert an order the data does not have.
-export function picksList(issues, repos, opts = {}) {
-  return `<ul class="picks" id="board">${issues
-    .map((i) => `<li>${issueCard(i, repos[i.r], opts)}</li>`)
-    .join('')}</ul>`
-}
+export const picksList = boardList
 
 export function chips(items, hrefFn, root) {
   return `<ul class="chips">${items

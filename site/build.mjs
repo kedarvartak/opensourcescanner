@@ -115,35 +115,42 @@ function homePage({ meta, issues, repos, facets }, picks) {
   const scanDate = new Date(meta.generatedAt).toISOString().slice(0, 10)
 
   const body = `
-<section class="scan">
-  <p class="eyebrow">Scan ${scanDate} · ${scanned.toLocaleString()} labelled issues · one square each</p>
-  ${sieveSvg(meta)}
-  ${sieveLegend(meta)}
-</section>
-
-<section class="thesis">
-  <h1><span class="took">${taken.toLocaleString()}</span> of today’s “good first issues”
-  already had someone on them. <span class="free">${meta.counts.issues}</span> are actually free.</h1>
-  <p class="lede">An issue with nobody assigned still isn't yours if somebody already opened a pull
-  request against it — and GitHub's own filters won't show you that. We check every issue for a
-  linked pull request, a live maintainer, and enough detail to start, then re-check the whole
-  board every 24 hours.</p>
-  <div class="actions">
-    <a class="btn" href="#today">See today's ${picks.length}</a>
-    <a class="btn ghost" href="/browse/">Browse all ${meta.counts.issues}</a>
-  </div>
-</section>
-
-<div class="sec" id="today">
-  <h2>Today's ${picks.length}</h2>
-  <span class="meta">${scanDate} · a new set tomorrow</span>
-  <span class="spacer"></span>
-  <a href="/browse/" class="meta">browse all ${meta.counts.issues} →</a>
+<div class="scanline">
+  <span>Scan ${scanDate}</span>
+  <span>${scanned.toLocaleString()} labelled issues · one square each</span>
 </div>
-${picksList(picks, repos, { root: '.' })}
+${sieveSvg(meta)}
+<div class="band">${sieveLegend(meta)}</div>
 
-${section('By language', facets.languages.filter((l) => l.c >= MIN_INVENTORY), (l) => `/${slug(l.k)}/`)}
-${section('By topic', facets.topics.filter((t) => t.c >= MIN_INVENTORY).slice(0, 24), (t) => `/topics/${slug(t.k)}/`)}
+<div class="band split">
+  <h1 class="display">Most <span class="took">good first issues</span>
+  are already taken. <span class="go">These ${meta.counts.issues} aren’t.</span></h1>
+  <div class="right">
+    <p class="lede">An issue with nobody assigned still isn’t yours if somebody already opened a
+    pull request against it — and GitHub’s own filters won’t show you that. Of the
+    ${scanned.toLocaleString()} we read today, ${taken.toLocaleString()} were already being worked
+    on. We check every issue for a linked pull request, a live maintainer, and enough detail to
+    start, then re-check the whole board every 24 hours.</p>
+    <div class="actions">
+      <a class="btn" href="#today">Today’s ${picks.length}</a>
+      <a class="btn ghost" href="/browse/">Browse all ${meta.counts.issues}</a>
+    </div>
+  </div>
+</div>
+
+<div class="band" id="today">
+  <div class="sec">
+    <div>
+      <p class="eyebrow">${scanDate} · a new set tomorrow</p>
+      <h2 class="title">Today’s ${picks.length}</h2>
+    </div>
+    <a href="/browse/" class="meta">Browse all ${meta.counts.issues} &rarr;</a>
+  </div>
+  ${picksList(picks, repos, { root: '.' })}
+</div>
+
+${facetBand('By language', facets.languages.filter((l) => l.c >= MIN_INVENTORY), (l) => `/${slug(l.k)}/`)}
+${facetBand('By topic', facets.topics.filter((t) => t.c >= MIN_INVENTORY).slice(0, 24), (t) => `/topics/${slug(t.k)}/`)}
 `
   return layout({
     title: 'unclaimed.dev',
@@ -157,14 +164,12 @@ ${section('By topic', facets.topics.filter((t) => t.c >= MIN_INVENTORY).slice(0,
 
 function newPage({ meta, repos }, fresh) {
   const body = `
-<section class="hero">
-  <h1>New today</h1>
-  <p class="lede">Issues that joined the board since yesterday's refresh. This page is
-  different every day.</p>
-</section>
-<div class="sec"><h2>${fresh.length} new issue${fresh.length === 1 ? '' : 's'}</h2>
-<span class="meta">as of ${new Date(meta.generatedAt).toISOString().slice(0, 16).replace('T', ' ')} UTC</span></div>
-${fresh.length ? boardList(fresh, repos, { root: '..' }) : `<div class="empty"><p>Nothing new in the last 24 hours. <a href="/browse/">Browse the full board →</a></p></div>`}
+${head({
+    eyebrow: `as of ${new Date(meta.generatedAt).toISOString().slice(0, 16).replace('T', ' ')} UTC`,
+    title: `${fresh.length} new issue${fresh.length === 1 ? '' : 's'}`,
+    lede: 'Issues that joined the board since yesterday\u2019s refresh. This page is different every day.',
+  })}
+${fresh.length ? boardList(fresh, repos, { root: '..' }) : `<div class="empty"><p>Nothing new in the last 24 hours. <a href="/browse/">Browse the full board \u2192</a></p></div>`}
 `
   return layout({
     title: 'New today',
@@ -175,10 +180,11 @@ ${fresh.length ? boardList(fresh, repos, { root: '..' }) : `<div class="empty"><
 
 function browsePage({ meta, issues, repos, facets }) {
   const body = `
-<section class="hero">
-  <h1>All ${meta.counts.issues} unclaimed issues</h1>
-  <p class="lede">Filter locally — nothing here calls the network.</p>
-</section>
+${head({
+    eyebrow: 'The whole board',
+    title: `All ${meta.counts.issues} unclaimed issues`,
+    lede: 'Filter locally \u2014 nothing here calls the network.',
+  })}
 ${filterBar(facets)}
 ${boardList(issues, repos, { root: '..' })}
 `
@@ -195,19 +201,17 @@ function langPage({ meta, repos, facets }, lang, list, depth) {
     .map((t) => ({ k: t.k, c: list.filter((i) => i.ty === t.k).length }))
     .filter((t) => t.c >= MIN_INVENTORY)
   const body = `
-<section class="hero">
-  <span class="verified">verified ${ago(Math.floor(new Date(meta.generatedAt) / 1000))}</span>
-  <h1>${esc(lang)} issues you can actually pick up</h1>
-  <p class="lede">${list.length} open ${esc(lang)} issue${list.length === 1 ? '' : 's'} — none assigned, none with an open
-  pull request already attached, none in an abandoned repo. Re-checked every 24 hours.</p>
-</section>
-${types.length ? `<div class="sec"><h2>Narrow it down</h2></div>${chips(types, (t) => `/${slug(lang)}/${t.k}/`)}` : ''}
-<div class="sec"><h2>${list.length} issues</h2><span class="meta" id="result-count"></span></div>
+${head({
+    eyebrow: `Verified ${ago(Math.floor(new Date(meta.generatedAt) / 1000))}`,
+    title: `${esc(lang)} issues you can actually pick up`,
+    lede: `${list.length} open ${esc(lang)} issue${list.length === 1 ? '' : 's'} \u2014 none assigned, none with an open pull request already attached, none in an abandoned repo. Re-checked every 24 hours.`,
+  })}
+${types.length ? `<div class="band">${chips(types, (t) => `/${slug(lang)}/${t.k}/`)}</div>` : ''}
 ${boardList(list, repos, { root: '..' })}
 `
   return layout({
     title: `Good first issues in ${lang}`,
-    description: `${list.length} ${lang} open source issues verified unclaimed in the last 24 hours — no assigned issues, no hidden pull requests, no dead projects.`,
+    description: `${list.length} ${lang} open source issues verified unclaimed in the last 24 hours \u2014 no assigned issues, no hidden pull requests, no dead projects.`,
     canonical: `/${slug(lang)}/`, meta, body, depth,
     jsonLd: itemListLd(list.slice(0, 30), repos, `/${slug(lang)}/`),
   })
@@ -216,11 +220,11 @@ ${boardList(list, repos, { root: '..' })}
 function langTypePage({ meta, repos }, lang, type, list, depth) {
   const nice = { bugs: 'bug fixes', docs: 'documentation', tests: 'test', features: 'feature', other: 'open' }[type] ?? type
   const body = `
-<section class="hero">
-  <h1>${esc(lang)} ${esc(nice)} issues, still unclaimed</h1>
-  <p class="lede">${list.length} verified-free ${esc(lang)} ${esc(nice)} issue${list.length === 1 ? '' : 's'}.
-  <a href="/${slug(lang)}/">All ${esc(lang)} issues →</a></p>
-</section>
+${head({
+    eyebrow: `${esc(lang)} \u00b7 ${esc(nice)}`,
+    title: `${esc(lang)} ${esc(nice)} issues, still unclaimed`,
+    lede: `${list.length} verified-free ${esc(lang)} ${esc(nice)} issue${list.length === 1 ? '' : 's'}. <a href="/${slug(lang)}/">All ${esc(lang)} issues \u2192</a>`,
+  })}
 ${boardList(list, repos, { root: '../..' })}
 `
   return layout({
@@ -232,10 +236,11 @@ ${boardList(list, repos, { root: '../..' })}
 
 function topicPage({ meta, repos }, topic, list, depth) {
   const body = `
-<section class="hero">
-  <h1>Unclaimed <span style="font-family:var(--mono)">${esc(topic)}</span> issues</h1>
-  <p class="lede">${list.length} issue${list.length === 1 ? '' : 's'} in ${esc(topic)} projects, all verified free.</p>
-</section>
+${head({
+    eyebrow: 'Topic',
+    title: `Unclaimed ${esc(topic)} issues`,
+    lede: `${list.length} issue${list.length === 1 ? '' : 's'} in ${esc(topic)} projects, all verified free.`,
+  })}
 ${boardList(list, repos, { root: '../..' })}
 `
   return layout({
@@ -255,21 +260,17 @@ function repoPage({ meta, repos }, repo, list, depth) {
   ].filter(Boolean)
 
   const body = `
-<section class="hero">
-  <h1>${esc(repo.n)}</h1>
-  <div class="facts">
-    ${repo.l ? `<a href="${'../../..'}/${slug(repo.l)}/">${esc(repo.l)}</a>` : ''}
-    <span>★ ${compactNum(repo.s)}</span>
-    ${repo.lic ? `<span>${esc(repo.lic)}</span>` : ''}
-  </div>
-  <p class="lede">${list.length} issue${list.length === 1 ? '' : 's'} here are unclaimed right now.</p>
-  <div class="actions">
-    <a class="btn ghost" href="https://github.com/${esc(repo.n)}" rel="noopener">View on GitHub</a>
-  </div>
-</section>
-${health.length ? `<div class="sec"><h2>What contributing here is like</h2></div>
-<ul class="prose">${health.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
-<div class="sec"><h2>Open issues you can take</h2></div>
+${head({
+    eyebrow: [repo.l, `\u2605 ${compactNum(repo.s)}`, repo.lic].filter(Boolean).map(esc).join(' \u00b7 '),
+    title: esc(repo.n),
+    lede: `${list.length} issue${list.length === 1 ? '' : 's'} here are unclaimed right now.`,
+    actions: `<div class="actions"><a class="btn ghost" href="https://github.com/${esc(repo.n)}" rel="noopener">View on GitHub</a></div>`,
+  })}
+${health.length ? `<div class="band">
+  <div class="sec"><h2 class="title">What contributing here is like</h2></div>
+  <ul class="prose">${health.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>
+</div>` : ''}
+<div class="band"><div class="sec"><h2 class="title">Open issues you can take</h2></div></div>
 ${boardList(list, repos, { root: '../../..' })}
 `
   return layout({
@@ -283,39 +284,34 @@ function issuePage({ meta, repos }, issue, repo, similar, depth) {
   const url = `https://github.com/${repo.n}/issues/${issue.n}`
   const root = '../../../..'
   const body = `
-<section class="hero">
-  <span class="verified">cleared ${ago(issue.vf)}</span>
-  <div class="facts">
-    <a href="${root}/repo/${esc(repo.n)}/">${esc(repo.n)}</a>
-    <span>#${issue.n}</span>
-    ${repo.l ? `<a href="${root}/${slug(repo.l)}/">${esc(repo.l)}</a>` : ''}
-    <span>★ ${compactNum(repo.s)}</span>
-    ${repo.lic ? `<span>${esc(repo.lic)}</span>` : ''}
-  </div>
-  <h1>${esc(issue.t)}</h1>
-  ${issue.x ? `<p class="lede">${esc(issue.x)}</p>` : ''}
-  <div class="actions">
-    <a class="btn" href="${url}" rel="noopener">Open #${issue.n} on GitHub</a>
-    <a class="btn ghost" href="${root}/repo/${esc(repo.n)}/">More from ${esc(repo.n)}</a>
-  </div>
-</section>
+${head({
+    eyebrow: `Cleared ${ago(issue.vf)} \u00b7 ${esc(repo.n)} #${issue.n} \u00b7 ${[repo.l, `\u2605 ${compactNum(repo.s)}`, repo.lic].filter(Boolean).map(esc).join(' \u00b7 ')}`,
+    title: esc(issue.t),
+    lede: issue.x ? esc(issue.x) : '',
+    actions: `<div class="actions">
+      <a class="btn" href="${url}" rel="noopener">Open #${issue.n} on GitHub</a>
+      <a class="btn ghost" href="${root}/repo/${esc(repo.n)}/">More from ${esc(repo.n)}</a>
+    </div>`,
+  })}
 
-<div class="sec"><h2>What we checked</h2></div>
-<ul class="prose">
-  <li>Nobody is assigned, and no open pull request references it — verified ${ago(issue.vf)}.</li>
-  ${(issue.fl ?? []).includes('mg') ? '<li>A maintainer has already left guidance in the thread.</li>' : ''}
-  ${(issue.fl ?? []).includes('fp') ? '<li>The issue points at a specific file, so you know where to start.</li>' : ''}
-  ${(issue.fl ?? []).includes('rp') ? '<li>It includes reproduction steps.</li>' : ''}
-  ${(issue.fl ?? []).includes('un') ? '<li>Nobody has commented, so you are not competing with anyone.</li>' : ''}
-  ${repo.h?.mr != null && repo.h.np >= 3 ? `<li>${repo.h.mc} of the last ${repo.h.np} pull requests from outside contributors were merged.</li>` : ''}
-  ${repo.h?.rh != null ? `<li>Maintainers reply in about ${repo.h.rh < 48 ? `${Math.round(repo.h.rh)} hours` : `${Math.round(repo.h.rh / 24)} days`}.</li>` : ''}
-</ul>
+<div class="band">
+  <div class="sec"><h2 class="title">What we checked</h2></div>
+  <ul class="prose">
+    <li>Nobody is assigned, and no open pull request references it \u2014 verified ${ago(issue.vf)}.</li>
+    ${(issue.fl ?? []).includes('mg') ? '<li>A maintainer has already left guidance in the thread.</li>' : ''}
+    ${(issue.fl ?? []).includes('fp') ? '<li>The issue points at a specific file, so you know where to start.</li>' : ''}
+    ${(issue.fl ?? []).includes('rp') ? '<li>It includes reproduction steps.</li>' : ''}
+    ${(issue.fl ?? []).includes('un') ? '<li>Nobody has commented, so you are not competing with anyone.</li>' : ''}
+    ${repo.h?.mr != null && repo.h.np >= 3 ? `<li>${repo.h.mc} of the last ${repo.h.np} pull requests from outside contributors were merged.</li>` : ''}
+    ${repo.h?.rh != null ? `<li>Maintainers reply in about ${repo.h.rh < 48 ? `${Math.round(repo.h.rh)} hours` : `${Math.round(repo.h.rh / 24)} days`}.</li>` : ''}
+  </ul>
+</div>
 
-${similar.length ? `<div class="sec"><h2>Similar unclaimed issues</h2></div>${boardList(similar, repos, { root })}` : ''}
+${similar.length ? `<div class="band"><div class="sec"><h2 class="title">Similar unclaimed issues</h2></div></div>${boardList(similar, repos, { root })}` : ''}
 `
   return layout({
-    title: issue.t.length > 60 ? issue.t.slice(0, 57) + '…' : issue.t,
-    description: `${repo.n}#${issue.n} — verified unclaimed. ${issue.x?.slice(0, 120) ?? ''}`,
+    title: issue.t.length > 60 ? issue.t.slice(0, 57) + '\u2026' : issue.t,
+    description: `${repo.n}#${issue.n} \u2014 verified unclaimed. ${issue.x?.slice(0, 120) ?? ''}`,
     canonical: `/issue/${repo.n}/${issue.n}/`, meta, body, depth,
     jsonLd: {
       '@context': 'https://schema.org',
@@ -333,67 +329,68 @@ function howItWorksPage({ meta }) {
   const rows = Object.entries(r).sort((a, b) => b[1] - a[1])
   const gateNames = {
     G1_structural: 'Not a real, open issue (bot-authored, locked, or actually a PR)',
-    G2_takeability: 'Already taken — assigned, or an open/merged pull request references it',
-    G3_repoViability: 'Repo not viable — archived, unlicensed, or no recent commits',
-    G4_relevance: 'Stale or blocked — no activity in months, or an umbrella/tracking issue',
-    G5_actionability: 'Not enough context to start — empty or template-only body',
-    G6_antiFarming: 'Label farming — a contribution playground or star-farming repo',
+    G2_takeability: 'Already taken \u2014 assigned, or an open/merged pull request references it',
+    G3_repoViability: 'Repo not viable \u2014 archived, unlicensed, or no recent commits',
+    G4_relevance: 'Stale or blocked \u2014 no activity in months, or an umbrella/tracking issue',
+    G5_actionability: 'Not enough context to start \u2014 empty or template-only body',
+    G6_antiFarming: 'Label farming \u2014 a contribution playground or star-farming repo',
   }
   const body = `
-<section class="hero">
-  <h1>How we decide what gets listed</h1>
-  <p class="lede">We scanned <strong>${meta.stats.candidatesScanned.toLocaleString()}</strong> issues
-  carrying a beginner or help-wanted label and listed <strong>${meta.counts.issues.toLocaleString()}</strong>.
-  Here is exactly what happened to the rest.</p>
-</section>
+${head({
+    eyebrow: 'Method',
+    title: 'How we decide what gets listed',
+    lede: `We scanned <strong>${meta.stats.candidatesScanned.toLocaleString()}</strong> issues carrying a beginner or help-wanted label and listed <strong>${meta.counts.issues.toLocaleString()}</strong>. Here is exactly what happened to the rest.`,
+  })}
 
-<section class="scan">
-  ${sieveSvg(meta)}
-  ${sieveLegend(meta)}
-</section>
+${sieveSvg(meta)}
+<div class="band">${sieveLegend(meta)}</div>
 
-<div class="sec"><h2>Why issues were rejected</h2></div>
-<div class="table-scroll"><table class="prose">
-<tr><th>Reason</th><th>Issues rejected</th></tr>
-${rows
-  .map(
-    ([g, c]) =>
-      `<tr${g === 'G2_takeability' ? ' class="is-taken"' : ''}><td>${esc(gateNames[g] ?? g)}</td><td>${c.toLocaleString()}</td></tr>`
-  )
-  .join('')}
-</table></div>
+<div class="band">
+  <div class="sec"><h2 class="title">Why issues were rejected</h2></div>
+  <div class="table-scroll"><table class="prose">
+  <tr><th>Reason</th><th>Issues rejected</th></tr>
+  ${rows
+    .map(
+      ([g, c]) =>
+        `<tr${g === 'G2_takeability' ? ' class="is-taken"' : ''}><td>${esc(gateNames[g] ?? g)}</td><td>${c.toLocaleString()}</td></tr>`
+    )
+    .join('')}
+  </table></div>
+</div>
 
-<div class="prose">
-<h2>The gates, in order</h2>
-<p>An issue must pass <em>every</em> one of these. No score can rescue a failure.</p>
-<h3>1. It must be genuinely takeable</h3>
-<p>Nobody assigned. No open pull request referencing it. No merged pull request that should
-have closed it. No unexpired claim in the comments. <strong>This is the check other tools
-don't do</strong> — GitHub's own <code>no:assignee</code> filter misses every issue where
-someone quietly opened a PR, which is the most common way an issue is really taken.</p>
-<h3>2. The project must be alive</h3>
-<p>Not archived, issues enabled, pushed within 60 days, at least two different people
-committing in the last 90 days, and an OSI-approved licence. A repo with no licence isn't
-legally contributable, so we exclude it regardless of how good the issue looks.</p>
-<h3>3. The issue must still be relevant</h3>
-<p>Activity within 120 days, no blocking labels, and not an umbrella issue with a long
-task list hiding weeks of work behind a friendly label.</p>
-<h3>4. There must be enough to go on</h3>
-<p>A real body, not an unfilled template. Enough context that you could open the file and
-start.</p>
-<h3>5. The repo must not be farming contributors</h3>
-<p>Projects that label most of their backlog "good first issue" are farming for stars or
-contributors, and the label carries no information there.</p>
+<div class="band">
+  <div class="sec"><h2 class="title">The gates, in order</h2></div>
+  <div class="prose">
+  <p>An issue must pass <em>every</em> one of these. No score can rescue a failure.</p>
+  <h3>1. It must be genuinely takeable</h3>
+  <p>Nobody assigned. No open pull request referencing it. No merged pull request that should
+  have closed it. No unexpired claim in the comments. <strong>This is the check other tools
+  don't do</strong> \u2014 GitHub's own <code>no:assignee</code> filter misses every issue where
+  someone quietly opened a PR, which is the most common way an issue is really taken.</p>
+  <h3>2. The project must be alive</h3>
+  <p>Not archived, issues enabled, pushed within 60 days, at least two different people
+  committing in the last 90 days, and an OSI-approved licence. A repo with no licence isn't
+  legally contributable, so we exclude it regardless of how good the issue looks.</p>
+  <h3>3. The issue must still be relevant</h3>
+  <p>Activity within 120 days, no blocking labels, and not an umbrella issue with a long
+  task list hiding weeks of work behind a friendly label.</p>
+  <h3>4. There must be enough to go on</h3>
+  <p>A real body, not an unfilled template. Enough context that you could open the file and
+  start.</p>
+  <h3>5. The repo must not be farming contributors</h3>
+  <p>Projects that label most of their backlog "good first issue" are farming for stars or
+  contributors, and the label carries no information there.</p>
 
-<h2>Then we rank what's left</h2>
-<p>Ranking weighs maintainer responsiveness most heavily — whether outside pull requests
-actually get merged, and how fast maintainers reply. An issue you can start but whose PR
-will never be reviewed is still a wasted evening.</p>
+  <h2>Then we rank what's left</h2>
+  <p>Ranking weighs maintainer responsiveness most heavily \u2014 whether outside pull requests
+  actually get merged, and how fast maintainers reply. An issue you can start but whose PR
+  will never be reviewed is still a wasted evening.</p>
 
-<h2>What we can't check</h2>
-<p>Coordination that happens off GitHub — a Discord thread, a maintainer's private plan —
-is invisible to any tool built on the API, including this one. We verify every listing
-within 24 hours, and every card says when. That's an honest ceiling, not a perfect one.</p>
+  <h2>What we can't check</h2>
+  <p>Coordination that happens off GitHub \u2014 a Discord thread, a maintainer's private plan \u2014
+  is invisible to any tool built on the API, including this one. We verify every listing
+  within 24 hours, and every row says when. That's an honest ceiling, not a perfect one.</p>
+  </div>
 </div>
 `
   return layout({
@@ -408,11 +405,11 @@ function statsPage({ meta, issues, repos, facets }) {
   const uncrowded = issues.filter((i) => (i.fl ?? []).includes('un')).length
   const responsive = issues.filter((i) => repos[i.r].h?.rh != null && repos[i.r].h.rh <= 72).length
   const body = `
-<section class="hero">
-  <h1>Stats</h1>
-  <p class="lede">Updated with every refresh. Last run
-  ${new Date(meta.generatedAt).toISOString().slice(0, 16).replace('T', ' ')} UTC.</p>
-</section>
+${head({
+    eyebrow: `Last run ${new Date(meta.generatedAt).toISOString().slice(0, 16).replace('T', ' ')} UTC`,
+    title: 'Stats',
+    lede: 'Updated with every refresh.',
+  })}
 <div class="statgrid">
   <div class="stat"><div class="n">${meta.stats.candidatesScanned.toLocaleString()}</div><div class="l">issues scanned</div></div>
   <div class="stat hi"><div class="n">${meta.counts.issues.toLocaleString()}</div><div class="l">listed on the board</div></div>
@@ -420,11 +417,10 @@ function statsPage({ meta, issues, repos, facets }) {
   <div class="stat"><div class="n">${meta.counts.repos.toLocaleString()}</div><div class="l">projects</div></div>
   <div class="stat"><div class="n">${meta.counts.languages}</div><div class="l">languages</div></div>
   <div class="stat"><div class="n">${uncrowded.toLocaleString()}</div><div class="l">with nobody circling</div></div>
-  <div class="stat"><div class="n">${withGuidance.toLocaleString()}</div><div class="l">where a maintainer left guidance</div></div>
-  <div class="stat"><div class="n">${responsive.toLocaleString()}</div><div class="l">in repos replying within 3 days</div></div>
+  <div class="stat"><div class="n">${withGuidance.toLocaleString()}</div><div class="l">maintainer left guidance</div></div>
+  <div class="stat"><div class="n">${responsive.toLocaleString()}</div><div class="l">repos replying within 3 days</div></div>
 </div>
-<div class="sec"><h2>Inventory by language</h2></div>
-${chips(facets.languages, (l) => `/${slug(l.k)}/`)}
+<div class="band"><div class="sec"><h2 class="title">Inventory by language</h2></div>${chips(facets.languages, (l) => `/${slug(l.k)}/`)}</div>
 `
   return layout({
     title: 'Stats',
@@ -435,9 +431,23 @@ ${chips(facets.languages, (l) => `/${slug(l.k)}/`)}
 
 // ─── Fragments ──────────────────────────────────────────────────────────────
 
-/** Render a facet section, or nothing at all — an empty heading looks broken. */
-const section = (title, items, hrefFn) =>
-  items.length ? `<div class="sec"><h2>${esc(title)}</h2></div>${chips(items, hrefFn)}` : ''
+/** A page's opening band: mono eyebrow, big heading, optional supporting text. */
+function head({ eyebrow, title, lede, actions = '' }) {
+  return `<div class="band pagehead">
+  <div class="wrap">
+    ${eyebrow ? `<p class="eyebrow">${eyebrow}</p>` : ''}
+    <h1 class="title">${title}</h1>
+    ${lede ? `<p class="lede measure">${lede}</p>` : ''}
+    ${actions}
+  </div>
+</div>`
+}
+
+/** Render a facet band, or nothing at all — an empty heading looks broken. */
+const facetBand = (title, items, hrefFn) =>
+  items.length
+    ? `<div class="band"><div class="sec"><h2 class="title">${esc(title)}</h2></div>${chips(items, hrefFn)}</div>`
+    : ''
 
 function filterBar(facets) {
   return `<div class="filters">

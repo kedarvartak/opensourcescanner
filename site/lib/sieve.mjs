@@ -88,11 +88,12 @@ export function sieveSvg(meta) {
   preserveAspectRatio="xMidYMid meet">${paths.join('')}</svg>`
 }
 
+/** The legend is four numbers with labels, so it is built as a stat row. */
 export function sieveLegend(meta) {
   return `<ul class="legend">${sieveBands(meta)
     .map(
-      (b) => `<li class="lg-${b.key}"><span class="sw"></span>
-    <b>${b.n.toLocaleString()}</b> ${b.label}<i>${b.hint}</i></li>`
+      (b) => `<li class="lg-${b.key}"><b>${b.n.toLocaleString()}</b>
+    <span class="k">${b.label}</span><i>${b.hint}</i></li>`
     )
     .join('')}</ul>`
 }
