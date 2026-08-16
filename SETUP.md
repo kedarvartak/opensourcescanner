@@ -67,6 +67,16 @@ push triggers the deploy. **That's the whole 24-hour loop, with no manual step.*
 > permanently out of scope (D30). If that ever changes, this needs Vercel Pro at
 > $20/month — or a move back to Cloudflare Pages, which has no such restriction.
 
+### Analytics
+
+Project → **Analytics** → **Enable**. The site already emits
+`<script defer src="/_vercel/insights/script.js">` on Vercel builds, but that path only
+exists once Analytics is switched on for the project — until then it 404s silently.
+
+Hobby includes 2,500 events/month (D32). That is fine for validating the setup and well
+short of launch traffic, so plan to upgrade or add a second, unmetered counter before the
+Show HN.
+
 ### Domain
 
 Project → **Settings** → **Domains** → add `opensourcescanner.xyz`, then point the

@@ -12,6 +12,21 @@ export const esc = (s = '') =>
 
 export const attr = (s = '') => esc(s)
 
+// Vercel Web Analytics.
+//
+// This is a script tag rather than the @vercel/analytics npm package on
+// purpose. That package exists to give React/Next/Vue/Svelte a component
+// wrapper around exactly this one file; for plain HTML, Vercel's own docs say
+// to load the script directly. Installing it would put the first dependency
+// into a build that deliberately has none — which is what lets a nightly cron
+// job run with no supply chain to break.
+//
+// Gated on VERCEL (set automatically during Vercel builds) so local previews
+// don't 404 on a script that only exists on their edge.
+const ANALYTICS = process.env.VERCEL
+  ? '<script defer src="/_vercel/insights/script.js"></script>'
+  : ''
+
 const SITE = 'Open Source Scanner'
 const ORIGIN = process.env.SITE_ORIGIN || 'https://opensourcescanner.xyz'
 
@@ -82,6 +97,7 @@ ${body}
   <p class="fine">Issue data from the GitHub API. Every listing links to the canonical issue.</p>
 </footer>
 <script src="${root}/assets/app.js" defer></script>
+${ANALYTICS}
 </body>
 </html>`
 }
