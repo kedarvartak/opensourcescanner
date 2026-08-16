@@ -153,7 +153,7 @@ ${facetBand('By language', facets.languages.filter((l) => l.c >= MIN_INVENTORY),
 ${facetBand('By topic', facets.topics.filter((t) => t.c >= MIN_INVENTORY).slice(0, 24), (t) => `/topics/${slug(t.k)}/`)}
 `
   return layout({
-    title: 'unclaimed.dev',
+    title: 'Open Source Scanner',
     description: `${meta.counts.issues} open source issues verified unclaimed in the last 24 hours. No assigned issues, no linked PRs, no dead repos.`,
     canonical: '/',
     meta,
@@ -494,7 +494,7 @@ function rssFeed({ meta, repos }, picks) {
     .join('\n')
   return `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel>
-<title>unclaimed.dev — today's issues</title>
+<title>Open Source Scanner — today's issues</title>
 <link>${ORIGIN}/</link>
 <description>Open source issues verified unclaimed within the last 24 hours.</description>
 <lastBuildDate>${new Date(meta.generatedAt).toUTCString()}</lastBuildDate>

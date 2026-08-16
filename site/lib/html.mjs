@@ -12,8 +12,8 @@ export const esc = (s = '') =>
 
 export const attr = (s = '') => esc(s)
 
-const SITE = 'unclaimed.dev'
-const ORIGIN = process.env.SITE_ORIGIN || 'https://unclaimed.dev'
+const SITE = 'Open Source Scanner'
+const ORIGIN = process.env.SITE_ORIGIN || 'https://opensourcescanner.xyz'
 
 export function layout({
   title,
@@ -57,7 +57,7 @@ ${jsonLd ? `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script
 <body class="${bodyClass}">
 <header class="site">
   <div class="wrap">
-    <a class="logo" href="${root}/">unclaimed.dev</a>
+    <a class="logo" href="${root}/">Open Source Scanner</a>
     <nav class="site">
       <a href="${root}/new/">New today</a>
       <a href="${root}/browse/">Browse</a>

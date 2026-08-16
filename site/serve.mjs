@@ -52,5 +52,5 @@ createServer(async (req, res) => {
     res.end('<h1>404</h1><p><a href="/">home</a></p>')
   }
 }).listen(PORT, () => {
-  console.log(`\n  unclaimed.dev preview → http://localhost:${PORT}\n`)
+  console.log(`\n  Open Source Scanner preview → http://localhost:${PORT}\n`)
 })

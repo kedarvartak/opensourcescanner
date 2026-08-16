@@ -11,7 +11,7 @@ Date: 2026-08-15. Owner: Kedar.
 
 | # | Question | **Decision** | Reasoning |
 |---|---|---|---|
-| D01 | Name / domain | **`unclaimed.dev`** | The thesis is the name. Register before M1. |
+| D01 | Name / domain | **Open Source Scanner — `opensourcescanner.xyz`** | Superseded `unclaimed.dev` on 2026-08-16. The old name stated the thesis but read as a puzzle to anyone who hadn't heard the pitch; the new one says what the thing does, which is what a search result has to do. "Unclaimed" survives as the word for the *state* an issue is in, not as the brand. |
 | D02 | Browse product or curation product? | **Browse, with a curation surface on top** | Don't wait for M0 to choose. Ship the full board *and* a daily "Today's 10" hand-checkable set on the homepage. If M0's pass rate is low, "Today's 10" simply becomes the whole product — same code, no pivot. This removes the M0 blocking gate entirely. |
 | D03 | Primary CTA | **"Show me one issue"** (deterministic daily pick, per filter) | Choosing is the paralysis. A single card converts better than a 3,000-row list for the largest persona. |
 | D04 | Effort estimate ("~2h") | **Cut.** Replace with *"issues like this in this repo close in a median of 4 days"* | Resolves R6. The estimate was unfounded; the replacement is measured from data we already fetch. |

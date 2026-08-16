@@ -47,7 +47,7 @@ export class GitHubClient {
           headers: {
             Authorization: `bearer ${this.token}`,
             'Content-Type': 'application/json',
-            'User-Agent': 'unclaimed.dev-m0-spike',
+            'User-Agent': 'opensourcescanner.xyz-m0-spike',
           },
           body: JSON.stringify({ query, variables }),
           signal: AbortSignal.timeout(60_000),

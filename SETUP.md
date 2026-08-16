@@ -49,7 +49,7 @@ push triggers the deploy. **That's the whole 24-hour loop, with no manual step.*
 
 ### Domain
 
-In the Pages project → **Custom domains** → add `unclaimed.dev` (register it first;
+In the Pages project → **Custom domains** → add `opensourcescanner.xyz` (register it first;
 Cloudflare Registrar sells it at cost). Set `SITE_ORIGIN` as a build env var if you use
 a different domain, so canonical URLs and the sitemap point at the right host.
 

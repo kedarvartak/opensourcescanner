@@ -4,8 +4,10 @@
 > Revised 2026-08-15 per direction: revenue is explicitly out of scope. Every decision in
 > this doc optimizes for reach and return-visits.
 
-**Name:** `unclaimed.dev` — the thesis as a domain. Fallbacks: `stillopen.dev`,
-`freeissues.dev`. Locked; register before M1.
+**Name:** Open Source Scanner — `opensourcescanner.xyz` (changed from `unclaimed.dev`
+on 2026-08-16, D01). The name is descriptive rather than clever, which matters here:
+almost all of this site's traffic arrives from a search result where the name is one of
+three lines a stranger reads before deciding to click.
 
 ---
 

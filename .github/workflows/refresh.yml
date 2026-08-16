@@ -63,8 +63,8 @@ jobs:
       # beats serving fresh broken data.
       - name: Commit data
         run: |
-          git config user.name  "unclaimed-bot"
-          git config user.email "bot@unclaimed.dev"
+          git config user.name  "oss-scanner-bot"
+          git config user.email "bot@opensourcescanner.xyz"
           git add data state
           if git diff --staged --quiet; then
             echo "No data change"

@@ -148,8 +148,8 @@
 // A saved issue can be claimed by someone else tomorrow. A stale saved list is
 // exactly the bug this site exists to eliminate, so entries are always checked
 // against the fresh dataset rather than trusted (docs/08 §8).
-window.unclaimed = {
-  key: 'unclaimed:saved',
+window.ossScanner = {
+  key: 'oss-scanner:saved',
   read() {
     try { return JSON.parse(localStorage.getItem(this.key) || '[]') } catch { return [] }
   },
