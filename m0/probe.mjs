@@ -74,7 +74,26 @@ const main = async () => {
   const repo = search.nodes[0]?.repository
 
   console.log(ok(`authenticated as ${viewer.login}`))
-  console.log(ok(`search works — ${search.issueCount.toLocaleString('en-US')} matching issues visible`))
+
+  // A token scoped to selected repositories authenticates cleanly and still
+  // returns an empty search, because GraphQL search only surfaces repos the
+  // token can reach — and this harvest reads repos the owner does not own.
+  // Zero results is a hard failure, not a small number.
+  const canSee = search.issueCount > 0
+  console.log(
+    canSee
+      ? ok(`search works — ${search.issueCount.toLocaleString('en-US')} matching issues visible`)
+      : bad('search returned 0 results — this token cannot see other people\'s public repos')
+  )
+  if (!canSee) {
+    console.error(
+      '\n  A token scoped to selected repositories will authenticate, report the full\n' +
+      '  5,000/hr ceiling, and harvest nothing. Use a classic PAT with no scopes\n' +
+      '  ticked, or a fine-grained PAT with repository access set to\n' +
+      '  "Public repositories (read-only)".\n'
+    )
+    process.exit(1)
+  }
   console.log(
     rateLimit.limit >= 5000
       ? ok(`rate limit ${rateLimit.limit}/hr (authenticated ceiling)`)
