@@ -8,6 +8,7 @@
 import { readFile, writeFile, mkdir, cp, rm, readdir } from 'node:fs/promises'
 import { layout, esc, slug, ago, compactNum, ORIGIN } from './lib/html.mjs'
 import { boardList, picksList, chips } from './lib/components.mjs'
+import { sieveSvg, sieveLegend, sieveBands } from './lib/sieve.mjs'
 
 const ROOT = new URL('../', import.meta.url)
 const DATA = new URL('data/', ROOT)
@@ -109,18 +110,33 @@ async function main() {
 // ─── Pages ──────────────────────────────────────────────────────────────────
 
 function homePage({ meta, issues, repos, facets }, picks) {
+  const scanned = meta.stats.candidatesScanned
+  const taken = sieveBands(meta).find((b) => b.key === 'taken')?.n ?? 0
+  const scanDate = new Date(meta.generatedAt).toISOString().slice(0, 10)
+
   const body = `
-<section class="hero">
-  <span class="verified">every issue verified unclaimed ${ago(Math.floor(new Date(meta.generatedAt) / 1000))}</span>
-  <h1>Open source issues that are actually still free.</h1>
-  <p class="lede">Most "good first issues" are already taken — assigned, or quietly claimed by an
-  open pull request you can't see from the issue list. We check every one, every day, and only
-  list the ones you can genuinely start right now.</p>
+<section class="scan">
+  <p class="eyebrow">Scan ${scanDate} · ${scanned.toLocaleString()} labelled issues · one square each</p>
+  ${sieveSvg(meta)}
+  ${sieveLegend(meta)}
 </section>
 
-<div class="sec">
+<section class="thesis">
+  <h1><span class="took">${taken.toLocaleString()}</span> of today’s “good first issues”
+  already had someone on them. <span class="free">${meta.counts.issues}</span> are actually free.</h1>
+  <p class="lede">An issue with nobody assigned still isn't yours if somebody already opened a pull
+  request against it — and GitHub's own filters won't show you that. We check every issue for a
+  linked pull request, a live maintainer, and enough detail to start, then re-check the whole
+  board every 24 hours.</p>
+  <div class="actions">
+    <a class="btn" href="#today">See today's ${picks.length}</a>
+    <a class="btn ghost" href="/browse/">Browse all ${meta.counts.issues}</a>
+  </div>
+</section>
+
+<div class="sec" id="today">
   <h2>Today's ${picks.length}</h2>
-  <span class="meta">${new Date(meta.generatedAt).toISOString().slice(0, 10)} · a new set tomorrow</span>
+  <span class="meta">${scanDate} · a new set tomorrow</span>
   <span class="spacer"></span>
   <a href="/browse/" class="meta">browse all ${meta.counts.issues} →</a>
 </div>
@@ -241,9 +257,15 @@ function repoPage({ meta, repos }, repo, list, depth) {
   const body = `
 <section class="hero">
   <h1>${esc(repo.n)}</h1>
-  <p class="lede">${list.length} unclaimed issue${list.length === 1 ? '' : 's'} ·
-  ★ ${compactNum(repo.s)} · ${esc(repo.l ?? '')} · ${esc(repo.lic ?? '')}</p>
-  <p><a class="btn ghost" href="https://github.com/${esc(repo.n)}" rel="noopener">View on GitHub</a></p>
+  <div class="facts">
+    ${repo.l ? `<a href="${'../../..'}/${slug(repo.l)}/">${esc(repo.l)}</a>` : ''}
+    <span>★ ${compactNum(repo.s)}</span>
+    ${repo.lic ? `<span>${esc(repo.lic)}</span>` : ''}
+  </div>
+  <p class="lede">${list.length} issue${list.length === 1 ? '' : 's'} here are unclaimed right now.</p>
+  <div class="actions">
+    <a class="btn ghost" href="https://github.com/${esc(repo.n)}" rel="noopener">View on GitHub</a>
+  </div>
 </section>
 ${health.length ? `<div class="sec"><h2>What contributing here is like</h2></div>
 <ul class="prose">${health.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
@@ -262,28 +284,31 @@ function issuePage({ meta, repos }, issue, repo, similar, depth) {
   const root = '../../../..'
   const body = `
 <section class="hero">
-  <span class="verified">verified unclaimed ${ago(issue.vf)}</span>
-  <p class="lede" style="margin:12px 0 6px"><a href="${root}/repo/${esc(repo.n)}/">${esc(repo.n)}</a>
-  · ★ ${compactNum(repo.s)} · ${esc(repo.l ?? '')}</p>
-  <h1 style="font-size:26px">${esc(issue.t)}</h1>
+  <span class="verified">cleared ${ago(issue.vf)}</span>
+  <div class="facts">
+    <a href="${root}/repo/${esc(repo.n)}/">${esc(repo.n)}</a>
+    <span>#${issue.n}</span>
+    ${repo.l ? `<a href="${root}/${slug(repo.l)}/">${esc(repo.l)}</a>` : ''}
+    <span>★ ${compactNum(repo.s)}</span>
+    ${repo.lic ? `<span>${esc(repo.lic)}</span>` : ''}
+  </div>
+  <h1>${esc(issue.t)}</h1>
   ${issue.x ? `<p class="lede">${esc(issue.x)}</p>` : ''}
-  <p><a class="btn" href="${url}" rel="noopener">Open issue #${issue.n} on GitHub</a></p>
+  <div class="actions">
+    <a class="btn" href="${url}" rel="noopener">Open #${issue.n} on GitHub</a>
+    <a class="btn ghost" href="${root}/repo/${esc(repo.n)}/">More from ${esc(repo.n)}</a>
+  </div>
 </section>
 
-<div class="sec"><h2>Why this one is worth your time</h2></div>
-<div class="statgrid">
-  ${stat(issue.sp.r, 'maintainer responsiveness')}
-  ${stat(issue.sp.s, 'how specific the issue is')}
-  ${stat(issue.sp.o, 'how uncrowded it is')}
-  ${stat(issue.sp.a, 'project approachability')}
-</div>
+<div class="sec"><h2>What we checked</h2></div>
 <ul class="prose">
+  <li>Nobody is assigned, and no open pull request references it — verified ${ago(issue.vf)}.</li>
   ${(issue.fl ?? []).includes('mg') ? '<li>A maintainer has already left guidance in the thread.</li>' : ''}
   ${(issue.fl ?? []).includes('fp') ? '<li>The issue points at a specific file, so you know where to start.</li>' : ''}
   ${(issue.fl ?? []).includes('rp') ? '<li>It includes reproduction steps.</li>' : ''}
-  ${(issue.fl ?? []).includes('un') ? '<li>Nobody has commented — you are not competing with anyone.</li>' : ''}
-  ${repo.h?.mr != null && repo.h.np >= 3 ? `<li>${repo.h.mc} of the last ${repo.h.np} outside pull requests to this project were merged.</li>` : ''}
-  <li>No one is assigned, and no open pull request references it — checked ${ago(issue.vf)}.</li>
+  ${(issue.fl ?? []).includes('un') ? '<li>Nobody has commented, so you are not competing with anyone.</li>' : ''}
+  ${repo.h?.mr != null && repo.h.np >= 3 ? `<li>${repo.h.mc} of the last ${repo.h.np} pull requests from outside contributors were merged.</li>` : ''}
+  ${repo.h?.rh != null ? `<li>Maintainers reply in about ${repo.h.rh < 48 ? `${Math.round(repo.h.rh)} hours` : `${Math.round(repo.h.rh / 24)} days`}.</li>` : ''}
 </ul>
 
 ${similar.length ? `<div class="sec"><h2>Similar unclaimed issues</h2></div>${boardList(similar, repos, { root })}` : ''}
@@ -322,10 +347,20 @@ function howItWorksPage({ meta }) {
   Here is exactly what happened to the rest.</p>
 </section>
 
+<section class="scan">
+  ${sieveSvg(meta)}
+  ${sieveLegend(meta)}
+</section>
+
 <div class="sec"><h2>Why issues were rejected</h2></div>
-<div class="table-scroll"><table class="prose" style="max-width:none">
+<div class="table-scroll"><table class="prose">
 <tr><th>Reason</th><th>Issues rejected</th></tr>
-${rows.map(([g, c]) => `<tr><td>${esc(gateNames[g] ?? g)}</td><td>${c.toLocaleString()}</td></tr>`).join('')}
+${rows
+  .map(
+    ([g, c]) =>
+      `<tr${g === 'G2_takeability' ? ' class="is-taken"' : ''}><td>${esc(gateNames[g] ?? g)}</td><td>${c.toLocaleString()}</td></tr>`
+  )
+  .join('')}
 </table></div>
 
 <div class="prose">
@@ -380,7 +415,7 @@ function statsPage({ meta, issues, repos, facets }) {
 </section>
 <div class="statgrid">
   <div class="stat"><div class="n">${meta.stats.candidatesScanned.toLocaleString()}</div><div class="l">issues scanned</div></div>
-  <div class="stat"><div class="n">${meta.counts.issues.toLocaleString()}</div><div class="l">passed every gate</div></div>
+  <div class="stat hi"><div class="n">${meta.counts.issues.toLocaleString()}</div><div class="l">listed on the board</div></div>
   <div class="stat"><div class="n">${(meta.stats.passRate * 100).toFixed(1)}%</div><div class="l">pass rate</div></div>
   <div class="stat"><div class="n">${meta.counts.repos.toLocaleString()}</div><div class="l">projects</div></div>
   <div class="stat"><div class="n">${meta.counts.languages}</div><div class="l">languages</div></div>
@@ -403,9 +438,6 @@ ${chips(facets.languages, (l) => `/${slug(l.k)}/`)}
 /** Render a facet section, or nothing at all — an empty heading looks broken. */
 const section = (title, items, hrefFn) =>
   items.length ? `<div class="sec"><h2>${esc(title)}</h2></div>${chips(items, hrefFn)}` : ''
-
-const stat = (v, label) =>
-  `<div class="stat"><div class="n">${v ?? '—'}</div><div class="l">${esc(label)}</div></div>`
 
 function filterBar(facets) {
   return `<div class="filters">
