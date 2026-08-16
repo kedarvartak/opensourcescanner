@@ -18,7 +18,7 @@ const PROBE = `
 query {
   rateLimit { limit remaining cost resetAt }
   viewer { login }
-  search(query: "label:\\"good first issue\\" state:open", type: ISSUE, first: 1) {
+  search(query: "label:\\"good first issue\\" state:open is:issue", type: ISSUE, first: 5) {
     issueCount
     nodes {
       ... on Issue {
@@ -71,7 +71,7 @@ const main = async () => {
   }
 
   const { rateLimit, viewer, search } = data
-  const repo = search.nodes[0]?.repository
+  const repo = search.nodes.map((n) => n?.repository).find(Boolean)
 
   console.log(ok(`authenticated as ${viewer.login}`))
 
