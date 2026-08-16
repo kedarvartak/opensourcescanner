@@ -393,14 +393,27 @@ nav.site a:hover { color: var(--ink); }
 .signals {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 20px;
+  gap: 6px;
   margin-top: 16px;
-  font: 400 12px/1 var(--mono);
-  color: var(--gray);
 }
 .signals:empty { display: none; }
-.sig { display: inline-flex; align-items: center; gap: 8px; white-space: nowrap; }
-.sig.warn { color: var(--ink); font-weight: 500; }
+
+/* Chips, in the same hairline-box language as the facet links — just smaller.
+   Deliberately uncoloured: there are four or five per row across a page of
+   rows, and tinting the positive ones green is how the accent stopped meaning
+   anything last time. Only the proportion bar carries colour. */
+.sig {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font: 400 11.5px/1 var(--mono);
+  color: var(--gray);
+  background: transparent;
+  border: 1px solid var(--line);
+  padding: 6px 9px;
+  white-space: nowrap;
+}
+.sig.warn { color: var(--ink); border-color: #cfcbc3; }
 
 /* A merge rate is a proportion, so draw it as one. */
 .bar {
