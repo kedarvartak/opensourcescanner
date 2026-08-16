@@ -32,7 +32,7 @@
 └────────────────────────────────────────────────────│──────────┘
                                                      ▼
 ┌────────────────────────────────────────────────────────────────┐
-│  DEPLOY  —  static host (GitHub Pages / Cloudflare Pages)      │
+│  DEPLOY  —  static host (Vercel)                               │
 │    index.html + JS bundle + data/*.json.br  (CDN, immutable)   │
 └────────────────────────────────────────────────────────────────┘
                                                      │
@@ -119,19 +119,24 @@ Shared types (the `Issue` shape in [06](06-data-model.md)) live in `pipeline/` a
 
 ## 6. Hosting choice
 
-| | GitHub Pages | Cloudflare Pages |
-|---|---|---|
-| Cost | Free | Free |
-| Brotli for `.json` | Automatic for text types | Automatic, plus better control |
-| Custom cache headers | ✗ (no control) | ✓ `_headers` file |
-| Build integration | Native with Actions | Connects to repo, or deploy from Actions |
-| Analytics | ✗ | ✓ free, privacy-preserving |
+| | GitHub Pages | Cloudflare Pages | **Vercel** |
+|---|---|---|---|
+| Cost, private repo | Paid plan needed | Free | Free (Hobby) |
+| Brotli for `.json` | Automatic for text types | Automatic | Automatic |
+| Custom cache headers | ✗ (no control) | ✓ `_headers` | ✓ `vercel.json` |
+| Build integration | Native with Actions | Connects to repo | Connects to repo |
+| Commercial use on free tier | ✓ | ✓ | ✗ non-commercial only |
 
-**Recommendation: Cloudflare Pages**, mainly for `_headers` control — we want
-`Cache-Control: public, max-age=31536000, immutable` on content-hashed data files and
-`max-age=300` on `meta.json`. Without header control, the CDN either serves stale data or
-re-downloads the whole dataset on every visit. Keep GitHub Pages as the fallback; the
-build output is identical, so switching is a DNS change.
+**Decision: Vercel** (D17, changed 2026-08-16 from Cloudflare Pages). The hard requirement
+is header control — we want `Cache-Control: public, max-age=31536000, immutable` on
+content-hashed data files and `max-age=300` on `meta.json`. Without it the CDN either
+serves stale data or re-downloads the whole dataset on every visit. Cloudflare Pages and
+Vercel both satisfy that; GitHub Pages does not, and also charges for private repos.
+
+Between the two that qualify the choice is preference, not architecture. **The build
+output is identical and host-specific config is one file**, so switching back is a small
+commit plus a DNS change. The one asymmetry worth recording: Vercel's free tier is
+non-commercial only, which is fine under D30 but is a constraint Cloudflare doesn't have.
 
 ## 7. Runtime data flow in the browser
 

@@ -41,7 +41,7 @@ We answer the harder question:
 ## 3. Product shape (locked constraints from the brief)
 
 - **Frontend only.** No servers, no database, no runtime API calls to GitHub from the browser.
-- **Static hosting.** GitHub Pages or Cloudflare Pages.
+- **Static hosting.** Vercel (D17); any static host with cache-header control works.
 - **24-hour refresh.** A scheduled CI job regenerates the dataset and commits it.
 - **Validity is non-negotiable.** A stale or claimed issue on the board is a product bug,
   not a data imperfection.

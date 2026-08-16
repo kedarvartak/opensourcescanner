@@ -171,8 +171,10 @@ compute.
 
 ## 6. Metrics we actually track
 
-Cloudflare Web Analytics (free, privacy-preserving, no cookie banner — which itself
-protects conversion).
+Cloudflare Web Analytics — free, unlimited, privacy-preserving, no cookie banner (which
+itself protects conversion). It is just a script tag, so it works fine on Vercel; Vercel's
+own Web Analytics is capped at 2,500 events/month on Hobby, which this site would burn
+through in a day.
 
 | Metric | Target by month 6 | Why |
 |---|---|---|

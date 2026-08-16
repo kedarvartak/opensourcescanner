@@ -28,30 +28,36 @@ gh secret set GH_HARVEST_TOKEN --repo kedarvartak/unclaimed
 
 ---
 
-## 2. Connect Cloudflare Pages (5 min)
+## 2. Connect Vercel (5 min)
 
-Cloudflare Pages builds from private repos on the free tier, and supports the
-`_headers` file we need for the cache strategy. (GitHub Pages needs a paid plan for
-private repos, and gives no header control.)
+Vercel builds from private repos on the free Hobby plan, and `vercel.json` gives us the
+cache headers the data strategy needs.
 
-1. https://dash.cloudflare.com → **Workers & Pages** → **Create** → **Pages** →
-   **Connect to Git**
-2. Authorize GitHub, pick `kedarvartak/unclaimed`
-3. Build settings:
-   - **Framework preset:** None
+1. https://vercel.com/new → **Import Git Repository** → `kedarvartak/unclaimed`
+2. Vercel reads `vercel.json`, so leave the build settings alone. For the record it sets:
+   - **Framework preset:** Other
    - **Build command:** `node site/build.mjs`
-   - **Build output directory:** `dist`
-   - **Node version:** add env var `NODE_VERSION` = `20`
-4. Deploy
+   - **Output directory:** `dist`
+   - **Install command:** a no-op — this project has zero dependencies
+3. Deploy
 
 Every push to `main` now rebuilds and deploys. The daily refresh commits data → that
 push triggers the deploy. **That's the whole 24-hour loop, with no manual step.**
 
+> **Hobby is non-commercial only.** That is fine here because monetization is
+> permanently out of scope (D30). If that ever changes, this needs Vercel Pro at
+> $20/month — or a move back to Cloudflare Pages, which has no such restriction.
+
 ### Domain
 
-In the Pages project → **Custom domains** → add `opensourcescanner.xyz` (register it first;
-Cloudflare Registrar sells it at cost). Set `SITE_ORIGIN` as a build env var if you use
-a different domain, so canonical URLs and the sitemap point at the right host.
+Project → **Settings** → **Domains** → add `opensourcescanner.xyz`, then point the
+registrar's nameservers or the apex `A`/`CNAME` records at Vercel as instructed. Set
+`SITE_ORIGIN` as a build env var if you use a different host, so canonical URLs and the
+sitemap point at the right place.
+
+`vercel.json` sets `trailingSlash: true` to match the trailing slashes in our canonical
+URLs and sitemap, so `/browse` redirects to `/browse/` instead of both resolving and
+competing with each other in search.
 
 ---
 

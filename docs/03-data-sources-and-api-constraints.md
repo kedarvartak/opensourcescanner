@@ -140,7 +140,7 @@ stall resumes rather than restarts. See [09](09-refresh-and-freshness.md) §4.
 
 Fits, with ~45% headroom — but the margin is real, not comfortable. **Guard rails:**
 - Keep the weekly full sweep to Sundays; deltas on other days (D19).
-- If minutes get tight, move the 6-hourly re-validation to Cloudflare Pages build hooks
+- If minutes get tight, move the 6-hourly re-validation to Vercel deploy hooks
   or drop it to 12-hourly. Re-validation is the *last* thing to cut, since it backs the
   headline freshness claim.
 - Add a monthly minute-usage check to the watchdog so this is measured, not assumed.
@@ -158,7 +158,7 @@ verifiable even while the source isn't. If the repo is ever made public, that ar
 returns for free.
 
 **GitHub Pages from a private repo requires a paid plan** — another reason
-[05](05-architecture.md) §6 lands on **Cloudflare Pages**, which builds from private repos
+[05](05-architecture.md) §6 lands on **Vercel**, which builds from private repos
 on the free tier.
 
 ## 6. Other data sources considered

@@ -2,7 +2,7 @@ name: Refresh issues
 
 # The 24-hour refresh, fully automatic. No manual step.
 #
-#   cron → harvest → validate → score → emit → commit → Cloudflare rebuilds
+#   cron → harvest → validate → score → emit → commit → Vercel rebuilds
 #
 # The commit is load-bearing in three ways: it publishes the data, it gives the
 # site an honest "generated at" timestamp, and it counts as repo activity (which

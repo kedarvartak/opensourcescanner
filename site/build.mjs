@@ -93,11 +93,12 @@ async function main() {
   await page('/stats/', statsPage(ctx))
 
   // ── Feeds, sitemap, robots ──────────────────────────────────────────────
+  // Cache headers live in vercel.json at the repo root (docs/05 §6): Vercel
+  // reads them from source, not from dist/, so there is nothing to emit here.
   await writeFile(new URL('feed.xml', DIST), rssFeed(ctx, picks))
   await writeFile(new URL('issues.json', DIST), JSON.stringify(jsonFeed(ctx), null, 2))
   await writeFile(new URL('sitemap.xml', DIST), sitemap(urls))
   await writeFile(new URL('robots.txt', DIST), `User-agent: *\nAllow: /\n\nSitemap: ${ORIGIN}/sitemap.xml\n`)
-  await writeFile(new URL('_headers', DIST), headers())
 
   await cp(new URL('assets/', new URL('site/', ROOT)), new URL('assets/', DIST), { recursive: true })
   await cp(DATA, new URL('data/', DIST), { recursive: true })
@@ -524,24 +525,6 @@ function sitemap(urls) {
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map((u) => `<url><loc>${ORIGIN}${u}</loc><changefreq>daily</changefreq></url>`).join('\n')}
 </urlset>`
-}
-
-/** Cache strategy from docs/05 §6 — this is why we host on Cloudflare Pages. */
-function headers() {
-  return `/assets/*
-  Cache-Control: public, max-age=31536000, immutable
-
-/data/*.json
-  Cache-Control: public, max-age=31536000, immutable
-
-/data/meta.json
-  Cache-Control: public, max-age=300
-
-/*
-  Cache-Control: public, max-age=0, must-revalidate
-  X-Content-Type-Options: nosniff
-  Referrer-Policy: strict-origin-when-cross-origin
-`
 }
 
 main().catch((e) => {

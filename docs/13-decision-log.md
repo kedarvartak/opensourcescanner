@@ -38,7 +38,7 @@ Date: 2026-08-15. Owner: Kedar.
 |---|---|---|---|
 | D16 | Framework | ~~Astro~~ → **zero-dependency generator** (`site/build.mjs`) | **Reversed 2026-08-15 during build.** Astro was locked when the site was hypothetical. Built out, the site is "render JSON to HTML" — thousands of templated pages plus one filter bar. Astro's value is component authoring and partial hydration; we use neither. A plain generator gives identical SEO with no `node_modules`, sub-second builds, and no dependency supply chain running unattended in a nightly cron. Fewer moving parts wins for a job that must run for years without attention. |
 | D16a | Client-side JS | **Progressive enhancement only** | Every card is in the HTML at build time. `app.js` filters what's already there; with JS off the page is a complete working list. This is what makes the SEO strategy real rather than aspirational. |
-| D17 | Hosting | **Cloudflare Pages** | `_headers` control is required for the cache strategy; free analytics; free edge. |
+| D17 | Hosting | **Vercel** | Superseded Cloudflare Pages on 2026-08-16. Both build private repos free and both give header control (`vercel.json` replaces `_headers`), so the cache strategy is unaffected — this was a preference, not a technical forcing function. Caveat recorded: Vercel's free Hobby plan is non-commercial only, which is compatible with D30 but would need revisiting if D30 ever is. |
 | D18 | Refresh cadence | **Full pipeline daily 03:00 UTC + re-validation-only pass every 6 hours** | The 6-hourly pass was v1.1; **promoted to v1** because "verified free 4h ago" is the headline marketing claim and it costs ~30 API requests. |
 | D19 | Weekly full sweep | **Sundays**, delta harvest other days | |
 | D20 | State storage | **Git**, events-not-snapshots, monthly JSONL | Revisit at 50 MB. |
@@ -60,7 +60,7 @@ Date: 2026-08-15. Owner: Kedar.
 | D29 | Habit reinforcement | **`localStorage` streaks, viewed-issue history, personal working-on list** | Real return driver, zero backend, no accounts. |
 | D30 | Monetization | **None. Permanently out of scope.** No ads, no sponsorships, no job board, no paywall | Stated objective is reach. Ad surfaces cost trust and pageview quality, and this audience punishes them. |
 | D31 | Rejected DAU tactics | Notification prompts on first visit, artificial scarcity, infinite scroll with no done-state, engagement bait | Trust is the only asset; dark patterns spend it for a short-term metric bump. |
-| D32 | Analytics | **Cloudflare Web Analytics** | Free, privacy-preserving, no cookie banner (which itself protects conversion). |
+| D32 | Analytics | **Cloudflare Web Analytics** | Unchanged by the move to Vercel (D17): it is a script tag and works on any host. Kept over Vercel Web Analytics because Hobby caps that at 2,500 events/month, which this site would exhaust in a day. Free, unlimited, privacy-preserving, no cookie banner — which itself protects conversion. |
 | D33 | North-star metric | **Return-visitor %** (target ≥ 25% by month 6) | Pageviews can be bought with SEO; a daily habit can't. If the DAU surfaces aren't working, this shows it months before DAU does. |
 
 ## Process

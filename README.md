@@ -35,7 +35,7 @@ GitHub Actions cron (03:00 UTC)
   → score        five weighted dimensions → ranked board + "Today's 10"
   → emit         data/*.json + assertions (abort keeps yesterday's data live)
   → commit       the commit IS the publish step
-  → Cloudflare Pages rebuilds and deploys automatically
+  → Vercel rebuilds and deploys automatically
 ```
 
 Plus a **6-hourly revalidation** pass that re-checks only the listed issues (~30 requests)
@@ -95,4 +95,4 @@ afford, and that a nightly build can.
    return has to be designed in — a small, finite, different-today object, not an
    infinite list.
 
-Stack: Astro · Cloudflare Pages · GitHub Actions · no backend, no database, $0/month.
+Stack: zero-dependency static generator · Vercel · GitHub Actions · no backend, no database, $0/month.

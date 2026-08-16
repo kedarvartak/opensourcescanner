@@ -46,7 +46,7 @@ intervention.
 
 ## M2 — Site *(2 weeks)*
 
-**Astro** (D16), deployed to **Cloudflare Pages** (D17).
+A zero-dependency static generator (D16, revised), deployed to **Vercel** (D17, revised).
 
 - **"Today's 10"** homepage — the daily ritual object and primary DAU surface (D26)
 - **"New today"** diff feed with its own URL, feed, and nav count badge (D27)
@@ -58,7 +58,7 @@ intervention.
 - `/how-it-works` (live rejection histogram) and `/stats` (running totals) — doc 12 §5
 - Newsletter signup (Buttondown) + per-language RSS/JSON feeds (D28)
 - `localStorage` saved list with mandatory re-validation (D07)
-- Cloudflare Web Analytics (D32); freshness banner; perf budget enforced in CI
+- Cloudflare Web Analytics (D32 — a script tag, host-independent); freshness banner; perf budget enforced in CI
 
 **Gate:** 5-person usability test — time-to-first-useful-issue < 30s for ≥ 4 of 5, zero
 participants landing on an already-taken issue. Lighthouse SEO 100 on a sample of each
