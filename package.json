@@ -4,7 +4,9 @@
   "private": true,
   "type": "module",
   "description": "Open source issues that are actually still free. M0 measurement spike.",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "m0:harvest": "node m0/harvest.mjs",
     "m0:analyze": "node m0/analyze.mjs",
@@ -16,6 +18,7 @@
     "build": "node site/build.mjs",
     "refresh": "npm run harvest && npm run emit && npm run build",
     "dev": "node site/build.mjs && node site/serve.mjs",
-    "test": "node --test test/*.test.mjs"
+    "test": "node --test test/*.test.mjs",
+    "probe": "node m0/probe.mjs"
   }
 }

@@ -6,7 +6,7 @@
 // (docs/12 §2). Every page ships its issues as real HTML.
 
 import { readFile, writeFile, mkdir, cp, rm, readdir } from 'node:fs/promises'
-import { layout, esc, slug, ago, compactNum, ORIGIN } from './lib/html.mjs'
+import { layout, esc, slug, ago, compactNum, num, ORIGIN } from './lib/html.mjs'
 import { boardList, picksList, chips } from './lib/components.mjs'
 import { sieveSvg, sieveLegend, sieveBands } from './lib/sieve.mjs'
 
@@ -118,7 +118,7 @@ function homePage({ meta, issues, repos, facets }, picks) {
   const body = `
 <div class="scanline">
   <span>Scan ${scanDate}</span>
-  <span>${scanned.toLocaleString()} labelled issues · one square each</span>
+  <span>${num(scanned)} labelled issues · one square each</span>
 </div>
 ${sieveSvg(meta)}
 <div class="band">${sieveLegend(meta)}</div>
@@ -129,7 +129,7 @@ ${sieveSvg(meta)}
   <div class="right">
     <p class="lede">An issue with nobody assigned still isn’t yours if somebody already opened a
     pull request against it — and GitHub’s own filters won’t show you that. Of the
-    ${scanned.toLocaleString()} we read today, ${taken.toLocaleString()} were already being worked
+    ${num(scanned)} we read today, ${num(taken)} were already being worked
     on. We check every issue for a linked pull request, a live maintainer, and enough detail to
     start, then re-check the whole board every 24 hours.</p>
     <div class="actions">
@@ -340,7 +340,7 @@ function howItWorksPage({ meta }) {
 ${head({
     eyebrow: 'Method',
     title: 'How we decide what gets listed',
-    lede: `We scanned <strong>${meta.stats.candidatesScanned.toLocaleString()}</strong> issues carrying a beginner or help-wanted label and listed <strong>${meta.counts.issues.toLocaleString()}</strong>. Here is exactly what happened to the rest.`,
+    lede: `We scanned <strong>${num(meta.stats.candidatesScanned)}</strong> issues carrying a beginner or help-wanted label and listed <strong>${num(meta.counts.issues)}</strong>. Here is exactly what happened to the rest.`,
   })}
 
 ${sieveSvg(meta)}
@@ -353,7 +353,7 @@ ${sieveSvg(meta)}
   ${rows
     .map(
       ([g, c]) =>
-        `<tr${g === 'G2_takeability' ? ' class="is-taken"' : ''}><td>${esc(gateNames[g] ?? g)}</td><td>${c.toLocaleString()}</td></tr>`
+        `<tr${g === 'G2_takeability' ? ' class="is-taken"' : ''}><td>${esc(gateNames[g] ?? g)}</td><td>${num(c)}</td></tr>`
     )
     .join('')}
   </table></div>
@@ -412,14 +412,14 @@ ${head({
     lede: 'Updated with every refresh.',
   })}
 <div class="statgrid">
-  <div class="stat"><div class="n">${meta.stats.candidatesScanned.toLocaleString()}</div><div class="l">issues scanned</div></div>
-  <div class="stat hi"><div class="n">${meta.counts.issues.toLocaleString()}</div><div class="l">listed on the board</div></div>
+  <div class="stat"><div class="n">${num(meta.stats.candidatesScanned)}</div><div class="l">issues scanned</div></div>
+  <div class="stat hi"><div class="n">${num(meta.counts.issues)}</div><div class="l">listed on the board</div></div>
   <div class="stat"><div class="n">${(meta.stats.passRate * 100).toFixed(1)}%</div><div class="l">pass rate</div></div>
-  <div class="stat"><div class="n">${meta.counts.repos.toLocaleString()}</div><div class="l">projects</div></div>
+  <div class="stat"><div class="n">${num(meta.counts.repos)}</div><div class="l">projects</div></div>
   <div class="stat"><div class="n">${meta.counts.languages}</div><div class="l">languages</div></div>
-  <div class="stat"><div class="n">${uncrowded.toLocaleString()}</div><div class="l">with nobody circling</div></div>
-  <div class="stat"><div class="n">${withGuidance.toLocaleString()}</div><div class="l">maintainer left guidance</div></div>
-  <div class="stat"><div class="n">${responsive.toLocaleString()}</div><div class="l">repos replying within 3 days</div></div>
+  <div class="stat"><div class="n">${num(uncrowded)}</div><div class="l">with nobody circling</div></div>
+  <div class="stat"><div class="n">${num(withGuidance)}</div><div class="l">maintainer left guidance</div></div>
+  <div class="stat"><div class="n">${num(responsive)}</div><div class="l">repos replying within 3 days</div></div>
 </div>
 <div class="band"><div class="sec"><h2 class="title">Inventory by language</h2></div>${chips(facets.languages, (l) => `/${slug(l.k)}/`)}</div>
 `

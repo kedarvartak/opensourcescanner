@@ -13,6 +13,8 @@
 // Rendered as four <path> elements rather than 3,000 <rect>s: identical pixels,
 // four DOM nodes instead of three thousand, and ~4 KB brotli instead of ~40.
 
+import { num } from './html.mjs'
+
 /** Gates whose rejections are "this was never startable" rather than "taken". */
 const DIM_GATES = [
   'G3_repoViability',
@@ -84,7 +86,7 @@ export function sieveSvg(meta) {
   })
 
   return `<svg class="sieve" viewBox="0 0 ${COLS * PITCH - (PITCH - DOT)} ${rows * PITCH - (PITCH - DOT)}"
-  role="img" aria-label="${bands.map((b) => `${b.n.toLocaleString()} ${b.label}`).join(', ')}"
+  role="img" aria-label="${bands.map((b) => `${num(b.n)} ${b.label}`).join(', ')}"
   preserveAspectRatio="xMidYMid meet">${paths.join('')}</svg>`
 }
 
@@ -92,7 +94,7 @@ export function sieveSvg(meta) {
 export function sieveLegend(meta) {
   return `<ul class="legend">${sieveBands(meta)
     .map(
-      (b) => `<li class="lg-${b.key}"><b>${b.n.toLocaleString()}</b>
+      (b) => `<li class="lg-${b.key}"><b>${num(b.n)}</b>
     <span class="k">${b.label}</span><i>${b.hint}</i></li>`
     )
     .join('')}</ul>`

@@ -42,7 +42,7 @@ async function main() {
     const body = (issue.bodyText || '').replace(/\s+/g, ' ').slice(0, 220)
     return `### ${i + 1}. [${r.nameWithOwner}#${issue.number}](${issue.url})
 
-\`${r.primaryLanguage?.name ?? '?'}\` · ★${r.stargazerCount.toLocaleString()} · ${r.licenseInfo?.spdxId} · ${issue.comments.totalCount} comments · updated ${daysAgo(issue.updatedAt)}d ago
+\`${r.primaryLanguage?.name ?? '?'}\` · ★${r.stargazerCount.toLocaleString('en-US')} · ${r.licenseInfo?.spdxId} · ${issue.comments.totalCount} comments · updated ${daysAgo(issue.updatedAt)}d ago
 ${r.hasContributing ? '· has CONTRIBUTING' : ''}${r.recentAuthors != null ? ` · ${r.recentAuthors} committers/90d` : ''}
 
 **${issue.title}**

@@ -90,9 +90,9 @@ ${body}
 function footerStats(meta, root) {
   const s = meta.stats
   const taken = s.rejected?.G2_takeability ?? 0
-  return `<p class="rejected">We read ${s.candidatesScanned.toLocaleString()} issues.
-    <span class="took">${taken.toLocaleString()} were already taken.</span>
-    <span class="go">${meta.counts.issues.toLocaleString()} are yours.</span>
+  return `<p class="rejected">We read ${num(s.candidatesScanned)} issues.
+    <span class="took">${num(taken)} were already taken.</span>
+    <span class="go">${num(meta.counts.issues)} are yours.</span>
     <a href="${root}/how-it-works/">See how every one was checked &rarr;</a></p>`
 }
 
@@ -107,6 +107,15 @@ export function ago(unixSeconds) {
   const mo = Math.round(d / 30)
   return mo < 12 ? `${mo}mo ago` : `${Math.round(mo / 12)}y ago`
 }
+
+/**
+ * Thousands separators, pinned to en-US.
+ *
+ * Bare `toLocaleString()` follows the *build machine's* locale, so the same
+ * commit rendered "4,36,966" on a developer laptop and "436,966" on the build
+ * host. Page content must not depend on where it was generated.
+ */
+export const num = (n) => Number(n).toLocaleString('en-US')
 
 export const compactNum = (n) =>
   n >= 1000 ? `${(n / 1000).toFixed(n >= 10000 ? 0 : 1)}k` : String(n)

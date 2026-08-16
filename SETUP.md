@@ -6,22 +6,41 @@ Four steps. Everything else is automatic.
 
 ## 1. Create the harvest token (2 min)
 
-The pipeline needs more than the 1,000 req/hr that Actions' built-in `GITHUB_TOKEN`
-allows. Create a **fine-grained personal access token** with public-read access only:
+The pipeline needs more than the 60 req/hr an unauthenticated client gets, and more
+headroom than Actions' built-in `GITHUB_TOKEN`. It only ever reads public data.
 
-1. https://github.com/settings/personal-access-tokens/new
-2. Name: `unclaimed-harvest`
-3. Expiration: 1 year (calendar-reminder the rotation)
-4. Repository access: **Public repositories (read-only)**
-5. Permissions: leave defaults — public read is all we use
-6. Generate, copy the token
+**Use a classic token with no scopes ticked.** A classic PAT with zero scopes already
+grants read access to public repositories — including file contents, which the harvest
+needs for `CONTRIBUTING.md`, `README.md` and the `.github/workflows` tree — and it lifts
+the GraphQL ceiling to 5,000 points/hour. Ticking nothing is genuinely least-privilege:
+if it leaked, it could read only what any logged-out visitor can already read.
 
-Add it to the repo:
+1. https://github.com/settings/tokens/new
+2. Note: `oss-scanner-harvest`
+3. Expiration: 1 year (put the rotation in a calendar)
+4. **Leave every scope unchecked**
+5. Generate, copy the token
+
+Verify it before you store it:
+
+```bash
+GH_HARVEST_TOKEN=ghp_xxx npm run probe
+```
+
+That runs one real query and checks the four things that matter: authentication, search,
+the 5,000/hr ceiling, and **file-content reads** — the last being the one that silently
+degrades rather than failing loudly if the token is wrong.
+
+Then store it:
 
 ```bash
 gh secret set GH_HARVEST_TOKEN --repo kedarvartak/unclaimed
 # paste the token when prompted
 ```
+
+> A fine-grained PAT scoped to *Public repositories (read-only)* also works, and shows no
+> permission checkboxes — that is expected, not a mistake: GitHub fixes the permission set
+> for that option, so there is nothing to select. Run `npm run probe` either way.
 
 > The token only ever exists in CI. The browser makes **zero** GitHub API calls —
 > that's an architectural invariant, not a preference (docs/05 §8).
