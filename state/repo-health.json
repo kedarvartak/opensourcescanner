@@ -4717,5 +4717,93 @@
     "responseSamples": 3,
     "hasCI": true,
     "hasTests": false
+  },
+  "TryGhost/Ghost": {
+    "computedAt": "2026-08-17T04:16:29.578Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 1,
+    "mergedCount": 4,
+    "rottingPRs": 0,
+    "medianResponseHours": 18,
+    "responseSamples": 3,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "RoboSats/robosats": {
+    "computedAt": "2026-08-17T04:16:29.578Z",
+    "outsiderPRs": 7,
+    "outsiderMergeRate": 0.5714285714285714,
+    "mergedCount": 4,
+    "rottingPRs": 0,
+    "medianResponseHours": 13,
+    "responseSamples": 3,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "astrid-runtime/astrid": {
+    "computedAt": "2026-08-17T04:16:29.578Z",
+    "outsiderPRs": 0,
+    "outsiderMergeRate": null,
+    "mergedCount": 0,
+    "rottingPRs": 0,
+    "medianResponseHours": 7,
+    "responseSamples": 10,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "TeamNewPipe/NewPipe": {
+    "computedAt": "2026-08-17T04:16:29.578Z",
+    "outsiderPRs": 7,
+    "outsiderMergeRate": 0.5714285714285714,
+    "mergedCount": 4,
+    "rottingPRs": 0,
+    "medianResponseHours": 8,
+    "responseSamples": 11,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "authorjapps/zerocode": {
+    "computedAt": "2026-08-17T04:16:29.578Z",
+    "outsiderPRs": 5,
+    "outsiderMergeRate": 0.6,
+    "mergedCount": 3,
+    "rottingPRs": 0,
+    "medianResponseHours": 15,
+    "responseSamples": 21,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "chaudhary-lakshay/Password-Manager": {
+    "computedAt": "2026-08-17T04:16:29.578Z",
+    "outsiderPRs": 12,
+    "outsiderMergeRate": 0.6666666666666666,
+    "mergedCount": 8,
+    "rottingPRs": 0,
+    "medianResponseHours": 12,
+    "responseSamples": 15,
+    "hasCI": false,
+    "hasTests": false
+  },
+  "AcademySoftwareFoundation/rawtoaces": {
+    "computedAt": "2026-08-17T04:16:29.578Z",
+    "outsiderPRs": 24,
+    "outsiderMergeRate": 1,
+    "mergedCount": 24,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "ArcadeMakerSources/ArcadeMaker": {
+    "computedAt": "2026-08-17T04:16:29.578Z",
+    "outsiderPRs": 0,
+    "outsiderMergeRate": null,
+    "mergedCount": 0,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": false,
+    "hasTests": true
   }
 }
