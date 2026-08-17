@@ -849,3 +849,6 @@
 {"ts":1786980100,"k":"files-community/Files#18820","e":"dropped","why":"takeability: soft-claimed by XAN9xXx 0d ago"}
 {"ts":1786980100,"k":"azerothcore/azerothcore-wotlk#21589","e":"dropped","why":"relevance: 18mo old and quiet"}
 {"ts":1786980100,"k":"ohcnetwork/care_fe#14040","e":"dropped","why":"takeability: soft-claimed by Hanajannath 0d ago"}
+{"ts":1787001729,"k":"aethersdr/AetherSDR#5027","e":"dropped","why":"takeability: assigned"}
+{"ts":1787001729,"k":"anechunaev/notion-electron#103","e":"dropped","why":"closed"}
+{"ts":1787001729,"k":"LMMS/lmms#7842","e":"dropped","why":"takeability: open linked PR"}
