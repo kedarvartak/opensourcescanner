@@ -838,3 +838,10 @@
 {"ts":1786940189,"k":"tenstorrent/tt-metal#42916","e":"dropped","why":"not_in_board"}
 {"ts":1786940189,"k":"soran-ghaderi/torchebm#87","e":"dropped","why":"not_in_board"}
 {"ts":1786940189,"k":"linux-credentials/credentialsd#81","e":"dropped","why":"not_in_board"}
+{"ts":1786959415,"k":"bolshakov/stoplight#782","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1786959415,"k":"opensearch-project/k-NN#3505","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1786959415,"k":"WordPress/presence-api#291","e":"dropped","why":"closed"}
+{"ts":1786959415,"k":"authorjapps/zerocode#789","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1786959415,"k":"eclipse-jkube/jkube#3911","e":"dropped","why":"takeability: assigned"}
+{"ts":1786959415,"k":"pasqal-io/Pulser#848","e":"dropped","why":"takeability: assigned"}
+{"ts":1786959415,"k":"Higangssh/homebutler#17","e":"dropped","why":"closed"}
