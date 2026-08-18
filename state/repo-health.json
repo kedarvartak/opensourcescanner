@@ -4805,5 +4805,126 @@
     "responseSamples": 0,
     "hasCI": false,
     "hasTests": true
+  },
+  "openfga/openfga.dev": {
+    "computedAt": "2026-08-18T04:02:46.728Z",
+    "outsiderPRs": 21,
+    "outsiderMergeRate": 0.8571428571428571,
+    "mergedCount": 18,
+    "rottingPRs": 0,
+    "medianResponseHours": 12,
+    "responseSamples": 15,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "bluewave-labs/Checkmate": {
+    "computedAt": "2026-08-18T04:02:46.728Z",
+    "outsiderPRs": 7,
+    "outsiderMergeRate": 0.5714285714285714,
+    "mergedCount": 4,
+    "rottingPRs": 0,
+    "medianResponseHours": 199,
+    "responseSamples": 3,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "RailtownAI/railtracks": {
+    "computedAt": "2026-08-18T04:02:46.728Z",
+    "outsiderPRs": 5,
+    "outsiderMergeRate": 0.8,
+    "mergedCount": 4,
+    "rottingPRs": 0,
+    "medianResponseHours": 25,
+    "responseSamples": 9,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "unslothai/unsloth": {
+    "computedAt": "2026-08-18T04:02:46.728Z",
+    "outsiderPRs": 0,
+    "outsiderMergeRate": null,
+    "mergedCount": 0,
+    "rottingPRs": 0,
+    "medianResponseHours": 1,
+    "responseSamples": 17,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "CS-SI/eodag": {
+    "computedAt": "2026-08-18T04:02:46.728Z",
+    "outsiderPRs": 9,
+    "outsiderMergeRate": 0.8888888888888888,
+    "mergedCount": 8,
+    "rottingPRs": 0,
+    "medianResponseHours": 14,
+    "responseSamples": 4,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "cosmos/evm": {
+    "computedAt": "2026-08-18T04:02:46.728Z",
+    "outsiderPRs": 15,
+    "outsiderMergeRate": 0.6,
+    "mergedCount": 9,
+    "rottingPRs": 0,
+    "medianResponseHours": 26,
+    "responseSamples": 5,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "medik8s/self-node-remediation": {
+    "computedAt": "2026-08-18T04:02:46.728Z",
+    "outsiderPRs": 10,
+    "outsiderMergeRate": 0.7,
+    "mergedCount": 7,
+    "rottingPRs": 0,
+    "medianResponseHours": 19,
+    "responseSamples": 30,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "sphireinc/Foundry": {
+    "computedAt": "2026-08-18T04:02:46.728Z",
+    "outsiderPRs": 16,
+    "outsiderMergeRate": 0.9375,
+    "mergedCount": 15,
+    "rottingPRs": 0,
+    "medianResponseHours": 1727,
+    "responseSamples": 21,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "JabRef/jabref": {
+    "computedAt": "2026-08-18T04:02:46.728Z",
+    "outsiderPRs": 7,
+    "outsiderMergeRate": 0.7142857142857143,
+    "mergedCount": 5,
+    "rottingPRs": 0,
+    "medianResponseHours": 4,
+    "responseSamples": 24,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "terrakube-io/terrakube": {
+    "computedAt": "2026-08-18T04:02:46.728Z",
+    "outsiderPRs": 14,
+    "outsiderMergeRate": 1,
+    "mergedCount": 14,
+    "rottingPRs": 0,
+    "medianResponseHours": 1,
+    "responseSamples": 11,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "kestra-io/kestra": {
+    "computedAt": "2026-08-18T04:02:46.728Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 1,
+    "mergedCount": 4,
+    "rottingPRs": 0,
+    "medianResponseHours": 13,
+    "responseSamples": 8,
+    "hasCI": true,
+    "hasTests": true
   }
 }
