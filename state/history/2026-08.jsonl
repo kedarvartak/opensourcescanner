@@ -912,3 +912,9 @@
 {"ts":1787025766,"k":"VoltAgent/voltagent#143","e":"dropped","why":"not_in_board"}
 {"ts":1787025766,"k":"magemonkeystudio/fabled#1789","e":"dropped","why":"not_in_board"}
 {"ts":1787025766,"k":"ohcnetwork/care_fe#14040","e":"dropped","why":"not_in_board"}
+{"ts":1787045313,"k":"JabRef/jabref#16539","e":"dropped","why":"takeability: soft-claimed by thesauravpoddar 0d ago"}
+{"ts":1787045313,"k":"reshaprio/reshapr#295","e":"dropped","why":"takeability: merged linked PR (stale)"}
+{"ts":1787045313,"k":"PowerGridModel/power-grid-model#1464","e":"dropped","why":"takeability: assigned"}
+{"ts":1787045313,"k":"kestra-io/kestra#18164","e":"dropped","why":"takeability: assigned"}
+{"ts":1787045313,"k":"JabRef/jabref#16607","e":"dropped","why":"takeability: assigned"}
+{"ts":1787045313,"k":"grimmory-tools/grimmory#64","e":"dropped","why":"relevance: no activity in 120d"}
