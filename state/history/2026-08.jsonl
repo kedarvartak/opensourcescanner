@@ -918,3 +918,6 @@
 {"ts":1787045313,"k":"kestra-io/kestra#18164","e":"dropped","why":"takeability: assigned"}
 {"ts":1787045313,"k":"JabRef/jabref#16607","e":"dropped","why":"takeability: assigned"}
 {"ts":1787045313,"k":"grimmory-tools/grimmory#64","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1787066865,"k":"bolshakov/stoplight#745","e":"dropped","why":"closed"}
+{"ts":1787066865,"k":"saivedant169/AegisFlow#43","e":"dropped","why":"closed"}
+{"ts":1787066865,"k":"openfga/openfga.dev#1026","e":"dropped","why":"takeability: assigned"}
