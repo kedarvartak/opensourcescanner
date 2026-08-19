@@ -1002,3 +1002,6 @@
 {"ts":1787131891,"k":"kroxylicious/kroxylicious#3895","e":"dropped","why":"takeability: assigned"}
 {"ts":1787131891,"k":"cfu288/mere-medical#311","e":"dropped","why":"closed"}
 {"ts":1787131891,"k":"canton-network/wallet#1151","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787153251,"k":"ProjectMirador/mirador#4184","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787153251,"k":"agntcy/slim#1301","e":"dropped","why":"takeability: assigned"}
+{"ts":1787153251,"k":"hotosm/fAIr#370","e":"dropped","why":"relevance: no activity in 120d"}
