@@ -1005,3 +1005,8 @@
 {"ts":1787153251,"k":"ProjectMirador/mirador#4184","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1787153251,"k":"agntcy/slim#1301","e":"dropped","why":"takeability: assigned"}
 {"ts":1787153251,"k":"hotosm/fAIr#370","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1787174491,"k":"bolshakov/stoplight#743","e":"dropped","why":"takeability: assigned"}
+{"ts":1787174491,"k":"sablierapp/sablier#537","e":"dropped","why":"relevance: 18mo old and quiet"}
+{"ts":1787174491,"k":"flyteorg/flyte#6282","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1787174491,"k":"ArcadeMakerSources/ArcadeMaker#20","e":"dropped","why":"closed"}
+{"ts":1787174491,"k":"spiceai/spiceai#4869","e":"dropped","why":"relevance: 18mo old and quiet"}
