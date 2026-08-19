@@ -4926,5 +4926,170 @@
     "responseSamples": 8,
     "hasCI": true,
     "hasTests": true
+  },
+  "medplum/medplum": {
+    "computedAt": "2026-08-19T04:12:47.223Z",
+    "outsiderPRs": 5,
+    "outsiderMergeRate": 0.8,
+    "mergedCount": 4,
+    "rottingPRs": 0,
+    "medianResponseHours": 2,
+    "responseSamples": 6,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "karakeep-app/karakeep": {
+    "computedAt": "2026-08-19T04:12:47.223Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 0.25,
+    "mergedCount": 2,
+    "rottingPRs": 0,
+    "medianResponseHours": 2,
+    "responseSamples": 12,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "swisstopo/swissgeol-viewer-suite": {
+    "computedAt": "2026-08-19T04:12:47.223Z",
+    "outsiderPRs": 22,
+    "outsiderMergeRate": 1,
+    "mergedCount": 22,
+    "rottingPRs": 0,
+    "medianResponseHours": 14,
+    "responseSamples": 10,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "snowflakedb/terraform-provider-snowflake": {
+    "computedAt": "2026-08-19T04:12:47.223Z",
+    "outsiderPRs": 23,
+    "outsiderMergeRate": 0.7391304347826086,
+    "mergedCount": 17,
+    "rottingPRs": 0,
+    "medianResponseHours": 80,
+    "responseSamples": 10,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "jordigilh/kubernaut": {
+    "computedAt": "2026-08-19T04:12:47.223Z",
+    "outsiderPRs": 3,
+    "outsiderMergeRate": 0.3333333333333333,
+    "mergedCount": 1,
+    "rottingPRs": 0,
+    "medianResponseHours": 1,
+    "responseSamples": 5,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "kelos-dev/kelos": {
+    "computedAt": "2026-08-19T04:12:47.223Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 1,
+    "mergedCount": 4,
+    "rottingPRs": 0,
+    "medianResponseHours": 0,
+    "responseSamples": 20,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "SkriptLang/Skript": {
+    "computedAt": "2026-08-19T04:12:47.223Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 0.75,
+    "mergedCount": 3,
+    "rottingPRs": 0,
+    "medianResponseHours": 0,
+    "responseSamples": 15,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "devonfw/IDEasy": {
+    "computedAt": "2026-08-19T04:12:47.223Z",
+    "outsiderPRs": 7,
+    "outsiderMergeRate": 1,
+    "mergedCount": 7,
+    "rottingPRs": 0,
+    "medianResponseHours": 0,
+    "responseSamples": 26,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "kroxylicious/kroxylicious": {
+    "computedAt": "2026-08-19T04:12:47.223Z",
+    "outsiderPRs": 3,
+    "outsiderMergeRate": 1,
+    "mergedCount": 3,
+    "rottingPRs": 0,
+    "medianResponseHours": 3,
+    "responseSamples": 15,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "Murmele/Gittyup": {
+    "computedAt": "2026-08-19T04:12:47.223Z",
+    "outsiderPRs": 2,
+    "outsiderMergeRate": 1,
+    "mergedCount": 2,
+    "rottingPRs": 0,
+    "medianResponseHours": 27,
+    "responseSamples": 19,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "nunit/nunit-console": {
+    "computedAt": "2026-08-19T04:12:47.223Z",
+    "outsiderPRs": 0,
+    "outsiderMergeRate": null,
+    "mergedCount": 0,
+    "rottingPRs": 0,
+    "medianResponseHours": 518,
+    "responseSamples": 22,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "elabftw/elabftw": {
+    "computedAt": "2026-08-19T04:12:47.223Z",
+    "outsiderPRs": 23,
+    "outsiderMergeRate": 1,
+    "mergedCount": 23,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "jsonrainbow/json-schema": {
+    "computedAt": "2026-08-19T04:12:47.223Z",
+    "outsiderPRs": 11,
+    "outsiderMergeRate": 0.7272727272727273,
+    "mergedCount": 8,
+    "rottingPRs": 0,
+    "medianResponseHours": 4,
+    "responseSamples": 11,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "Submitty/Submitty": {
+    "computedAt": "2026-08-19T04:12:47.223Z",
+    "outsiderPRs": 14,
+    "outsiderMergeRate": 1,
+    "mergedCount": 14,
+    "rottingPRs": 0,
+    "medianResponseHours": 4,
+    "responseSamples": 7,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "krkn-chaos/krkn": {
+    "computedAt": "2026-08-19T04:12:47.223Z",
+    "outsiderPRs": 2,
+    "outsiderMergeRate": 0.5,
+    "mergedCount": 1,
+    "rottingPRs": 0,
+    "medianResponseHours": 9,
+    "responseSamples": 10,
+    "hasCI": true,
+    "hasTests": true
   }
 }
