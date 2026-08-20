@@ -1096,3 +1096,5 @@
 {"ts":1787218235,"k":"dalibo/cnpg-plugin-pgbackrest#72","e":"dropped","why":"gone"}
 {"ts":1787218235,"k":"canonical/mir#4159","e":"dropped","why":"takeability: assigned"}
 {"ts":1787239797,"k":"BetonQuest/BetonQuest#4240","e":"dropped","why":"closed"}
+{"ts":1787261060,"k":"GatherPress/gatherpress#2143","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787261060,"k":"Dispatcharr/Dispatcharr#330","e":"dropped","why":"takeability: merged linked PR (stale)"}
