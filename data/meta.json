@@ -3,7 +3,7 @@
   "generatedAt": "2026-08-20T04:06:35.376Z",
   "nextRefreshAt": "2026-08-21T04:06:35.376Z",
   "counts": {
-    "issues": 437,
+    "issues": 427,
     "repos": 310,
     "languages": 11
   },
@@ -15,7 +15,6 @@
     "cedarjs/cedar#21",
     "symfony/symfony#64478",
     "rustrak/rustrak#26",
-    "devonfw/IDEasy#2344",
     "DependencyTrack/dependency-track#4847",
     "open-cluster-management-io/argocd-pull-integration#191"
   ],
@@ -449,5 +448,6 @@
       "G1_structural": 14
     },
     "passRate": 0.1313
-  }
+  },
+  "revalidatedAt": "2026-08-20T09:30:35.306Z"
 }

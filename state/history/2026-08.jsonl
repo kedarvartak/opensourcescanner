@@ -1085,3 +1085,13 @@
 {"ts":1787198795,"k":"nion-software/nionswift#1644","e":"dropped","why":"not_in_board"}
 {"ts":1787198795,"k":"nion-software/nionswift#1494","e":"dropped","why":"not_in_board"}
 {"ts":1787198795,"k":"linux-credentials/credentialsd#81","e":"dropped","why":"not_in_board"}
+{"ts":1787218235,"k":"kestra-io/kestra#18289","e":"dropped","why":"takeability: assigned"}
+{"ts":1787218235,"k":"MudBlazor/MudBlazor#13646","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787218235,"k":"open-telemetry/opentelemetry-cpp#4456","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787218235,"k":"eclipse-score/baselibs#455","e":"dropped","why":"takeability: assigned"}
+{"ts":1787218235,"k":"devonfw/IDEasy#2344","e":"dropped","why":"takeability: assigned"}
+{"ts":1787218235,"k":"StarRocks/starrocks#77993","e":"dropped","why":"takeability: assigned"}
+{"ts":1787218235,"k":"suitenumerique/drive#108","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1787218235,"k":"suitenumerique/drive#27","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1787218235,"k":"dalibo/cnpg-plugin-pgbackrest#72","e":"dropped","why":"gone"}
+{"ts":1787218235,"k":"canonical/mir#4159","e":"dropped","why":"takeability: assigned"}
