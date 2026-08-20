@@ -5091,5 +5091,170 @@
     "responseSamples": 10,
     "hasCI": true,
     "hasTests": true
+  },
+  "google/site-kit-wp": {
+    "computedAt": "2026-08-20T04:06:35.616Z",
+    "outsiderPRs": 0,
+    "outsiderMergeRate": null,
+    "mergedCount": 0,
+    "rottingPRs": 0,
+    "medianResponseHours": 46,
+    "responseSamples": 6,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "finos/opengris-scaler": {
+    "computedAt": "2026-08-20T04:06:35.616Z",
+    "outsiderPRs": 18,
+    "outsiderMergeRate": 0.6666666666666666,
+    "mergedCount": 12,
+    "rottingPRs": 0,
+    "medianResponseHours": 35,
+    "responseSamples": 4,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "thomaspoignant/go-feature-flag": {
+    "computedAt": "2026-08-20T04:06:35.616Z",
+    "outsiderPRs": 18,
+    "outsiderMergeRate": 1,
+    "mergedCount": 18,
+    "rottingPRs": 0,
+    "medianResponseHours": 29,
+    "responseSamples": 8,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "DioxusLabs/dioxus": {
+    "computedAt": "2026-08-20T04:06:35.616Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 0.75,
+    "mergedCount": 3,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 2,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "ferrumc-rs/ferrumc": {
+    "computedAt": "2026-08-20T04:06:35.616Z",
+    "outsiderPRs": 10,
+    "outsiderMergeRate": 0.6,
+    "mergedCount": 6,
+    "rottingPRs": 1,
+    "medianResponseHours": 3,
+    "responseSamples": 8,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "arnica/depsguard": {
+    "computedAt": "2026-08-20T04:06:35.616Z",
+    "outsiderPRs": 16,
+    "outsiderMergeRate": 0.375,
+    "mergedCount": 6,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "OakLoaf/PluginUpdater": {
+    "computedAt": "2026-08-20T04:06:35.616Z",
+    "outsiderPRs": 19,
+    "outsiderMergeRate": 0.9473684210526315,
+    "mergedCount": 18,
+    "rottingPRs": 0,
+    "medianResponseHours": 2,
+    "responseSamples": 17,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "StarRocks/starrocks": {
+    "computedAt": "2026-08-20T04:06:35.616Z",
+    "outsiderPRs": 10,
+    "outsiderMergeRate": 0.5,
+    "mergedCount": 5,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "canonical/mir": {
+    "computedAt": "2026-08-20T04:06:35.616Z",
+    "outsiderPRs": 13,
+    "outsiderMergeRate": 0.7692307692307693,
+    "mergedCount": 10,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "ymir-emu/Ymir": {
+    "computedAt": "2026-08-20T04:06:35.616Z",
+    "outsiderPRs": 18,
+    "outsiderMergeRate": 0.8333333333333334,
+    "mergedCount": 15,
+    "rottingPRs": 0,
+    "medianResponseHours": 1,
+    "responseSamples": 31,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "open-telemetry/opentelemetry-cpp": {
+    "computedAt": "2026-08-20T04:06:35.616Z",
+    "outsiderPRs": 9,
+    "outsiderMergeRate": 0.7777777777777778,
+    "mergedCount": 7,
+    "rottingPRs": 0,
+    "medianResponseHours": 7,
+    "responseSamples": 11,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "LadybugDB/ladybug": {
+    "computedAt": "2026-08-20T04:06:35.616Z",
+    "outsiderPRs": 25,
+    "outsiderMergeRate": 0.92,
+    "mergedCount": 23,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "Nemirtingas/ingame_overlay": {
+    "computedAt": "2026-08-20T04:06:35.616Z",
+    "outsiderPRs": 3,
+    "outsiderMergeRate": 1,
+    "mergedCount": 3,
+    "rottingPRs": 0,
+    "medianResponseHours": 3,
+    "responseSamples": 12,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "stan-dev/math": {
+    "computedAt": "2026-08-20T04:06:35.616Z",
+    "outsiderPRs": 6,
+    "outsiderMergeRate": 1,
+    "mergedCount": 6,
+    "rottingPRs": 0,
+    "medianResponseHours": 10,
+    "responseSamples": 32,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "MudBlazor/MudBlazor": {
+    "computedAt": "2026-08-20T04:06:35.616Z",
+    "outsiderPRs": 17,
+    "outsiderMergeRate": 0.6470588235294118,
+    "mergedCount": 11,
+    "rottingPRs": 0,
+    "medianResponseHours": 6,
+    "responseSamples": 19,
+    "hasCI": true,
+    "hasTests": false
   }
 }
