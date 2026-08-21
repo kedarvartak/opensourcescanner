@@ -1171,3 +1171,10 @@
 {"ts":1787285413,"k":"cadeyrn/enterprise-policy-generator#326","e":"dropped","why":"not_in_board"}
 {"ts":1787285413,"k":"dalibo/cnpg-plugin-pgbackrest#72","e":"dropped","why":"not_in_board"}
 {"ts":1787285413,"k":"canonical/mir#4159","e":"dropped","why":"not_in_board"}
+{"ts":1787304768,"k":"serenedb/serenedb#998","e":"dropped","why":"takeability: assigned"}
+{"ts":1787304768,"k":"jsonrainbow/json-schema#937","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787304768,"k":"elabftw/elabftw#6733","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787304768,"k":"microsoft/aspire#19553","e":"dropped","why":"takeability: assigned"}
+{"ts":1787304768,"k":"camunda/camunda-modeler#5664","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1787304768,"k":"suitenumerique/drive#342","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1787304768,"k":"nanvix/nanvix#820","e":"dropped","why":"relevance: no activity in 120d"}
