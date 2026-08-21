@@ -5256,5 +5256,126 @@
     "responseSamples": 19,
     "hasCI": true,
     "hasTests": false
+  },
+  "OrangeJuiceExtension/OrangeJuice": {
+    "computedAt": "2026-08-21T04:10:14.241Z",
+    "outsiderPRs": 1,
+    "outsiderMergeRate": 1,
+    "mergedCount": 1,
+    "rottingPRs": 0,
+    "medianResponseHours": 2,
+    "responseSamples": 18,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "sktime/sktime": {
+    "computedAt": "2026-08-21T04:10:14.241Z",
+    "outsiderPRs": 2,
+    "outsiderMergeRate": 1,
+    "mergedCount": 2,
+    "rottingPRs": 0,
+    "medianResponseHours": 15,
+    "responseSamples": 9,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "syngit-org/syngit": {
+    "computedAt": "2026-08-21T04:10:14.241Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 0.625,
+    "mergedCount": 5,
+    "rottingPRs": 0,
+    "medianResponseHours": 8,
+    "responseSamples": 5,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "kubeflow/trainer": {
+    "computedAt": "2026-08-21T04:10:14.241Z",
+    "outsiderPRs": 10,
+    "outsiderMergeRate": 1,
+    "mergedCount": 10,
+    "rottingPRs": 0,
+    "medianResponseHours": 69,
+    "responseSamples": 21,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "uutils/procps": {
+    "computedAt": "2026-08-21T04:10:14.241Z",
+    "outsiderPRs": 23,
+    "outsiderMergeRate": 0.9130434782608695,
+    "mergedCount": 21,
+    "rottingPRs": 0,
+    "medianResponseHours": 41,
+    "responseSamples": 4,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "hiero-ledger/hiero-sdk-rust": {
+    "computedAt": "2026-08-21T04:10:14.241Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 0.375,
+    "mergedCount": 3,
+    "rottingPRs": 2,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "hexlet-volunteers/hexlet-cv": {
+    "computedAt": "2026-08-21T04:10:14.241Z",
+    "outsiderPRs": 14,
+    "outsiderMergeRate": 0.7857142857142857,
+    "mergedCount": 11,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "uxlfoundation/oneDAL": {
+    "computedAt": "2026-08-21T04:10:14.241Z",
+    "outsiderPRs": 12,
+    "outsiderMergeRate": 0.5833333333333334,
+    "mergedCount": 7,
+    "rottingPRs": 0,
+    "medianResponseHours": 3,
+    "responseSamples": 3,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "drogonframework/drogon": {
+    "computedAt": "2026-08-21T04:10:14.241Z",
+    "outsiderPRs": 14,
+    "outsiderMergeRate": 0.9285714285714286,
+    "mergedCount": 13,
+    "rottingPRs": 0,
+    "medianResponseHours": 89,
+    "responseSamples": 9,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "ikhsan3adi/absensi-sekolah-qr-code": {
+    "computedAt": "2026-08-21T04:10:14.241Z",
+    "outsiderPRs": 9,
+    "outsiderMergeRate": 0.6666666666666666,
+    "mergedCount": 6,
+    "rottingPRs": 0,
+    "medianResponseHours": 19,
+    "responseSamples": 18,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "mohammedelkarsh/laravel-tenant-kit": {
+    "computedAt": "2026-08-21T04:10:14.241Z",
+    "outsiderPRs": 2,
+    "outsiderMergeRate": 1,
+    "mergedCount": 2,
+    "rottingPRs": 0,
+    "medianResponseHours": 861,
+    "responseSamples": 3,
+    "hasCI": true,
+    "hasTests": true
   }
 }
