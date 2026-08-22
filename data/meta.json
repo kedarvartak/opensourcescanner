@@ -3,7 +3,7 @@
   "generatedAt": "2026-08-22T04:09:54.274Z",
   "nextRefreshAt": "2026-08-23T04:09:54.274Z",
   "counts": {
-    "issues": 440,
+    "issues": 435,
     "repos": 309,
     "languages": 11
   },
@@ -16,8 +16,7 @@
     "opendatahub-io/notebooks#1040",
     "FreeCAD/FreeCAD#22995",
     "packit/ogr#895",
-    "pulumi/pulumi-awsx#1743",
-    "jsonrainbow/json-schema#929"
+    "pulumi/pulumi-awsx#1743"
   ],
   "shards": {
     "issues": [
@@ -461,5 +460,6 @@
       "G1_structural": 21
     },
     "passRate": 0.131
-  }
+  },
+  "revalidatedAt": "2026-08-22T09:23:20.153Z"
 }

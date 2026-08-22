@@ -1249,3 +1249,8 @@
 {"ts":1787371794,"k":"Goldziher/interface-forge#65","e":"dropped","why":"not_in_board"}
 {"ts":1787371794,"k":"karakeep-app/karakeep#2364","e":"dropped","why":"not_in_board"}
 {"ts":1787371794,"k":"ytsaurus/ytsaurus#1401","e":"dropped","why":"not_in_board"}
+{"ts":1787390600,"k":"bolshakov/stoplight#774","e":"dropped","why":"closed"}
+{"ts":1787390600,"k":"kestra-io/kestra#18408","e":"dropped","why":"takeability: soft-claimed by jjj-n 0d ago"}
+{"ts":1787390600,"k":"jsonrainbow/json-schema#929","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787390600,"k":"falconry/falcon#2525","e":"dropped","why":"takeability: soft-claimed by vidurdvr 0d ago"}
+{"ts":1787390600,"k":"grafana/scenes#1161","e":"dropped","why":"relevance: no activity in 120d"}
