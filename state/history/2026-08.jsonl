@@ -1259,3 +1259,5 @@
 {"ts":1787411814,"k":"spring-ai-alibaba/DataAgent#469","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1787411814,"k":"nuxt/fonts#791","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1787411814,"k":"linux-credentials/credentialsd#145","e":"dropped","why":"closed"}
+{"ts":1787433501,"k":"orcasound/orcahello#608","e":"dropped","why":"takeability: assigned"}
+{"ts":1787433501,"k":"marceld23/BlocksBeyondTheStars#575","e":"dropped","why":"takeability: merged linked PR (stale)"}
