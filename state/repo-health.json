@@ -5542,5 +5542,93 @@
     "responseSamples": 5,
     "hasCI": true,
     "hasTests": false
+  },
+  "grafana/grafana": {
+    "computedAt": "2026-08-23T04:18:12.916Z",
+    "outsiderPRs": 1,
+    "outsiderMergeRate": 1,
+    "mergedCount": 1,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "civic-dashboard/civic-dashboard-web": {
+    "computedAt": "2026-08-23T04:18:12.916Z",
+    "outsiderPRs": 19,
+    "outsiderMergeRate": 0.8421052631578947,
+    "mergedCount": 16,
+    "rottingPRs": 0,
+    "medianResponseHours": 9,
+    "responseSamples": 5,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "seapear/AffinityOnLinux": {
+    "computedAt": "2026-08-23T04:18:12.916Z",
+    "outsiderPRs": 23,
+    "outsiderMergeRate": 0.8695652173913043,
+    "mergedCount": 20,
+    "rottingPRs": 0,
+    "medianResponseHours": 253,
+    "responseSamples": 30,
+    "hasCI": false,
+    "hasTests": false
+  },
+  "rohaquinlop/complexipy": {
+    "computedAt": "2026-08-23T04:18:12.916Z",
+    "outsiderPRs": 3,
+    "outsiderMergeRate": 1,
+    "mergedCount": 3,
+    "rottingPRs": 0,
+    "medianResponseHours": 57,
+    "responseSamples": 8,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "teamtype/teamtype": {
+    "computedAt": "2026-08-23T04:18:12.916Z",
+    "outsiderPRs": 6,
+    "outsiderMergeRate": 0.16666666666666666,
+    "mergedCount": 1,
+    "rottingPRs": 0,
+    "medianResponseHours": 23,
+    "responseSamples": 22,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "FindFirst-Development/FindFirst-core": {
+    "computedAt": "2026-08-23T04:18:12.916Z",
+    "outsiderPRs": 24,
+    "outsiderMergeRate": 0.8333333333333334,
+    "mergedCount": 20,
+    "rottingPRs": 0,
+    "medianResponseHours": 136,
+    "responseSamples": 16,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "dotnet/Silk.NET": {
+    "computedAt": "2026-08-23T04:18:12.916Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 1,
+    "mergedCount": 4,
+    "rottingPRs": 0,
+    "medianResponseHours": 152,
+    "responseSamples": 18,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "jetrockets/jet_ui": {
+    "computedAt": "2026-08-23T04:18:12.916Z",
+    "outsiderPRs": 3,
+    "outsiderMergeRate": 0.6666666666666666,
+    "mergedCount": 2,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 2,
+    "hasCI": true,
+    "hasTests": true
   }
 }
