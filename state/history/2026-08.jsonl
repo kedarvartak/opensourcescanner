@@ -1318,3 +1318,5 @@
 {"ts":1787477049,"k":"apache/gravitino#12566","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1787477049,"k":"kubeflow/trainer#3120","e":"dropped","why":"takeability: soft-claimed by Narwhal-fish 0d ago"}
 {"ts":1787477049,"k":"Azure/LogicAppsUX#8559","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787498292,"k":"logisim-evolution/logisim-evolution#2877","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787498292,"k":"Higangssh/homebutler#19","e":"dropped","why":"takeability: merged linked PR (stale)"}
