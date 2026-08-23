@@ -1311,3 +1311,10 @@
 {"ts":1787458692,"k":"grafana/scenes#1161","e":"dropped","why":"not_in_board"}
 {"ts":1787458692,"k":"nuxt/fonts#791","e":"dropped","why":"not_in_board"}
 {"ts":1787458692,"k":"linux-credentials/credentialsd#145","e":"dropped","why":"not_in_board"}
+{"ts":1787477049,"k":"bolshakov/stoplight#885","e":"dropped","why":"takeability: assigned"}
+{"ts":1787477049,"k":"google/site-kit-wp#10832","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787477049,"k":"fivetran/great_expectations#11065","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787477049,"k":"Submitty/Submitty#13185","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787477049,"k":"apache/gravitino#12566","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787477049,"k":"kubeflow/trainer#3120","e":"dropped","why":"takeability: soft-claimed by Narwhal-fish 0d ago"}
+{"ts":1787477049,"k":"Azure/LogicAppsUX#8559","e":"dropped","why":"takeability: open linked PR"}
