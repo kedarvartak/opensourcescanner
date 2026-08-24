@@ -1371,3 +1371,7 @@
 {"ts":1787544825,"k":"karakeep-app/karakeep#2364","e":"dropped","why":"not_in_board"}
 {"ts":1787544825,"k":"zen-browser/desktop#13020","e":"dropped","why":"not_in_board"}
 {"ts":1787544825,"k":"ch32-rs/ch32-hal#128","e":"dropped","why":"not_in_board"}
+{"ts":1787564591,"k":"kroxylicious/kroxylicious#3784","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787564591,"k":"cel-rust/cel-rust#284","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787564591,"k":"symfony/symfony#65611","e":"dropped","why":"closed"}
+{"ts":1787564591,"k":"symfony/symfony#65610","e":"dropped","why":"closed"}
