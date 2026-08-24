@@ -1377,3 +1377,7 @@
 {"ts":1787564591,"k":"symfony/symfony#65610","e":"dropped","why":"closed"}
 {"ts":1787585752,"k":"reshaprio/reshapr#319","e":"dropped","why":"closed"}
 {"ts":1787585752,"k":"symfony/symfony#65566","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787606717,"k":"marceld23/BlocksBeyondTheStars#1200","e":"dropped","why":"closed"}
+{"ts":1787606717,"k":"FreeCAD/FreeCAD#32133","e":"dropped","why":"closed"}
+{"ts":1787606717,"k":"finos/opengris-scaler#366","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787606717,"k":"nunit/nunit-console#1838","e":"dropped","why":"takeability: assigned"}
