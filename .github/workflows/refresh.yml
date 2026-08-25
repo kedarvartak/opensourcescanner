@@ -70,6 +70,7 @@ jobs:
             echo "No data change"
           else
             git commit -m "data: refresh $(date -u +%Y-%m-%d)"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
             git push
           fi
 
