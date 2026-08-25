@@ -82,10 +82,33 @@ export class GitHubClient {
       }
 
       if (!res.ok) {
-        throw new Error(`GitHub ${res.status}: ${(await res.text()).slice(0, 400)}`)
+        let bodyText = ''
+        try {
+          bodyText = await res.text()
+        } catch (err) {
+          if (isTransientNetworkError(err)) {
+            if (attempt === retries) throw new Error(`Network: ${err.message}`)
+            console.warn(`  ⚠  network error (${err.message}); retrying`)
+            await sleep(backoffMs(attempt))
+            continue
+          }
+          throw err
+        }
+        throw new Error(`GitHub ${res.status}: ${bodyText.slice(0, 400)}`)
       }
 
-      const body = await res.json()
+      let body
+      try {
+        body = await res.json()
+      } catch (err) {
+        if (isTransientNetworkError(err)) {
+          if (attempt === retries) throw new Error(`Network: ${err.message}`)
+          console.warn(`  ⚠  network error (${err.message}); retrying`)
+          await sleep(backoffMs(attempt))
+          continue
+        }
+        throw err
+      }
 
       if (body.errors?.length) {
         const messages = body.errors.map((e) => e.message).join('; ')
@@ -146,4 +169,9 @@ export class GitHubClient {
 
 function backoffMs(attempt) {
   return Math.min(60_000, 1000 * 2 ** attempt)
+}
+
+function isTransientNetworkError(err) {
+  if (!(err instanceof Error)) return false
+  return /terminated|fetch failed|socket|timed? out|econnreset/i.test(err.message)
 }
