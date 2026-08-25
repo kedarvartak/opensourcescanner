@@ -1393,3 +1393,7 @@
 {"ts":1787672323,"k":"kelos-dev/kelos#199","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1787672323,"k":"mgechev/revive#1647","e":"dropped","why":"takeability: assigned"}
 {"ts":1787672323,"k":"MapsHD/HDMapping#480","e":"dropped","why":"closed"}
+{"ts":1787693050,"k":"bolshakov/stoplight#883","e":"dropped","why":"takeability: assigned"}
+{"ts":1787693050,"k":"OpenRailAssociation/netzgrafik-editor-frontend#1223","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787693050,"k":"logisim-evolution/logisim-evolution#2890","e":"dropped","why":"takeability: assigned"}
+{"ts":1787693050,"k":"grimmory-tools/grimmory#106","e":"dropped","why":"relevance: no activity in 120d"}
