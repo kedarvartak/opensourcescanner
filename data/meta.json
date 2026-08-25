@@ -3,7 +3,7 @@
   "generatedAt": "2026-08-24T04:13:45.182Z",
   "nextRefreshAt": "2026-08-25T04:13:45.182Z",
   "counts": {
-    "issues": 420,
+    "issues": 411,
     "repos": 302,
     "languages": 11
   },
@@ -11,7 +11,6 @@
     "sgl-project/sglang#8174",
     "dalibo/pev2#704",
     "astrid-runtime/astrid#459",
-    "orcasound/orcahello#621",
     "Dev-Card/DevCard#691",
     "hotosm/drone-tm#554",
     "oppia/oppia#23452",
@@ -431,5 +430,5 @@
     },
     "passRate": 0.1355
   },
-  "revalidatedAt": "2026-08-24T21:25:17.933Z"
+  "revalidatedAt": "2026-08-25T09:31:52.607Z"
 }
