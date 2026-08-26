@@ -1492,3 +1492,7 @@
 {"ts":1787736995,"k":"hackforla/tdm-calculator#3029","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1787736995,"k":"elastic/terraform-provider-elasticstack#1251","e":"dropped","why":"closed"}
 {"ts":1787736995,"k":"Chakyl/society-sunlit-valley#139","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1787760905,"k":"az-digital/az_quickstart#5917","e":"dropped","why":"takeability: assigned"}
+{"ts":1787760905,"k":"symfony/symfony#65564","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787760905,"k":"apache/iceberg#15916","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787760905,"k":"nautobot/nautobot#7145","e":"dropped","why":"takeability: open linked PR"}
