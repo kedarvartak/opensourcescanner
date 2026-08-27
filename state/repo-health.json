@@ -2255,13 +2255,13 @@
     "hasTests": false
   },
   "medic/cht-core": {
-    "computedAt": "2026-08-14T20:00:12.543Z",
-    "outsiderPRs": 18,
+    "computedAt": "2026-08-27T14:07:55.609Z",
+    "outsiderPRs": 9,
     "outsiderMergeRate": 1,
-    "mergedCount": 18,
+    "mergedCount": 9,
     "rottingPRs": 0,
-    "medianResponseHours": 58,
-    "responseSamples": 8,
+    "medianResponseHours": 13,
+    "responseSamples": 5,
     "hasCI": true,
     "hasTests": true
   },
@@ -4037,13 +4037,13 @@
     "hasTests": false
   },
   "trinodb/trino": {
-    "computedAt": "2026-08-16T10:34:07.104Z",
+    "computedAt": "2026-08-27T14:07:55.609Z",
     "outsiderPRs": 7,
-    "outsiderMergeRate": 0.5714285714285714,
-    "mergedCount": 4,
+    "outsiderMergeRate": 0.7142857142857143,
+    "mergedCount": 5,
     "rottingPRs": 0,
-    "medianResponseHours": 5,
-    "responseSamples": 9,
+    "medianResponseHours": 1,
+    "responseSamples": 7,
     "hasCI": true,
     "hasTests": false
   },
@@ -4125,13 +4125,13 @@
     "hasTests": false
   },
   "Minestom/Minestom": {
-    "computedAt": "2026-08-16T10:34:07.104Z",
-    "outsiderPRs": 9,
-    "outsiderMergeRate": 0.7777777777777778,
+    "computedAt": "2026-08-27T14:07:55.609Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 0.875,
     "mergedCount": 7,
     "rottingPRs": 0,
     "medianResponseHours": 19,
-    "responseSamples": 4,
+    "responseSamples": 6,
     "hasCI": true,
     "hasTests": false
   },
@@ -4169,12 +4169,12 @@
     "hasTests": false
   },
   "opensearch-project/k-NN": {
-    "computedAt": "2026-08-16T10:34:07.104Z",
-    "outsiderPRs": 5,
-    "outsiderMergeRate": 0.8,
-    "mergedCount": 4,
+    "computedAt": "2026-08-27T14:07:55.609Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 0.75,
+    "mergedCount": 6,
     "rottingPRs": 0,
-    "medianResponseHours": 1,
+    "medianResponseHours": 40,
     "responseSamples": 9,
     "hasCI": true,
     "hasTests": false
@@ -4191,7 +4191,7 @@
     "hasTests": false
   },
   "4drian3d/SignedVelocity": {
-    "computedAt": "2026-08-16T10:34:07.104Z",
+    "computedAt": "2026-08-27T14:07:55.609Z",
     "outsiderPRs": 20,
     "outsiderMergeRate": 0.95,
     "mergedCount": 19,
@@ -5049,13 +5049,13 @@
     "hasTests": false
   },
   "elabftw/elabftw": {
-    "computedAt": "2026-08-19T04:12:47.223Z",
-    "outsiderPRs": 23,
-    "outsiderMergeRate": 1,
-    "mergedCount": 23,
+    "computedAt": "2026-08-27T14:07:55.609Z",
+    "outsiderPRs": 22,
+    "outsiderMergeRate": 0.9545454545454546,
+    "mergedCount": 21,
     "rottingPRs": 0,
-    "medianResponseHours": null,
-    "responseSamples": 0,
+    "medianResponseHours": 24,
+    "responseSamples": 3,
     "hasCI": true,
     "hasTests": true
   },
@@ -5104,21 +5104,21 @@
     "hasTests": true
   },
   "finos/opengris-scaler": {
-    "computedAt": "2026-08-20T04:06:35.616Z",
-    "outsiderPRs": 18,
-    "outsiderMergeRate": 0.6666666666666666,
-    "mergedCount": 12,
+    "computedAt": "2026-08-27T14:07:55.609Z",
+    "outsiderPRs": 16,
+    "outsiderMergeRate": 0.5625,
+    "mergedCount": 9,
     "rottingPRs": 0,
-    "medianResponseHours": 35,
-    "responseSamples": 4,
+    "medianResponseHours": 17,
+    "responseSamples": 3,
     "hasCI": true,
     "hasTests": true
   },
   "thomaspoignant/go-feature-flag": {
-    "computedAt": "2026-08-20T04:06:35.616Z",
-    "outsiderPRs": 18,
-    "outsiderMergeRate": 1,
-    "mergedCount": 18,
+    "computedAt": "2026-08-27T14:07:55.609Z",
+    "outsiderPRs": 1,
+    "outsiderMergeRate": 0,
+    "mergedCount": 0,
     "rottingPRs": 0,
     "medianResponseHours": 29,
     "responseSamples": 8,
@@ -5126,10 +5126,10 @@
     "hasTests": false
   },
   "DioxusLabs/dioxus": {
-    "computedAt": "2026-08-20T04:06:35.616Z",
-    "outsiderPRs": 4,
-    "outsiderMergeRate": 0.75,
-    "mergedCount": 3,
+    "computedAt": "2026-08-27T14:07:55.609Z",
+    "outsiderPRs": 3,
+    "outsiderMergeRate": 0.6666666666666666,
+    "mergedCount": 2,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 2,
@@ -5148,9 +5148,9 @@
     "hasTests": false
   },
   "arnica/depsguard": {
-    "computedAt": "2026-08-20T04:06:35.616Z",
-    "outsiderPRs": 16,
-    "outsiderMergeRate": 0.375,
+    "computedAt": "2026-08-27T14:07:55.609Z",
+    "outsiderPRs": 17,
+    "outsiderMergeRate": 0.35294117647058826,
     "mergedCount": 6,
     "rottingPRs": 0,
     "medianResponseHours": null,
@@ -5159,12 +5159,12 @@
     "hasTests": true
   },
   "OakLoaf/PluginUpdater": {
-    "computedAt": "2026-08-20T04:06:35.616Z",
-    "outsiderPRs": 19,
-    "outsiderMergeRate": 0.9473684210526315,
-    "mergedCount": 18,
+    "computedAt": "2026-08-27T14:07:55.609Z",
+    "outsiderPRs": 18,
+    "outsiderMergeRate": 0.9444444444444444,
+    "mergedCount": 17,
     "rottingPRs": 0,
-    "medianResponseHours": 2,
+    "medianResponseHours": 4,
     "responseSamples": 17,
     "hasCI": true,
     "hasTests": true
@@ -5225,24 +5225,24 @@
     "hasTests": true
   },
   "Nemirtingas/ingame_overlay": {
-    "computedAt": "2026-08-20T04:06:35.616Z",
+    "computedAt": "2026-08-27T14:07:55.609Z",
     "outsiderPRs": 3,
     "outsiderMergeRate": 1,
     "mergedCount": 3,
     "rottingPRs": 0,
-    "medianResponseHours": 3,
-    "responseSamples": 12,
+    "medianResponseHours": 5,
+    "responseSamples": 13,
     "hasCI": true,
     "hasTests": true
   },
   "stan-dev/math": {
-    "computedAt": "2026-08-20T04:06:35.616Z",
-    "outsiderPRs": 6,
-    "outsiderMergeRate": 1,
-    "mergedCount": 6,
+    "computedAt": "2026-08-27T14:07:55.609Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 0.5,
+    "mergedCount": 4,
     "rottingPRs": 0,
-    "medianResponseHours": 10,
-    "responseSamples": 32,
+    "medianResponseHours": 12,
+    "responseSamples": 35,
     "hasCI": true,
     "hasTests": true
   },
@@ -5828,5 +5828,137 @@
     "responseSamples": 12,
     "hasCI": false,
     "hasTests": true
+  },
+  "get-convex/templates": {
+    "computedAt": "2026-08-27T14:07:55.609Z",
+    "outsiderPRs": 17,
+    "outsiderMergeRate": 0.8235294117647058,
+    "mergedCount": 14,
+    "rottingPRs": 0,
+    "medianResponseHours": 42,
+    "responseSamples": 8,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "silexlabs/Silex": {
+    "computedAt": "2026-08-27T14:07:55.609Z",
+    "outsiderPRs": 3,
+    "outsiderMergeRate": 1,
+    "mergedCount": 3,
+    "rottingPRs": 0,
+    "medianResponseHours": 27,
+    "responseSamples": 18,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "openfrontio/OpenFrontIO": {
+    "computedAt": "2026-08-27T14:07:55.609Z",
+    "outsiderPRs": 6,
+    "outsiderMergeRate": 0.6666666666666666,
+    "mergedCount": 4,
+    "rottingPRs": 0,
+    "medianResponseHours": 0,
+    "responseSamples": 12,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "mozilla/neqo": {
+    "computedAt": "2026-08-27T14:07:55.609Z",
+    "outsiderPRs": 0,
+    "outsiderMergeRate": null,
+    "mergedCount": 0,
+    "rottingPRs": 0,
+    "medianResponseHours": 5,
+    "responseSamples": 12,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "GraphiteEditor/Graphite": {
+    "computedAt": "2026-08-27T14:07:55.609Z",
+    "outsiderPRs": 6,
+    "outsiderMergeRate": 0,
+    "mergedCount": 0,
+    "rottingPRs": 0,
+    "medianResponseHours": 1,
+    "responseSamples": 9,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "prefix-dev/pixi": {
+    "computedAt": "2026-08-27T14:07:55.609Z",
+    "outsiderPRs": 20,
+    "outsiderMergeRate": 0.9,
+    "mergedCount": 18,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "temporalio/sdk-rust": {
+    "computedAt": "2026-08-27T14:07:55.609Z",
+    "outsiderPRs": 9,
+    "outsiderMergeRate": 1,
+    "mergedCount": 9,
+    "rottingPRs": 0,
+    "medianResponseHours": 17,
+    "responseSamples": 6,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "VanceVagell/kv4p-ht": {
+    "computedAt": "2026-08-27T14:07:55.609Z",
+    "outsiderPRs": 3,
+    "outsiderMergeRate": 0.6666666666666666,
+    "mergedCount": 2,
+    "rottingPRs": 0,
+    "medianResponseHours": 36,
+    "responseSamples": 23,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "eclipse-edc/Samples": {
+    "computedAt": "2026-08-27T14:07:55.609Z",
+    "outsiderPRs": 23,
+    "outsiderMergeRate": 0.8260869565217391,
+    "mergedCount": 19,
+    "rottingPRs": 0,
+    "medianResponseHours": 50,
+    "responseSamples": 7,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "MRtrix3/mrtrix3": {
+    "computedAt": "2026-08-27T14:07:55.609Z",
+    "outsiderPRs": 0,
+    "outsiderMergeRate": null,
+    "mergedCount": 0,
+    "rottingPRs": 0,
+    "medianResponseHours": 32,
+    "responseSamples": 11,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "caura-ai/caura": {
+    "computedAt": "2026-08-27T14:07:55.609Z",
+    "outsiderPRs": 18,
+    "outsiderMergeRate": 1,
+    "mergedCount": 18,
+    "rottingPRs": 0,
+    "medianResponseHours": 2,
+    "responseSamples": 8,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "modoboa/modoboa": {
+    "computedAt": "2026-08-27T14:07:55.609Z",
+    "outsiderPRs": 17,
+    "outsiderMergeRate": 0.8823529411764706,
+    "mergedCount": 15,
+    "rottingPRs": 0,
+    "medianResponseHours": 69,
+    "responseSamples": 8,
+    "hasCI": true,
+    "hasTests": false
   }
 }
