@@ -1575,3 +1575,8 @@
 {"ts":1787839675,"k":"apache/airflow#51321","e":"dropped","why":"not_in_board"}
 {"ts":1787839675,"k":"gbdev/rgbds-live#118","e":"dropped","why":"not_in_board"}
 {"ts":1787839675,"k":"Chakyl/society-sunlit-valley#139","e":"dropped","why":"not_in_board"}
+{"ts":1787858674,"k":"caura-ai/caura#971","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787858674,"k":"caura-ai/caura#973","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787858674,"k":"WordPress/presence-api#353","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787858674,"k":"symfony/symfony#65652","e":"dropped","why":"closed"}
+{"ts":1787858674,"k":"sigp/lighthouse#9099","e":"dropped","why":"takeability: open linked PR"}
