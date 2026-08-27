@@ -1496,3 +1496,7 @@
 {"ts":1787760905,"k":"symfony/symfony#65564","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1787760905,"k":"apache/iceberg#15916","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1787760905,"k":"nautobot/nautobot#7145","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787790306,"k":"microsoft/aspire#11299","e":"dropped","why":"takeability: soft-claimed by MahmoudZarad 0d ago"}
+{"ts":1787790306,"k":"spiceai/spiceai#6597","e":"dropped","why":"takeability: soft-claimed by iSparshP 0d ago"}
+{"ts":1787790306,"k":"r-uby-dev/llm#166","e":"dropped","why":"closed"}
+{"ts":1787790306,"k":"custom-components/zaptec#200","e":"dropped","why":"takeability: open linked PR"}
