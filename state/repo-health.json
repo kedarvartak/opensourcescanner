@@ -4092,12 +4092,12 @@
     "hasTests": false
   },
   "spring-ai-alibaba/DataAgent": {
-    "computedAt": "2026-08-16T10:34:07.104Z",
+    "computedAt": "2026-08-28T15:22:02.078Z",
     "outsiderPRs": 7,
-    "outsiderMergeRate": 0.5714285714285714,
-    "mergedCount": 4,
+    "outsiderMergeRate": 0.7142857142857143,
+    "mergedCount": 5,
     "rottingPRs": 0,
-    "medianResponseHours": 58,
+    "medianResponseHours": 53,
     "responseSamples": 15,
     "hasCI": true,
     "hasTests": false
@@ -5269,13 +5269,13 @@
     "hasTests": false
   },
   "sktime/sktime": {
-    "computedAt": "2026-08-21T04:10:14.241Z",
-    "outsiderPRs": 2,
-    "outsiderMergeRate": 1,
-    "mergedCount": 2,
+    "computedAt": "2026-08-28T15:22:02.078Z",
+    "outsiderPRs": 0,
+    "outsiderMergeRate": null,
+    "mergedCount": 0,
     "rottingPRs": 0,
-    "medianResponseHours": 15,
-    "responseSamples": 9,
+    "medianResponseHours": 4,
+    "responseSamples": 5,
     "hasCI": true,
     "hasTests": false
   },
@@ -5302,7 +5302,7 @@
     "hasTests": true
   },
   "uutils/procps": {
-    "computedAt": "2026-08-21T04:10:14.241Z",
+    "computedAt": "2026-08-28T15:22:02.078Z",
     "outsiderPRs": 23,
     "outsiderMergeRate": 0.9130434782608695,
     "mergedCount": 21,
@@ -5357,7 +5357,7 @@
     "hasTests": false
   },
   "ikhsan3adi/absensi-sekolah-qr-code": {
-    "computedAt": "2026-08-21T04:10:14.241Z",
+    "computedAt": "2026-08-28T15:22:02.078Z",
     "outsiderPRs": 9,
     "outsiderMergeRate": 0.6666666666666666,
     "mergedCount": 6,
@@ -5368,10 +5368,10 @@
     "hasTests": true
   },
   "mohammedelkarsh/laravel-tenant-kit": {
-    "computedAt": "2026-08-21T04:10:14.241Z",
-    "outsiderPRs": 2,
+    "computedAt": "2026-08-28T15:22:02.078Z",
+    "outsiderPRs": 6,
     "outsiderMergeRate": 1,
-    "mergedCount": 2,
+    "mergedCount": 6,
     "rottingPRs": 0,
     "medianResponseHours": 861,
     "responseSamples": 3,
@@ -5958,6 +5958,127 @@
     "rottingPRs": 0,
     "medianResponseHours": 69,
     "responseSamples": 8,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "juspay/neurolink": {
+    "computedAt": "2026-08-28T15:22:02.078Z",
+    "outsiderPRs": 6,
+    "outsiderMergeRate": 1,
+    "mergedCount": 6,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "Azure/git-ape": {
+    "computedAt": "2026-08-28T15:22:02.078Z",
+    "outsiderPRs": 24,
+    "outsiderMergeRate": 0.9166666666666666,
+    "mergedCount": 22,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 1,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "LibreTranslate/LibreTranslate": {
+    "computedAt": "2026-08-28T15:22:02.078Z",
+    "outsiderPRs": 18,
+    "outsiderMergeRate": 0.5555555555555556,
+    "mergedCount": 10,
+    "rottingPRs": 0,
+    "medianResponseHours": 1,
+    "responseSamples": 14,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "Snowflake-Labs/pg_lake": {
+    "computedAt": "2026-08-28T15:22:02.078Z",
+    "outsiderPRs": 0,
+    "outsiderMergeRate": null,
+    "mergedCount": 0,
+    "rottingPRs": 0,
+    "medianResponseHours": 4,
+    "responseSamples": 14,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "google/mcp-security": {
+    "computedAt": "2026-08-28T15:22:02.078Z",
+    "outsiderPRs": 2,
+    "outsiderMergeRate": 0,
+    "mergedCount": 0,
+    "rottingPRs": 7,
+    "medianResponseHours": 27,
+    "responseSamples": 3,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "Aiven-Open/cloud-storage-connectors-for-apache-kafka": {
+    "computedAt": "2026-08-28T15:22:02.078Z",
+    "outsiderPRs": 22,
+    "outsiderMergeRate": 0.6818181818181818,
+    "mergedCount": 15,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "uyuni-project/uyuni": {
+    "computedAt": "2026-08-28T15:22:02.078Z",
+    "outsiderPRs": 17,
+    "outsiderMergeRate": 1,
+    "mergedCount": 17,
+    "rottingPRs": 0,
+    "medianResponseHours": 72,
+    "responseSamples": 4,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "WildMeOrg/Wildbook": {
+    "computedAt": "2026-08-28T15:22:02.078Z",
+    "outsiderPRs": 0,
+    "outsiderMergeRate": null,
+    "mergedCount": 0,
+    "rottingPRs": 0,
+    "medianResponseHours": 1,
+    "responseSamples": 9,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "stefankueng/grepWin": {
+    "computedAt": "2026-08-28T15:22:02.078Z",
+    "outsiderPRs": 22,
+    "outsiderMergeRate": 0.9090909090909091,
+    "mergedCount": 20,
+    "rottingPRs": 0,
+    "medianResponseHours": 100,
+    "responseSamples": 14,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "munirov/cremniy": {
+    "computedAt": "2026-08-28T15:22:02.078Z",
+    "outsiderPRs": 19,
+    "outsiderMergeRate": 0.5263157894736842,
+    "mergedCount": 10,
+    "rottingPRs": 0,
+    "medianResponseHours": 5,
+    "responseSamples": 14,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "NVIDIA/cudf": {
+    "computedAt": "2026-08-28T15:22:02.078Z",
+    "outsiderPRs": 11,
+    "outsiderMergeRate": 0.8181818181818182,
+    "mergedCount": 9,
+    "rottingPRs": 0,
+    "medianResponseHours": 0,
+    "responseSamples": 3,
     "hasCI": true,
     "hasTests": false
   }
