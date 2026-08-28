@@ -3,7 +3,7 @@
   "generatedAt": "2026-08-27T14:07:55.345Z",
   "nextRefreshAt": "2026-08-28T14:07:55.345Z",
   "counts": {
-    "issues": 421,
+    "issues": 418,
     "repos": 296,
     "languages": 12
   },
@@ -404,5 +404,5 @@
     },
     "passRate": 0.1343
   },
-  "revalidatedAt": "2026-08-27T19:24:34.499Z"
+  "revalidatedAt": "2026-08-28T05:04:52.435Z"
 }

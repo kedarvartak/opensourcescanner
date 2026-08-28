@@ -1580,3 +1580,6 @@
 {"ts":1787858674,"k":"WordPress/presence-api#353","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1787858674,"k":"symfony/symfony#65652","e":"dropped","why":"closed"}
 {"ts":1787858674,"k":"sigp/lighthouse#9099","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787893492,"k":"cadence-workflow/cadence-java-client#1044","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787893492,"k":"cadence-workflow/cadence-java-client#1036","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787893492,"k":"nferhat/fht-compositor#100","e":"dropped","why":"relevance: no activity in 120d"}
