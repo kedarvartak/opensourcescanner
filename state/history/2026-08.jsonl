@@ -1643,3 +1643,7 @@
 {"ts":1787930521,"k":"4drian3d/SignedVelocity#250","e":"dropped","why":"not_in_board"}
 {"ts":1787930521,"k":"nferhat/fht-compositor#100","e":"dropped","why":"not_in_board"}
 {"ts":1787930521,"k":"daniel-hauser/moneyman#658","e":"dropped","why":"not_in_board"}
+{"ts":1787949650,"k":"LibreSign/libresign#7954","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787949650,"k":"mohammedelkarsh/laravel-tenant-kit#6","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787949650,"k":"hiero-ledger/hiero-mirror-node#12720","e":"dropped","why":"takeability: assigned"}
+{"ts":1787949650,"k":"stefankueng/grepWin#590","e":"dropped","why":"closed"}
