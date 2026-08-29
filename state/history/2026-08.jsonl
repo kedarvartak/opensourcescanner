@@ -1682,3 +1682,5 @@
 {"ts":1787998203,"k":"rancher/k3k#561","e":"dropped","why":"not_in_board"}
 {"ts":1787998203,"k":"stefankueng/grepWin#590","e":"dropped","why":"not_in_board"}
 {"ts":1787998203,"k":"linux-credentials/credentialsd#25","e":"dropped","why":"not_in_board"}
+{"ts":1788012521,"k":"josdem/vetlog-spring-boot#911","e":"dropped","why":"takeability: soft-claimed by Thaitheya 0d ago"}
+{"ts":1788012521,"k":"RYOITABASHI/Shelly#6","e":"dropped","why":"gone"}
