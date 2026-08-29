@@ -1684,3 +1684,5 @@
 {"ts":1787998203,"k":"linux-credentials/credentialsd#25","e":"dropped","why":"not_in_board"}
 {"ts":1788012521,"k":"josdem/vetlog-spring-boot#911","e":"dropped","why":"takeability: soft-claimed by Thaitheya 0d ago"}
 {"ts":1788012521,"k":"RYOITABASHI/Shelly#6","e":"dropped","why":"gone"}
+{"ts":1788026957,"k":"hardwood-hq/hardwood#1053","e":"dropped","why":"takeability: soft-claimed by wyfryj 0d ago"}
+{"ts":1788026957,"k":"envoyproxy/gateway#5629","e":"dropped","why":"relevance: no activity in 120d"}
