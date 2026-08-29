@@ -1686,3 +1686,5 @@
 {"ts":1788012521,"k":"RYOITABASHI/Shelly#6","e":"dropped","why":"gone"}
 {"ts":1788026957,"k":"hardwood-hq/hardwood#1053","e":"dropped","why":"takeability: soft-claimed by wyfryj 0d ago"}
 {"ts":1788026957,"k":"envoyproxy/gateway#5629","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1788044301,"k":"ls1intum/Artemis#12451","e":"dropped","why":"takeability: assigned"}
+{"ts":1788044301,"k":"WildMeOrg/Wildbook#1722","e":"dropped","why":"takeability: open linked PR"}
