@@ -1649,3 +1649,36 @@
 {"ts":1787949650,"k":"stefankueng/grepWin#590","e":"dropped","why":"closed"}
 {"ts":1787972650,"k":"FreeCAD/FreeCAD#32162","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1787972650,"k":"FreeCAD/FreeCAD#31966","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1787998203,"k":"WordPress/presence-api#403","e":"listed","sc":89}
+{"ts":1787998203,"k":"WordPress/presence-api#398","e":"listed","sc":89}
+{"ts":1787998203,"k":"WordPress/presence-api#404","e":"listed","sc":88}
+{"ts":1787998203,"k":"josdem/vetlog-spring-boot#911","e":"listed","sc":84}
+{"ts":1787998203,"k":"aethersdr/AetherSDR#5196","e":"listed","sc":80}
+{"ts":1787998203,"k":"JabRef/jabref#16731","e":"listed","sc":79}
+{"ts":1787998203,"k":"RYOITABASHI/Shelly#6","e":"listed","sc":77}
+{"ts":1787998203,"k":"ilios/ilios#7386","e":"listed","sc":76}
+{"ts":1787998203,"k":"FreeCAD/FreeCAD#32248","e":"listed","sc":74}
+{"ts":1787998203,"k":"FreeCAD/FreeCAD#27318","e":"listed","sc":73}
+{"ts":1787998203,"k":"rancher/dashboard#16389","e":"listed","sc":71}
+{"ts":1787998203,"k":"ilios/ilios#7392","e":"listed","sc":70}
+{"ts":1787998203,"k":"ilios/ilios#7387","e":"listed","sc":70}
+{"ts":1787998203,"k":"GyulyVGC/sniffnet#975","e":"listed","sc":70}
+{"ts":1787998203,"k":"ilios/ilios#7375","e":"listed","sc":69}
+{"ts":1787998203,"k":"AprilSylph/XKit-Rewritten#1977","e":"listed","sc":68}
+{"ts":1787998203,"k":"0x2E/fusion#97","e":"listed","sc":65}
+{"ts":1787998203,"k":"agntcy/coffeeAgntcy#307","e":"listed","sc":63}
+{"ts":1787998203,"k":"rancher/k3k#797","e":"listed","sc":58}
+{"ts":1787998203,"k":"caura-ai/caura#970","e":"dropped","why":"not_in_board"}
+{"ts":1787998203,"k":"aethersdr/AetherSDR#4411","e":"dropped","why":"not_in_board"}
+{"ts":1787998203,"k":"aethersdr/AetherSDR#4225","e":"dropped","why":"not_in_board"}
+{"ts":1787998203,"k":"LibreSign/libresign#7954","e":"dropped","why":"not_in_board"}
+{"ts":1787998203,"k":"FreeCAD/FreeCAD#31966","e":"dropped","why":"not_in_board"}
+{"ts":1787998203,"k":"FreeCAD/FreeCAD#20638","e":"dropped","why":"not_in_board"}
+{"ts":1787998203,"k":"MobiFlight/MobiFlight-Connector#3115","e":"dropped","why":"not_in_board"}
+{"ts":1787998203,"k":"mohammedelkarsh/laravel-tenant-kit#6","e":"dropped","why":"not_in_board"}
+{"ts":1787998203,"k":"ilios/ilios#7345","e":"dropped","why":"not_in_board"}
+{"ts":1787998203,"k":"hiero-ledger/hiero-mirror-node#12720","e":"dropped","why":"not_in_board"}
+{"ts":1787998203,"k":"ilios/ilios#7351","e":"dropped","why":"not_in_board"}
+{"ts":1787998203,"k":"rancher/k3k#561","e":"dropped","why":"not_in_board"}
+{"ts":1787998203,"k":"stefankueng/grepWin#590","e":"dropped","why":"not_in_board"}
+{"ts":1787998203,"k":"linux-credentials/credentialsd#25","e":"dropped","why":"not_in_board"}
