@@ -1727,3 +1727,12 @@
 {"ts":1788081640,"k":"kubevela/kubevela#6808","e":"dropped","why":"not_in_board"}
 {"ts":1788081640,"k":"envoyproxy/gateway#5629","e":"dropped","why":"not_in_board"}
 {"ts":1788114216,"k":"mozilla/neqo#2781","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1788131252,"k":"caura-ai/caura#972","e":"dropped","why":"takeability: soft-claimed by hossainzarif23 0d ago"}
+{"ts":1788131252,"k":"uyuni-project/uyuni#12034","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1788131252,"k":"aethersdr/AetherSDR#5309","e":"dropped","why":"closed"}
+{"ts":1788131252,"k":"aethersdr/AetherSDR#5317","e":"dropped","why":"closed"}
+{"ts":1788131252,"k":"stjude-rust-labs/sprocket#791","e":"dropped","why":"takeability: assigned"}
+{"ts":1788131252,"k":"MobiFlight/MobiFlight-Connector#3165","e":"dropped","why":"takeability: assigned"}
+{"ts":1788131252,"k":"magefree/mage#14392","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1788131252,"k":"calyxir/calyx#2437","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1788131252,"k":"grafana/grafana#110677","e":"dropped","why":"takeability: open linked PR"}

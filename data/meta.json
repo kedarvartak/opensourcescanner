@@ -3,7 +3,7 @@
   "generatedAt": "2026-08-30T09:20:40.054Z",
   "nextRefreshAt": "2026-08-31T09:20:40.054Z",
   "counts": {
-    "issues": 410,
+    "issues": 401,
     "repos": 291,
     "languages": 12
   },
@@ -12,7 +12,6 @@
     "thunder-id/thunderid#1523",
     "geeksforsocialchange/PlaceCal#3272",
     "podman-desktop/podman-desktop#12925",
-    "MobiFlight/MobiFlight-Connector#3165",
     "rustrak/rustrak#26",
     "krkn-chaos/krkn#916",
     "OpenRailAssociation/netzgrafik-editor-frontend#892",
@@ -386,5 +385,5 @@
     },
     "passRate": 0.1195
   },
-  "revalidatedAt": "2026-08-30T18:23:36.766Z"
+  "revalidatedAt": "2026-08-30T23:07:32.566Z"
 }
