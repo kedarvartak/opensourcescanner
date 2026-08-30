@@ -1726,3 +1726,4 @@
 {"ts":1788081640,"k":"Goldziher/interface-forge#46","e":"dropped","why":"not_in_board"}
 {"ts":1788081640,"k":"kubevela/kubevela#6808","e":"dropped","why":"not_in_board"}
 {"ts":1788081640,"k":"envoyproxy/gateway#5629","e":"dropped","why":"not_in_board"}
+{"ts":1788114216,"k":"mozilla/neqo#2781","e":"dropped","why":"takeability: open linked PR"}
