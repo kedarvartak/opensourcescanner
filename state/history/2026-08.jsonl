@@ -1688,3 +1688,41 @@
 {"ts":1788026957,"k":"envoyproxy/gateway#5629","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1788044301,"k":"ls1intum/Artemis#12451","e":"dropped","why":"takeability: assigned"}
 {"ts":1788044301,"k":"WildMeOrg/Wildbook#1722","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1788081640,"k":"WayfireWM/wf-shell#541","e":"listed","sc":89}
+{"ts":1788081640,"k":"f3d-app/f3d#3233","e":"listed","sc":82}
+{"ts":1788081640,"k":"aethersdr/AetherSDR#5317","e":"listed","sc":81}
+{"ts":1788081640,"k":"software-mansion/react-native-screens#4360","e":"listed","sc":81}
+{"ts":1788081640,"k":"manyfold3d/manyfold#6407","e":"listed","sc":79}
+{"ts":1788081640,"k":"gems-uff/sapos#669","e":"listed","sc":79}
+{"ts":1788081640,"k":"pipe-cd/pipecd#6684","e":"listed","sc":74}
+{"ts":1788081640,"k":"UTDNebula/utd-trends#574","e":"listed","sc":69}
+{"ts":1788081640,"k":"calyxir/calyx#2437","e":"listed","sc":66}
+{"ts":1788081640,"k":"MudBlazor/MudBlazor#11991","e":"listed","sc":66}
+{"ts":1788081640,"k":"Goldziher/interface-forge#65","e":"listed","sc":62}
+{"ts":1788081640,"k":"UTDNebula/utd-trends#583","e":"listed","sc":59}
+{"ts":1788081640,"k":"linux-credentials/credentialsd#25","e":"listed","sc":55}
+{"ts":1788081640,"k":"hardwood-hq/hardwood#1053","e":"dropped","why":"not_in_board"}
+{"ts":1788081640,"k":"WordPress/presence-api#403","e":"dropped","why":"not_in_board"}
+{"ts":1788081640,"k":"WordPress/presence-api#398","e":"dropped","why":"not_in_board"}
+{"ts":1788081640,"k":"WordPress/presence-api#404","e":"dropped","why":"not_in_board"}
+{"ts":1788081640,"k":"modoboa/modoboa#4145","e":"dropped","why":"not_in_board"}
+{"ts":1788081640,"k":"josdem/vetlog-spring-boot#911","e":"dropped","why":"not_in_board"}
+{"ts":1788081640,"k":"Submitty/Submitty#13197","e":"dropped","why":"not_in_board"}
+{"ts":1788081640,"k":"WordPress/ai#600","e":"dropped","why":"not_in_board"}
+{"ts":1788081640,"k":"JabRef/jabref#16731","e":"dropped","why":"not_in_board"}
+{"ts":1788081640,"k":"unoplatform/uno#19912","e":"dropped","why":"not_in_board"}
+{"ts":1788081640,"k":"manyfold3d/manyfold#5823","e":"dropped","why":"not_in_board"}
+{"ts":1788081640,"k":"RYOITABASHI/Shelly#6","e":"dropped","why":"not_in_board"}
+{"ts":1788081640,"k":"symfony/symfony#65569","e":"dropped","why":"not_in_board"}
+{"ts":1788081640,"k":"symfony/symfony#65567","e":"dropped","why":"not_in_board"}
+{"ts":1788081640,"k":"symfony/symfony#65565","e":"dropped","why":"not_in_board"}
+{"ts":1788081640,"k":"symfony/symfony#65563","e":"dropped","why":"not_in_board"}
+{"ts":1788081640,"k":"packit/ogr#895","e":"dropped","why":"not_in_board"}
+{"ts":1788081640,"k":"WordPress/ai#980","e":"dropped","why":"not_in_board"}
+{"ts":1788081640,"k":"WordPress/ai#981","e":"dropped","why":"not_in_board"}
+{"ts":1788081640,"k":"dotnet/sign#990","e":"dropped","why":"not_in_board"}
+{"ts":1788081640,"k":"ls1intum/Artemis#12451","e":"dropped","why":"not_in_board"}
+{"ts":1788081640,"k":"WildMeOrg/Wildbook#1722","e":"dropped","why":"not_in_board"}
+{"ts":1788081640,"k":"Goldziher/interface-forge#46","e":"dropped","why":"not_in_board"}
+{"ts":1788081640,"k":"kubevela/kubevela#6808","e":"dropped","why":"not_in_board"}
+{"ts":1788081640,"k":"envoyproxy/gateway#5629","e":"dropped","why":"not_in_board"}

@@ -99,13 +99,13 @@
     "hasTests": false
   },
   "upstash/context7": {
-    "computedAt": "2026-08-22T04:09:54.520Z",
+    "computedAt": "2026-08-30T09:20:40.246Z",
     "outsiderPRs": 5,
-    "outsiderMergeRate": 0.8,
-    "mergedCount": 4,
+    "outsiderMergeRate": 0.6,
+    "mergedCount": 3,
     "rottingPRs": 0,
-    "medianResponseHours": 17,
-    "responseSamples": 18,
+    "medianResponseHours": 11,
+    "responseSamples": 10,
     "hasCI": true,
     "hasTests": false
   },
@@ -1254,12 +1254,12 @@
     "hasTests": false
   },
   "software-mansion/react-native-screens": {
-    "computedAt": "2026-08-22T04:09:54.520Z",
-    "outsiderPRs": 9,
-    "outsiderMergeRate": 0.6666666666666666,
-    "mergedCount": 6,
+    "computedAt": "2026-08-30T09:20:40.246Z",
+    "outsiderPRs": 2,
+    "outsiderMergeRate": 0.5,
+    "mergedCount": 1,
     "rottingPRs": 0,
-    "medianResponseHours": 31,
+    "medianResponseHours": 13,
     "responseSamples": 15,
     "hasCI": true,
     "hasTests": false
@@ -4356,13 +4356,13 @@
     "hasTests": false
   },
   "f3d-app/f3d": {
-    "computedAt": "2026-08-16T10:34:07.104Z",
-    "outsiderPRs": 5,
-    "outsiderMergeRate": 1,
-    "mergedCount": 5,
+    "computedAt": "2026-08-30T09:20:40.246Z",
+    "outsiderPRs": 12,
+    "outsiderMergeRate": 0.8333333333333334,
+    "mergedCount": 10,
     "rottingPRs": 0,
-    "medianResponseHours": 7,
-    "responseSamples": 25,
+    "medianResponseHours": 6,
+    "responseSamples": 29,
     "hasCI": true,
     "hasTests": false
   },
@@ -5247,13 +5247,13 @@
     "hasTests": true
   },
   "MudBlazor/MudBlazor": {
-    "computedAt": "2026-08-20T04:06:35.616Z",
-    "outsiderPRs": 17,
-    "outsiderMergeRate": 0.6470588235294118,
-    "mergedCount": 11,
+    "computedAt": "2026-08-30T09:20:40.246Z",
+    "outsiderPRs": 7,
+    "outsiderMergeRate": 1,
+    "mergedCount": 7,
     "rottingPRs": 0,
-    "medianResponseHours": 6,
-    "responseSamples": 19,
+    "medianResponseHours": 12,
+    "responseSamples": 12,
     "hasCI": true,
     "hasTests": false
   },
@@ -5555,10 +5555,10 @@
     "hasTests": false
   },
   "civic-dashboard/civic-dashboard-web": {
-    "computedAt": "2026-08-23T04:18:12.916Z",
+    "computedAt": "2026-08-30T09:20:40.246Z",
     "outsiderPRs": 19,
-    "outsiderMergeRate": 0.8421052631578947,
-    "mergedCount": 16,
+    "outsiderMergeRate": 0.8947368421052632,
+    "mergedCount": 17,
     "rottingPRs": 0,
     "medianResponseHours": 9,
     "responseSamples": 5,
@@ -5577,13 +5577,13 @@
     "hasTests": false
   },
   "rohaquinlop/complexipy": {
-    "computedAt": "2026-08-23T04:18:12.916Z",
-    "outsiderPRs": 3,
+    "computedAt": "2026-08-30T09:20:40.246Z",
+    "outsiderPRs": 2,
     "outsiderMergeRate": 1,
-    "mergedCount": 3,
+    "mergedCount": 2,
     "rottingPRs": 0,
-    "medianResponseHours": 57,
-    "responseSamples": 8,
+    "medianResponseHours": 69,
+    "responseSamples": 9,
     "hasCI": true,
     "hasTests": true
   },
@@ -5610,13 +5610,13 @@
     "hasTests": false
   },
   "dotnet/Silk.NET": {
-    "computedAt": "2026-08-23T04:18:12.916Z",
+    "computedAt": "2026-08-30T09:20:40.246Z",
     "outsiderPRs": 4,
     "outsiderMergeRate": 1,
     "mergedCount": 4,
     "rottingPRs": 0,
-    "medianResponseHours": 152,
-    "responseSamples": 18,
+    "medianResponseHours": 265,
+    "responseSamples": 19,
     "hasCI": true,
     "hasTests": false
   },
@@ -6136,5 +6136,49 @@
     "responseSamples": 17,
     "hasCI": true,
     "hasTests": true
+  },
+  "pipe-cd/pipecd": {
+    "computedAt": "2026-08-30T09:20:40.246Z",
+    "outsiderPRs": 15,
+    "outsiderMergeRate": 0.8,
+    "mergedCount": 12,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 2,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "calyxir/calyx": {
+    "computedAt": "2026-08-30T09:20:40.246Z",
+    "outsiderPRs": 14,
+    "outsiderMergeRate": 0.7857142857142857,
+    "mergedCount": 11,
+    "rottingPRs": 0,
+    "medianResponseHours": 10,
+    "responseSamples": 6,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "WayfireWM/wf-shell": {
+    "computedAt": "2026-08-30T09:20:40.246Z",
+    "outsiderPRs": 3,
+    "outsiderMergeRate": 1,
+    "mergedCount": 3,
+    "rottingPRs": 0,
+    "medianResponseHours": 9,
+    "responseSamples": 23,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "gems-uff/sapos": {
+    "computedAt": "2026-08-30T09:20:40.246Z",
+    "outsiderPRs": 17,
+    "outsiderMergeRate": 0.8235294117647058,
+    "mergedCount": 14,
+    "rottingPRs": 2,
+    "medianResponseHours": 12,
+    "responseSamples": 11,
+    "hasCI": true,
+    "hasTests": false
   }
 }
