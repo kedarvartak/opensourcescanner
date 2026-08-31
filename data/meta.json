@@ -3,12 +3,11 @@
   "generatedAt": "2026-08-31T09:42:55.784Z",
   "nextRefreshAt": "2026-09-01T09:42:55.784Z",
   "counts": {
-    "issues": 427,
+    "issues": 421,
     "repos": 294,
     "languages": 12
   },
   "todaysPicks": [
-    "bolshakov/stoplight#750",
     "podman-desktop/podman-desktop#12925",
     "manyfold3d/manyfold#6407",
     "cel-rust/cel-rust#247",
@@ -401,5 +400,6 @@
       "G1_structural": 26
     },
     "passRate": 0.1308
-  }
+  },
+  "revalidatedAt": "2026-08-31T16:41:00.886Z"
 }

@@ -1792,3 +1792,9 @@
 {"ts":1788169375,"k":"digitalfabrik/entitlementcard#2011","e":"dropped","why":"not_in_board"}
 {"ts":1788169375,"k":"linux-credentials/credentialsd#25","e":"dropped","why":"not_in_board"}
 {"ts":1788169375,"k":"ch32-rs/ch32-hal#112","e":"dropped","why":"not_in_board"}
+{"ts":1788194460,"k":"bolshakov/stoplight#752","e":"dropped","why":"closed"}
+{"ts":1788194460,"k":"bolshakov/stoplight#750","e":"dropped","why":"closed"}
+{"ts":1788194460,"k":"temporalio/sdk-rust#1213","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1788194460,"k":"kgateway-dev/kgateway#12338","e":"dropped","why":"relevance: blocking label: stale"}
+{"ts":1788194460,"k":"xataio/pgstream#534","e":"dropped","why":"takeability: soft-claimed by thecoblack 0d ago"}
+{"ts":1788194460,"k":"q5js/q5.js#123","e":"dropped","why":"relevance: no activity in 120d"}
