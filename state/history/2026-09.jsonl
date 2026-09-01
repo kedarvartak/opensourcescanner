@@ -42,3 +42,11 @@
 {"ts":1788252161,"k":"secureblue/secureblue#1295","e":"dropped","why":"not_in_board"}
 {"ts":1788252161,"k":"q5js/q5.js#123","e":"dropped","why":"not_in_board"}
 {"ts":1788252161,"k":"linux-credentials/credentialsd#87","e":"dropped","why":"not_in_board"}
+{"ts":1788270843,"k":"opendatahub-io/notebooks#1031","e":"dropped","why":"closed"}
+{"ts":1788270843,"k":"MobiFlight/MobiFlight-Connector#3283","e":"dropped","why":"takeability: assigned"}
+{"ts":1788270843,"k":"DSpace/DSpace#13045","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1788270843,"k":"opendatahub-io/notebooks#1040","e":"dropped","why":"closed"}
+{"ts":1788270843,"k":"MobiFlight/MobiFlight-Connector#3192","e":"dropped","why":"takeability: assigned"}
+{"ts":1788270843,"k":"unslothai/unsloth#3560","e":"dropped","why":"takeability: soft-claimed by LeonxLJX 0d ago"}
+{"ts":1788270843,"k":"ggml-org/llama.cpp#17488","e":"dropped","why":"takeability: soft-claimed by LeonxLJX 0d ago"}
+{"ts":1788270843,"k":"sphireinc/Foundry#48","e":"dropped","why":"takeability: assigned"}
