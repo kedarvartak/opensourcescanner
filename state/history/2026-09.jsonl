@@ -50,3 +50,5 @@
 {"ts":1788270843,"k":"unslothai/unsloth#3560","e":"dropped","why":"takeability: soft-claimed by LeonxLJX 0d ago"}
 {"ts":1788270843,"k":"ggml-org/llama.cpp#17488","e":"dropped","why":"takeability: soft-claimed by LeonxLJX 0d ago"}
 {"ts":1788270843,"k":"sphireinc/Foundry#48","e":"dropped","why":"takeability: assigned"}
+{"ts":1788286089,"k":"The-PR-Agent/pr-agent#2003","e":"dropped","why":"closed"}
+{"ts":1788286089,"k":"DioxusLabs/dioxus#5018","e":"dropped","why":"takeability: open linked PR"}
