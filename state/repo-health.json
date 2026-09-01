@@ -1903,13 +1903,13 @@
     "hasTests": false
   },
   "he4rt/heartdevs.com": {
-    "computedAt": "2026-08-14T20:00:12.543Z",
-    "outsiderPRs": 18,
-    "outsiderMergeRate": 0.9444444444444444,
-    "mergedCount": 17,
+    "computedAt": "2026-09-01T08:42:41.486Z",
+    "outsiderPRs": 13,
+    "outsiderMergeRate": 0.9230769230769231,
+    "mergedCount": 12,
     "rottingPRs": 0,
-    "medianResponseHours": 1,
-    "responseSamples": 10,
+    "medianResponseHours": 18,
+    "responseSamples": 4,
     "hasCI": true,
     "hasTests": true
   },
@@ -3135,13 +3135,13 @@
     "hasTests": false
   },
   "apache/airflow": {
-    "computedAt": "2026-08-24T04:13:45.422Z",
-    "outsiderPRs": 4,
-    "outsiderMergeRate": 0,
-    "mergedCount": 0,
+    "computedAt": "2026-09-01T08:42:41.486Z",
+    "outsiderPRs": 5,
+    "outsiderMergeRate": 1,
+    "mergedCount": 5,
     "rottingPRs": 0,
-    "medianResponseHours": null,
-    "responseSamples": 2,
+    "medianResponseHours": 0,
+    "responseSamples": 5,
     "hasCI": true,
     "hasTests": false
   },
@@ -4598,13 +4598,13 @@
     "hasTests": false
   },
   "LibreSign/libresign": {
-    "computedAt": "2026-08-24T04:13:45.422Z",
-    "outsiderPRs": 14,
+    "computedAt": "2026-09-01T08:42:41.486Z",
+    "outsiderPRs": 4,
     "outsiderMergeRate": 1,
-    "mergedCount": 14,
+    "mergedCount": 4,
     "rottingPRs": 0,
-    "medianResponseHours": 10,
-    "responseSamples": 11,
+    "medianResponseHours": 3,
+    "responseSamples": 5,
     "hasCI": true,
     "hasTests": true
   },
@@ -6301,5 +6301,115 @@
     "responseSamples": 0,
     "hasCI": true,
     "hasTests": true
+  },
+  "ethereum-optimism/actions": {
+    "computedAt": "2026-09-01T08:42:41.486Z",
+    "outsiderPRs": 6,
+    "outsiderMergeRate": 0,
+    "mergedCount": 0,
+    "rottingPRs": 0,
+    "medianResponseHours": 25,
+    "responseSamples": 7,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "anurag3407/career-pilot": {
+    "computedAt": "2026-09-01T08:42:41.486Z",
+    "outsiderPRs": 14,
+    "outsiderMergeRate": 0,
+    "mergedCount": 0,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "pymc-labs/pymc-marketing": {
+    "computedAt": "2026-09-01T08:42:41.486Z",
+    "outsiderPRs": 16,
+    "outsiderMergeRate": 1,
+    "mergedCount": 16,
+    "rottingPRs": 0,
+    "medianResponseHours": 4,
+    "responseSamples": 7,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "voxel51/fiftyone-brain": {
+    "computedAt": "2026-09-01T08:42:41.486Z",
+    "outsiderPRs": 7,
+    "outsiderMergeRate": 1,
+    "mergedCount": 7,
+    "rottingPRs": 0,
+    "medianResponseHours": 10,
+    "responseSamples": 12,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "apache/iggy": {
+    "computedAt": "2026-09-01T08:42:41.486Z",
+    "outsiderPRs": 10,
+    "outsiderMergeRate": 1,
+    "mergedCount": 10,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "opensearch-project/data-prepper": {
+    "computedAt": "2026-09-01T08:42:41.486Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 0.75,
+    "mergedCount": 3,
+    "rottingPRs": 0,
+    "medianResponseHours": 282,
+    "responseSamples": 4,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "DSpace/DSpace": {
+    "computedAt": "2026-09-01T08:42:41.486Z",
+    "outsiderPRs": 11,
+    "outsiderMergeRate": 0.9090909090909091,
+    "mergedCount": 10,
+    "rottingPRs": 0,
+    "medianResponseHours": 28,
+    "responseSamples": 8,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "OpenLoco/OpenLoco": {
+    "computedAt": "2026-09-01T08:42:41.486Z",
+    "outsiderPRs": 13,
+    "outsiderMergeRate": 0.7692307692307693,
+    "mergedCount": 10,
+    "rottingPRs": 0,
+    "medianResponseHours": 2,
+    "responseSamples": 8,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "Kryptos-FR/MarkView.Avalonia": {
+    "computedAt": "2026-09-01T08:42:41.486Z",
+    "outsiderPRs": 6,
+    "outsiderMergeRate": 0.16666666666666666,
+    "mergedCount": 1,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 2,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "scraly/developers-conferences-agenda": {
+    "computedAt": "2026-09-01T08:42:41.486Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 1,
+    "mergedCount": 4,
+    "rottingPRs": 0,
+    "medianResponseHours": 4,
+    "responseSamples": 9,
+    "hasCI": true,
+    "hasTests": false
   }
 }
