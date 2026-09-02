@@ -133,3 +133,8 @@
 {"ts":1788336155,"k":"UTDNebula/utd-trends#583","e":"dropped","why":"not_in_board"}
 {"ts":1788336155,"k":"ethereum-optimism/actions#302","e":"dropped","why":"not_in_board"}
 {"ts":1788336155,"k":"LinkStackOrg/LinkStack#995","e":"dropped","why":"not_in_board"}
+{"ts":1788354734,"k":"spring-ai-alibaba/DataAgent#608","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1788354734,"k":"getsentry/sentry-laravel#1158","e":"dropped","why":"takeability: assigned"}
+{"ts":1788354734,"k":"zen-browser/desktop#15142","e":"dropped","why":"takeability: assigned"}
+{"ts":1788354734,"k":"CesiumGS/cesium#12633","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1788354734,"k":"bekk/db-scheduler-ui#135","e":"dropped","why":"relevance: 18mo old and quiet"}

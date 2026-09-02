@@ -3,7 +3,7 @@
   "generatedAt": "2026-09-02T08:02:35.009Z",
   "nextRefreshAt": "2026-09-03T08:02:35.009Z",
   "counts": {
-    "issues": 451,
+    "issues": 446,
     "repos": 307,
     "languages": 13
   },
@@ -16,7 +16,6 @@
     "OpenLoco/OpenLoco#3998",
     "openbao/openbao#1227",
     "errbit/errbit#3125",
-    "zen-browser/desktop#15142",
     "kernelci/kernelci-core#2894"
   ],
   "shards": {
@@ -435,5 +434,6 @@
       "G1_structural": 41
     },
     "passRate": 0.1365
-  }
+  },
+  "revalidatedAt": "2026-09-02T13:12:14.641Z"
 }
