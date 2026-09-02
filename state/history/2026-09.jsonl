@@ -138,3 +138,9 @@
 {"ts":1788354734,"k":"zen-browser/desktop#15142","e":"dropped","why":"takeability: assigned"}
 {"ts":1788354734,"k":"CesiumGS/cesium#12633","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1788354734,"k":"bekk/db-scheduler-ui#135","e":"dropped","why":"relevance: 18mo old and quiet"}
+{"ts":1788373439,"k":"simple-acme/simple-acme#695","e":"dropped","why":"takeability: assigned"}
+{"ts":1788373439,"k":"uyuni-project/uyuni#12520","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1788373439,"k":"PyLabRobot/pylabrobot#637","e":"dropped","why":"closed"}
+{"ts":1788373439,"k":"qualcomm/eld#1738","e":"dropped","why":"takeability: assigned"}
+{"ts":1788373439,"k":"apache/gravitino#12834","e":"dropped","why":"takeability: soft-claimed by aliagasiyev 0d ago"}
+{"ts":1788373439,"k":"Aiven-Open/cloud-storage-connectors-for-apache-kafka#513","e":"dropped","why":"closed"}
