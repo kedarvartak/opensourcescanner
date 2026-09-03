@@ -6642,5 +6642,82 @@
     "responseSamples": 1,
     "hasCI": true,
     "hasTests": true
+  },
+  "thunderbird/tbpro-add-on": {
+    "computedAt": "2026-09-03T08:09:11.804Z",
+    "outsiderPRs": 5,
+    "outsiderMergeRate": 0.6,
+    "mergedCount": 3,
+    "rottingPRs": 0,
+    "medianResponseHours": 9,
+    "responseSamples": 8,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "processing/p5.sound.js": {
+    "computedAt": "2026-09-03T08:09:11.804Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 0.875,
+    "mergedCount": 7,
+    "rottingPRs": 0,
+    "medianResponseHours": 59,
+    "responseSamples": 20,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "remsky/Kokoro-FastAPI": {
+    "computedAt": "2026-09-03T08:09:11.804Z",
+    "outsiderPRs": 7,
+    "outsiderMergeRate": 0.8571428571428571,
+    "mergedCount": 6,
+    "rottingPRs": 0,
+    "medianResponseHours": 10,
+    "responseSamples": 23,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "containers/ramalama": {
+    "computedAt": "2026-09-03T08:09:11.804Z",
+    "outsiderPRs": 10,
+    "outsiderMergeRate": 0.8,
+    "mergedCount": 8,
+    "rottingPRs": 0,
+    "medianResponseHours": 17,
+    "responseSamples": 23,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "superradcompany/microsandbox": {
+    "computedAt": "2026-09-03T08:09:11.804Z",
+    "outsiderPRs": 10,
+    "outsiderMergeRate": 1,
+    "mergedCount": 10,
+    "rottingPRs": 0,
+    "medianResponseHours": 3,
+    "responseSamples": 7,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "besu-eth/besu": {
+    "computedAt": "2026-09-03T08:09:11.804Z",
+    "outsiderPRs": 12,
+    "outsiderMergeRate": 0.9166666666666666,
+    "mergedCount": 11,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "opensearch-project/OpenSearch": {
+    "computedAt": "2026-09-03T08:09:11.804Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 1,
+    "mergedCount": 4,
+    "rottingPRs": 0,
+    "medianResponseHours": 58,
+    "responseSamples": 3,
+    "hasCI": true,
+    "hasTests": true
   }
 }
