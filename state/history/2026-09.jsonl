@@ -177,3 +177,4 @@
 {"ts":1788441202,"k":"slackapi/deno-slack-sdk#469","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1788441202,"k":"getsentry/sentry-javascript#15939","e":"dropped","why":"takeability: assigned"}
 {"ts":1788459544,"k":"ls1intum/Artemis#12451","e":"dropped","why":"takeability: assigned"}
+{"ts":1788476248,"k":"ilios/ilios#7375","e":"dropped","why":"takeability: open linked PR"}
