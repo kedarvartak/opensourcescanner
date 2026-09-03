@@ -172,3 +172,7 @@
 {"ts":1788422951,"k":"getsentry/sentry-rust#770","e":"dropped","why":"not_in_board"}
 {"ts":1788422951,"k":"linux-credentials/credentialsd#87","e":"dropped","why":"not_in_board"}
 {"ts":1788422951,"k":"arnica/depsguard#17","e":"dropped","why":"not_in_board"}
+{"ts":1788441202,"k":"remsky/Kokoro-FastAPI#391","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1788441202,"k":"openbao/openbao#1227","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1788441202,"k":"slackapi/deno-slack-sdk#469","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1788441202,"k":"getsentry/sentry-javascript#15939","e":"dropped","why":"takeability: assigned"}
