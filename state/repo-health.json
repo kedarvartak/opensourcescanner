@@ -2255,13 +2255,13 @@
     "hasTests": false
   },
   "medic/cht-core": {
-    "computedAt": "2026-08-27T14:07:55.609Z",
-    "outsiderPRs": 9,
-    "outsiderMergeRate": 1,
-    "mergedCount": 9,
+    "computedAt": "2026-09-04T08:10:12.597Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 0.875,
+    "mergedCount": 7,
     "rottingPRs": 0,
-    "medianResponseHours": 13,
-    "responseSamples": 5,
+    "medianResponseHours": 75,
+    "responseSamples": 6,
     "hasCI": true,
     "hasTests": true
   },
@@ -4037,13 +4037,13 @@
     "hasTests": false
   },
   "trinodb/trino": {
-    "computedAt": "2026-08-27T14:07:55.609Z",
-    "outsiderPRs": 7,
-    "outsiderMergeRate": 0.7142857142857143,
+    "computedAt": "2026-09-04T08:10:12.597Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 0.625,
     "mergedCount": 5,
     "rottingPRs": 0,
-    "medianResponseHours": 1,
-    "responseSamples": 7,
+    "medianResponseHours": 5,
+    "responseSamples": 8,
     "hasCI": true,
     "hasTests": false
   },
@@ -4411,13 +4411,13 @@
     "hasTests": true
   },
   "marceld23/BlocksBeyondTheStars": {
-    "computedAt": "2026-08-24T04:13:45.422Z",
-    "outsiderPRs": 4,
+    "computedAt": "2026-09-04T08:10:12.597Z",
+    "outsiderPRs": 1,
     "outsiderMergeRate": 1,
-    "mergedCount": 4,
+    "mergedCount": 1,
     "rottingPRs": 0,
-    "medianResponseHours": 0,
-    "responseSamples": 3,
+    "medianResponseHours": null,
+    "responseSamples": 1,
     "hasCI": true,
     "hasTests": true
   },
@@ -4576,13 +4576,13 @@
     "hasTests": false
   },
   "GatherPress/gatherpress": {
-    "computedAt": "2026-08-16T10:34:07.104Z",
-    "outsiderPRs": 21,
-    "outsiderMergeRate": 0.9523809523809523,
-    "mergedCount": 20,
+    "computedAt": "2026-09-04T08:10:12.597Z",
+    "outsiderPRs": 22,
+    "outsiderMergeRate": 1,
+    "mergedCount": 22,
     "rottingPRs": 0,
-    "medianResponseHours": null,
-    "responseSamples": 1,
+    "medianResponseHours": 6,
+    "responseSamples": 9,
     "hasCI": true,
     "hasTests": true
   },
@@ -5005,13 +5005,13 @@
     "hasTests": false
   },
   "devonfw/IDEasy": {
-    "computedAt": "2026-08-19T04:12:47.223Z",
-    "outsiderPRs": 7,
+    "computedAt": "2026-09-04T08:10:12.597Z",
+    "outsiderPRs": 1,
     "outsiderMergeRate": 1,
-    "mergedCount": 7,
+    "mergedCount": 1,
     "rottingPRs": 0,
     "medianResponseHours": 0,
-    "responseSamples": 26,
+    "responseSamples": 23,
     "hasCI": true,
     "hasTests": false
   },
@@ -5049,13 +5049,13 @@
     "hasTests": false
   },
   "elabftw/elabftw": {
-    "computedAt": "2026-08-27T14:07:55.609Z",
-    "outsiderPRs": 22,
-    "outsiderMergeRate": 0.9545454545454546,
-    "mergedCount": 21,
+    "computedAt": "2026-09-04T08:10:12.597Z",
+    "outsiderPRs": 21,
+    "outsiderMergeRate": 0.8095238095238095,
+    "mergedCount": 17,
     "rottingPRs": 0,
-    "medianResponseHours": 24,
-    "responseSamples": 3,
+    "medianResponseHours": 22,
+    "responseSamples": 7,
     "hasCI": true,
     "hasTests": true
   },
@@ -5104,13 +5104,13 @@
     "hasTests": true
   },
   "finos/opengris-scaler": {
-    "computedAt": "2026-08-27T14:07:55.609Z",
-    "outsiderPRs": 16,
-    "outsiderMergeRate": 0.5625,
-    "mergedCount": 9,
+    "computedAt": "2026-09-04T08:10:12.597Z",
+    "outsiderPRs": 6,
+    "outsiderMergeRate": 0.6666666666666666,
+    "mergedCount": 4,
     "rottingPRs": 0,
-    "medianResponseHours": 17,
-    "responseSamples": 3,
+    "medianResponseHours": null,
+    "responseSamples": 1,
     "hasCI": true,
     "hasTests": true
   },
@@ -5159,13 +5159,13 @@
     "hasTests": true
   },
   "OakLoaf/PluginUpdater": {
-    "computedAt": "2026-08-27T14:07:55.609Z",
-    "outsiderPRs": 18,
-    "outsiderMergeRate": 0.9444444444444444,
+    "computedAt": "2026-09-04T08:10:12.597Z",
+    "outsiderPRs": 19,
+    "outsiderMergeRate": 0.8947368421052632,
     "mergedCount": 17,
     "rottingPRs": 0,
     "medianResponseHours": 4,
-    "responseSamples": 17,
+    "responseSamples": 18,
     "hasCI": true,
     "hasTests": true
   },
@@ -5236,13 +5236,13 @@
     "hasTests": true
   },
   "stan-dev/math": {
-    "computedAt": "2026-08-27T14:07:55.609Z",
-    "outsiderPRs": 8,
-    "outsiderMergeRate": 0.5,
-    "mergedCount": 4,
+    "computedAt": "2026-09-04T08:10:12.597Z",
+    "outsiderPRs": 6,
+    "outsiderMergeRate": 0.3333333333333333,
+    "mergedCount": 2,
     "rottingPRs": 0,
-    "medianResponseHours": 12,
-    "responseSamples": 35,
+    "medianResponseHours": 11,
+    "responseSamples": 29,
     "hasCI": true,
     "hasTests": true
   },
@@ -5830,13 +5830,13 @@
     "hasTests": true
   },
   "get-convex/templates": {
-    "computedAt": "2026-08-27T14:07:55.609Z",
-    "outsiderPRs": 17,
-    "outsiderMergeRate": 0.8235294117647058,
-    "mergedCount": 14,
+    "computedAt": "2026-09-04T08:10:12.597Z",
+    "outsiderPRs": 16,
+    "outsiderMergeRate": 0.8125,
+    "mergedCount": 13,
     "rottingPRs": 0,
-    "medianResponseHours": 42,
-    "responseSamples": 8,
+    "medianResponseHours": 40,
+    "responseSamples": 9,
     "hasCI": true,
     "hasTests": false
   },
@@ -5874,21 +5874,21 @@
     "hasTests": true
   },
   "GraphiteEditor/Graphite": {
-    "computedAt": "2026-08-27T14:07:55.609Z",
-    "outsiderPRs": 6,
+    "computedAt": "2026-09-04T08:10:12.597Z",
+    "outsiderPRs": 5,
     "outsiderMergeRate": 0,
     "mergedCount": 0,
     "rottingPRs": 0,
-    "medianResponseHours": 1,
-    "responseSamples": 9,
+    "medianResponseHours": 0,
+    "responseSamples": 10,
     "hasCI": true,
     "hasTests": false
   },
   "prefix-dev/pixi": {
-    "computedAt": "2026-08-27T14:07:55.609Z",
-    "outsiderPRs": 20,
-    "outsiderMergeRate": 0.9,
-    "mergedCount": 18,
+    "computedAt": "2026-09-04T08:10:12.597Z",
+    "outsiderPRs": 14,
+    "outsiderMergeRate": 0.8571428571428571,
+    "mergedCount": 12,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 0,
@@ -6717,6 +6717,83 @@
     "rottingPRs": 0,
     "medianResponseHours": 58,
     "responseSamples": 3,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "hitesh-kumar123/Travel-Plans-": {
+    "computedAt": "2026-09-04T08:10:12.597Z",
+    "outsiderPRs": 15,
+    "outsiderMergeRate": 0,
+    "mergedCount": 0,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "afreidah/s3-orchestrator": {
+    "computedAt": "2026-09-04T08:10:12.597Z",
+    "outsiderPRs": 2,
+    "outsiderMergeRate": 1,
+    "mergedCount": 2,
+    "rottingPRs": 0,
+    "medianResponseHours": 3,
+    "responseSamples": 3,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "jordond/jolt": {
+    "computedAt": "2026-09-04T08:10:12.597Z",
+    "outsiderPRs": 19,
+    "outsiderMergeRate": 0.5263157894736842,
+    "mergedCount": 10,
+    "rottingPRs": 0,
+    "medianResponseHours": 48,
+    "responseSamples": 10,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "apache/hudi": {
+    "computedAt": "2026-09-04T08:10:12.597Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 0.5,
+    "mergedCount": 2,
+    "rottingPRs": 0,
+    "medianResponseHours": 2,
+    "responseSamples": 28,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "crowdin/crowdin-api-client-java": {
+    "computedAt": "2026-09-04T08:10:12.597Z",
+    "outsiderPRs": 20,
+    "outsiderMergeRate": 1,
+    "mergedCount": 20,
+    "rottingPRs": 0,
+    "medianResponseHours": 15,
+    "responseSamples": 5,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "hiero-ledger/hiero-sdk-java": {
+    "computedAt": "2026-09-04T08:10:12.597Z",
+    "outsiderPRs": 23,
+    "outsiderMergeRate": 0.8695652173913043,
+    "mergedCount": 20,
+    "rottingPRs": 0,
+    "medianResponseHours": 261,
+    "responseSamples": 3,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "nextcloud/desktop": {
+    "computedAt": "2026-09-04T08:10:12.597Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 0.75,
+    "mergedCount": 6,
+    "rottingPRs": 0,
+    "medianResponseHours": 4,
+    "responseSamples": 18,
     "hasCI": true,
     "hasTests": true
   }

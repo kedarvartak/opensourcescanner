@@ -178,3 +178,42 @@
 {"ts":1788441202,"k":"getsentry/sentry-javascript#15939","e":"dropped","why":"takeability: assigned"}
 {"ts":1788459544,"k":"ls1intum/Artemis#12451","e":"dropped","why":"takeability: assigned"}
 {"ts":1788476248,"k":"ilios/ilios#7375","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1788509412,"k":"GatherPress/gatherpress#2240","e":"listed","sc":86}
+{"ts":1788509412,"k":"crowdin/crowdin-api-client-java#392","e":"listed","sc":85}
+{"ts":1788509412,"k":"crowdin/crowdin-api-client-java#388","e":"listed","sc":84}
+{"ts":1788509412,"k":"jordond/jolt#160","e":"listed","sc":84}
+{"ts":1788509412,"k":"crowdin/crowdin-api-client-java#387","e":"listed","sc":82}
+{"ts":1788509412,"k":"ArcadeMakerSources/ArcadeMaker#38","e":"listed","sc":81}
+{"ts":1788509412,"k":"OpenRailAssociation/netzgrafik-editor-frontend#1334","e":"listed","sc":80}
+{"ts":1788509412,"k":"nextcloud/desktop#8661","e":"listed","sc":79}
+{"ts":1788509412,"k":"WordPress/ai#995","e":"listed","sc":78}
+{"ts":1788509412,"k":"afreidah/s3-orchestrator#363","e":"listed","sc":77}
+{"ts":1788509412,"k":"dime-coin/dimecoin#146","e":"listed","sc":76}
+{"ts":1788509412,"k":"apache/hudi#19638","e":"listed","sc":75}
+{"ts":1788509412,"k":"kgateway-dev/kgateway#11998","e":"listed","sc":74}
+{"ts":1788509412,"k":"afreidah/s3-orchestrator#362","e":"listed","sc":73}
+{"ts":1788509412,"k":"marceld23/BlocksBeyondTheStars#570","e":"listed","sc":72}
+{"ts":1788509412,"k":"crowdin/crowdin-api-client-dotnet#398","e":"listed","sc":69}
+{"ts":1788509412,"k":"crowdin/crowdin-api-client-dotnet#397","e":"listed","sc":69}
+{"ts":1788509412,"k":"crowdin/crowdin-api-client-dotnet#396","e":"listed","sc":69}
+{"ts":1788509412,"k":"ilios/ilios#7378","e":"listed","sc":68}
+{"ts":1788509412,"k":"MaaEnd/MaaEnd#5468","e":"listed","sc":68}
+{"ts":1788509412,"k":"hiero-ledger/hiero-sdk-java#2821","e":"listed","sc":68}
+{"ts":1788509412,"k":"manusa/helm-java#329","e":"listed","sc":65}
+{"ts":1788509412,"k":"Goldziher/interface-forge#46","e":"listed","sc":62}
+{"ts":1788509412,"k":"anurag3407/career-pilot#1969","e":"listed","sc":59}
+{"ts":1788509412,"k":"devonfw/IDEasy#2322","e":"listed","sc":58}
+{"ts":1788509412,"k":"LibreSign/libresign#8145","e":"dropped","why":"not_in_board"}
+{"ts":1788509412,"k":"opensearch-project/OpenSearch#22919","e":"dropped","why":"not_in_board"}
+{"ts":1788509412,"k":"besu-eth/besu#11225","e":"dropped","why":"not_in_board"}
+{"ts":1788509412,"k":"thomaspoignant/go-feature-flag#5086","e":"dropped","why":"not_in_board"}
+{"ts":1788509412,"k":"OpenRailAssociation/netzgrafik-editor-frontend#892","e":"dropped","why":"not_in_board"}
+{"ts":1788509412,"k":"remsky/Kokoro-FastAPI#391","e":"dropped","why":"not_in_board"}
+{"ts":1788509412,"k":"openbao/openbao#1227","e":"dropped","why":"not_in_board"}
+{"ts":1788509412,"k":"ls1intum/Artemis#12451","e":"dropped","why":"not_in_board"}
+{"ts":1788509412,"k":"ilios/ilios#7375","e":"dropped","why":"not_in_board"}
+{"ts":1788509412,"k":"manusa/helm-java#279","e":"dropped","why":"not_in_board"}
+{"ts":1788509412,"k":"slackapi/deno-slack-sdk#469","e":"dropped","why":"not_in_board"}
+{"ts":1788509412,"k":"Goldziher/interface-forge#65","e":"dropped","why":"not_in_board"}
+{"ts":1788509412,"k":"hotosm/fAIr#370","e":"dropped","why":"not_in_board"}
+{"ts":1788509412,"k":"anurag3407/career-pilot#1438","e":"dropped","why":"not_in_board"}
