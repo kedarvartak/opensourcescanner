@@ -222,3 +222,6 @@
 {"ts":1788527236,"k":"kernelci/kernelci-core#2894","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1788527236,"k":"koharu-rs/koharu#233","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1788527236,"k":"devonfw/IDEasy#2322","e":"dropped","why":"takeability: assigned"}
+{"ts":1788544984,"k":"crowdin/crowdin-api-client-java#392","e":"dropped","why":"closed"}
+{"ts":1788544984,"k":"crowdin/crowdin-api-client-java#388","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1788544984,"k":"ArcadeMakerSources/ArcadeMaker#38","e":"dropped","why":"takeability: open linked PR"}

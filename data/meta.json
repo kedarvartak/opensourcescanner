@@ -3,7 +3,7 @@
   "generatedAt": "2026-09-04T08:10:12.397Z",
   "nextRefreshAt": "2026-09-05T08:10:12.397Z",
   "counts": {
-    "issues": 452,
+    "issues": 449,
     "repos": 308,
     "languages": 13
   },
@@ -13,7 +13,6 @@
     "nipoppy/nipoppy#646",
     "shipwright-io/build#2134",
     "Wynntils/Wynntils#3896",
-    "crowdin/crowdin-api-client-java#392",
     "CS-SI/eodag#1864",
     "immich-app/immich#22985",
     "OpenRailAssociation/netzgrafik-editor-frontend#1334"
@@ -429,5 +428,5 @@
     },
     "passRate": 0.1385
   },
-  "revalidatedAt": "2026-09-04T13:07:16.110Z"
+  "revalidatedAt": "2026-09-04T18:03:04.542Z"
 }
