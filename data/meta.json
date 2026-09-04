@@ -3,13 +3,12 @@
   "generatedAt": "2026-09-04T08:10:12.397Z",
   "nextRefreshAt": "2026-09-05T08:10:12.397Z",
   "counts": {
-    "issues": 457,
+    "issues": 452,
     "repos": 308,
     "languages": 13
   },
   "todaysPicks": [
     "dominik1001/caldav-mcp#5",
-    "WordPress/ai#995",
     "element-hq/synapse#18993",
     "nipoppy/nipoppy#646",
     "shipwright-io/build#2134",
@@ -429,5 +428,6 @@
       "G1_structural": 44
     },
     "passRate": 0.1385
-  }
+  },
+  "revalidatedAt": "2026-09-04T13:07:16.110Z"
 }
