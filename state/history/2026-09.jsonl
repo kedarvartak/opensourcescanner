@@ -225,3 +225,6 @@
 {"ts":1788544984,"k":"crowdin/crowdin-api-client-java#392","e":"dropped","why":"closed"}
 {"ts":1788544984,"k":"crowdin/crowdin-api-client-java#388","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1788544984,"k":"ArcadeMakerSources/ArcadeMaker#38","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1788561942,"k":"unchihugo/FluentFlyout#1021","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1788561942,"k":"zowe/zowe-explorer-vscode#3744","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1788561942,"k":"Submitty/Submitty#13032","e":"dropped","why":"takeability: assigned"}
