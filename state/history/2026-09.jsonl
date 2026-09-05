@@ -288,3 +288,9 @@
 {"ts":1788594542,"k":"Submitty/Submitty#13032","e":"dropped","why":"not_in_board"}
 {"ts":1788594542,"k":"devonfw/IDEasy#2322","e":"dropped","why":"not_in_board"}
 {"ts":1788594542,"k":"antgroup/YASA-Engine#57","e":"dropped","why":"not_in_board"}
+{"ts":1788610810,"k":"podman-desktop/podman-desktop#11669","e":"dropped","why":"relevance: 18mo old and quiet"}
+{"ts":1788610810,"k":"metasequoiaime/MSIME-Windows#74","e":"dropped","why":"closed"}
+{"ts":1788610810,"k":"EuroEval/EuroEval#875","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1788610810,"k":"Submitty/Submitty#13234","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1788610810,"k":"perses/perses#3264","e":"dropped","why":"closed"}
+{"ts":1788610810,"k":"trinodb/trino#28076","e":"dropped","why":"takeability: open linked PR"}
