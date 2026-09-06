@@ -367,3 +367,5 @@
 {"ts":1788698101,"k":"BarthPaleologue/CosmosJourneyer#593","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1788698101,"k":"BarthPaleologue/CosmosJourneyer#553","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1788698101,"k":"BarthPaleologue/CosmosJourneyer#578","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1788715769,"k":"oppia/oppia#23452","e":"dropped","why":"takeability: assigned"}
+{"ts":1788715769,"k":"huggingface/chat-ui#1756","e":"dropped","why":"relevance: 18mo old and quiet"}
