@@ -99,13 +99,13 @@
     "hasTests": false
   },
   "upstash/context7": {
-    "computedAt": "2026-08-30T09:20:40.246Z",
-    "outsiderPRs": 5,
-    "outsiderMergeRate": 0.6,
-    "mergedCount": 3,
+    "computedAt": "2026-09-07T08:20:08.075Z",
+    "outsiderPRs": 2,
+    "outsiderMergeRate": 1,
+    "mergedCount": 2,
     "rottingPRs": 0,
-    "medianResponseHours": 11,
-    "responseSamples": 10,
+    "medianResponseHours": 7,
+    "responseSamples": 16,
     "hasCI": true,
     "hasTests": false
   },
@@ -616,10 +616,10 @@
     "hasTests": true
   },
   "score-spec/score-k8s": {
-    "computedAt": "2026-08-29T10:10:04.233Z",
+    "computedAt": "2026-09-07T08:20:08.075Z",
     "outsiderPRs": 23,
-    "outsiderMergeRate": 0.9565217391304348,
-    "mergedCount": 22,
+    "outsiderMergeRate": 0.9130434782608695,
+    "mergedCount": 21,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 0,
@@ -1111,13 +1111,13 @@
     "hasTests": false
   },
   "MobiFlight/MobiFlight-Connector": {
-    "computedAt": "2026-08-29T10:10:04.233Z",
-    "outsiderPRs": 14,
-    "outsiderMergeRate": 0.9285714285714286,
-    "mergedCount": 13,
+    "computedAt": "2026-09-07T08:20:08.075Z",
+    "outsiderPRs": 10,
+    "outsiderMergeRate": 0.9,
+    "mergedCount": 9,
     "rottingPRs": 0,
-    "medianResponseHours": 54,
-    "responseSamples": 8,
+    "medianResponseHours": 14,
+    "responseSamples": 4,
     "hasCI": true,
     "hasTests": true
   },
@@ -1254,13 +1254,13 @@
     "hasTests": false
   },
   "software-mansion/react-native-screens": {
-    "computedAt": "2026-08-30T09:20:40.246Z",
+    "computedAt": "2026-09-07T08:20:08.075Z",
     "outsiderPRs": 2,
-    "outsiderMergeRate": 0.5,
-    "mergedCount": 1,
+    "outsiderMergeRate": 1,
+    "mergedCount": 2,
     "rottingPRs": 0,
-    "medianResponseHours": 13,
-    "responseSamples": 15,
+    "medianResponseHours": 11,
+    "responseSamples": 18,
     "hasCI": true,
     "hasTests": false
   },
@@ -2992,10 +2992,10 @@
     "hasTests": false
   },
   "soran-ghaderi/torchebm": {
-    "computedAt": "2026-08-16T10:34:07.104Z",
+    "computedAt": "2026-09-07T08:20:08.075Z",
     "outsiderPRs": 8,
-    "outsiderMergeRate": 0.75,
-    "mergedCount": 6,
+    "outsiderMergeRate": 0.875,
+    "mergedCount": 7,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 1,
@@ -5247,12 +5247,12 @@
     "hasTests": true
   },
   "MudBlazor/MudBlazor": {
-    "computedAt": "2026-08-30T09:20:40.246Z",
-    "outsiderPRs": 7,
-    "outsiderMergeRate": 1,
-    "mergedCount": 7,
+    "computedAt": "2026-09-07T08:20:08.075Z",
+    "outsiderPRs": 0,
+    "outsiderMergeRate": null,
+    "mergedCount": 0,
     "rottingPRs": 0,
-    "medianResponseHours": 12,
+    "medianResponseHours": 0,
     "responseSamples": 12,
     "hasCI": true,
     "hasTests": false
@@ -5555,13 +5555,13 @@
     "hasTests": false
   },
   "civic-dashboard/civic-dashboard-web": {
-    "computedAt": "2026-08-30T09:20:40.246Z",
-    "outsiderPRs": 19,
-    "outsiderMergeRate": 0.8947368421052632,
-    "mergedCount": 17,
+    "computedAt": "2026-09-07T08:20:08.075Z",
+    "outsiderPRs": 17,
+    "outsiderMergeRate": 0.8823529411764706,
+    "mergedCount": 15,
     "rottingPRs": 0,
-    "medianResponseHours": 9,
-    "responseSamples": 5,
+    "medianResponseHours": 35,
+    "responseSamples": 4,
     "hasCI": true,
     "hasTests": false
   },
@@ -5610,10 +5610,10 @@
     "hasTests": false
   },
   "dotnet/Silk.NET": {
-    "computedAt": "2026-08-30T09:20:40.246Z",
-    "outsiderPRs": 4,
+    "computedAt": "2026-09-07T08:20:08.075Z",
+    "outsiderPRs": 5,
     "outsiderMergeRate": 1,
-    "mergedCount": 4,
+    "mergedCount": 5,
     "rottingPRs": 0,
     "medianResponseHours": 265,
     "responseSamples": 19,
@@ -5643,10 +5643,10 @@
     "hasTests": false
   },
   "mi6/ic-ui-kit": {
-    "computedAt": "2026-08-26T04:20:57.830Z",
-    "outsiderPRs": 18,
-    "outsiderMergeRate": 0.05555555555555555,
-    "mergedCount": 1,
+    "computedAt": "2026-09-07T08:20:08.075Z",
+    "outsiderPRs": 21,
+    "outsiderMergeRate": 0.3333333333333333,
+    "mergedCount": 7,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 0,
@@ -6138,13 +6138,13 @@
     "hasTests": true
   },
   "pipe-cd/pipecd": {
-    "computedAt": "2026-08-30T09:20:40.246Z",
+    "computedAt": "2026-09-07T08:20:08.075Z",
     "outsiderPRs": 15,
-    "outsiderMergeRate": 0.8,
-    "mergedCount": 12,
+    "outsiderMergeRate": 0.9333333333333333,
+    "mergedCount": 14,
     "rottingPRs": 0,
-    "medianResponseHours": null,
-    "responseSamples": 2,
+    "medianResponseHours": 54,
+    "responseSamples": 3,
     "hasCI": true,
     "hasTests": true
   },
@@ -6928,5 +6928,71 @@
     "responseSamples": 1,
     "hasCI": true,
     "hasTests": true
+  },
+  "roostorg/coop": {
+    "computedAt": "2026-09-07T08:20:08.075Z",
+    "outsiderPRs": 18,
+    "outsiderMergeRate": 0.9444444444444444,
+    "mergedCount": 17,
+    "rottingPRs": 0,
+    "medianResponseHours": 6,
+    "responseSamples": 12,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "argoproj/argo-workflows": {
+    "computedAt": "2026-09-07T08:20:08.075Z",
+    "outsiderPRs": 13,
+    "outsiderMergeRate": 0.8461538461538461,
+    "mergedCount": 11,
+    "rottingPRs": 0,
+    "medianResponseHours": 7,
+    "responseSamples": 3,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "jabrena/plinth": {
+    "computedAt": "2026-09-07T08:20:08.075Z",
+    "outsiderPRs": 12,
+    "outsiderMergeRate": 0.9166666666666666,
+    "mergedCount": 11,
+    "rottingPRs": 0,
+    "medianResponseHours": 24,
+    "responseSamples": 13,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "OpenChemistry/avogadrolibs": {
+    "computedAt": "2026-09-07T08:20:08.075Z",
+    "outsiderPRs": 7,
+    "outsiderMergeRate": 1,
+    "mergedCount": 7,
+    "rottingPRs": 0,
+    "medianResponseHours": 2,
+    "responseSamples": 26,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "AutoDarkMode/Windows-Auto-Night-Mode": {
+    "computedAt": "2026-09-07T08:20:08.075Z",
+    "outsiderPRs": 12,
+    "outsiderMergeRate": 0.5,
+    "mergedCount": 6,
+    "rottingPRs": 0,
+    "medianResponseHours": 30,
+    "responseSamples": 30,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "Cedro-Software/cedro-modern-dock": {
+    "computedAt": "2026-09-07T08:20:08.075Z",
+    "outsiderPRs": 2,
+    "outsiderMergeRate": 0.5,
+    "mergedCount": 1,
+    "rottingPRs": 0,
+    "medianResponseHours": 12,
+    "responseSamples": 18,
+    "hasCI": false,
+    "hasTests": false
   }
 }
