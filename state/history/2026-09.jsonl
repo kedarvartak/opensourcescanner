@@ -426,3 +426,5 @@
 {"ts":1788807494,"k":"DitriXNew/EDT-MCP#31","e":"dropped","why":"takeability: assigned"}
 {"ts":1788807494,"k":"shipwright-io/build#2134","e":"dropped","why":"takeability: soft-claimed by Yashh56 0d ago"}
 {"ts":1788807494,"k":"DitriXNew/EDT-MCP#464","e":"dropped","why":"takeability: assigned"}
+{"ts":1788822940,"k":"PowerGridModel/power-grid-model#984","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1788822940,"k":"external-secrets/external-secrets#6064","e":"dropped","why":"takeability: soft-claimed by raytorresch 0d ago"}
