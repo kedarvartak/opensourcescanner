@@ -418,3 +418,5 @@
 {"ts":1788769207,"k":"elabftw/elabftw#7353","e":"dropped","why":"not_in_board"}
 {"ts":1788769207,"k":"hiero-ledger/hiero-sdk-java#2821","e":"dropped","why":"not_in_board"}
 {"ts":1788769207,"k":"huggingface/chat-ui#1756","e":"dropped","why":"not_in_board"}
+{"ts":1788792307,"k":"ueberdosis/tiptap#6396","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1788792307,"k":"getsentry/sentry-javascript#15939","e":"dropped","why":"closed"}
