@@ -494,3 +494,9 @@
 {"ts":1788873451,"k":"manankharwar/fusioncore#78","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1788873451,"k":"nickel-lang/nickel#2298","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1788873451,"k":"cncf/prow-github-actions#99","e":"dropped","why":"closed"}
+{"ts":1788891394,"k":"manankharwar/fusioncore#97","e":"dropped","why":"takeability: merged linked PR (stale)"}
+{"ts":1788891394,"k":"nextcloud/desktop#8661","e":"dropped","why":"takeability: soft-claimed by JanSndr 0d ago"}
+{"ts":1788891394,"k":"logisim-evolution/logisim-evolution#2966","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1788891394,"k":"SoftBlack42/StarPie#75","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1788891394,"k":"pymc-labs/pymc-marketing#1772","e":"dropped","why":"closed"}
+{"ts":1788891394,"k":"DLR-FT/wasm-interpreter#141","e":"dropped","why":"relevance: 18mo old and quiet"}
