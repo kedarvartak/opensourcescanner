@@ -500,3 +500,5 @@
 {"ts":1788891394,"k":"SoftBlack42/StarPie#75","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1788891394,"k":"pymc-labs/pymc-marketing#1772","e":"dropped","why":"closed"}
 {"ts":1788891394,"k":"DLR-FT/wasm-interpreter#141","e":"dropped","why":"relevance: 18mo old and quiet"}
+{"ts":1788909007,"k":"uutils/coreutils#10019","e":"dropped","why":"closed"}
+{"ts":1788909007,"k":"AprilSylph/XKit-Rewritten#1977","e":"dropped","why":"takeability: assigned"}
