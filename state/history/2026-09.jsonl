@@ -491,3 +491,6 @@
 {"ts":1788855155,"k":"getsentry/sentry-rust#912","e":"dropped","why":"not_in_board"}
 {"ts":1788855155,"k":"treeverse/lakeFS#9027","e":"dropped","why":"not_in_board"}
 {"ts":1788855155,"k":"treeverse/lakeFS#9600","e":"dropped","why":"not_in_board"}
+{"ts":1788873451,"k":"manankharwar/fusioncore#78","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1788873451,"k":"nickel-lang/nickel#2298","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1788873451,"k":"cncf/prow-github-actions#99","e":"dropped","why":"closed"}
