@@ -573,3 +573,4 @@
 {"ts":1788977831,"k":"fjordllc/bootcamp#10493","e":"dropped","why":"takeability: assigned"}
 {"ts":1788977831,"k":"apache/iceberg#13580","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1788977831,"k":"bluewave-labs/Checkmate#2751","e":"dropped","why":"closed"}
+{"ts":1788994423,"k":"open-telemetry/opentelemetry-ruby#2373","e":"dropped","why":"takeability: open linked PR"}
