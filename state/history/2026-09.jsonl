@@ -564,3 +564,7 @@
 {"ts":1788941747,"k":"MapsHD/HDMapping#481","e":"dropped","why":"not_in_board"}
 {"ts":1788941747,"k":"Deadlink-Hunter/Broken-Link-Website#204","e":"dropped","why":"not_in_board"}
 {"ts":1788941747,"k":"onflow/flow-go#8090","e":"dropped","why":"not_in_board"}
+{"ts":1788960095,"k":"MobiFlight/MobiFlight-Connector#3258","e":"dropped","why":"takeability: assigned"}
+{"ts":1788960095,"k":"tone-3000/tone3000-plugin#85","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1788960095,"k":"stefankueng/grepWin#609","e":"dropped","why":"takeability: soft-claimed by Shikhaaa506 0d ago"}
+{"ts":1788960095,"k":"manusa/helm-java#266","e":"dropped","why":"relevance: 18mo old and quiet"}
