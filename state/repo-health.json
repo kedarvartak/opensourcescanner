@@ -946,13 +946,13 @@
     "hasTests": false
   },
   "Apicurio/apicurio-registry": {
-    "computedAt": "2026-08-14T20:00:12.543Z",
-    "outsiderPRs": 6,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 3,
     "outsiderMergeRate": 0.3333333333333333,
-    "mergedCount": 2,
+    "mergedCount": 1,
     "rottingPRs": 0,
-    "medianResponseHours": 2,
-    "responseSamples": 7,
+    "medianResponseHours": 0,
+    "responseSamples": 3,
     "hasCI": true,
     "hasTests": false
   },
@@ -1903,13 +1903,13 @@
     "hasTests": false
   },
   "he4rt/heartdevs.com": {
-    "computedAt": "2026-09-01T08:42:41.486Z",
-    "outsiderPRs": 13,
-    "outsiderMergeRate": 0.9230769230769231,
-    "mergedCount": 12,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 18,
+    "outsiderMergeRate": 0.8888888888888888,
+    "mergedCount": 16,
     "rottingPRs": 0,
-    "medianResponseHours": 18,
-    "responseSamples": 4,
+    "medianResponseHours": null,
+    "responseSamples": 0,
     "hasCI": true,
     "hasTests": true
   },
@@ -2497,10 +2497,10 @@
     "hasTests": false
   },
   "UTDNebula/utd-trends": {
-    "computedAt": "2026-08-31T09:42:56.022Z",
-    "outsiderPRs": 12,
-    "outsiderMergeRate": 0.75,
-    "mergedCount": 9,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 13,
+    "outsiderMergeRate": 0.7692307692307693,
+    "mergedCount": 10,
     "rottingPRs": 4,
     "medianResponseHours": 117,
     "responseSamples": 11,
@@ -2860,12 +2860,12 @@
     "hasTests": false
   },
   "exelearning/exelearning": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
+    "computedAt": "2026-09-09T08:15:47.343Z",
     "outsiderPRs": 15,
     "outsiderMergeRate": 0.9333333333333333,
     "mergedCount": 14,
     "rottingPRs": 0,
-    "medianResponseHours": 1,
+    "medianResponseHours": 4,
     "responseSamples": 8,
     "hasCI": true,
     "hasTests": true
@@ -3102,13 +3102,13 @@
     "hasTests": true
   },
   "astronomy-commons/lsdb": {
-    "computedAt": "2026-08-31T09:42:56.022Z",
-    "outsiderPRs": 7,
-    "outsiderMergeRate": 0.7142857142857143,
-    "mergedCount": 5,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 9,
+    "outsiderMergeRate": 0.7777777777777778,
+    "mergedCount": 7,
     "rottingPRs": 0,
-    "medianResponseHours": 25,
-    "responseSamples": 8,
+    "medianResponseHours": 4,
+    "responseSamples": 3,
     "hasCI": true,
     "hasTests": true
   },
@@ -4026,13 +4026,13 @@
     "hasTests": false
   },
   "hardwood-hq/hardwood": {
-    "computedAt": "2026-08-31T09:42:56.022Z",
-    "outsiderPRs": 6,
-    "outsiderMergeRate": 0.8333333333333334,
-    "mergedCount": 5,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 0,
+    "outsiderMergeRate": null,
+    "mergedCount": 0,
     "rottingPRs": 0,
-    "medianResponseHours": 44,
-    "responseSamples": 11,
+    "medianResponseHours": 1,
+    "responseSamples": 6,
     "hasCI": true,
     "hasTests": false
   },
@@ -4323,13 +4323,13 @@
     "hasTests": true
   },
   "aethersdr/AetherSDR": {
-    "computedAt": "2026-08-31T09:42:56.022Z",
-    "outsiderPRs": 7,
-    "outsiderMergeRate": 0.8571428571428571,
-    "mergedCount": 6,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 3,
+    "outsiderMergeRate": 1,
+    "mergedCount": 3,
     "rottingPRs": 0,
     "medianResponseHours": 1,
-    "responseSamples": 12,
+    "responseSamples": 7,
     "hasCI": true,
     "hasTests": true
   },
@@ -4598,13 +4598,13 @@
     "hasTests": false
   },
   "LibreSign/libresign": {
-    "computedAt": "2026-09-01T08:42:41.486Z",
-    "outsiderPRs": 4,
-    "outsiderMergeRate": 1,
-    "mergedCount": 4,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 15,
+    "outsiderMergeRate": 0.9333333333333333,
+    "mergedCount": 14,
     "rottingPRs": 0,
-    "medianResponseHours": 3,
-    "responseSamples": 5,
+    "medianResponseHours": 1,
+    "responseSamples": 12,
     "hasCI": true,
     "hasTests": true
   },
@@ -4719,10 +4719,10 @@
     "hasTests": false
   },
   "TryGhost/Ghost": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
-    "outsiderPRs": 5,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 3,
     "outsiderMergeRate": 1,
-    "mergedCount": 5,
+    "mergedCount": 3,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 2,
@@ -4730,13 +4730,13 @@
     "hasTests": false
   },
   "RoboSats/robosats": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
-    "outsiderPRs": 7,
-    "outsiderMergeRate": 0.7142857142857143,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 6,
+    "outsiderMergeRate": 0.8333333333333334,
     "mergedCount": 5,
     "rottingPRs": 0,
-    "medianResponseHours": 1652,
-    "responseSamples": 10,
+    "medianResponseHours": 1221,
+    "responseSamples": 11,
     "hasCI": true,
     "hasTests": true
   },
@@ -4818,13 +4818,13 @@
     "hasTests": false
   },
   "bluewave-labs/Checkmate": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
-    "outsiderPRs": 8,
-    "outsiderMergeRate": 0.875,
-    "mergedCount": 7,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 10,
+    "outsiderMergeRate": 0.9,
+    "mergedCount": 9,
     "rottingPRs": 0,
     "medianResponseHours": null,
-    "responseSamples": 0,
+    "responseSamples": 1,
     "hasCI": true,
     "hasTests": false
   },
@@ -4851,18 +4851,18 @@
     "hasTests": true
   },
   "CS-SI/eodag": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
-    "outsiderPRs": 7,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 5,
     "outsiderMergeRate": 1,
-    "mergedCount": 7,
+    "mergedCount": 5,
     "rottingPRs": 0,
-    "medianResponseHours": null,
-    "responseSamples": 2,
+    "medianResponseHours": 45,
+    "responseSamples": 3,
     "hasCI": true,
     "hasTests": true
   },
   "cosmos/evm": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
+    "computedAt": "2026-09-09T08:15:47.343Z",
     "outsiderPRs": 12,
     "outsiderMergeRate": 0.8333333333333334,
     "mergedCount": 10,
@@ -4873,24 +4873,24 @@
     "hasTests": true
   },
   "medik8s/self-node-remediation": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
-    "outsiderPRs": 11,
-    "outsiderMergeRate": 0.6363636363636364,
-    "mergedCount": 7,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 13,
+    "outsiderMergeRate": 0.7692307692307693,
+    "mergedCount": 10,
     "rottingPRs": 0,
     "medianResponseHours": 17,
-    "responseSamples": 29,
+    "responseSamples": 31,
     "hasCI": true,
     "hasTests": false
   },
   "sphireinc/Foundry": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
-    "outsiderPRs": 16,
-    "outsiderMergeRate": 0.9375,
-    "mergedCount": 15,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 18,
+    "outsiderMergeRate": 0.8888888888888888,
+    "mergedCount": 16,
     "rottingPRs": 0,
-    "medianResponseHours": 1141,
-    "responseSamples": 20,
+    "medianResponseHours": 555,
+    "responseSamples": 21,
     "hasCI": true,
     "hasTests": true
   },
@@ -4961,12 +4961,12 @@
     "hasTests": false
   },
   "snowflakedb/terraform-provider-snowflake": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
+    "computedAt": "2026-09-09T08:15:47.343Z",
     "outsiderPRs": 20,
     "outsiderMergeRate": 0.65,
     "mergedCount": 13,
     "rottingPRs": 0,
-    "medianResponseHours": 72,
+    "medianResponseHours": 43,
     "responseSamples": 11,
     "hasCI": true,
     "hasTests": false
@@ -4994,13 +4994,13 @@
     "hasTests": true
   },
   "SkriptLang/Skript": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
+    "computedAt": "2026-09-09T08:15:47.343Z",
     "outsiderPRs": 6,
     "outsiderMergeRate": 0.6666666666666666,
     "mergedCount": 4,
     "rottingPRs": 0,
     "medianResponseHours": 0,
-    "responseSamples": 15,
+    "responseSamples": 14,
     "hasCI": true,
     "hasTests": false
   },
@@ -5027,13 +5027,13 @@
     "hasTests": false
   },
   "Murmele/Gittyup": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
+    "computedAt": "2026-09-09T08:15:47.343Z",
     "outsiderPRs": 2,
     "outsiderMergeRate": 1,
     "mergedCount": 2,
     "rottingPRs": 0,
-    "medianResponseHours": 23,
-    "responseSamples": 20,
+    "medianResponseHours": 27,
+    "responseSamples": 19,
     "hasCI": true,
     "hasTests": true
   },
@@ -5071,24 +5071,24 @@
     "hasTests": true
   },
   "Submitty/Submitty": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
-    "outsiderPRs": 0,
-    "outsiderMergeRate": null,
-    "mergedCount": 0,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 1,
+    "outsiderMergeRate": 1,
+    "mergedCount": 1,
     "rottingPRs": 0,
     "medianResponseHours": null,
-    "responseSamples": 1,
+    "responseSamples": 2,
     "hasCI": true,
     "hasTests": true
   },
   "krkn-chaos/krkn": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
-    "outsiderPRs": 4,
-    "outsiderMergeRate": 0.5,
-    "mergedCount": 2,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 1,
+    "outsiderMergeRate": 1,
+    "mergedCount": 1,
     "rottingPRs": 0,
-    "medianResponseHours": 17,
-    "responseSamples": 7,
+    "medianResponseHours": 9,
+    "responseSamples": 10,
     "hasCI": true,
     "hasTests": true
   },
@@ -5148,7 +5148,7 @@
     "hasTests": false
   },
   "arnica/depsguard": {
-    "computedAt": "2026-08-27T14:07:55.609Z",
+    "computedAt": "2026-09-09T08:15:47.343Z",
     "outsiderPRs": 17,
     "outsiderMergeRate": 0.35294117647058826,
     "mergedCount": 6,
@@ -5665,13 +5665,13 @@
     "hasTests": true
   },
   "stdlib-js/stdlib": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
-    "outsiderPRs": 0,
-    "outsiderMergeRate": null,
-    "mergedCount": 0,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 2,
+    "outsiderMergeRate": 1,
+    "mergedCount": 2,
     "rottingPRs": 0,
     "medianResponseHours": 2,
-    "responseSamples": 9,
+    "responseSamples": 6,
     "hasCI": true,
     "hasTests": true
   },
@@ -5687,9 +5687,9 @@
     "hasTests": true
   },
   "meta-pytorch/torchcodec": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
-    "outsiderPRs": 16,
-    "outsiderMergeRate": 0.875,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 19,
+    "outsiderMergeRate": 0.7368421052631579,
     "mergedCount": 14,
     "rottingPRs": 0,
     "medianResponseHours": null,
@@ -5698,10 +5698,10 @@
     "hasTests": true
   },
   "urlvet/urlvet": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
-    "outsiderPRs": 13,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 17,
     "outsiderMergeRate": 1,
-    "mergedCount": 13,
+    "mergedCount": 17,
     "rottingPRs": 0,
     "medianResponseHours": 10,
     "responseSamples": 3,
@@ -5709,24 +5709,24 @@
     "hasTests": false
   },
   "ZcashFoundation/zebra": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
-    "outsiderPRs": 8,
-    "outsiderMergeRate": 0.125,
-    "mergedCount": 1,
-    "rottingPRs": 0,
-    "medianResponseHours": 14,
-    "responseSamples": 4,
-    "hasCI": true,
-    "hasTests": false
-  },
-  "facebookincubator/velox": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
+    "computedAt": "2026-09-09T08:15:47.343Z",
     "outsiderPRs": 7,
     "outsiderMergeRate": 0.8571428571428571,
     "mergedCount": 6,
     "rottingPRs": 0,
+    "medianResponseHours": 14,
+    "responseSamples": 8,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "facebookincubator/velox": {
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 6,
+    "outsiderMergeRate": 1,
+    "mergedCount": 6,
+    "rottingPRs": 0,
     "medianResponseHours": 10,
-    "responseSamples": 5,
+    "responseSamples": 3,
     "hasCI": true,
     "hasTests": false
   },
@@ -5742,10 +5742,10 @@
     "hasTests": true
   },
   "ESPWortuhr/Multilayout-ESP-Wordclock": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
+    "computedAt": "2026-09-09T08:15:47.343Z",
     "outsiderPRs": 16,
-    "outsiderMergeRate": 0.8125,
-    "mergedCount": 13,
+    "outsiderMergeRate": 0.75,
+    "mergedCount": 12,
     "rottingPRs": 0,
     "medianResponseHours": 12,
     "responseSamples": 14,
@@ -5797,7 +5797,7 @@
     "hasTests": false
   },
   "artefactual/atom": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
+    "computedAt": "2026-09-09T08:15:47.343Z",
     "outsiderPRs": 9,
     "outsiderMergeRate": 0.7777777777777778,
     "mergedCount": 7,
@@ -5808,7 +5808,7 @@
     "hasTests": true
   },
   "tirrenotechnologies/tirreno": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
+    "computedAt": "2026-09-09T08:15:47.343Z",
     "outsiderPRs": 12,
     "outsiderMergeRate": 0.4166666666666667,
     "mergedCount": 5,
@@ -6314,8 +6314,8 @@
     "hasTests": false
   },
   "anurag3407/career-pilot": {
-    "computedAt": "2026-09-01T08:42:41.486Z",
-    "outsiderPRs": 14,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 12,
     "outsiderMergeRate": 0,
     "mergedCount": 0,
     "rottingPRs": 0,
@@ -6336,7 +6336,7 @@
     "hasTests": true
   },
   "voxel51/fiftyone-brain": {
-    "computedAt": "2026-09-01T08:42:41.486Z",
+    "computedAt": "2026-09-09T08:15:47.343Z",
     "outsiderPRs": 7,
     "outsiderMergeRate": 1,
     "mergedCount": 7,
@@ -6347,24 +6347,24 @@
     "hasTests": true
   },
   "apache/iggy": {
-    "computedAt": "2026-09-01T08:42:41.486Z",
-    "outsiderPRs": 10,
-    "outsiderMergeRate": 1,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 13,
+    "outsiderMergeRate": 0.7692307692307693,
     "mergedCount": 10,
     "rottingPRs": 0,
-    "medianResponseHours": null,
-    "responseSamples": 0,
+    "medianResponseHours": 57,
+    "responseSamples": 5,
     "hasCI": true,
     "hasTests": false
   },
   "opensearch-project/data-prepper": {
-    "computedAt": "2026-09-01T08:42:41.486Z",
+    "computedAt": "2026-09-09T08:15:47.343Z",
     "outsiderPRs": 4,
-    "outsiderMergeRate": 0.75,
-    "mergedCount": 3,
+    "outsiderMergeRate": 1,
+    "mergedCount": 4,
     "rottingPRs": 0,
-    "medianResponseHours": 282,
-    "responseSamples": 4,
+    "medianResponseHours": 298,
+    "responseSamples": 3,
     "hasCI": true,
     "hasTests": false
   },
@@ -6380,20 +6380,20 @@
     "hasTests": false
   },
   "OpenLoco/OpenLoco": {
-    "computedAt": "2026-09-01T08:42:41.486Z",
-    "outsiderPRs": 13,
-    "outsiderMergeRate": 0.7692307692307693,
-    "mergedCount": 10,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 12,
+    "outsiderMergeRate": 0.9166666666666666,
+    "mergedCount": 11,
     "rottingPRs": 0,
-    "medianResponseHours": 2,
-    "responseSamples": 8,
+    "medianResponseHours": 4,
+    "responseSamples": 10,
     "hasCI": true,
     "hasTests": false
   },
   "Kryptos-FR/MarkView.Avalonia": {
-    "computedAt": "2026-09-01T08:42:41.486Z",
-    "outsiderPRs": 6,
-    "outsiderMergeRate": 0.16666666666666666,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 11,
+    "outsiderMergeRate": 0.09090909090909091,
     "mergedCount": 1,
     "rottingPRs": 0,
     "medianResponseHours": null,
@@ -6424,24 +6424,24 @@
     "hasTests": false
   },
   "getsentry/sentry-python": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
-    "outsiderPRs": 14,
-    "outsiderMergeRate": 0.8571428571428571,
-    "mergedCount": 12,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 21,
+    "outsiderMergeRate": 0.9523809523809523,
+    "mergedCount": 20,
     "rottingPRs": 0,
-    "medianResponseHours": null,
-    "responseSamples": 0,
+    "medianResponseHours": 8,
+    "responseSamples": 3,
     "hasCI": true,
     "hasTests": true
   },
   "frappe/erpnext": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
-    "outsiderPRs": 10,
-    "outsiderMergeRate": 0.9,
-    "mergedCount": 9,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 18,
+    "outsiderMergeRate": 0.9444444444444444,
+    "mergedCount": 17,
     "rottingPRs": 0,
-    "medianResponseHours": 1,
-    "responseSamples": 8,
+    "medianResponseHours": 5,
+    "responseSamples": 6,
     "hasCI": true,
     "hasTests": false
   },
@@ -6468,24 +6468,24 @@
     "hasTests": false
   },
   "tramhao/termusic": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
+    "computedAt": "2026-09-09T08:15:47.343Z",
     "outsiderPRs": 10,
     "outsiderMergeRate": 0.9,
     "mergedCount": 9,
     "rottingPRs": 0,
     "medianResponseHours": 4,
-    "responseSamples": 26,
+    "responseSamples": 25,
     "hasCI": true,
     "hasTests": false
   },
   "apache/sedona": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
-    "outsiderPRs": 5,
-    "outsiderMergeRate": 0.8,
-    "mergedCount": 4,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 12,
+    "outsiderMergeRate": 0.5,
+    "mergedCount": 6,
     "rottingPRs": 0,
-    "medianResponseHours": 13,
-    "responseSamples": 9,
+    "medianResponseHours": 27,
+    "responseSamples": 13,
     "hasCI": true,
     "hasTests": false
   },
@@ -6501,23 +6501,23 @@
     "hasTests": false
   },
   "getsentry/sentry-unreal": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
-    "outsiderPRs": 10,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 9,
     "outsiderMergeRate": 1,
-    "mergedCount": 10,
+    "mergedCount": 9,
     "rottingPRs": 0,
-    "medianResponseHours": 22,
-    "responseSamples": 17,
+    "medianResponseHours": 19,
+    "responseSamples": 18,
     "hasCI": true,
     "hasTests": false
   },
   "kiwix/libkiwix": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
+    "computedAt": "2026-09-09T08:15:47.343Z",
     "outsiderPRs": 1,
     "outsiderMergeRate": 1,
     "mergedCount": 1,
     "rottingPRs": 0,
-    "medianResponseHours": 6,
+    "medianResponseHours": 8,
     "responseSamples": 24,
     "hasCI": true,
     "hasTests": true
@@ -6545,13 +6545,13 @@
     "hasTests": true
   },
   "oceanbase/seekdb": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
-    "outsiderPRs": 8,
-    "outsiderMergeRate": 0.875,
-    "mergedCount": 7,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 12,
+    "outsiderMergeRate": 0.9166666666666666,
+    "mergedCount": 11,
     "rottingPRs": 0,
-    "medianResponseHours": 3,
-    "responseSamples": 10,
+    "medianResponseHours": 17,
+    "responseSamples": 12,
     "hasCI": true,
     "hasTests": false
   },
@@ -6578,54 +6578,54 @@
     "hasTests": true
   },
   "fjordllc/bootcamp": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
-    "outsiderPRs": 4,
-    "outsiderMergeRate": 1,
-    "mergedCount": 4,
-    "rottingPRs": 0,
-    "medianResponseHours": 2,
-    "responseSamples": 6,
-    "hasCI": true,
-    "hasTests": true
-  },
-  "getsentry/sentry-ruby": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
-    "outsiderPRs": 9,
-    "outsiderMergeRate": 0.8888888888888888,
-    "mergedCount": 8,
-    "rottingPRs": 0,
-    "medianResponseHours": 14,
-    "responseSamples": 3,
-    "hasCI": true,
-    "hasTests": false
-  },
-  "errbit/errbit": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
+    "computedAt": "2026-09-09T08:15:47.343Z",
     "outsiderPRs": 8,
     "outsiderMergeRate": 0.75,
     "mergedCount": 6,
     "rottingPRs": 0,
-    "medianResponseHours": 29,
+    "medianResponseHours": 23,
+    "responseSamples": 5,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "getsentry/sentry-ruby": {
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 10,
+    "outsiderMergeRate": 0.8,
+    "mergedCount": 8,
+    "rottingPRs": 0,
+    "medianResponseHours": 8,
+    "responseSamples": 6,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "errbit/errbit": {
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 10,
+    "outsiderMergeRate": 1,
+    "mergedCount": 10,
+    "rottingPRs": 0,
+    "medianResponseHours": 35,
     "responseSamples": 8,
     "hasCI": true,
     "hasTests": false
   },
   "getsentry/sentry-symfony": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
-    "outsiderPRs": 22,
-    "outsiderMergeRate": 0.9545454545454546,
-    "mergedCount": 21,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 20,
+    "outsiderMergeRate": 0.95,
+    "mergedCount": 19,
     "rottingPRs": 0,
     "medianResponseHours": null,
-    "responseSamples": 2,
+    "responseSamples": 1,
     "hasCI": true,
     "hasTests": true
   },
   "getsentry/sentry-laravel": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
-    "outsiderPRs": 19,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 18,
     "outsiderMergeRate": 1,
-    "mergedCount": 19,
+    "mergedCount": 18,
     "rottingPRs": 0,
     "medianResponseHours": 44,
     "responseSamples": 4,
@@ -6633,10 +6633,10 @@
     "hasTests": true
   },
   "getsentry/sentry-php": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
-    "outsiderPRs": 19,
-    "outsiderMergeRate": 0.6842105263157895,
-    "mergedCount": 13,
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 18,
+    "outsiderMergeRate": 0.6666666666666666,
+    "mergedCount": 12,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 1,
@@ -7115,5 +7115,104 @@
     "responseSamples": 5,
     "hasCI": true,
     "hasTests": true
+  },
+  "EXXETA/trufos": {
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 6,
+    "outsiderMergeRate": 0,
+    "mergedCount": 0,
+    "rottingPRs": 0,
+    "medianResponseHours": 0,
+    "responseSamples": 3,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "open-meteo/weather-map-layer": {
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 0.5,
+    "mergedCount": 4,
+    "rottingPRs": 0,
+    "medianResponseHours": 8,
+    "responseSamples": 4,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "mwmbl/mwmbl": {
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 23,
+    "outsiderMergeRate": 1,
+    "mergedCount": 23,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "256lights/zb": {
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 0,
+    "outsiderMergeRate": null,
+    "mergedCount": 0,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 2,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "Daminoup88/WattSeal": {
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 17,
+    "outsiderMergeRate": 0.9411764705882353,
+    "mergedCount": 16,
+    "rottingPRs": 0,
+    "medianResponseHours": 6,
+    "responseSamples": 22,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "spring-projects/spring-grpc": {
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 22,
+    "outsiderMergeRate": 0.5454545454545454,
+    "mergedCount": 12,
+    "rottingPRs": 0,
+    "medianResponseHours": 49,
+    "responseSamples": 28,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "Magic-team-jvav/confluence": {
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 14,
+    "outsiderMergeRate": 0.8571428571428571,
+    "mergedCount": 12,
+    "rottingPRs": 0,
+    "medianResponseHours": 44,
+    "responseSamples": 17,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "ArduPilot/ardupilot": {
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 9,
+    "outsiderMergeRate": 0.7777777777777778,
+    "mergedCount": 7,
+    "rottingPRs": 0,
+    "medianResponseHours": 12,
+    "responseSamples": 5,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "open-telemetry/opentelemetry-ruby": {
+    "computedAt": "2026-09-09T08:15:47.343Z",
+    "outsiderPRs": 17,
+    "outsiderMergeRate": 0.8235294117647058,
+    "mergedCount": 14,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": false
   }
 }
