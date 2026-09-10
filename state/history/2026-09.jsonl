@@ -649,3 +649,8 @@
 {"ts":1789028200,"k":"manusa/helm-java#266","e":"dropped","why":"not_in_board"}
 {"ts":1789028200,"k":"MudBlazor/MudBlazor#11991","e":"dropped","why":"not_in_board"}
 {"ts":1789028200,"k":"WFP-VAM/prism-app#1649","e":"dropped","why":"not_in_board"}
+{"ts":1789046289,"k":"open-telemetry/opentelemetry-ruby#2357","e":"dropped","why":"takeability: soft-claimed by naveedsajjdawan 0d ago"}
+{"ts":1789046289,"k":"zen-browser/desktop#15280","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1789046289,"k":"widelands/widelands#7063","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1789046289,"k":"AcademySoftwareFoundation/OpenImageIO#4713","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1789046289,"k":"kgateway-dev/kgateway#13282","e":"dropped","why":"relevance: blocking label: stale"}
