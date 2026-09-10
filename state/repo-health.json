@@ -4125,13 +4125,13 @@
     "hasTests": false
   },
   "Minestom/Minestom": {
-    "computedAt": "2026-08-27T14:07:55.609Z",
-    "outsiderPRs": 8,
-    "outsiderMergeRate": 0.875,
-    "mergedCount": 7,
+    "computedAt": "2026-09-10T08:16:40.744Z",
+    "outsiderPRs": 11,
+    "outsiderMergeRate": 0.8181818181818182,
+    "mergedCount": 9,
     "rottingPRs": 0,
-    "medianResponseHours": 19,
-    "responseSamples": 6,
+    "medianResponseHours": 58,
+    "responseSamples": 8,
     "hasCI": true,
     "hasTests": false
   },
@@ -4169,12 +4169,12 @@
     "hasTests": false
   },
   "opensearch-project/k-NN": {
-    "computedAt": "2026-08-27T14:07:55.609Z",
-    "outsiderPRs": 8,
-    "outsiderMergeRate": 0.75,
-    "mergedCount": 6,
+    "computedAt": "2026-09-10T08:16:40.744Z",
+    "outsiderPRs": 9,
+    "outsiderMergeRate": 1,
+    "mergedCount": 9,
     "rottingPRs": 0,
-    "medianResponseHours": 40,
+    "medianResponseHours": 26,
     "responseSamples": 9,
     "hasCI": true,
     "hasTests": false
@@ -4367,13 +4367,13 @@
     "hasTests": false
   },
   "serenedb/serenedb": {
-    "computedAt": "2026-08-16T10:34:07.104Z",
-    "outsiderPRs": 15,
-    "outsiderMergeRate": 0.9333333333333333,
-    "mergedCount": 14,
+    "computedAt": "2026-09-10T08:16:40.744Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 0.625,
+    "mergedCount": 5,
     "rottingPRs": 0,
-    "medianResponseHours": 8,
-    "responseSamples": 7,
+    "medianResponseHours": 33,
+    "responseSamples": 3,
     "hasCI": true,
     "hasTests": true
   },
@@ -4796,13 +4796,13 @@
     "hasTests": true
   },
   "ArcadeMakerSources/ArcadeMaker": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
+    "computedAt": "2026-09-10T08:16:40.744Z",
     "outsiderPRs": 3,
     "outsiderMergeRate": 1,
     "mergedCount": 3,
     "rottingPRs": 0,
-    "medianResponseHours": 49,
-    "responseSamples": 6,
+    "medianResponseHours": 46,
+    "responseSamples": 7,
     "hasCI": false,
     "hasTests": true
   },
@@ -5313,13 +5313,13 @@
     "hasTests": true
   },
   "hiero-ledger/hiero-sdk-rust": {
-    "computedAt": "2026-08-21T04:10:14.241Z",
-    "outsiderPRs": 8,
-    "outsiderMergeRate": 0.375,
+    "computedAt": "2026-09-10T08:16:40.744Z",
+    "outsiderPRs": 9,
+    "outsiderMergeRate": 0.3333333333333333,
     "mergedCount": 3,
-    "rottingPRs": 2,
+    "rottingPRs": 8,
     "medianResponseHours": null,
-    "responseSamples": 0,
+    "responseSamples": 1,
     "hasCI": true,
     "hasTests": true
   },
@@ -5456,13 +5456,13 @@
     "hasTests": false
   },
   "cBioPortal/cbioportal": {
-    "computedAt": "2026-08-22T04:09:54.520Z",
-    "outsiderPRs": 16,
-    "outsiderMergeRate": 0.6875,
-    "mergedCount": 11,
+    "computedAt": "2026-09-10T08:16:40.744Z",
+    "outsiderPRs": 17,
+    "outsiderMergeRate": 0.8235294117647058,
+    "mergedCount": 14,
     "rottingPRs": 0,
     "medianResponseHours": 465,
-    "responseSamples": 9,
+    "responseSamples": 5,
     "hasCI": true,
     "hasTests": true
   },
@@ -5544,10 +5544,10 @@
     "hasTests": false
   },
   "grafana/grafana": {
-    "computedAt": "2026-08-23T04:18:12.916Z",
-    "outsiderPRs": 1,
+    "computedAt": "2026-09-10T08:16:40.744Z",
+    "outsiderPRs": 3,
     "outsiderMergeRate": 1,
-    "mergedCount": 1,
+    "mergedCount": 3,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 0,
@@ -6171,13 +6171,13 @@
     "hasTests": false
   },
   "gems-uff/sapos": {
-    "computedAt": "2026-08-30T09:20:40.246Z",
-    "outsiderPRs": 17,
-    "outsiderMergeRate": 0.8235294117647058,
-    "mergedCount": 14,
-    "rottingPRs": 2,
-    "medianResponseHours": 12,
-    "responseSamples": 11,
+    "computedAt": "2026-09-10T08:16:40.744Z",
+    "outsiderPRs": 21,
+    "outsiderMergeRate": 0.9047619047619048,
+    "mergedCount": 19,
+    "rottingPRs": 0,
+    "medianResponseHours": 23,
+    "responseSamples": 13,
     "hasCI": true,
     "hasTests": false
   },
@@ -6556,24 +6556,24 @@
     "hasTests": false
   },
   "getsentry/sentry-dotnet": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
-    "outsiderPRs": 8,
-    "outsiderMergeRate": 1,
-    "mergedCount": 8,
+    "computedAt": "2026-09-10T08:16:40.744Z",
+    "outsiderPRs": 12,
+    "outsiderMergeRate": 0.9166666666666666,
+    "mergedCount": 11,
     "rottingPRs": 0,
-    "medianResponseHours": 50,
-    "responseSamples": 14,
+    "medianResponseHours": 73,
+    "responseSamples": 6,
     "hasCI": true,
     "hasTests": true
   },
   "getsentry/sentry-unity": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
+    "computedAt": "2026-09-10T08:16:40.744Z",
     "outsiderPRs": 20,
-    "outsiderMergeRate": 0.8,
-    "mergedCount": 16,
+    "outsiderMergeRate": 0.95,
+    "mergedCount": 19,
     "rottingPRs": 0,
     "medianResponseHours": null,
-    "responseSamples": 1,
+    "responseSamples": 2,
     "hasCI": true,
     "hasTests": true
   },
@@ -6644,18 +6644,18 @@
     "hasTests": true
   },
   "thunderbird/tbpro-add-on": {
-    "computedAt": "2026-09-03T08:09:11.804Z",
+    "computedAt": "2026-09-10T08:16:40.744Z",
     "outsiderPRs": 5,
-    "outsiderMergeRate": 0.6,
-    "mergedCount": 3,
+    "outsiderMergeRate": 0.4,
+    "mergedCount": 2,
     "rottingPRs": 0,
-    "medianResponseHours": 9,
-    "responseSamples": 8,
+    "medianResponseHours": 24,
+    "responseSamples": 11,
     "hasCI": true,
     "hasTests": false
   },
   "processing/p5.sound.js": {
-    "computedAt": "2026-09-03T08:09:11.804Z",
+    "computedAt": "2026-09-10T08:16:40.744Z",
     "outsiderPRs": 8,
     "outsiderMergeRate": 0.875,
     "mergedCount": 7,
@@ -6677,10 +6677,10 @@
     "hasTests": false
   },
   "containers/ramalama": {
-    "computedAt": "2026-09-03T08:09:11.804Z",
-    "outsiderPRs": 10,
-    "outsiderMergeRate": 0.8,
-    "mergedCount": 8,
+    "computedAt": "2026-09-10T08:16:40.744Z",
+    "outsiderPRs": 12,
+    "outsiderMergeRate": 0.8333333333333334,
+    "mergedCount": 10,
     "rottingPRs": 0,
     "medianResponseHours": 17,
     "responseSamples": 23,
@@ -6688,13 +6688,13 @@
     "hasTests": true
   },
   "superradcompany/microsandbox": {
-    "computedAt": "2026-09-03T08:09:11.804Z",
-    "outsiderPRs": 10,
+    "computedAt": "2026-09-10T08:16:40.744Z",
+    "outsiderPRs": 7,
     "outsiderMergeRate": 1,
-    "mergedCount": 10,
+    "mergedCount": 7,
     "rottingPRs": 0,
-    "medianResponseHours": 3,
-    "responseSamples": 7,
+    "medianResponseHours": 12,
+    "responseSamples": 6,
     "hasCI": true,
     "hasTests": false
   },
@@ -7214,5 +7214,93 @@
     "responseSamples": 0,
     "hasCI": true,
     "hasTests": false
+  },
+  "sidequestjs/sidequest": {
+    "computedAt": "2026-09-10T08:16:40.744Z",
+    "outsiderPRs": 19,
+    "outsiderMergeRate": 0.8947368421052632,
+    "mergedCount": 17,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "Hylozoic/hylo": {
+    "computedAt": "2026-09-10T08:16:40.744Z",
+    "outsiderPRs": 0,
+    "outsiderMergeRate": null,
+    "mergedCount": 0,
+    "rottingPRs": 0,
+    "medianResponseHours": 38,
+    "responseSamples": 6,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "donetick/donetick": {
+    "computedAt": "2026-09-10T08:16:40.744Z",
+    "outsiderPRs": 12,
+    "outsiderMergeRate": 1,
+    "mergedCount": 12,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "multitheftauto/mtasa-blue": {
+    "computedAt": "2026-09-10T08:16:40.744Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 1,
+    "mergedCount": 8,
+    "rottingPRs": 0,
+    "medianResponseHours": 3,
+    "responseSamples": 11,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "JeanPhilippeKernel/RendererEngine": {
+    "computedAt": "2026-09-10T08:16:40.744Z",
+    "outsiderPRs": 1,
+    "outsiderMergeRate": 1,
+    "mergedCount": 1,
+    "rottingPRs": 0,
+    "medianResponseHours": 2,
+    "responseSamples": 7,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "widelands/widelands": {
+    "computedAt": "2026-09-10T08:16:40.744Z",
+    "outsiderPRs": 21,
+    "outsiderMergeRate": 0.23809523809523808,
+    "mergedCount": 5,
+    "rottingPRs": 1,
+    "medianResponseHours": null,
+    "responseSamples": 1,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "skyf0xx/hedgehog": {
+    "computedAt": "2026-09-10T08:16:40.744Z",
+    "outsiderPRs": 0,
+    "outsiderMergeRate": null,
+    "mergedCount": 0,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 1,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "pyproj4/pyproj": {
+    "computedAt": "2026-09-10T08:16:40.744Z",
+    "outsiderPRs": 14,
+    "outsiderMergeRate": 1,
+    "mergedCount": 14,
+    "rottingPRs": 0,
+    "medianResponseHours": 10,
+    "responseSamples": 18,
+    "hasCI": true,
+    "hasTests": true
   }
 }
