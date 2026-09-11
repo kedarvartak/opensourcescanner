@@ -777,3 +777,10 @@
 {"ts":1789113981,"k":"ray-project/ray#64880","e":"dropped","why":"not_in_board"}
 {"ts":1789113981,"k":"daniel-hauser/moneyman#658","e":"dropped","why":"not_in_board"}
 {"ts":1789132352,"k":"LibreSign/libresign#8325","e":"dropped","why":"takeability: assigned"}
+{"ts":1789150140,"k":"crowdin/crowdin-api-client-php#281","e":"dropped","why":"takeability: assigned"}
+{"ts":1789150140,"k":"crowdin/crowdin-api-client-php#280","e":"dropped","why":"takeability: assigned"}
+{"ts":1789150140,"k":"crowdin/crowdin-api-client-php#279","e":"dropped","why":"takeability: assigned"}
+{"ts":1789150140,"k":"crowdin/crowdin-api-client-dotnet#397","e":"dropped","why":"takeability: assigned"}
+{"ts":1789150140,"k":"crowdin/crowdin-api-client-dotnet#398","e":"dropped","why":"takeability: assigned"}
+{"ts":1789150140,"k":"crowdin/crowdin-api-client-dotnet#396","e":"dropped","why":"takeability: assigned"}
+{"ts":1789150140,"k":"syself/cluster-api-provider-hetzner#1682","e":"dropped","why":"takeability: open linked PR"}
