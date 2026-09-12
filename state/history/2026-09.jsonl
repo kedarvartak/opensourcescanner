@@ -850,3 +850,10 @@
 {"ts":1789199920,"k":"0x2E/fusion#97","e":"dropped","why":"not_in_board"}
 {"ts":1789199920,"k":"MudBlazor/MudBlazor#11991","e":"dropped","why":"not_in_board"}
 {"ts":1789199920,"k":"Hylozoic/hylo#453","e":"dropped","why":"not_in_board"}
+{"ts":1789216587,"k":"manankharwar/fusioncore#115","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1789216587,"k":"FreeCAD/FreeCAD#28272","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1789216587,"k":"cel-rust/cel-rust#247","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1789216587,"k":"TeamGalacticraft/Galacticraft#511","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1789216587,"k":"ecamp/ecamp3#7426","e":"dropped","why":"takeability: assigned"}
+{"ts":1789216587,"k":"metasequoiaime/MSIME-Windows#81","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1789216587,"k":"jfalcou/eve#2098","e":"dropped","why":"relevance: no activity in 120d"}
