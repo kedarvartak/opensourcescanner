@@ -452,7 +452,18 @@ nav.site a:hover { color: var(--ink); }
 .filters input[type='search'] { flex: 1 1 260px; min-width: 0; }
 .filters input[type='search']::placeholder { color: var(--faint); }
 .filters select { cursor: pointer; }
-.filters input:focus-visible, .filters select:focus-visible { border-color: var(--ink); outline-offset: 1px; }
+.filters input:focus-visible, .filters select:focus-visible, .filter-clear:focus-visible { border-color: var(--ink); outline-offset: 1px; }
+
+.filter-clear {
+  font: 400 12.5px/1 var(--mono);
+  color: var(--gray);
+  background: transparent;
+  border: 1px solid var(--line);
+  padding: 10px 13px;
+  min-height: 38px;
+  cursor: pointer;
+}
+.filter-clear:hover { color: var(--ink); border-color: var(--ink); }
 
 .toggle {
   display: inline-flex;

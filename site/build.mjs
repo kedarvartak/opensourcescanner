@@ -461,7 +461,8 @@ function filterBar(facets) {
     <option value="stars">Most stars</option><option value="quiet">Least crowded</option></select>
   <label class="toggle"><input type="checkbox" id="f-quiet"> nobody circling</label>
   <label class="toggle"><input type="checkbox" id="f-responsive"> replies within a week</label>
-  <span class="meta" id="result-count"></span>
+  <button type="button" class="filter-clear" id="f-clear">Clear filters</button>
+  <span class="meta" id="result-count" aria-live="polite"></span>
 </div>`
 }
 

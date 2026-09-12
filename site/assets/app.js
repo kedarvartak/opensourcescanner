@@ -19,6 +19,7 @@
     sort: $('f-sort'),
     quiet: $('f-quiet'),
     responsive: $('f-responsive'),
+    clear: $('f-clear'),
   }
   const countEl = $('result-count')
   if (!Object.values(controls).some(Boolean)) return
@@ -91,6 +92,16 @@
     writeURL()
   }
 
+  function clearFilters() {
+    for (const [key, el] of Object.entries(controls)) {
+      if (!el || key === 'clear') continue
+      if (el.type === 'checkbox') el.checked = false
+      else el.value = key === 'sort' ? 'score' : ''
+    }
+    apply()
+    controls.q?.focus()
+  }
+
   function sort() {
     const mode = controls.sort?.value
     if (!mode) return
@@ -109,13 +120,19 @@
 
   let t
   for (const el of Object.values(controls)) {
-    if (!el) continue
+    if (!el || el === controls.clear) continue
     const ev = el.tagName === 'INPUT' && el.type === 'search' ? 'input' : 'change'
     el.addEventListener(ev, () => {
       clearTimeout(t)
       t = setTimeout(apply, ev === 'input' ? 120 : 0)
     })
   }
+
+  controls.clear?.addEventListener('click', clearFilters)
+  window.addEventListener('popstate', () => {
+    readURL()
+    apply()
+  })
 
   readURL()
   apply()
