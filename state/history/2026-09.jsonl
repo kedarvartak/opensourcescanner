@@ -930,3 +930,8 @@
 {"ts":1789322042,"k":"AcademySoftwareFoundation/OpenTimelineIO#2043","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1789322042,"k":"K0lin/jellyfin-plugin-sso#7","e":"dropped","why":"takeability: assigned"}
 {"ts":1789322042,"k":"refinedmods/refinedstorage2#1287","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1789339840,"k":"LibreSign/libresign#8323","e":"dropped","why":"takeability: merged linked PR (stale)"}
+{"ts":1789339840,"k":"LibreSign/libresign#8357","e":"dropped","why":"takeability: merged linked PR (stale)"}
+{"ts":1789339840,"k":"LibreSign/libresign#8324","e":"dropped","why":"closed"}
+{"ts":1789339840,"k":"LibreSign/libresign#8162","e":"dropped","why":"takeability: soft-claimed by maia-andre 0d ago"}
+{"ts":1789339840,"k":"Oxen-AI/Oxen#104","e":"dropped","why":"relevance: no activity in 120d"}
