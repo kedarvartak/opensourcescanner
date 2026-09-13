@@ -924,3 +924,6 @@
 {"ts":1789287544,"k":"sgl-project/sglang#8174","e":"dropped","why":"not_in_board"}
 {"ts":1789287544,"k":"DeltaV-Station/Delta-v#6225","e":"dropped","why":"not_in_board"}
 {"ts":1789287544,"k":"glific/glific-frontend#3346","e":"dropped","why":"not_in_board"}
+{"ts":1789306664,"k":"packit/packit-service#3073","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1789306664,"k":"qualcomm/eld#418","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1789306664,"k":"modoboa/modoboa-installer#633","e":"dropped","why":"takeability: open linked PR"}
