@@ -1010,3 +1010,9 @@
 {"ts":1789400255,"k":"gittuf/gittuf#1219","e":"dropped","why":"takeability: assigned"}
 {"ts":1789400255,"k":"seiggy/lucia-dotnet#208","e":"dropped","why":"closed"}
 {"ts":1789400255,"k":"OutlineFoundation/outline-apps#2559","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1789429231,"k":"mpusz/mp-units#831","e":"dropped","why":"closed"}
+{"ts":1789429231,"k":"nextcloud/server#53249","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1789429231,"k":"open-telemetry/opentelemetry-ruby-contrib#2581","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1789429231,"k":"external-secrets/external-secrets#5296","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1789429231,"k":"pyproj4/pyproj#1507","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1789429231,"k":"Submitty/Submitty#13105","e":"dropped","why":"takeability: open linked PR"}
