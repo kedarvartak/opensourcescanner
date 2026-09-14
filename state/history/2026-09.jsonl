@@ -1005,3 +1005,8 @@
 {"ts":1789375940,"k":"anurag3407/career-pilot#2750","e":"dropped","why":"not_in_board"}
 {"ts":1789375940,"k":"apache/iceberg-rust#1780","e":"dropped","why":"not_in_board"}
 {"ts":1789375940,"k":"pylonmc/pylon#856","e":"dropped","why":"not_in_board"}
+{"ts":1789400255,"k":"FreeCAD/FreeCAD#32651","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1789400255,"k":"MudBlazor/MudBlazor#11195","e":"dropped","why":"takeability: soft-claimed by rajeev2511 0d ago"}
+{"ts":1789400255,"k":"gittuf/gittuf#1219","e":"dropped","why":"takeability: assigned"}
+{"ts":1789400255,"k":"seiggy/lucia-dotnet#208","e":"dropped","why":"closed"}
+{"ts":1789400255,"k":"OutlineFoundation/outline-apps#2559","e":"dropped","why":"relevance: no activity in 120d"}
