@@ -1099,3 +1099,6 @@
 {"ts":1789497693,"k":"facebookincubator/velox#15467","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1789497693,"k":"metatensor/metatrain#857","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1789497693,"k":"kiwix/kiwix-tools#846","e":"dropped","why":"takeability: assigned"}
+{"ts":1789514587,"k":"koharu-rs/koharu#459","e":"dropped","why":"closed"}
+{"ts":1789514587,"k":"apache/sedona#1951","e":"dropped","why":"takeability: soft-claimed by minhpham1810 0d ago"}
+{"ts":1789514587,"k":"OrchardCMS/OrchardCore#19875","e":"dropped","why":"takeability: open linked PR"}
