@@ -1093,3 +1093,5 @@
 {"ts":1789461825,"k":"paulober/MicroPico#316","e":"dropped","why":"not_in_board"}
 {"ts":1789461825,"k":"tenstorrent/tt-metal#42916","e":"dropped","why":"not_in_board"}
 {"ts":1789461825,"k":"canonical/wlcs#406","e":"dropped","why":"not_in_board"}
+{"ts":1789481309,"k":"magefree/mage#14392","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1789481309,"k":"digitalfabrik/entitlementcard#2011","e":"dropped","why":"relevance: 18mo old and quiet"}
