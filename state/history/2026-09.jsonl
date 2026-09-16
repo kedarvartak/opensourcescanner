@@ -1162,3 +1162,8 @@
 {"ts":1789583865,"k":"neos/neos-ui#4123","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1789583865,"k":"FreeCAD/FreeCAD#32651","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1789583865,"k":"getsentry/sentry-python#4594","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1789601479,"k":"LibreSign/libresign#8411","e":"dropped","why":"takeability: soft-claimed by vikas-kushwaha-dev 0d ago"}
+{"ts":1789601479,"k":"AcademySoftwareFoundation/MaterialX#2948","e":"dropped","why":"takeability: assigned"}
+{"ts":1789601479,"k":"nextcloud/desktop#8661","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1789601479,"k":"argoproj/argo-workflows#14455","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1789601479,"k":"stan-dev/math#3201","e":"dropped","why":"takeability: soft-claimed by godking123 0d ago"}
