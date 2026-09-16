@@ -1156,3 +1156,5 @@
 {"ts":1789547878,"k":"datahub-project/datahub#13829","e":"dropped","why":"not_in_board"}
 {"ts":1789547878,"k":"meta-pytorch/torchcodec#653","e":"dropped","why":"not_in_board"}
 {"ts":1789547878,"k":"kiwix/kiwix-tools#846","e":"dropped","why":"not_in_board"}
+{"ts":1789567246,"k":"crowdin/crowdin-api-client-dotnet#404","e":"dropped","why":"closed"}
+{"ts":1789567246,"k":"AcademySoftwareFoundation/MaterialX#3039","e":"dropped","why":"takeability: soft-claimed by MatthieuBEAUD 0d ago"}
