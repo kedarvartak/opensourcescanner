@@ -1158,3 +1158,7 @@
 {"ts":1789547878,"k":"kiwix/kiwix-tools#846","e":"dropped","why":"not_in_board"}
 {"ts":1789567246,"k":"crowdin/crowdin-api-client-dotnet#404","e":"dropped","why":"closed"}
 {"ts":1789567246,"k":"AcademySoftwareFoundation/MaterialX#3039","e":"dropped","why":"takeability: soft-claimed by MatthieuBEAUD 0d ago"}
+{"ts":1789583865,"k":"AcademySoftwareFoundation/OpenTimelineIO#2042","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1789583865,"k":"neos/neos-ui#4123","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1789583865,"k":"FreeCAD/FreeCAD#32651","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1789583865,"k":"getsentry/sentry-python#4594","e":"dropped","why":"takeability: open linked PR"}
