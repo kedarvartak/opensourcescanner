@@ -693,10 +693,10 @@
     "hasTests": false
   },
   "spiceai/spiceai": {
-    "computedAt": "2026-08-22T04:09:54.520Z",
-    "outsiderPRs": 9,
-    "outsiderMergeRate": 0.8888888888888888,
-    "mergedCount": 8,
+    "computedAt": "2026-09-17T08:42:38.997Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 0.625,
+    "mergedCount": 5,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 0,
@@ -4125,13 +4125,13 @@
     "hasTests": false
   },
   "Minestom/Minestom": {
-    "computedAt": "2026-09-10T08:16:40.744Z",
-    "outsiderPRs": 11,
-    "outsiderMergeRate": 0.8181818181818182,
-    "mergedCount": 9,
+    "computedAt": "2026-09-17T08:42:38.997Z",
+    "outsiderPRs": 10,
+    "outsiderMergeRate": 0.7,
+    "mergedCount": 7,
     "rottingPRs": 0,
     "medianResponseHours": 58,
-    "responseSamples": 8,
+    "responseSamples": 6,
     "hasCI": true,
     "hasTests": false
   },
@@ -4367,13 +4367,13 @@
     "hasTests": false
   },
   "serenedb/serenedb": {
-    "computedAt": "2026-09-10T08:16:40.744Z",
-    "outsiderPRs": 8,
-    "outsiderMergeRate": 0.625,
+    "computedAt": "2026-09-17T08:42:38.997Z",
+    "outsiderPRs": 5,
+    "outsiderMergeRate": 1,
     "mergedCount": 5,
     "rottingPRs": 0,
-    "medianResponseHours": 33,
-    "responseSamples": 3,
+    "medianResponseHours": 17,
+    "responseSamples": 6,
     "hasCI": true,
     "hasTests": true
   },
@@ -4389,13 +4389,13 @@
     "hasTests": true
   },
   "microsoft/aspire": {
-    "computedAt": "2026-08-24T04:13:45.422Z",
-    "outsiderPRs": 4,
-    "outsiderMergeRate": 1,
-    "mergedCount": 4,
+    "computedAt": "2026-09-17T08:42:38.997Z",
+    "outsiderPRs": 0,
+    "outsiderMergeRate": null,
+    "mergedCount": 0,
     "rottingPRs": 0,
-    "medianResponseHours": 0,
-    "responseSamples": 12,
+    "medianResponseHours": 1,
+    "responseSamples": 13,
     "hasCI": true,
     "hasTests": true
   },
@@ -4741,13 +4741,13 @@
     "hasTests": true
   },
   "astrid-runtime/astrid": {
-    "computedAt": "2026-09-02T08:02:35.292Z",
-    "outsiderPRs": 0,
-    "outsiderMergeRate": null,
-    "mergedCount": 0,
+    "computedAt": "2026-09-17T08:42:38.997Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 0.25,
+    "mergedCount": 1,
     "rottingPRs": 0,
-    "medianResponseHours": 1,
-    "responseSamples": 9,
+    "medianResponseHours": 0,
+    "responseSamples": 3,
     "hasCI": true,
     "hasTests": false
   },
@@ -4796,10 +4796,10 @@
     "hasTests": true
   },
   "ArcadeMakerSources/ArcadeMaker": {
-    "computedAt": "2026-09-10T08:16:40.744Z",
-    "outsiderPRs": 3,
+    "computedAt": "2026-09-17T08:42:38.997Z",
+    "outsiderPRs": 4,
     "outsiderMergeRate": 1,
-    "mergedCount": 3,
+    "mergedCount": 4,
     "rottingPRs": 0,
     "medianResponseHours": 46,
     "responseSamples": 7,
@@ -5313,7 +5313,7 @@
     "hasTests": true
   },
   "hiero-ledger/hiero-sdk-rust": {
-    "computedAt": "2026-09-10T08:16:40.744Z",
+    "computedAt": "2026-09-17T08:42:38.997Z",
     "outsiderPRs": 9,
     "outsiderMergeRate": 0.3333333333333333,
     "mergedCount": 3,
@@ -5577,13 +5577,13 @@
     "hasTests": false
   },
   "rohaquinlop/complexipy": {
-    "computedAt": "2026-08-30T09:20:40.246Z",
-    "outsiderPRs": 2,
+    "computedAt": "2026-09-17T08:42:38.997Z",
+    "outsiderPRs": 3,
     "outsiderMergeRate": 1,
-    "mergedCount": 2,
+    "mergedCount": 3,
     "rottingPRs": 0,
     "medianResponseHours": 69,
-    "responseSamples": 9,
+    "responseSamples": 7,
     "hasCI": true,
     "hasTests": true
   },
@@ -5918,7 +5918,7 @@
     "hasTests": false
   },
   "eclipse-edc/Samples": {
-    "computedAt": "2026-08-27T14:07:55.609Z",
+    "computedAt": "2026-09-17T08:42:38.997Z",
     "outsiderPRs": 23,
     "outsiderMergeRate": 0.8260869565217391,
     "mergedCount": 19,
@@ -6171,13 +6171,13 @@
     "hasTests": false
   },
   "gems-uff/sapos": {
-    "computedAt": "2026-09-10T08:16:40.744Z",
-    "outsiderPRs": 21,
-    "outsiderMergeRate": 0.9047619047619048,
-    "mergedCount": 19,
+    "computedAt": "2026-09-17T08:42:38.997Z",
+    "outsiderPRs": 17,
+    "outsiderMergeRate": 0.9411764705882353,
+    "mergedCount": 16,
     "rottingPRs": 0,
-    "medianResponseHours": 23,
-    "responseSamples": 13,
+    "medianResponseHours": 26,
+    "responseSamples": 15,
     "hasCI": true,
     "hasTests": false
   },
@@ -6556,21 +6556,21 @@
     "hasTests": false
   },
   "getsentry/sentry-dotnet": {
-    "computedAt": "2026-09-10T08:16:40.744Z",
-    "outsiderPRs": 12,
-    "outsiderMergeRate": 0.9166666666666666,
-    "mergedCount": 11,
+    "computedAt": "2026-09-17T08:42:38.997Z",
+    "outsiderPRs": 6,
+    "outsiderMergeRate": 0.8333333333333334,
+    "mergedCount": 5,
     "rottingPRs": 0,
-    "medianResponseHours": 73,
-    "responseSamples": 6,
+    "medianResponseHours": 75,
+    "responseSamples": 5,
     "hasCI": true,
     "hasTests": true
   },
   "getsentry/sentry-unity": {
-    "computedAt": "2026-09-10T08:16:40.744Z",
-    "outsiderPRs": 20,
-    "outsiderMergeRate": 0.95,
-    "mergedCount": 19,
+    "computedAt": "2026-09-17T08:42:38.997Z",
+    "outsiderPRs": 15,
+    "outsiderMergeRate": 0.9333333333333333,
+    "mergedCount": 14,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 2,
@@ -6644,13 +6644,13 @@
     "hasTests": true
   },
   "thunderbird/tbpro-add-on": {
-    "computedAt": "2026-09-10T08:16:40.744Z",
-    "outsiderPRs": 5,
-    "outsiderMergeRate": 0.4,
-    "mergedCount": 2,
+    "computedAt": "2026-09-17T08:42:38.997Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 0.75,
+    "mergedCount": 6,
     "rottingPRs": 0,
-    "medianResponseHours": 24,
-    "responseSamples": 11,
+    "medianResponseHours": 1,
+    "responseSamples": 5,
     "hasCI": true,
     "hasTests": false
   },
@@ -6677,24 +6677,24 @@
     "hasTests": false
   },
   "containers/ramalama": {
-    "computedAt": "2026-09-10T08:16:40.744Z",
-    "outsiderPRs": 12,
-    "outsiderMergeRate": 0.8333333333333334,
+    "computedAt": "2026-09-17T08:42:38.997Z",
+    "outsiderPRs": 10,
+    "outsiderMergeRate": 1,
     "mergedCount": 10,
     "rottingPRs": 0,
-    "medianResponseHours": 17,
-    "responseSamples": 23,
+    "medianResponseHours": 32,
+    "responseSamples": 22,
     "hasCI": true,
     "hasTests": true
   },
   "superradcompany/microsandbox": {
-    "computedAt": "2026-09-10T08:16:40.744Z",
-    "outsiderPRs": 7,
-    "outsiderMergeRate": 1,
-    "mergedCount": 7,
+    "computedAt": "2026-09-17T08:42:38.997Z",
+    "outsiderPRs": 6,
+    "outsiderMergeRate": 0.8333333333333334,
+    "mergedCount": 5,
     "rottingPRs": 0,
-    "medianResponseHours": 12,
-    "responseSamples": 6,
+    "medianResponseHours": 2,
+    "responseSamples": 7,
     "hasCI": true,
     "hasTests": false
   },
@@ -7216,7 +7216,7 @@
     "hasTests": false
   },
   "sidequestjs/sidequest": {
-    "computedAt": "2026-09-10T08:16:40.744Z",
+    "computedAt": "2026-09-17T08:42:38.997Z",
     "outsiderPRs": 19,
     "outsiderMergeRate": 0.8947368421052632,
     "mergedCount": 17,
@@ -7227,9 +7227,9 @@
     "hasTests": true
   },
   "Hylozoic/hylo": {
-    "computedAt": "2026-09-10T08:16:40.744Z",
-    "outsiderPRs": 0,
-    "outsiderMergeRate": null,
+    "computedAt": "2026-09-17T08:42:38.997Z",
+    "outsiderPRs": 1,
+    "outsiderMergeRate": 0,
     "mergedCount": 0,
     "rottingPRs": 0,
     "medianResponseHours": 38,
@@ -7238,10 +7238,10 @@
     "hasTests": false
   },
   "donetick/donetick": {
-    "computedAt": "2026-09-10T08:16:40.744Z",
-    "outsiderPRs": 12,
+    "computedAt": "2026-09-17T08:42:38.997Z",
+    "outsiderPRs": 11,
     "outsiderMergeRate": 1,
-    "mergedCount": 12,
+    "mergedCount": 11,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 0,
@@ -7249,24 +7249,24 @@
     "hasTests": false
   },
   "multitheftauto/mtasa-blue": {
-    "computedAt": "2026-09-10T08:16:40.744Z",
-    "outsiderPRs": 8,
-    "outsiderMergeRate": 1,
-    "mergedCount": 8,
+    "computedAt": "2026-09-17T08:42:38.997Z",
+    "outsiderPRs": 5,
+    "outsiderMergeRate": 0.6,
+    "mergedCount": 3,
     "rottingPRs": 0,
-    "medianResponseHours": 3,
-    "responseSamples": 11,
+    "medianResponseHours": 6,
+    "responseSamples": 14,
     "hasCI": true,
     "hasTests": false
   },
   "JeanPhilippeKernel/RendererEngine": {
-    "computedAt": "2026-09-10T08:16:40.744Z",
-    "outsiderPRs": 1,
-    "outsiderMergeRate": 1,
-    "mergedCount": 1,
+    "computedAt": "2026-09-17T08:42:38.997Z",
+    "outsiderPRs": 0,
+    "outsiderMergeRate": null,
+    "mergedCount": 0,
     "rottingPRs": 0,
-    "medianResponseHours": 2,
-    "responseSamples": 7,
+    "medianResponseHours": 66,
+    "responseSamples": 6,
     "hasCI": true,
     "hasTests": false
   },
@@ -7282,13 +7282,13 @@
     "hasTests": true
   },
   "skyf0xx/hedgehog": {
-    "computedAt": "2026-09-10T08:16:40.744Z",
-    "outsiderPRs": 0,
-    "outsiderMergeRate": null,
-    "mergedCount": 0,
+    "computedAt": "2026-09-17T08:42:38.997Z",
+    "outsiderPRs": 1,
+    "outsiderMergeRate": 1,
+    "mergedCount": 1,
     "rottingPRs": 0,
-    "medianResponseHours": null,
-    "responseSamples": 1,
+    "medianResponseHours": 2,
+    "responseSamples": 8,
     "hasCI": true,
     "hasTests": false
   },
@@ -8059,6 +8059,83 @@
     "rottingPRs": 0,
     "medianResponseHours": 216,
     "responseSamples": 5,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "opentofu/opentofu.org": {
+    "computedAt": "2026-09-17T08:42:38.997Z",
+    "outsiderPRs": 18,
+    "outsiderMergeRate": 0.8888888888888888,
+    "mergedCount": 16,
+    "rottingPRs": 0,
+    "medianResponseHours": 1,
+    "responseSamples": 9,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "excalidraw/excalidraw": {
+    "computedAt": "2026-09-17T08:42:38.997Z",
+    "outsiderPRs": 2,
+    "outsiderMergeRate": 0,
+    "mergedCount": 0,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "Jij-Inc/ommx": {
+    "computedAt": "2026-09-17T08:42:38.997Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 0.875,
+    "mergedCount": 7,
+    "rottingPRs": 0,
+    "medianResponseHours": 162,
+    "responseSamples": 3,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "medic/cht-android": {
+    "computedAt": "2026-09-17T08:42:38.997Z",
+    "outsiderPRs": 12,
+    "outsiderMergeRate": 0.9166666666666666,
+    "mergedCount": 11,
+    "rottingPRs": 1,
+    "medianResponseHours": 28,
+    "responseSamples": 13,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "flatironinstitute/walnutpie": {
+    "computedAt": "2026-09-17T08:42:38.997Z",
+    "outsiderPRs": 7,
+    "outsiderMergeRate": 0.8571428571428571,
+    "mergedCount": 6,
+    "rottingPRs": 0,
+    "medianResponseHours": 13,
+    "responseSamples": 18,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "lbr-stack/lbr_fri_ros2_stack": {
+    "computedAt": "2026-09-17T08:42:38.997Z",
+    "outsiderPRs": 5,
+    "outsiderMergeRate": 0.6,
+    "mergedCount": 3,
+    "rottingPRs": 0,
+    "medianResponseHours": 32,
+    "responseSamples": 23,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "horde/imp": {
+    "computedAt": "2026-09-17T08:42:38.997Z",
+    "outsiderPRs": 15,
+    "outsiderMergeRate": 1,
+    "mergedCount": 15,
+    "rottingPRs": 0,
+    "medianResponseHours": 22,
+    "responseSamples": 15,
     "hasCI": true,
     "hasTests": true
   }
