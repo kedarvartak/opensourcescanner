@@ -3,7 +3,7 @@
   "generatedAt": "2026-09-17T08:42:38.748Z",
   "nextRefreshAt": "2026-09-18T08:42:38.748Z",
   "counts": {
-    "issues": 463,
+    "issues": 462,
     "repos": 314,
     "languages": 15
   },
@@ -12,7 +12,6 @@
     "pipe-cd/pipecd#6684",
     "0xMiden/compiler#1060",
     "ilios/ilios#7392",
-    "nextcloud/server#58821",
     "kubefleet-dev/kubefleet#639",
     "getsentry/sentry-dotnet#5415",
     "apache/iggy#2517",
@@ -426,5 +425,5 @@
     },
     "passRate": 0.149
   },
-  "revalidatedAt": "2026-09-17T14:04:30.988Z"
+  "revalidatedAt": "2026-09-17T18:47:08.708Z"
 }
