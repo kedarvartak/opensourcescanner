@@ -1288,3 +1288,5 @@
 {"ts":1789754584,"k":"actualbudget/actual#4742","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1789754584,"k":"Overload-Technologies/Overload#849","e":"dropped","why":"takeability: soft-claimed by AADITYA007x 0d ago"}
 {"ts":1789754584,"k":"calkit/calkit#1362","e":"dropped","why":"relevance: 18mo old and quiet"}
+{"ts":1789772386,"k":"absolute-version/commit-and-tag-version#216","e":"dropped","why":"relevance: 18mo old and quiet"}
+{"ts":1789772386,"k":"Submitty/Submitty#13355","e":"dropped","why":"takeability: assigned"}
