@@ -1276,3 +1276,7 @@
 {"ts":1789719478,"k":"Cedro-Software/cedro-modern-dock#15","e":"dropped","why":"not_in_board"}
 {"ts":1789719478,"k":"treeverse/lakeFS#9600","e":"dropped","why":"not_in_board"}
 {"ts":1789719478,"k":"keploy/keploy#3521","e":"dropped","why":"not_in_board"}
+{"ts":1789737705,"k":"arkmq-org/arkmq-org-broker-operator#1355","e":"dropped","why":"takeability: assigned"}
+{"ts":1789737705,"k":"medic/cht-android#415","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1789737705,"k":"manusa/helm-java#277","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1789737705,"k":"manusa/helm-java#279","e":"dropped","why":"relevance: no activity in 120d"}
