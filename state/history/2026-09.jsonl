@@ -1280,3 +1280,11 @@
 {"ts":1789737705,"k":"medic/cht-android#415","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1789737705,"k":"manusa/helm-java#277","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1789737705,"k":"manusa/helm-java#279","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1789754584,"k":"serenedb/serenedb#1182","e":"dropped","why":"takeability: assigned"}
+{"ts":1789754584,"k":"element-hq/synapse#18993","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1789754584,"k":"SearchApi/wreq-ruby#177","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1789754584,"k":"homarr-labs/homarr#3371","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1789754584,"k":"cedarjs/cedar#21","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1789754584,"k":"actualbudget/actual#4742","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1789754584,"k":"Overload-Technologies/Overload#849","e":"dropped","why":"takeability: soft-claimed by AADITYA007x 0d ago"}
+{"ts":1789754584,"k":"calkit/calkit#1362","e":"dropped","why":"relevance: 18mo old and quiet"}
