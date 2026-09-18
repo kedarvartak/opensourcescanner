@@ -1133,13 +1133,13 @@
     "hasTests": false
   },
   "orcasound/orcahello": {
-    "computedAt": "2026-09-11T08:06:21.559Z",
-    "outsiderPRs": 18,
-    "outsiderMergeRate": 0.9444444444444444,
-    "mergedCount": 17,
+    "computedAt": "2026-09-18T08:17:59.170Z",
+    "outsiderPRs": 17,
+    "outsiderMergeRate": 0.8235294117647058,
+    "mergedCount": 14,
     "rottingPRs": 0,
-    "medianResponseHours": 8,
-    "responseSamples": 15,
+    "medianResponseHours": 17,
+    "responseSamples": 16,
     "hasCI": true,
     "hasTests": false
   },
@@ -2013,13 +2013,13 @@
     "hasTests": false
   },
   "super-productivity/super-productivity": {
-    "computedAt": "2026-09-11T08:06:21.559Z",
-    "outsiderPRs": 5,
-    "outsiderMergeRate": 0.6,
-    "mergedCount": 3,
+    "computedAt": "2026-09-18T08:17:59.170Z",
+    "outsiderPRs": 0,
+    "outsiderMergeRate": null,
+    "mergedCount": 0,
     "rottingPRs": 0,
-    "medianResponseHours": 2,
-    "responseSamples": 4,
+    "medianResponseHours": null,
+    "responseSamples": 0,
     "hasCI": true,
     "hasTests": false
   },
@@ -2475,13 +2475,13 @@
     "hasTests": true
   },
   "ohcnetwork/care_fe": {
-    "computedAt": "2026-08-16T10:34:07.104Z",
-    "outsiderPRs": 6,
-    "outsiderMergeRate": 0.16666666666666666,
-    "mergedCount": 1,
+    "computedAt": "2026-09-18T08:17:59.170Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 0.5,
+    "mergedCount": 2,
     "rottingPRs": 0,
-    "medianResponseHours": 33,
-    "responseSamples": 4,
+    "medianResponseHours": 139,
+    "responseSamples": 3,
     "hasCI": true,
     "hasTests": true
   },
@@ -5687,10 +5687,10 @@
     "hasTests": true
   },
   "meta-pytorch/torchcodec": {
-    "computedAt": "2026-09-09T08:15:47.343Z",
-    "outsiderPRs": 19,
-    "outsiderMergeRate": 0.7368421052631579,
-    "mergedCount": 14,
+    "computedAt": "2026-09-18T08:17:59.170Z",
+    "outsiderPRs": 24,
+    "outsiderMergeRate": 1,
+    "mergedCount": 24,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 0,
@@ -5940,13 +5940,13 @@
     "hasTests": false
   },
   "caura-ai/caura": {
-    "computedAt": "2026-09-06T07:54:57.395Z",
-    "outsiderPRs": 8,
-    "outsiderMergeRate": 1,
-    "mergedCount": 8,
+    "computedAt": "2026-09-18T08:17:59.170Z",
+    "outsiderPRs": 5,
+    "outsiderMergeRate": 0.8,
+    "mergedCount": 4,
     "rottingPRs": 0,
     "medianResponseHours": 0,
-    "responseSamples": 25,
+    "responseSamples": 11,
     "hasCI": true,
     "hasTests": true
   },
@@ -7304,7 +7304,7 @@
     "hasTests": true
   },
   "realChakrawarti/ingest": {
-    "computedAt": "2026-09-11T08:06:21.559Z",
+    "computedAt": "2026-09-18T08:17:59.170Z",
     "outsiderPRs": 2,
     "outsiderMergeRate": 0.5,
     "mergedCount": 1,
@@ -7315,13 +7315,13 @@
     "hasTests": false
   },
   "aws/graph-explorer": {
-    "computedAt": "2026-09-11T08:06:21.559Z",
-    "outsiderPRs": 3,
-    "outsiderMergeRate": 0.6666666666666666,
-    "mergedCount": 2,
+    "computedAt": "2026-09-18T08:17:59.170Z",
+    "outsiderPRs": 6,
+    "outsiderMergeRate": 0.8333333333333334,
+    "mergedCount": 5,
     "rottingPRs": 0,
-    "medianResponseHours": 0,
-    "responseSamples": 11,
+    "medianResponseHours": 202,
+    "responseSamples": 4,
     "hasCI": true,
     "hasTests": false
   },
@@ -7337,24 +7337,24 @@
     "hasTests": true
   },
   "beetbox/beets": {
-    "computedAt": "2026-09-11T08:06:21.559Z",
-    "outsiderPRs": 14,
-    "outsiderMergeRate": 0.2857142857142857,
-    "mergedCount": 4,
+    "computedAt": "2026-09-18T08:17:59.170Z",
+    "outsiderPRs": 19,
+    "outsiderMergeRate": 0.42105263157894735,
+    "mergedCount": 8,
     "rottingPRs": 0,
     "medianResponseHours": 6,
-    "responseSamples": 10,
+    "responseSamples": 11,
     "hasCI": true,
     "hasTests": true
   },
   "k-orc/openstack-resource-controller": {
-    "computedAt": "2026-09-11T08:06:21.559Z",
-    "outsiderPRs": 15,
+    "computedAt": "2026-09-18T08:17:59.170Z",
+    "outsiderPRs": 16,
     "outsiderMergeRate": 1,
-    "mergedCount": 15,
+    "mergedCount": 16,
     "rottingPRs": 0,
-    "medianResponseHours": 11,
-    "responseSamples": 12,
+    "medianResponseHours": 9,
+    "responseSamples": 8,
     "hasCI": true,
     "hasTests": true
   },
@@ -7370,13 +7370,13 @@
     "hasTests": true
   },
   "gittuf/gittuf": {
-    "computedAt": "2026-09-11T08:06:21.559Z",
-    "outsiderPRs": 13,
-    "outsiderMergeRate": 0.9230769230769231,
-    "mergedCount": 12,
+    "computedAt": "2026-09-18T08:17:59.170Z",
+    "outsiderPRs": 11,
+    "outsiderMergeRate": 0.8181818181818182,
+    "mergedCount": 9,
     "rottingPRs": 0,
-    "medianResponseHours": 13,
-    "responseSamples": 14,
+    "medianResponseHours": 16,
+    "responseSamples": 16,
     "hasCI": true,
     "hasTests": false
   },
@@ -7392,13 +7392,13 @@
     "hasTests": true
   },
   "microcks/microcks": {
-    "computedAt": "2026-09-11T08:06:21.559Z",
-    "outsiderPRs": 24,
-    "outsiderMergeRate": 0.6666666666666666,
-    "mergedCount": 16,
+    "computedAt": "2026-09-18T08:17:59.170Z",
+    "outsiderPRs": 22,
+    "outsiderMergeRate": 0.8181818181818182,
+    "mergedCount": 18,
     "rottingPRs": 0,
-    "medianResponseHours": 19,
-    "responseSamples": 17,
+    "medianResponseHours": 32,
+    "responseSamples": 23,
     "hasCI": true,
     "hasTests": false
   },
@@ -7546,10 +7546,10 @@
     "hasTests": false
   },
   "luau-lang/lute": {
-    "computedAt": "2026-09-11T08:06:21.559Z",
-    "outsiderPRs": 20,
-    "outsiderMergeRate": 0.85,
-    "mergedCount": 17,
+    "computedAt": "2026-09-18T08:17:59.170Z",
+    "outsiderPRs": 19,
+    "outsiderMergeRate": 0.8421052631578947,
+    "mergedCount": 16,
     "rottingPRs": 0,
     "medianResponseHours": 19,
     "responseSamples": 4,
@@ -7579,24 +7579,24 @@
     "hasTests": false
   },
   "DeltaV-Station/Delta-v": {
-    "computedAt": "2026-09-11T08:06:21.559Z",
-    "outsiderPRs": 9,
-    "outsiderMergeRate": 0.5555555555555556,
-    "mergedCount": 5,
+    "computedAt": "2026-09-18T08:17:59.170Z",
+    "outsiderPRs": 12,
+    "outsiderMergeRate": 0.6666666666666666,
+    "mergedCount": 8,
     "rottingPRs": 0,
     "medianResponseHours": null,
-    "responseSamples": 2,
+    "responseSamples": 1,
     "hasCI": true,
     "hasTests": false
   },
   "stride3d/stride": {
-    "computedAt": "2026-09-11T08:06:21.559Z",
-    "outsiderPRs": 5,
-    "outsiderMergeRate": 0.8,
-    "mergedCount": 4,
+    "computedAt": "2026-09-18T08:17:59.170Z",
+    "outsiderPRs": 6,
+    "outsiderMergeRate": 1,
+    "mergedCount": 6,
     "rottingPRs": 0,
-    "medianResponseHours": 11,
-    "responseSamples": 11,
+    "medianResponseHours": 4,
+    "responseSamples": 12,
     "hasCI": true,
     "hasTests": true
   },
@@ -8136,6 +8136,61 @@
     "rottingPRs": 0,
     "medianResponseHours": 22,
     "responseSamples": 15,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "gnh1201/welsonjs": {
+    "computedAt": "2026-09-18T08:17:59.170Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 0.25,
+    "mergedCount": 1,
+    "rottingPRs": 0,
+    "medianResponseHours": 1,
+    "responseSamples": 13,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "Qiskit/samplomatic": {
+    "computedAt": "2026-09-18T08:17:59.170Z",
+    "outsiderPRs": 0,
+    "outsiderMergeRate": null,
+    "mergedCount": 0,
+    "rottingPRs": 0,
+    "medianResponseHours": 1,
+    "responseSamples": 11,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "arkmq-org/arkmq-org-broker-operator": {
+    "computedAt": "2026-09-18T08:17:59.170Z",
+    "outsiderPRs": 11,
+    "outsiderMergeRate": 0.9090909090909091,
+    "mergedCount": 10,
+    "rottingPRs": 0,
+    "medianResponseHours": 72,
+    "responseSamples": 12,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "SearchApi/wreq-ruby": {
+    "computedAt": "2026-09-18T08:17:59.170Z",
+    "outsiderPRs": 7,
+    "outsiderMergeRate": 0.7142857142857143,
+    "mergedCount": 5,
+    "rottingPRs": 0,
+    "medianResponseHours": 18,
+    "responseSamples": 10,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "fossasia/WPFAevent": {
+    "computedAt": "2026-09-18T08:17:59.170Z",
+    "outsiderPRs": 7,
+    "outsiderMergeRate": 0.8571428571428571,
+    "mergedCount": 6,
+    "rottingPRs": 0,
+    "medianResponseHours": 15,
+    "responseSamples": 17,
     "hasCI": true,
     "hasTests": true
   }
