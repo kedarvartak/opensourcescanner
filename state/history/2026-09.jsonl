@@ -1336,3 +1336,7 @@
 {"ts":1789805460,"k":"opossum-tool/OpossumUI#2879","e":"dropped","why":"not_in_board"}
 {"ts":1789805460,"k":"datahub-project/datahub#13829","e":"dropped","why":"not_in_board"}
 {"ts":1789805460,"k":"civic-dashboard/civic-dashboard-web#296","e":"dropped","why":"not_in_board"}
+{"ts":1789822266,"k":"lingdojo/kana-dojo#30562","e":"dropped","why":"closed"}
+{"ts":1789822266,"k":"lingdojo/kana-dojo#30559","e":"dropped","why":"closed"}
+{"ts":1789822266,"k":"manankharwar/fusioncore#126","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1789822266,"k":"opensearch-project/data-prepper#5892","e":"dropped","why":"takeability: open linked PR"}
