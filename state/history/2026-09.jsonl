@@ -1427,3 +1427,6 @@
 {"ts":1789893538,"k":"MaaEnd/MaaEnd#5693","e":"dropped","why":"not_in_board"}
 {"ts":1789893538,"k":"hashicorp/terraform-provider-aws#42644","e":"dropped","why":"not_in_board"}
 {"ts":1789893538,"k":"goharbor/harbor-cli#863","e":"dropped","why":"not_in_board"}
+{"ts":1789910753,"k":"lingdojo/kana-dojo#30592","e":"dropped","why":"closed"}
+{"ts":1789910753,"k":"lingdojo/kana-dojo#30598","e":"dropped","why":"closed"}
+{"ts":1789910753,"k":"kgateway-dev/kgateway#11998","e":"dropped","why":"takeability: open linked PR"}
