@@ -99,13 +99,13 @@
     "hasTests": false
   },
   "upstash/context7": {
-    "computedAt": "2026-09-14T08:52:20.805Z",
-    "outsiderPRs": 6,
-    "outsiderMergeRate": 0.6666666666666666,
+    "computedAt": "2026-09-21T08:54:43.954Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 1,
     "mergedCount": 4,
     "rottingPRs": 0,
-    "medianResponseHours": 13,
-    "responseSamples": 13,
+    "medianResponseHours": 19,
+    "responseSamples": 20,
     "hasCI": true,
     "hasTests": false
   },
@@ -616,10 +616,10 @@
     "hasTests": true
   },
   "score-spec/score-k8s": {
-    "computedAt": "2026-09-14T08:52:20.805Z",
-    "outsiderPRs": 22,
-    "outsiderMergeRate": 0.9090909090909091,
-    "mergedCount": 20,
+    "computedAt": "2026-09-21T08:54:43.954Z",
+    "outsiderPRs": 21,
+    "outsiderMergeRate": 0.9047619047619048,
+    "mergedCount": 19,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 0,
@@ -1111,13 +1111,13 @@
     "hasTests": false
   },
   "MobiFlight/MobiFlight-Connector": {
-    "computedAt": "2026-09-14T08:52:20.805Z",
-    "outsiderPRs": 13,
+    "computedAt": "2026-09-21T08:54:43.954Z",
+    "outsiderPRs": 15,
     "outsiderMergeRate": 1,
-    "mergedCount": 13,
+    "mergedCount": 15,
     "rottingPRs": 0,
-    "medianResponseHours": 5,
-    "responseSamples": 5,
+    "medianResponseHours": 18,
+    "responseSamples": 10,
     "hasCI": true,
     "hasTests": true
   },
@@ -1254,13 +1254,13 @@
     "hasTests": false
   },
   "software-mansion/react-native-screens": {
-    "computedAt": "2026-09-14T08:52:20.805Z",
-    "outsiderPRs": 13,
-    "outsiderMergeRate": 0.9230769230769231,
-    "mergedCount": 12,
+    "computedAt": "2026-09-21T08:54:43.954Z",
+    "outsiderPRs": 0,
+    "outsiderMergeRate": null,
+    "mergedCount": 0,
     "rottingPRs": 0,
-    "medianResponseHours": 8,
-    "responseSamples": 16,
+    "medianResponseHours": 10,
+    "responseSamples": 18,
     "hasCI": true,
     "hasTests": false
   },
@@ -2992,13 +2992,13 @@
     "hasTests": false
   },
   "soran-ghaderi/torchebm": {
-    "computedAt": "2026-09-14T08:52:20.805Z",
-    "outsiderPRs": 12,
-    "outsiderMergeRate": 0.8333333333333334,
-    "mergedCount": 10,
+    "computedAt": "2026-09-21T08:54:43.954Z",
+    "outsiderPRs": 15,
+    "outsiderMergeRate": 0.8666666666666667,
+    "mergedCount": 13,
     "rottingPRs": 0,
-    "medianResponseHours": 20,
-    "responseSamples": 3,
+    "medianResponseHours": 28,
+    "responseSamples": 6,
     "hasCI": true,
     "hasTests": true
   },
@@ -4257,13 +4257,13 @@
     "hasTests": false
   },
   "Ryan-Millard/Img2Num": {
-    "computedAt": "2026-08-24T04:13:45.422Z",
-    "outsiderPRs": 10,
-    "outsiderMergeRate": 0.4,
-    "mergedCount": 4,
+    "computedAt": "2026-09-21T08:54:43.954Z",
+    "outsiderPRs": 18,
+    "outsiderMergeRate": 0.6111111111111112,
+    "mergedCount": 11,
     "rottingPRs": 0,
-    "medianResponseHours": 0,
-    "responseSamples": 19,
+    "medianResponseHours": 18,
+    "responseSamples": 20,
     "hasCI": true,
     "hasTests": false
   },
@@ -4290,9 +4290,9 @@
     "hasTests": true
   },
   "ASGC-Game-Jam/asgc-gamejam-2026": {
-    "computedAt": "2026-08-31T09:42:56.022Z",
-    "outsiderPRs": 20,
-    "outsiderMergeRate": 0.7,
+    "computedAt": "2026-09-21T08:54:43.954Z",
+    "outsiderPRs": 16,
+    "outsiderMergeRate": 0.875,
     "mergedCount": 14,
     "rottingPRs": 0,
     "medianResponseHours": null,
@@ -6138,13 +6138,13 @@
     "hasTests": true
   },
   "pipe-cd/pipecd": {
-    "computedAt": "2026-09-14T08:52:20.805Z",
-    "outsiderPRs": 4,
-    "outsiderMergeRate": 1,
-    "mergedCount": 4,
+    "computedAt": "2026-09-21T08:54:43.954Z",
+    "outsiderPRs": 1,
+    "outsiderMergeRate": 0,
+    "mergedCount": 0,
     "rottingPRs": 0,
-    "medianResponseHours": null,
-    "responseSamples": 2,
+    "medianResponseHours": 18,
+    "responseSamples": 5,
     "hasCI": true,
     "hasTests": true
   },
@@ -6952,10 +6952,10 @@
     "hasTests": true
   },
   "jabrena/plinth": {
-    "computedAt": "2026-09-14T08:52:20.805Z",
-    "outsiderPRs": 12,
-    "outsiderMergeRate": 0.9166666666666666,
-    "mergedCount": 11,
+    "computedAt": "2026-09-21T08:54:43.954Z",
+    "outsiderPRs": 13,
+    "outsiderMergeRate": 0.9230769230769231,
+    "mergedCount": 12,
     "rottingPRs": 0,
     "medianResponseHours": 24,
     "responseSamples": 13,
@@ -6974,13 +6974,13 @@
     "hasTests": true
   },
   "AutoDarkMode/Windows-Auto-Night-Mode": {
-    "computedAt": "2026-09-14T08:52:20.805Z",
+    "computedAt": "2026-09-21T08:54:43.954Z",
     "outsiderPRs": 6,
     "outsiderMergeRate": 0.6666666666666666,
     "mergedCount": 4,
     "rottingPRs": 0,
-    "medianResponseHours": 25,
-    "responseSamples": 33,
+    "medianResponseHours": 26,
+    "responseSamples": 34,
     "hasCI": true,
     "hasTests": false
   },
@@ -7843,9 +7843,9 @@
     "hasTests": true
   },
   "paulober/MicroPico": {
-    "computedAt": "2026-09-14T08:52:20.805Z",
-    "outsiderPRs": 24,
-    "outsiderMergeRate": 0.2916666666666667,
+    "computedAt": "2026-09-21T08:54:43.954Z",
+    "outsiderPRs": 19,
+    "outsiderMergeRate": 0.3684210526315789,
     "mergedCount": 7,
     "rottingPRs": 0,
     "medianResponseHours": 2254,
@@ -7854,10 +7854,10 @@
     "hasTests": true
   },
   "apache/camel-k": {
-    "computedAt": "2026-09-14T08:52:20.805Z",
-    "outsiderPRs": 19,
-    "outsiderMergeRate": 0.9473684210526315,
-    "mergedCount": 18,
+    "computedAt": "2026-09-21T08:54:43.954Z",
+    "outsiderPRs": 17,
+    "outsiderMergeRate": 0.9411764705882353,
+    "mergedCount": 16,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 0,
@@ -7865,10 +7865,10 @@
     "hasTests": false
   },
   "UTDNebula/nebula-api": {
-    "computedAt": "2026-09-14T08:52:20.805Z",
-    "outsiderPRs": 17,
-    "outsiderMergeRate": 0.5882352941176471,
-    "mergedCount": 10,
+    "computedAt": "2026-09-21T08:54:43.954Z",
+    "outsiderPRs": 15,
+    "outsiderMergeRate": 0.5333333333333333,
+    "mergedCount": 8,
     "rottingPRs": 0,
     "medianResponseHours": 4,
     "responseSamples": 3,
@@ -7887,13 +7887,13 @@
     "hasTests": false
   },
   "fuji-fabric/fuji": {
-    "computedAt": "2026-09-14T08:52:20.805Z",
-    "outsiderPRs": 3,
+    "computedAt": "2026-09-21T08:54:43.954Z",
+    "outsiderPRs": 4,
     "outsiderMergeRate": 1,
-    "mergedCount": 3,
+    "mergedCount": 4,
     "rottingPRs": 0,
     "medianResponseHours": 1,
-    "responseSamples": 20,
+    "responseSamples": 21,
     "hasCI": true,
     "hasTests": false
   },
@@ -8279,6 +8279,39 @@
     "rottingPRs": 0,
     "medianResponseHours": 12,
     "responseSamples": 10,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "litestar-org/polyfactory": {
+    "computedAt": "2026-09-21T08:54:43.954Z",
+    "outsiderPRs": 15,
+    "outsiderMergeRate": 0.6,
+    "mergedCount": 9,
+    "rottingPRs": 6,
+    "medianResponseHours": 687,
+    "responseSamples": 8,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "ankushT369/gossh": {
+    "computedAt": "2026-09-21T08:54:43.954Z",
+    "outsiderPRs": 14,
+    "outsiderMergeRate": 0.7857142857142857,
+    "mergedCount": 11,
+    "rottingPRs": 0,
+    "medianResponseHours": 2,
+    "responseSamples": 8,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "glzr-io/zebar": {
+    "computedAt": "2026-09-21T08:54:43.954Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 0.75,
+    "mergedCount": 6,
+    "rottingPRs": 2,
+    "medianResponseHours": 1365,
+    "responseSamples": 17,
     "hasCI": true,
     "hasTests": false
   }
