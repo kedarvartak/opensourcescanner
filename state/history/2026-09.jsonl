@@ -1493,3 +1493,8 @@
 {"ts":1790005067,"k":"ohcnetwork/care_fe#13463","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1790005067,"k":"wso2/product-is#23757","e":"dropped","why":"takeability: assigned"}
 {"ts":1790005067,"k":"kgateway-dev/kgateway#13637","e":"dropped","why":"relevance: blocking label: stale"}
+{"ts":1790034490,"k":"podman-desktop/podman-desktop#14146","e":"dropped","why":"takeability: assigned"}
+{"ts":1790034490,"k":"meshery-extensions/shape-builder#76","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1790034490,"k":"ferriskey/ferriskey#348","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1790034490,"k":"qgis/QGIS#67443","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1790034490,"k":"ss14Starlight/space-station-14#5915","e":"dropped","why":"takeability: open linked PR"}
