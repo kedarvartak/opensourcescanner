@@ -1498,3 +1498,7 @@
 {"ts":1790034490,"k":"ferriskey/ferriskey#348","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1790034490,"k":"qgis/QGIS#67443","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1790034490,"k":"ss14Starlight/space-station-14#5915","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1790085139,"k":"LibreSign/libresign#8160","e":"dropped","why":"takeability: soft-claimed by nva138 0d ago"}
+{"ts":1790085139,"k":"kestra-io/kestra#13741","e":"dropped","why":"takeability: assigned"}
+{"ts":1790085139,"k":"kadai-io/kadai#1414","e":"dropped","why":"takeability: assigned"}
+{"ts":1790085139,"k":"tchiotludo/akhq#2633","e":"dropped","why":"takeability: open linked PR"}
