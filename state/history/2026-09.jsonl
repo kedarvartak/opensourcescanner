@@ -1506,3 +1506,6 @@
 {"ts":1790119663,"k":"UniversalMediaServer/UniversalMediaServer#6171","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1790119663,"k":"deepinv/deepinv#830","e":"dropped","why":"takeability: soft-claimed by J-Varela 0d ago"}
 {"ts":1790119663,"k":"Choices-js/Choices#1370","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1790172208,"k":"TryGhost/Ghost#24600","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1790172208,"k":"realChakrawarti/ingest#176","e":"dropped","why":"closed"}
+{"ts":1790172208,"k":"treeverse/lakeFS#9027","e":"dropped","why":"relevance: no activity in 120d"}
