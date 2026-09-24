@@ -1674,3 +1674,5 @@
 {"ts":1790275735,"k":"Tadreeb-LMS/tadreeblms#786","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1790275735,"k":"ros2/rosidl#1004","e":"dropped","why":"takeability: soft-claimed by AADITYA007x 0d ago"}
 {"ts":1790275735,"k":"qualcomm/eld#339","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1790293479,"k":"GitTools/GitVersion#5228","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1790293479,"k":"ros2/message_filters#337","e":"dropped","why":"takeability: soft-claimed by manas765 0d ago"}
