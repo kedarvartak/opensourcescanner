@@ -1666,3 +1666,7 @@
 {"ts":1790238637,"k":"nion-software/nionswift#1494","e":"dropped","why":"not_in_board"}
 {"ts":1790238637,"k":"decision-labs/geoai.js#99","e":"dropped","why":"not_in_board"}
 {"ts":1790238637,"k":"treeverse/lakeFS#9027","e":"dropped","why":"not_in_board"}
+{"ts":1790258372,"k":"doppar/framework#331","e":"dropped","why":"closed"}
+{"ts":1790258372,"k":"LibreSign/libresign#8686","e":"dropped","why":"takeability: assigned"}
+{"ts":1790258372,"k":"errbit/errbit#3125","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1790258372,"k":"PowerGridModel/power-grid-model#1272","e":"dropped","why":"takeability: assigned"}
