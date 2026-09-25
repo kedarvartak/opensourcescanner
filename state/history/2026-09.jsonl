@@ -1696,3 +1696,5 @@
 {"ts":1790363195,"k":"ros2/examples#461","e":"dropped","why":"closed"}
 {"ts":1790363195,"k":"ros2/rcl#1340","e":"dropped","why":"takeability: assigned"}
 {"ts":1790363195,"k":"kiwix/kiwix-desktop#1486","e":"dropped","why":"takeability: assigned"}
+{"ts":1790380007,"k":"ros2/demos#811","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1790380007,"k":"fuji-fabric/fuji#574","e":"dropped","why":"relevance: no activity in 120d"}

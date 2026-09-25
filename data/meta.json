@@ -3,7 +3,7 @@
   "generatedAt": "2026-09-24T08:30:37.986Z",
   "nextRefreshAt": "2026-09-25T08:30:37.986Z",
   "counts": {
-    "issues": 430,
+    "issues": 428,
     "repos": 311,
     "languages": 13
   },
@@ -15,7 +15,6 @@
     "blaizio/blaizio#16",
     "software-mansion/react-native-screens#4360",
     "apache/arrow-rs-object-store#474",
-    "fuji-fabric/fuji#574",
     "stdlib-js/stdlib#11248",
     "perses/perses#3222"
   ],
@@ -411,5 +410,5 @@
     },
     "passRate": 0.141
   },
-  "revalidatedAt": "2026-09-25T19:06:35.073Z"
+  "revalidatedAt": "2026-09-25T23:46:47.130Z"
 }
