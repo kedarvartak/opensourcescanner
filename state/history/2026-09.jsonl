@@ -1676,3 +1676,13 @@
 {"ts":1790275735,"k":"qualcomm/eld#339","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1790293479,"k":"GitTools/GitVersion#5228","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1790293479,"k":"ros2/message_filters#337","e":"dropped","why":"takeability: soft-claimed by manas765 0d ago"}
+{"ts":1790346246,"k":"Overload-Technologies/Overload#850","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1790346246,"k":"cclib/cclib#1912","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1790346246,"k":"cclib/cclib#1910","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1790346246,"k":"wso2/product-is#28166","e":"dropped","why":"takeability: soft-claimed by Sandavi44 0d ago"}
+{"ts":1790346246,"k":"MaaEnd/MaaEnd#2267","e":"dropped","why":"relevance: blocking label: stale"}
+{"ts":1790346246,"k":"Goldziher/interface-forge#67","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1790346246,"k":"Goldziher/interface-forge#64","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1790346246,"k":"Goldziher/interface-forge#42","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1790346246,"k":"Goldziher/interface-forge#65","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1790346246,"k":"tenstorrent/tt-metal#42916","e":"dropped","why":"takeability: soft-claimed by alexxony 0d ago"}
