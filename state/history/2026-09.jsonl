@@ -1686,3 +1686,13 @@
 {"ts":1790346246,"k":"Goldziher/interface-forge#42","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1790346246,"k":"Goldziher/interface-forge#65","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1790346246,"k":"tenstorrent/tt-metal#42916","e":"dropped","why":"takeability: soft-claimed by alexxony 0d ago"}
+{"ts":1790363195,"k":"ros2/message_filters#336","e":"dropped","why":"takeability: assigned"}
+{"ts":1790363195,"k":"ros2/examples#467","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1790363195,"k":"ros2/demos#810","e":"dropped","why":"takeability: assigned"}
+{"ts":1790363195,"k":"ros2/rmw_connextdds#259","e":"dropped","why":"takeability: assigned"}
+{"ts":1790363195,"k":"ros2/geometry2#994","e":"dropped","why":"takeability: assigned"}
+{"ts":1790363195,"k":"ros2/examples#463","e":"dropped","why":"closed"}
+{"ts":1790363195,"k":"ros2/examples#462","e":"dropped","why":"takeability: assigned"}
+{"ts":1790363195,"k":"ros2/examples#461","e":"dropped","why":"closed"}
+{"ts":1790363195,"k":"ros2/rcl#1340","e":"dropped","why":"takeability: assigned"}
+{"ts":1790363195,"k":"kiwix/kiwix-desktop#1486","e":"dropped","why":"takeability: assigned"}
