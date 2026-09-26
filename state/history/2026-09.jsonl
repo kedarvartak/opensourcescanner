@@ -1806,3 +1806,4 @@
 {"ts":1790429757,"k":"aethersdr/AetherSDR#5944","e":"dropped","why":"closed"}
 {"ts":1790429757,"k":"NextCommunity/NextCommunity.github.io#369","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1790429757,"k":"tenstorrent/tt-metal#40699","e":"dropped","why":"takeability: soft-claimed by alexxony 0d ago"}
+{"ts":1790446602,"k":"FreeCAD/FreeCAD#20638","e":"dropped","why":"relevance: 18mo old and quiet"}
