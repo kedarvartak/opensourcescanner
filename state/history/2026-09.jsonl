@@ -1818,3 +1818,7 @@
 {"ts":1790535153,"k":"jsonrainbow/json-schema#955","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1790535153,"k":"openzim/node-libzim#225","e":"dropped","why":"takeability: assigned"}
 {"ts":1790535153,"k":"apache/airflow#57174","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1790552195,"k":"ros2/message_filters#338","e":"dropped","why":"takeability: soft-claimed by aarushjain355 0d ago"}
+{"ts":1790552195,"k":"tursodatabase/turso#5730","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1790552195,"k":"oppia/oppia#23784","e":"dropped","why":"closed"}
+{"ts":1790552195,"k":"pypa/hatch#2138","e":"dropped","why":"takeability: open linked PR"}
