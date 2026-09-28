@@ -1822,3 +1822,10 @@
 {"ts":1790552195,"k":"tursodatabase/turso#5730","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1790552195,"k":"oppia/oppia#23784","e":"dropped","why":"closed"}
 {"ts":1790552195,"k":"pypa/hatch#2138","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1790615937,"k":"ros2/rosbag2#2510","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1790615937,"k":"ros2/rosbag2#2509","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1790615937,"k":"lycheeverse/lychee#2193","e":"dropped","why":"takeability: merged linked PR (stale)"}
+{"ts":1790615937,"k":"OneBusAway/wayfinder#402","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1790615937,"k":"wislertt/leetcode-py#59","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1790615937,"k":"Fervent-Tempo/AF-Media-Bar#34","e":"dropped","why":"closed"}
+{"ts":1790615937,"k":"kestra-io/kestra#9814","e":"dropped","why":"takeability: assigned"}
