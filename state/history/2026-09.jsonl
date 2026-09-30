@@ -1984,3 +1984,7 @@
 {"ts":1790726584,"k":"AzureAD/microsoft-authentication-library-for-dotnet#5686","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1790726584,"k":"precogly/precogly#32","e":"dropped","why":"takeability: assigned"}
 {"ts":1790726584,"k":"UTDNebula/utd-trends#586","e":"dropped","why":"takeability: assigned"}
+{"ts":1790782510,"k":"nunit/nunit#5435","e":"dropped","why":"takeability: soft-claimed by xiao115255 1d ago"}
+{"ts":1790782510,"k":"unoplatform/uno#24756","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1790782510,"k":"unoplatform/uno#24752","e":"dropped","why":"takeability: soft-claimed by daaviid9 0d ago"}
+{"ts":1790782510,"k":"tracel-ai/burn#3316","e":"dropped","why":"takeability: open linked PR"}
