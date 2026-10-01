@@ -100,3 +100,7 @@
 {"ts":1790849398,"k":"glzr-io/zebar#242","e":"dropped","why":"not_in_board"}
 {"ts":1790849398,"k":"paulober/MicroPico#306","e":"dropped","why":"not_in_board"}
 {"ts":1790849398,"k":"glific/glific-frontend#3538","e":"dropped","why":"not_in_board"}
+{"ts":1790870318,"k":"symfony/symfony#66110","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1790870318,"k":"Submitty/Submitty#13402","e":"dropped","why":"takeability: soft-claimed by NobleCoder69 0d ago"}
+{"ts":1790870318,"k":"podman-container-tools/podman#26428","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1790870318,"k":"xataio/pgstream#261","e":"dropped","why":"relevance: 18mo old and quiet"}
