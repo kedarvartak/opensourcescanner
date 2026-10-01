@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-09-29T09:52:34.124Z",
+  "generatedAt": "2026-10-01T10:09:58.013Z",
   "issues": [
+    {
+      "k": "KaotoIO/kaoto#3127",
+      "fs": 1790849398,
+      "sc": 98
+    },
+    {
+      "k": "modoboa/modoboa#4147",
+      "fs": 1789547878,
+      "sc": 94
+    },
     {
       "k": "tensorcircuit/tensorcircuit-ng#52",
       "fs": 1789199920,
@@ -12,49 +22,44 @@
       "sc": 93
     },
     {
+      "k": "LibreSign/libresign#8936",
+      "fs": 1790849398,
+      "sc": 92
+    },
+    {
+      "k": "LibreSign/libresign#8678",
+      "fs": 1790238637,
+      "sc": 91
+    },
+    {
+      "k": "QwikDev/qwik#8113",
+      "fs": 1790849398,
+      "sc": 91
+    },
+    {
       "k": "afreidah/s3-orchestrator#363",
       "fs": 1788509412,
       "sc": 91
     },
     {
+      "k": "LibreSign/libresign#8688",
+      "fs": 1790238637,
+      "sc": 89
+    },
+    {
+      "k": "LibreSign/libresign#8689",
+      "fs": 1790238637,
+      "sc": 88
+    },
+    {
       "k": "voxel51/fiftyone-brain#258",
       "fs": 1788252161,
-      "sc": 90
+      "sc": 88
     },
     {
       "k": "jordigilh/kubernaut#787",
       "fs": 1790238637,
-      "sc": 90
-    },
-    {
-      "k": "Kuadrant/mcp-gateway#820",
-      "fs": 1789113981,
-      "sc": 89
-    },
-    {
-      "k": "thomaspoignant/go-feature-flag#5086",
-      "fs": 1789893538,
-      "sc": 89
-    },
-    {
-      "k": "modoboa/modoboa#4147",
-      "fs": 1789547878,
-      "sc": 89
-    },
-    {
-      "k": "mvschwarz/openrig#9",
-      "fs": 1790675554,
       "sc": 88
-    },
-    {
-      "k": "LibreSign/libresign#8678",
-      "fs": 1790238637,
-      "sc": 88
-    },
-    {
-      "k": "LibreSign/libresign#8688",
-      "fs": 1790238637,
-      "sc": 87
     },
     {
       "k": "kubefleet-dev/kubefleet#639",
@@ -62,44 +67,44 @@
       "sc": 87
     },
     {
-      "k": "open-cluster-management-io/argocd-pull-integration#191",
-      "fs": 1786876446,
-      "sc": 87
-    },
-    {
-      "k": "aethersdr/AetherSDR#743",
+      "k": "thomaspoignant/go-feature-flag#5086",
       "fs": 1789893538,
       "sc": 87
     },
     {
-      "k": "nunit/nunit#5435",
-      "fs": 1790675554,
+      "k": "XCSoar/XCSoar#2933",
+      "fs": 1790849398,
       "sc": 87
     },
     {
-      "k": "LibreSign/libresign#8689",
-      "fs": 1790238637,
+      "k": "open-cluster-management-io/argocd-pull-integration#191",
+      "fs": 1786876446,
       "sc": 86
     },
     {
-      "k": "LibreSign/libresign#8284",
-      "fs": 1790675554,
+      "k": "aethersdr/AetherSDR#6039",
+      "fs": 1790849398,
       "sc": 86
     },
     {
-      "k": "finos/architecture-as-code#2352",
-      "fs": 1790675554,
+      "k": "symfony/symfony#65565",
+      "fs": 1790849398,
       "sc": 86
     },
     {
-      "k": "seladb/PcapPlusPlus#2278",
-      "fs": 1790675554,
-      "sc": 86
-    },
-    {
-      "k": "gems-uff/sapos#669",
+      "k": "symfony/symfony#65569",
       "fs": 1789547878,
-      "sc": 86
+      "sc": 85
+    },
+    {
+      "k": "symfony/symfony#65567",
+      "fs": 1788169375,
+      "sc": 85
+    },
+    {
+      "k": "symfony/symfony#66110",
+      "fs": 1789893538,
+      "sc": 85
     },
     {
       "k": "podman-desktop/podman-desktop#12925",
@@ -107,43 +112,18 @@
       "sc": 85
     },
     {
-      "k": "kernelci/kernelci-core#2922",
-      "fs": 1788169375,
+      "k": "ZcashFoundation/zebra#9662",
+      "fs": 1787718057,
       "sc": 85
     },
     {
-      "k": "paradedb/paradedb#5013",
-      "fs": 1789893538,
+      "k": "gems-uff/sapos#669",
+      "fs": 1789547878,
       "sc": 85
     },
     {
-      "k": "TeamNewPipe/NewPipe#13866",
-      "fs": 1790675554,
-      "sc": 85
-    },
-    {
-      "k": "manyfold3d/manyfold#6447",
-      "fs": 1786737612,
-      "sc": 85
-    },
-    {
-      "k": "getsentry/sentry-laravel#1022",
-      "fs": 1788336155,
-      "sc": 85
-    },
-    {
-      "k": "manyfold3d/manyfold#4768",
-      "fs": 1790675554,
-      "sc": 84
-    },
-    {
-      "k": "ueberdosis/tiptap#6621",
-      "fs": 1786737612,
-      "sc": 84
-    },
-    {
-      "k": "absolute-version/commit-and-tag-version#263",
-      "fs": 1786737612,
+      "k": "justlovemaki/AIClient2API#128",
+      "fs": 1786876446,
       "sc": 84
     },
     {
@@ -152,8 +132,28 @@
       "sc": 84
     },
     {
+      "k": "paradedb/paradedb#5013",
+      "fs": 1789893538,
+      "sc": 84
+    },
+    {
       "k": "jordond/jolt#160",
       "fs": 1788509412,
+      "sc": 84
+    },
+    {
+      "k": "rustrak/rustrak#26",
+      "fs": 1786876446,
+      "sc": 84
+    },
+    {
+      "k": "manyfold3d/manyfold#4768",
+      "fs": 1790675554,
+      "sc": 84
+    },
+    {
+      "k": "manyfold3d/manyfold#6447",
+      "fs": 1786737612,
       "sc": 84
     },
     {
@@ -187,23 +187,13 @@
       "sc": 83
     },
     {
-      "k": "open-cluster-management-io/argocd-pull-integration#194",
-      "fs": 1786876446,
-      "sc": 83
-    },
-    {
       "k": "manyfold3d/manyfold#4826",
       "fs": 1787718057,
       "sc": 83
     },
     {
-      "k": "manyfold3d/manyfold#5025",
-      "fs": 1786876446,
-      "sc": 83
-    },
-    {
-      "k": "justlovemaki/AIClient2API#128",
-      "fs": 1786876446,
+      "k": "absolute-version/commit-and-tag-version#263",
+      "fs": 1786737612,
       "sc": 83
     },
     {
@@ -212,28 +202,23 @@
       "sc": 83
     },
     {
-      "k": "serenedb/serenedb#658",
-      "fs": 1790238637,
-      "sc": 83
-    },
-    {
-      "k": "stdlib-js/stdlib#11248",
-      "fs": 1787718057,
+      "k": "manyfold3d/manyfold#5025",
+      "fs": 1786876446,
       "sc": 82
     },
     {
-      "k": "guacsec/guac#2915",
-      "fs": 1790675554,
+      "k": "suitenumerique/docs#1220",
+      "fs": 1786876446,
       "sc": 82
     },
     {
-      "k": "ZcashFoundation/zebra#9662",
-      "fs": 1787718057,
+      "k": "Kuadrant/mcp-gateway#820",
+      "fs": 1789113981,
       "sc": 82
     },
     {
-      "k": "apache/sedona#2474",
-      "fs": 1788336155,
+      "k": "ariel-os/ariel-os#2099",
+      "fs": 1790849398,
       "sc": 82
     },
     {
@@ -242,8 +227,13 @@
       "sc": 82
     },
     {
-      "k": "google/perfetto#7591",
-      "fs": 1790675554,
+      "k": "carlos-emr/carlos#2152",
+      "fs": 1790849398,
+      "sc": 82
+    },
+    {
+      "k": "Nemirtingas/ingame_overlay#77",
+      "fs": 1790849398,
       "sc": 82
     },
     {
@@ -252,42 +242,27 @@
       "sc": 82
     },
     {
-      "k": "OpenRailAssociation/netzgrafik-editor-frontend#1334",
-      "fs": 1788509412,
-      "sc": 82
-    },
-    {
-      "k": "regnull/openbot#175",
-      "fs": 1790675554,
-      "sc": 82
-    },
-    {
-      "k": "jordigilh/kubernaut#1038",
-      "fs": 1790238637,
-      "sc": 81
-    },
-    {
-      "k": "Kuadrant/mcp-gateway#717",
-      "fs": 1786876446,
-      "sc": 81
-    },
-    {
       "k": "kubefleet-dev/kubefleet#582",
       "fs": 1788681297,
       "sc": 81
     },
     {
-      "k": "serenedb/serenedb#631",
-      "fs": 1789893538,
+      "k": "open-cluster-management-io/argocd-pull-integration#194",
+      "fs": 1786876446,
       "sc": 81
     },
     {
-      "k": "regnull/openbot#172",
-      "fs": 1790675554,
+      "k": "stdlib-js/stdlib#11248",
+      "fs": 1787718057,
       "sc": 81
     },
     {
       "k": "Open-EO/openeo-geopyspark-driver#1327",
+      "fs": 1790675554,
+      "sc": 81
+    },
+    {
+      "k": "guacsec/guac#2915",
       "fs": 1790675554,
       "sc": 81
     },
@@ -297,58 +272,33 @@
       "sc": 81
     },
     {
+      "k": "Myriad-Dreamin/tinymist#2260",
+      "fs": 1786876446,
+      "sc": 81
+    },
+    {
+      "k": "0xMiden/compiler#1060",
+      "fs": 1790849398,
+      "sc": 81
+    },
+    {
+      "k": "regnull/openbot#175",
+      "fs": 1790675554,
+      "sc": 81
+    },
+    {
       "k": "afreidah/s3-orchestrator#362",
       "fs": 1788509412,
       "sc": 80
     },
     {
-      "k": "jordigilh/kubernaut#619",
-      "fs": 1790238637,
-      "sc": 80
-    },
-    {
-      "k": "serenedb/serenedb#610",
-      "fs": 1790411972,
-      "sc": 80
-    },
-    {
-      "k": "serenedb/serenedb#614",
-      "fs": 1790238637,
-      "sc": 80
-    },
-    {
-      "k": "hackforla/website#8685",
-      "fs": 1789287544,
-      "sc": 80
-    },
-    {
-      "k": "hackforla/website#8684",
-      "fs": 1789287544,
-      "sc": 80
-    },
-    {
-      "k": "hackforla/website#8683",
-      "fs": 1789805460,
-      "sc": 80
-    },
-    {
-      "k": "hackforla/website#8681",
-      "fs": 1790238637,
+      "k": "kernelci/kernelci-core#2922",
+      "fs": 1788169375,
       "sc": 80
     },
     {
       "k": "CS-SI/eodag#1864",
       "fs": 1787025766,
-      "sc": 80
-    },
-    {
-      "k": "rustrak/rustrak#26",
-      "fs": 1786876446,
-      "sc": 80
-    },
-    {
-      "k": "logisim-evolution/logisim-evolution#3008",
-      "fs": 1790675554,
       "sc": 80
     },
     {
@@ -362,18 +312,13 @@
       "sc": 80
     },
     {
-      "k": "Ryan-Millard/Img2Num#607",
-      "fs": 1789980883,
-      "sc": 80
-    },
-    {
-      "k": "unoplatform/uno#24756",
+      "k": "serenedb/serenedb#610",
       "fs": 1790411972,
       "sc": 80
     },
     {
-      "k": "unoplatform/uno#24752",
-      "fs": 1790411972,
+      "k": "serenedb/serenedb#614",
+      "fs": 1790238637,
       "sc": 80
     },
     {
@@ -387,13 +332,43 @@
       "sc": 80
     },
     {
+      "k": "unoplatform/uno#24728",
+      "fs": 1790849398,
+      "sc": 80
+    },
+    {
+      "k": "unoplatform/uno#24723",
+      "fs": 1790849398,
+      "sc": 80
+    },
+    {
       "k": "ArcadeMakerSources/ArcadeMaker#46",
       "fs": 1789719478,
       "sc": 80
     },
     {
-      "k": "suitenumerique/docs#1220",
-      "fs": 1786876446,
+      "k": "jordigilh/kubernaut#1038",
+      "fs": 1790238637,
+      "sc": 79
+    },
+    {
+      "k": "serenedb/serenedb#658",
+      "fs": 1790238637,
+      "sc": 79
+    },
+    {
+      "k": "hyperdxio/hyperdx#1362",
+      "fs": 1787371794,
+      "sc": 79
+    },
+    {
+      "k": "ueberdosis/tiptap#6621",
+      "fs": 1786737612,
+      "sc": 79
+    },
+    {
+      "k": "openbao/openbao#2498",
+      "fs": 1788252161,
       "sc": 79
     },
     {
@@ -402,9 +377,59 @@
       "sc": 79
     },
     {
+      "k": "astrid-runtime/astrid#497",
+      "fs": 1789634558,
+      "sc": 79
+    },
+    {
+      "k": "kestra-io/kestra#14229",
+      "fs": 1790849398,
+      "sc": 79
+    },
+    {
+      "k": "Apicurio/apicurio-registry#7329",
+      "fs": 1788941747,
+      "sc": 79
+    },
+    {
       "k": "microcks/microcks#2116",
       "fs": 1789113981,
       "sc": 79
+    },
+    {
+      "k": "sanger/sequencescape#5214",
+      "fs": 1789547878,
+      "sc": 79
+    },
+    {
+      "k": "fjordllc/bootcamp#10520",
+      "fs": 1788941747,
+      "sc": 79
+    },
+    {
+      "k": "Submitty/Submitty#13402",
+      "fs": 1790849398,
+      "sc": 79
+    },
+    {
+      "k": "OpenRailAssociation/netzgrafik-editor-frontend#1334",
+      "fs": 1788509412,
+      "sc": 79
+    },
+    {
+      "k": "QwikDev/qwik#7955",
+      "fs": 1790849398,
+      "sc": 78
+    },
+    {
+      "k": "jordigilh/kubernaut#619",
+      "fs": 1790238637,
+      "sc": 78
+    },
+    {
+      "k": "aethersdr/AetherSDR#743",
+      "fs": 1789893538,
+      "sc": 78
     },
     {
       "k": "podman-desktop/podman-desktop#13482",
@@ -412,13 +437,13 @@
       "sc": 78
     },
     {
-      "k": "OpenRailAssociation/netzgrafik-editor-frontend#739",
-      "fs": 1790411972,
+      "k": "serenedb/serenedb#612",
+      "fs": 1790849398,
       "sc": 78
     },
     {
-      "k": "astrid-runtime/astrid#497",
-      "fs": 1789634558,
+      "k": "kestra-io/kestra#14868",
+      "fs": 1790849398,
       "sc": 78
     },
     {
@@ -432,13 +457,28 @@
       "sc": 78
     },
     {
-      "k": "deepinv/deepinv#899",
-      "fs": 1789199920,
+      "k": "hackforla/website#8685",
+      "fs": 1789287544,
       "sc": 78
     },
     {
-      "k": "nipoppy/nipoppy#646",
-      "fs": 1786737612,
+      "k": "hackforla/website#8684",
+      "fs": 1789287544,
+      "sc": 78
+    },
+    {
+      "k": "hackforla/website#8683",
+      "fs": 1789805460,
+      "sc": 78
+    },
+    {
+      "k": "hackforla/website#8681",
+      "fs": 1790238637,
+      "sc": 78
+    },
+    {
+      "k": "deepinv/deepinv#899",
+      "fs": 1789199920,
       "sc": 78
     },
     {
@@ -457,53 +497,13 @@
       "sc": 78
     },
     {
-      "k": "SurgeDM/Surge#441",
-      "fs": 1790238637,
+      "k": "0xMiden/miden-vm#2687",
+      "fs": 1788855155,
       "sc": 78
     },
     {
-      "k": "apache/arrow-rs-object-store#474",
-      "fs": 1786876446,
-      "sc": 78
-    },
-    {
-      "k": "prefix-dev/pixi#5906",
-      "fs": 1787839675,
-      "sc": 78
-    },
-    {
-      "k": "EVerest/EVerest#2736",
-      "fs": 1790675554,
-      "sc": 78
-    },
-    {
-      "k": "redhat-et/ripwire#305",
-      "fs": 1790675554,
-      "sc": 78
-    },
-    {
-      "k": "orcasound/orcahello#609",
-      "fs": 1789113981,
-      "sc": 78
-    },
-    {
-      "k": "symfony/symfony#65569",
-      "fs": 1789547878,
-      "sc": 78
-    },
-    {
-      "k": "symfony/symfony#66111",
-      "fs": 1789893538,
-      "sc": 78
-    },
-    {
-      "k": "symfony/symfony#65567",
-      "fs": 1788169375,
-      "sc": 78
-    },
-    {
-      "k": "symfony/symfony#66110",
-      "fs": 1789893538,
+      "k": "newsboat/newsboat#3342",
+      "fs": 1790849398,
       "sc": 78
     },
     {
@@ -517,22 +517,27 @@
       "sc": 77
     },
     {
-      "k": "Comfy-Org/ComfyUI_frontend#6447",
-      "fs": 1786876446,
+      "k": "nipoppy/nipoppy#646",
+      "fs": 1786737612,
       "sc": 77
     },
     {
-      "k": "ProjectMirador/mirador#4223",
-      "fs": 1786876446,
+      "k": "BlankOn/irgsh-go#159",
+      "fs": 1790238637,
       "sc": 77
     },
     {
-      "k": "datazip-inc/olake#659",
-      "fs": 1788336155,
+      "k": "docker/model-runner#912",
+      "fs": 1790238637,
       "sc": 77
     },
     {
-      "k": "Myriad-Dreamin/tinymist#2260",
+      "k": "Automattic/harper#2323",
+      "fs": 1788855155,
+      "sc": 77
+    },
+    {
+      "k": "apache/arrow-rs-object-store#474",
       "fs": 1786876446,
       "sc": 77
     },
@@ -542,13 +547,18 @@
       "sc": 77
     },
     {
-      "k": "0xMiden/miden-vm#2687",
-      "fs": 1788855155,
+      "k": "prefix-dev/pixi#5906",
+      "fs": 1787839675,
       "sc": 77
     },
     {
-      "k": "superradcompany/microsandbox#593",
-      "fs": 1788422951,
+      "k": "apache/sedona#2474",
+      "fs": 1788336155,
+      "sc": 77
+    },
+    {
+      "k": "multitheftauto/mtasa-blue#4282",
+      "fs": 1790849398,
       "sc": 77
     },
     {
@@ -557,23 +567,33 @@
       "sc": 77
     },
     {
-      "k": "fjordllc/bootcamp#10520",
-      "fs": 1788941747,
+      "k": "orcasound/orcahello#609",
+      "fs": 1789113981,
       "sc": 77
     },
     {
-      "k": "Fervent-Tempo/AF-Media-Bar#36",
-      "fs": 1790411972,
-      "sc": 76
+      "k": "jgrossi/elephpant.me#333",
+      "fs": 1790849398,
+      "sc": 77
     },
     {
-      "k": "OpenRailAssociation/netzgrafik-editor-frontend#597",
-      "fs": 1790238637,
-      "sc": 76
-    },
-    {
-      "k": "datazip-inc/olake#671",
+      "k": "getsentry/sentry-laravel#1022",
       "fs": 1788336155,
+      "sc": 77
+    },
+    {
+      "k": "carlos-emr/carlos#289",
+      "fs": 1786876446,
+      "sc": 76
+    },
+    {
+      "k": "sanger/sequencescape#4911",
+      "fs": 1789547878,
+      "sc": 76
+    },
+    {
+      "k": "jgrossi/elephpant.me#336",
+      "fs": 1790849398,
       "sc": 76
     },
     {
@@ -582,13 +602,18 @@
       "sc": 76
     },
     {
-      "k": "cartography-cncf/cartography#1887",
-      "fs": 1786876446,
+      "k": "datazip-inc/olake#659",
+      "fs": 1788336155,
       "sc": 76
     },
     {
-      "k": "saivedant169/AegisFlow#49",
-      "fs": 1787112766,
+      "k": "medik8s/self-node-remediation#274",
+      "fs": 1787025766,
+      "sc": 76
+    },
+    {
+      "k": "SurgeDM/Surge#441",
+      "fs": 1790238637,
       "sc": 76
     },
     {
@@ -597,8 +622,8 @@
       "sc": 76
     },
     {
-      "k": "carlos-emr/carlos#289",
-      "fs": 1786876446,
+      "k": "superradcompany/microsandbox#593",
+      "fs": 1788422951,
       "sc": 76
     },
     {
@@ -612,8 +637,13 @@
       "sc": 76
     },
     {
-      "k": "qualcomm/eld#566",
-      "fs": 1789634558,
+      "k": "SkriptLang/Skript#8526",
+      "fs": 1787112766,
+      "sc": 76
+    },
+    {
+      "k": "oceanbase/seekdb#91",
+      "fs": 1788336155,
       "sc": 76
     },
     {
@@ -632,13 +662,18 @@
       "sc": 76
     },
     {
+      "k": "freerange/jam-coop#570",
+      "fs": 1786876446,
+      "sc": 76
+    },
+    {
       "k": "EnAccess/micropowermanager#1604",
       "fs": 1790675554,
       "sc": 76
     },
     {
-      "k": "elabftw/elabftw#7483",
-      "fs": 1790411972,
+      "k": "WordPress/ai#47",
+      "fs": 1786876446,
       "sc": 76
     },
     {
@@ -647,18 +682,18 @@
       "sc": 75
     },
     {
-      "k": "near/mpc#2102",
-      "fs": 1786876446,
-      "sc": 75
-    },
-    {
       "k": "Fervent-Tempo/AF-Media-Bar#88",
       "fs": 1790675554,
       "sc": 75
     },
     {
-      "k": "Open-EO/openeo-geopyspark-driver#1375",
-      "fs": 1790675554,
+      "k": "OpenRailAssociation/netzgrafik-editor-frontend#739",
+      "fs": 1790411972,
+      "sc": 75
+    },
+    {
+      "k": "datazip-inc/olake#671",
+      "fs": 1788336155,
       "sc": 75
     },
     {
@@ -667,13 +702,13 @@
       "sc": 75
     },
     {
-      "k": "C7-Game/OpenCiv3#943",
+      "k": "C7-Game/OpenCiv3#1010",
       "fs": 1790675554,
       "sc": 75
     },
     {
-      "k": "C7-Game/OpenCiv3#1010",
-      "fs": 1790675554,
+      "k": "freerange/jam-coop#568",
+      "fs": 1786876446,
       "sc": 75
     },
     {
@@ -697,18 +732,23 @@
       "sc": 75
     },
     {
+      "k": "RailtownAI/railtracks#873",
+      "fs": 1789461825,
+      "sc": 75
+    },
+    {
       "k": "finos/opengris-scaler#177",
       "fs": 1787198795,
       "sc": 75
     },
     {
-      "k": "BlankOn/irgsh-go#159",
-      "fs": 1790238637,
+      "k": "WillCodeForCats/solaredge-modbus-multi#912",
+      "fs": 1790849398,
       "sc": 75
     },
     {
-      "k": "medik8s/self-node-remediation#274",
-      "fs": 1787025766,
+      "k": "saivedant169/AegisFlow#49",
+      "fs": 1787112766,
       "sc": 75
     },
     {
@@ -717,18 +757,13 @@
       "sc": 75
     },
     {
-      "k": "mindersec/minder#6250",
-      "fs": 1786876446,
-      "sc": 75
-    },
-    {
       "k": "Rust-GPU/rust-gpu#316",
       "fs": 1789893538,
       "sc": 75
     },
     {
-      "k": "oceanbase/seekdb#91",
-      "fs": 1788336155,
+      "k": "ggml-org/llama.cpp#17488",
+      "fs": 1790238637,
       "sc": 75
     },
     {
@@ -737,13 +772,18 @@
       "sc": 75
     },
     {
-      "k": "artefactual/atom#2431",
+      "k": "geeksforsocialchange/PlaceCal#3272",
       "fs": 1790238637,
       "sc": 75
     },
     {
-      "k": "horde/imp#114",
-      "fs": 1789634558,
+      "k": "elabftw/elabftw#7483",
+      "fs": 1790411972,
+      "sc": 75
+    },
+    {
+      "k": "artefactual/atom#2431",
+      "fs": 1790238637,
       "sc": 75
     },
     {
@@ -752,18 +792,23 @@
       "sc": 75
     },
     {
-      "k": "open-cluster-management-io/argocd-pull-integration#200",
-      "fs": 1788422951,
+      "k": "near/mpc#2102",
+      "fs": 1786876446,
       "sc": 74
     },
     {
-      "k": "aethersdr/AetherSDR#859",
-      "fs": 1789893538,
+      "k": "Kuadrant/mcp-gateway#717",
+      "fs": 1786876446,
       "sc": 74
     },
     {
-      "k": "ueberdosis/tiptap#6689",
-      "fs": 1786737612,
+      "k": "Open-EO/openeo-geopyspark-driver#1375",
+      "fs": 1790675554,
+      "sc": 74
+    },
+    {
+      "k": "Myriad-Dreamin/tinymist#2059",
+      "fs": 1787458692,
       "sc": 74
     },
     {
@@ -772,8 +817,18 @@
       "sc": 74
     },
     {
-      "k": "datazip-inc/olake#661",
-      "fs": 1787839675,
+      "k": "jgrossi/elephpant.me#344",
+      "fs": 1790849398,
+      "sc": 74
+    },
+    {
+      "k": "jgrossi/elephpant.me#347",
+      "fs": 1790849398,
+      "sc": 74
+    },
+    {
+      "k": "C7-Game/OpenCiv3#943",
+      "fs": 1790675554,
       "sc": 74
     },
     {
@@ -787,8 +842,8 @@
       "sc": 74
     },
     {
-      "k": "dominik1001/caldav-mcp#5",
-      "fs": 1786876446,
+      "k": "kafbat/kafka-ui#1073",
+      "fs": 1790675554,
       "sc": 74
     },
     {
@@ -797,23 +852,23 @@
       "sc": 74
     },
     {
-      "k": "RailtownAI/railtracks#873",
-      "fs": 1789461825,
-      "sc": 74
-    },
-    {
       "k": "beetbox/beets#5786",
       "fs": 1789113981,
       "sc": 74
     },
     {
-      "k": "snowflakedb/terraform-provider-snowflake#4294",
-      "fs": 1787112766,
+      "k": "Kuadrant/kuadrant-operator#1420",
+      "fs": 1786737612,
       "sc": 74
     },
     {
-      "k": "Kuadrant/kuadrant-operator#1420",
-      "fs": 1786737612,
+      "k": "kgateway-dev/kgateway#14014",
+      "fs": 1790238637,
+      "sc": 74
+    },
+    {
+      "k": "mindersec/minder#6250",
+      "fs": 1786876446,
       "sc": 74
     },
     {
@@ -832,23 +887,18 @@
       "sc": 74
     },
     {
-      "k": "rtk-ai/rtk#907",
-      "fs": 1786876446,
+      "k": "gleam-lang/gleam#5709",
+      "fs": 1790411972,
       "sc": 74
     },
     {
-      "k": "Automattic/harper#3306",
-      "fs": 1789634558,
+      "k": "jabrena/plinth#879",
+      "fs": 1790849398,
       "sc": 74
     },
     {
-      "k": "SkriptLang/Skript#8526",
-      "fs": 1787112766,
-      "sc": 74
-    },
-    {
-      "k": "kiwix/libkiwix#1206",
-      "fs": 1788336155,
+      "k": "Magic-team-jvav/confluence#227",
+      "fs": 1790849398,
       "sc": 74
     },
     {
@@ -857,23 +907,8 @@
       "sc": 74
     },
     {
-      "k": "CHERIoT-Platform/cheriot-rtos#679",
-      "fs": 1789893538,
-      "sc": 74
-    },
-    {
-      "k": "openzim/libzim#1113",
-      "fs": 1790675554,
-      "sc": 74
-    },
-    {
-      "k": "geeksforsocialchange/PlaceCal#3272",
-      "fs": 1790238637,
-      "sc": 74
-    },
-    {
-      "k": "WordPress/presence-api#582",
-      "fs": 1790675554,
+      "k": "horde/imp#114",
+      "fs": 1789634558,
       "sc": 74
     },
     {
@@ -887,8 +922,18 @@
       "sc": 73
     },
     {
+      "k": "open-cluster-management-io/argocd-pull-integration#200",
+      "fs": 1788422951,
+      "sc": 73
+    },
+    {
       "k": "bolshakov/stoplight#466",
       "fs": 1788252161,
+      "sc": 73
+    },
+    {
+      "k": "OpenRailAssociation/netzgrafik-editor-frontend#597",
+      "fs": 1790238637,
       "sc": 73
     },
     {
@@ -897,23 +942,18 @@
       "sc": 73
     },
     {
-      "k": "SurgeDM/Surge#262",
-      "fs": 1786876446,
-      "sc": 73
-    },
-    {
-      "k": "datazip-inc/olake#670",
-      "fs": 1786876446,
-      "sc": 73
-    },
-    {
-      "k": "rtk-ai/rtk#1561",
-      "fs": 1788941747,
+      "k": "datazip-inc/olake#661",
+      "fs": 1787839675,
       "sc": 73
     },
     {
       "k": "build-canaries/nevergreen#380",
       "fs": 1789893538,
+      "sc": 73
+    },
+    {
+      "k": "dominik1001/caldav-mcp#5",
+      "fs": 1786876446,
       "sc": 73
     },
     {
@@ -927,23 +967,8 @@
       "sc": 73
     },
     {
-      "k": "agntcy/coffeeAgntcy#198",
-      "fs": 1786876446,
-      "sc": 73
-    },
-    {
       "k": "perses/perses#3222",
       "fs": 1786737612,
-      "sc": 73
-    },
-    {
-      "k": "openbao/openbao#2498",
-      "fs": 1788252161,
-      "sc": 73
-    },
-    {
-      "k": "kedacore/http-add-on#1427",
-      "fs": 1786876446,
       "sc": 73
     },
     {
@@ -952,18 +977,8 @@
       "sc": 73
     },
     {
-      "k": "gleam-lang/gleam#5709",
-      "fs": 1790411972,
-      "sc": 73
-    },
-    {
       "k": "spring-projects/spring-grpc#392",
       "fs": 1788941747,
-      "sc": 73
-    },
-    {
-      "k": "facebookincubator/velox#14914",
-      "fs": 1787718057,
       "sc": 73
     },
     {
@@ -972,18 +987,13 @@
       "sc": 73
     },
     {
-      "k": "NOAA-FIMS/FIMS#1431",
+      "k": "CHERIoT-Platform/cheriot-rtos#679",
       "fs": 1789893538,
       "sc": 73
     },
     {
-      "k": "zen-browser/desktop#15488",
-      "fs": 1790675554,
-      "sc": 73
-    },
-    {
-      "k": "freerange/jam-coop#570",
-      "fs": 1786876446,
+      "k": "NOAA-FIMS/FIMS#1431",
+      "fs": 1789893538,
       "sc": 73
     },
     {
@@ -997,13 +1007,18 @@
       "sc": 72
     },
     {
-      "k": "kernelci/kernelci-core#2894",
-      "fs": 1788169375,
+      "k": "sanger/sequencescape#5607",
+      "fs": 1790411972,
       "sc": 72
     },
     {
-      "k": "apache/arrow-rs-object-store#342",
-      "fs": 1786737612,
+      "k": "datazip-inc/olake#670",
+      "fs": 1786876446,
+      "sc": 72
+    },
+    {
+      "k": "SurgeDM/Surge#262",
+      "fs": 1786876446,
       "sc": 72
     },
     {
@@ -1027,16 +1042,6 @@
       "sc": 72
     },
     {
-      "k": "perses/perses#3322",
-      "fs": 1786737612,
-      "sc": 72
-    },
-    {
-      "k": "freerange/jam-coop#568",
-      "fs": 1786876446,
-      "sc": 72
-    },
-    {
       "k": "thunderbird/tbpro-add-on#179",
       "fs": 1788422951,
       "sc": 72
@@ -1057,8 +1062,28 @@
       "sc": 72
     },
     {
+      "k": "ProjectMirador/mirador#4223",
+      "fs": 1786876446,
+      "sc": 72
+    },
+    {
+      "k": "Azure/git-ape#94",
+      "fs": 1790849398,
+      "sc": 72
+    },
+    {
+      "k": "lovasoa/ophirofox#419",
+      "fs": 1786876446,
+      "sc": 72
+    },
+    {
       "k": "Qiskit/samplomatic#37",
       "fs": 1789719478,
+      "sc": 72
+    },
+    {
+      "k": "cartography-cncf/cartography#1887",
+      "fs": 1786876446,
       "sc": 72
     },
     {
@@ -1072,33 +1097,13 @@
       "sc": 72
     },
     {
-      "k": "docker/model-runner#912",
-      "fs": 1790238637,
-      "sc": 72
-    },
-    {
-      "k": "DragonOS-Community/DragonOS#1508",
-      "fs": 1790411972,
-      "sc": 72
-    },
-    {
-      "k": "zizmorcore/zizmor#827",
-      "fs": 1786737612,
-      "sc": 72
-    },
-    {
-      "k": "tursodatabase/turso#5165",
-      "fs": 1789461825,
+      "k": "rtk-ai/rtk#907",
+      "fs": 1786876446,
       "sc": 72
     },
     {
       "k": "DependencyTrack/dependency-track#4847",
       "fs": 1786737612,
-      "sc": 72
-    },
-    {
-      "k": "Apicurio/apicurio-registry#7329",
-      "fs": 1788941747,
       "sc": 72
     },
     {
@@ -1117,33 +1122,18 @@
       "sc": 72
     },
     {
-      "k": "libgeos/geos#1534",
-      "fs": 1790675554,
-      "sc": 72
-    },
-    {
-      "k": "sanger/sequencescape#5214",
-      "fs": 1789547878,
-      "sc": 72
-    },
-    {
-      "k": "open-telemetry/opentelemetry-ruby#2373",
-      "fs": 1789113981,
-      "sc": 72
-    },
-    {
       "k": "ikhsan3adi/absensi-sekolah-qr-code#195",
       "fs": 1787285413,
       "sc": 72
     },
     {
-      "k": "paradedb/paradedb#4085",
-      "fs": 1786876446,
+      "k": "Fervent-Tempo/AF-Media-Bar#50",
+      "fs": 1790411972,
       "sc": 71
     },
     {
-      "k": "Fervent-Tempo/AF-Media-Bar#50",
-      "fs": 1790411972,
+      "k": "apache/arrow-rs-object-store#342",
+      "fs": 1786737612,
       "sc": 71
     },
     {
@@ -1167,18 +1157,8 @@
       "sc": 71
     },
     {
-      "k": "rancher/k3k#561",
-      "fs": 1788681297,
-      "sc": 71
-    },
-    {
-      "k": "ajkdrag/otterly#27",
-      "fs": 1790675554,
-      "sc": 71
-    },
-    {
-      "k": "lovasoa/ophirofox#419",
-      "fs": 1786876446,
+      "k": "rtk-ai/rtk#1561",
+      "fs": 1788941747,
       "sc": 71
     },
     {
@@ -1187,28 +1167,28 @@
       "sc": 71
     },
     {
+      "k": "snowflakedb/terraform-provider-snowflake#4294",
+      "fs": 1787112766,
+      "sc": 71
+    },
+    {
       "k": "UTDNebula/nebula-api#382",
       "fs": 1789375940,
       "sc": 71
     },
     {
-      "k": "openchoreo/openchoreo#3444",
-      "fs": 1790238637,
+      "k": "kedacore/http-add-on#1427",
+      "fs": 1786876446,
       "sc": 71
     },
     {
-      "k": "kgateway-dev/kgateway#14014",
-      "fs": 1790238637,
+      "k": "zizmorcore/zizmor#827",
+      "fs": 1786737612,
       "sc": 71
     },
     {
-      "k": "tracel-ai/burn#3316",
-      "fs": 1790411972,
-      "sc": 71
-    },
-    {
-      "k": "ulyssa/iamb#549",
-      "fs": 1790238637,
+      "k": "tursodatabase/turso#5165",
+      "fs": 1789461825,
       "sc": 71
     },
     {
@@ -1227,8 +1207,8 @@
       "sc": 71
     },
     {
-      "k": "eclipse-edc/Samples#531",
-      "fs": 1789634558,
+      "k": "kiwix/libkiwix#1206",
+      "fs": 1788336155,
       "sc": 71
     },
     {
@@ -1237,9 +1217,19 @@
       "sc": 71
     },
     {
-      "k": "tirrenotechnologies/tirreno#48",
-      "fs": 1787718057,
+      "k": "puzzle/skills#1030",
+      "fs": 1786737612,
       "sc": 71
+    },
+    {
+      "k": "mohammedelkarsh/laravel-tenant-kit#1",
+      "fs": 1787285413,
+      "sc": 71
+    },
+    {
+      "k": "paradedb/paradedb#4085",
+      "fs": 1786876446,
+      "sc": 70
     },
     {
       "k": "FreeCAD/FreeCAD#22995",
@@ -1247,8 +1237,13 @@
       "sc": 70
     },
     {
-      "k": "Myriad-Dreamin/tinymist#2059",
-      "fs": 1787458692,
+      "k": "kestra-io/kestra#12742",
+      "fs": 1790238637,
+      "sc": 70
+    },
+    {
+      "k": "EnAccess/micropowermanager#1533",
+      "fs": 1790675554,
       "sc": 70
     },
     {
@@ -1262,18 +1257,23 @@
       "sc": 70
     },
     {
-      "k": "agntcy/coffeeAgntcy#307",
-      "fs": 1787998203,
-      "sc": 70
-    },
-    {
       "k": "perses/perses#3202",
       "fs": 1786737612,
       "sc": 70
     },
     {
+      "k": "rancher/k3k#561",
+      "fs": 1788681297,
+      "sc": 70
+    },
+    {
       "k": "civiform/civiform#11891",
       "fs": 1786876446,
+      "sc": 70
+    },
+    {
+      "k": "puzzle/skills#1232",
+      "fs": 1786737612,
       "sc": 70
     },
     {
@@ -1292,8 +1292,18 @@
       "sc": 70
     },
     {
-      "k": "pgmpy/pgmpy#2352",
-      "fs": 1789980883,
+      "k": "zen-browser/desktop#12402",
+      "fs": 1786876446,
+      "sc": 70
+    },
+    {
+      "k": "zen-browser/desktop#13020",
+      "fs": 1790238637,
+      "sc": 70
+    },
+    {
+      "k": "jupyterlab/jupyter-ai#1327",
+      "fs": 1786876446,
       "sc": 70
     },
     {
@@ -1317,13 +1327,18 @@
       "sc": 70
     },
     {
-      "k": "kestra-io/kestra#12742",
+      "k": "openchoreo/openchoreo#3444",
       "fs": 1790238637,
       "sc": 70
     },
     {
-      "k": "ls1intum/Artemis#12187",
-      "fs": 1786876446,
+      "k": "eclipse-edc/Samples#531",
+      "fs": 1789634558,
+      "sc": 70
+    },
+    {
+      "k": "getsentry/sentry-unreal#885",
+      "fs": 1788336155,
       "sc": 70
     },
     {
@@ -1332,13 +1347,18 @@
       "sc": 70
     },
     {
-      "k": "ArduPilot/ardupilot#32279",
-      "fs": 1788941747,
+      "k": "OpenShock/API#216",
+      "fs": 1790238637,
       "sc": 70
     },
     {
-      "k": "JeanPhilippeKernel/RendererEngine#843",
-      "fs": 1790675554,
+      "k": "open-telemetry/opentelemetry-ruby#2373",
+      "fs": 1789113981,
+      "sc": 70
+    },
+    {
+      "k": "getsentry/sentry-php#1913",
+      "fs": 1788336155,
       "sc": 70
     },
     {
@@ -1347,8 +1367,8 @@
       "sc": 70
     },
     {
-      "k": "mohammedelkarsh/laravel-tenant-kit#1",
-      "fs": 1787285413,
+      "k": "tirrenotechnologies/tirreno#48",
+      "fs": 1787718057,
       "sc": 70
     },
     {
@@ -1357,8 +1377,8 @@
       "sc": 69
     },
     {
-      "k": "SurgeDM/Surge#265",
-      "fs": 1786876446,
+      "k": "Submitty/Submitty#13355",
+      "fs": 1790849398,
       "sc": 69
     },
     {
@@ -1367,43 +1387,18 @@
       "sc": 69
     },
     {
-      "k": "EnAccess/micropowermanager#1533",
-      "fs": 1790675554,
-      "sc": 69
-    },
-    {
       "k": "ilios/ilios#7392",
       "fs": 1787998203,
       "sc": 69
     },
     {
-      "k": "Automattic/harper#2323",
-      "fs": 1788855155,
+      "k": "perses/perses#3807",
+      "fs": 1790849398,
       "sc": 69
     },
     {
-      "k": "perses/perses#3258",
-      "fs": 1790675554,
-      "sc": 69
-    },
-    {
-      "k": "zen-browser/desktop#12402",
-      "fs": 1786876446,
-      "sc": 69
-    },
-    {
-      "k": "sanger/sequencescape#4911",
-      "fs": 1789547878,
-      "sc": 69
-    },
-    {
-      "k": "openchoreo/openchoreo#3447",
-      "fs": 1790238637,
-      "sc": 69
-    },
-    {
-      "k": "hyperdxio/hyperdx#1362",
-      "fs": 1787371794,
+      "k": "zen-browser/desktop#11595",
+      "fs": 1789893538,
       "sc": 69
     },
     {
@@ -1412,8 +1407,8 @@
       "sc": 69
     },
     {
-      "k": "kafbat/kafka-ui#1073",
-      "fs": 1790675554,
+      "k": "Comfy-Org/ComfyUI_frontend#6447",
+      "fs": 1786876446,
       "sc": 69
     },
     {
@@ -1422,18 +1417,8 @@
       "sc": 69
     },
     {
-      "k": "jupyterlab/jupyter-ai#1327",
-      "fs": 1786876446,
-      "sc": 69
-    },
-    {
       "k": "open-feature/python-sdk#511",
       "fs": 1786737612,
-      "sc": 69
-    },
-    {
-      "k": "NVIDIA-NeMo/RL#1494",
-      "fs": 1786876446,
       "sc": 69
     },
     {
@@ -1452,18 +1437,33 @@
       "sc": 69
     },
     {
+      "k": "dalibo/cnpg-plugin-pgbackrest#72",
+      "fs": 1790849398,
+      "sc": 69
+    },
+    {
+      "k": "ulyssa/iamb#549",
+      "fs": 1790238637,
+      "sc": 69
+    },
+    {
+      "k": "apache/iggy#2517",
+      "fs": 1788252161,
+      "sc": 69
+    },
+    {
       "k": "GyulyVGC/sniffnet#975",
       "fs": 1789199920,
       "sc": 69
     },
     {
-      "k": "getsentry/sentry-unreal#885",
-      "fs": 1788336155,
+      "k": "ls1intum/Artemis#12187",
+      "fs": 1786876446,
       "sc": 69
     },
     {
-      "k": "ggml-org/llama.cpp#17488",
-      "fs": 1790238637,
+      "k": "wso2/product-is#27950",
+      "fs": 1790849398,
       "sc": 69
     },
     {
@@ -1472,18 +1472,28 @@
       "sc": 69
     },
     {
-      "k": "OpenShock/API#216",
-      "fs": 1790238637,
-      "sc": 69
+      "k": "openbao/openbao#2845",
+      "fs": 1787371794,
+      "sc": 68
     },
     {
-      "k": "puzzle/skills#1030",
-      "fs": 1786737612,
-      "sc": 69
+      "k": "kestra-io/kestra#14127",
+      "fs": 1790849398,
+      "sc": 68
     },
     {
-      "k": "WikiEducationFoundation/WikiEduDashboard#7063",
-      "fs": 1789199920,
+      "k": "Submitty/Submitty#13379",
+      "fs": 1790675554,
+      "sc": 68
+    },
+    {
+      "k": "SurgeDM/Surge#265",
+      "fs": 1786876446,
+      "sc": 68
+    },
+    {
+      "k": "perses/perses#3258",
+      "fs": 1790675554,
       "sc": 68
     },
     {
@@ -1497,8 +1507,8 @@
       "sc": 68
     },
     {
-      "k": "puzzle/skills#1232",
-      "fs": 1786737612,
+      "k": "openchoreo/openchoreo#3447",
+      "fs": 1790238637,
       "sc": 68
     },
     {
@@ -1517,18 +1527,8 @@
       "sc": 68
     },
     {
-      "k": "oppia/oppia#23017",
-      "fs": 1786876446,
-      "sc": 68
-    },
-    {
-      "k": "cosmos/evm#438",
-      "fs": 1787025766,
-      "sc": 68
-    },
-    {
-      "k": "xataio/pgstream#261",
-      "fs": 1789287544,
+      "k": "exelearning/exelearning#1700",
+      "fs": 1788336155,
       "sc": 68
     },
     {
@@ -1537,8 +1537,28 @@
       "sc": 68
     },
     {
+      "k": "sphireinc/Foundry#49",
+      "fs": 1787025766,
+      "sc": 68
+    },
+    {
+      "k": "sphireinc/Foundry#62",
+      "fs": 1787025766,
+      "sc": 68
+    },
+    {
+      "k": "sphireinc/Foundry#59",
+      "fs": 1787025766,
+      "sc": 68
+    },
+    {
       "k": "tracel-ai/burn-onnx#303",
       "fs": 1790411972,
+      "sc": 68
+    },
+    {
+      "k": "spinel-coop/rv#410",
+      "fs": 1787285413,
       "sc": 68
     },
     {
@@ -1547,29 +1567,24 @@
       "sc": 68
     },
     {
-      "k": "AzureAD/microsoft-authentication-library-for-dotnet#5686",
-      "fs": 1790411972,
-      "sc": 68
-    },
-    {
-      "k": "Submitty/Submitty#13379",
-      "fs": 1790675554,
-      "sc": 68
-    },
-    {
-      "k": "getsentry/sentry-symfony#957",
-      "fs": 1788336155,
-      "sc": 68
-    },
-    {
-      "k": "WordPress/ai#47",
-      "fs": 1786876446,
-      "sc": 68
-    },
-    {
       "k": "skyf0xx/hedgehog#418",
       "fs": 1789028200,
       "sc": 68
+    },
+    {
+      "k": "VATSIM-UK/UK-Sector-File#6278",
+      "fs": 1790849398,
+      "sc": 68
+    },
+    {
+      "k": "kernelci/kernelci-core#2894",
+      "fs": 1788169375,
+      "sc": 67
+    },
+    {
+      "k": "WikiEducationFoundation/WikiEduDashboard#7063",
+      "fs": 1789199920,
+      "sc": 67
     },
     {
       "k": "finos/opengris-scaler#235",
@@ -1577,38 +1592,13 @@
       "sc": 67
     },
     {
-      "k": "ilios/ilios#7377",
-      "fs": 1790675554,
-      "sc": 67
-    },
-    {
-      "k": "zen-browser/desktop#11595",
-      "fs": 1789893538,
+      "k": "ilios/ilios#7378",
+      "fs": 1790849398,
       "sc": 67
     },
     {
       "k": "get-convex/templates#56",
       "fs": 1787839675,
-      "sc": 67
-    },
-    {
-      "k": "precogly/precogly#32",
-      "fs": 1790675554,
-      "sc": 67
-    },
-    {
-      "k": "intri-in/manage-my-damn-life-nextjs#278",
-      "fs": 1786737612,
-      "sc": 67
-    },
-    {
-      "k": "JuliaPluto/Pluto.jl#3534",
-      "fs": 1789805460,
-      "sc": 67
-    },
-    {
-      "k": "sktime/sktime#8755",
-      "fs": 1787285413,
       "sc": 67
     },
     {
@@ -1622,13 +1612,23 @@
       "sc": 67
     },
     {
+      "k": "qualcomm/PatchWise#16",
+      "fs": 1790849398,
+      "sc": 67
+    },
+    {
       "k": "nion-software/nionswift#1603",
       "fs": 1790411972,
       "sc": 67
     },
     {
-      "k": "apache/iggy#2517",
-      "fs": 1788252161,
+      "k": "cosmos/evm#438",
+      "fs": 1787025766,
+      "sc": 67
+    },
+    {
+      "k": "xataio/pgstream#261",
+      "fs": 1789287544,
       "sc": 67
     },
     {
@@ -1637,43 +1637,8 @@
       "sc": 67
     },
     {
-      "k": "grimmory-tools/grimmory#836",
-      "fs": 1788681297,
-      "sc": 67
-    },
-    {
-      "k": "DIGI-UW/OpenELIS-Global-2#3169",
-      "fs": 1786876446,
-      "sc": 67
-    },
-    {
-      "k": "sourcehold/OpenSHC#1",
-      "fs": 1786876446,
-      "sc": 67
-    },
-    {
-      "k": "getsentry/sentry-php#1913",
-      "fs": 1788336155,
-      "sc": 67
-    },
-    {
-      "k": "openbao/openbao#2845",
-      "fs": 1787371794,
-      "sc": 66
-    },
-    {
-      "k": "openchoreo/openchoreo#2978",
-      "fs": 1787544825,
-      "sc": 66
-    },
-    {
-      "k": "KubeElasti/KubeElasti#193",
-      "fs": 1786737612,
-      "sc": 66
-    },
-    {
-      "k": "freeipa/freeipa-webui#818",
-      "fs": 1788169375,
+      "k": "aethersdr/AetherSDR#859",
+      "fs": 1789893538,
       "sc": 66
     },
     {
@@ -1682,8 +1647,18 @@
       "sc": 66
     },
     {
+      "k": "intri-in/manage-my-damn-life-nextjs#278",
+      "fs": 1786737612,
+      "sc": 66
+    },
+    {
       "k": "pasteurlabs/tesseract-core#164",
       "fs": 1790675554,
+      "sc": 66
+    },
+    {
+      "k": "sktime/sktime#8755",
+      "fs": 1787285413,
       "sc": 66
     },
     {
@@ -1692,13 +1667,13 @@
       "sc": 66
     },
     {
-      "k": "score-spec/score-k8s#191",
-      "fs": 1788769207,
+      "k": "oppia/oppia#23017",
+      "fs": 1786876446,
       "sc": 66
     },
     {
-      "k": "spinel-coop/rv#410",
-      "fs": 1787285413,
+      "k": "score-spec/score-k8s#191",
+      "fs": 1788769207,
       "sc": 66
     },
     {
@@ -1707,28 +1682,28 @@
       "sc": 66
     },
     {
+      "k": "grimmory-tools/grimmory#836",
+      "fs": 1788681297,
+      "sc": 66
+    },
+    {
+      "k": "quarkiverse/quarkus-amazon-services#2180",
+      "fs": 1790849398,
+      "sc": 66
+    },
+    {
       "k": "f3d-app/f3d#2841",
       "fs": 1789893538,
       "sc": 66
     },
     {
-      "k": "VATSIM-UK/UK-Sector-File#6267",
-      "fs": 1790675554,
+      "k": "getsentry/sentry-symfony#957",
+      "fs": 1788336155,
       "sc": 66
-    },
-    {
-      "k": "nebulastream/nebulastream#1538",
-      "fs": 1789893538,
-      "sc": 65
     },
     {
       "k": "artefactual/atom#2413",
       "fs": 1787718057,
-      "sc": 65
-    },
-    {
-      "k": "snowflakedb/terraform-provider-snowflake#4670",
-      "fs": 1788336155,
       "sc": 65
     },
     {
@@ -1737,12 +1712,27 @@
       "sc": 65
     },
     {
+      "k": "mohammedelkarsh/laravel-tenant-kit#6",
+      "fs": 1788422951,
+      "sc": 65
+    },
+    {
       "k": "Azure/LogicAppsUX#8233",
       "fs": 1786737612,
       "sc": 65
     },
     {
+      "k": "openchoreo/openchoreo#2978",
+      "fs": 1787544825,
+      "sc": 65
+    },
+    {
       "k": "maximhq/bifrost#432",
+      "fs": 1786737612,
+      "sc": 65
+    },
+    {
+      "k": "KubeElasti/KubeElasti#193",
       "fs": 1786737612,
       "sc": 65
     },
@@ -1762,23 +1752,28 @@
       "sc": 65
     },
     {
+      "k": "freeipa/freeipa-webui#818",
+      "fs": 1788169375,
+      "sc": 65
+    },
+    {
       "k": "flexprice/flexprice-front#159",
       "fs": 1786876446,
       "sc": 65
     },
     {
-      "k": "Acode-Foundation/Acode#1800",
+      "k": "agntcy/coffeeAgntcy#198",
       "fs": 1786876446,
-      "sc": 65
-    },
-    {
-      "k": "RoboSats/robosats#2308",
-      "fs": 1786940189,
       "sc": 65
     },
     {
       "k": "onflow/flow-go#8090",
       "fs": 1790411972,
+      "sc": 65
+    },
+    {
+      "k": "DIGI-UW/OpenELIS-Global-2#3169",
+      "fs": 1786876446,
       "sc": 65
     },
     {
@@ -1792,13 +1787,13 @@
       "sc": 65
     },
     {
-      "k": "OpenYSM/YSMParser#24",
-      "fs": 1790675554,
+      "k": "webkom/lego-webapp#6096",
+      "fs": 1789199920,
       "sc": 65
     },
     {
-      "k": "webkom/lego-webapp#6096",
-      "fs": 1789199920,
+      "k": "dokieli/dokieli#595",
+      "fs": 1786876446,
       "sc": 65
     },
     {
@@ -1807,28 +1802,18 @@
       "sc": 65
     },
     {
+      "k": "Submitty/Submitty#13305",
+      "fs": 1790849398,
+      "sc": 64
+    },
+    {
       "k": "callstackincubator/react-native-node-api#299",
       "fs": 1787025766,
       "sc": 64
     },
     {
-      "k": "zen-browser/desktop#13020",
-      "fs": 1790238637,
-      "sc": 64
-    },
-    {
-      "k": "sanger/sequencescape#5607",
-      "fs": 1790411972,
-      "sc": 64
-    },
-    {
       "k": "Azure/LogicAppsUX#8555",
       "fs": 1787544825,
-      "sc": 64
-    },
-    {
-      "k": "mohammedelkarsh/laravel-tenant-kit#6",
-      "fs": 1788422951,
       "sc": 64
     },
     {
@@ -1842,6 +1827,11 @@
       "sc": 64
     },
     {
+      "k": "NVIDIA-NeMo/RL#1494",
+      "fs": 1786876446,
+      "sc": 64
+    },
+    {
       "k": "corazawaf/coraza#1566",
       "fs": 1790238637,
       "sc": 64
@@ -1852,13 +1842,28 @@
       "sc": 64
     },
     {
+      "k": "Minestom/Minestom#3199",
+      "fs": 1790849398,
+      "sc": 64
+    },
+    {
       "k": "brndnmtthws/conky#2247",
       "fs": 1786737612,
       "sc": 64
     },
     {
-      "k": "dokieli/dokieli#595",
+      "k": "sourcehold/OpenSHC#1",
       "fs": 1786876446,
+      "sc": 64
+    },
+    {
+      "k": "ESPWortuhr/Multilayout-ESP-Wordclock#625",
+      "fs": 1787718057,
+      "sc": 64
+    },
+    {
+      "k": "OpenYSM/YSMParser#24",
+      "fs": 1790675554,
       "sc": 64
     },
     {
@@ -1872,11 +1877,6 @@
       "sc": 63
     },
     {
-      "k": "DIGI-UW/OpenELIS-Global-2#3243",
-      "fs": 1789805460,
-      "sc": 63
-    },
-    {
       "k": "VoltAgent/voltagent#263",
       "fs": 1787930521,
       "sc": 63
@@ -1884,11 +1884,6 @@
     {
       "k": "usebruno/bruno#6057",
       "fs": 1790411972,
-      "sc": 63
-    },
-    {
-      "k": "custom-components/zaptec#325",
-      "fs": 1786876446,
       "sc": 63
     },
     {
@@ -1912,11 +1907,6 @@
       "sc": 63
     },
     {
-      "k": "ymtdzzz/otel-tui#415",
-      "fs": 1789199920,
-      "sc": 63
-    },
-    {
       "k": "donetick/donetick#657",
       "fs": 1789028200,
       "sc": 63
@@ -1927,8 +1917,13 @@
       "sc": 63
     },
     {
-      "k": "exelearning/exelearning#1700",
+      "k": "snowflakedb/terraform-provider-snowflake#4670",
       "fs": 1788336155,
+      "sc": 62
+    },
+    {
+      "k": "agntcy/coffeeAgntcy#307",
+      "fs": 1787998203,
       "sc": 62
     },
     {
@@ -1937,8 +1932,8 @@
       "sc": 62
     },
     {
-      "k": "abhinavxd/libredesk#307",
-      "fs": 1790675554,
+      "k": "ymtdzzz/otel-tui#415",
+      "fs": 1789199920,
       "sc": 62
     },
     {
@@ -1947,23 +1942,8 @@
       "sc": 62
     },
     {
-      "k": "uutils/diffutils#120",
-      "fs": 1786876446,
-      "sc": 62
-    },
-    {
-      "k": "eljulians/skillfile#18",
-      "fs": 1790675554,
-      "sc": 62
-    },
-    {
-      "k": "eljulians/skillfile#16",
-      "fs": 1790411972,
-      "sc": 62
-    },
-    {
-      "k": "ESPWortuhr/Multilayout-ESP-Wordclock#625",
-      "fs": 1787718057,
+      "k": "ArduPilot/ardupilot#32279",
+      "fs": 1788941747,
       "sc": 62
     },
     {
@@ -1982,8 +1962,8 @@
       "sc": 61
     },
     {
-      "k": "DIGI-UW/OpenELIS-Global-2#4394",
-      "fs": 1790675554,
+      "k": "DIGI-UW/OpenELIS-Global-2#3243",
+      "fs": 1789805460,
       "sc": 61
     },
     {
@@ -1992,13 +1972,8 @@
       "sc": 61
     },
     {
-      "k": "openwisp/ansible-openwisp2#515",
-      "fs": 1790238637,
-      "sc": 61
-    },
-    {
-      "k": "arkade-os/arkd#794",
-      "fs": 1786737612,
+      "k": "abhinavxd/libredesk#307",
+      "fs": 1790675554,
       "sc": 61
     },
     {
@@ -2009,6 +1984,11 @@
     {
       "k": "jj-vcs/jj#7816",
       "fs": 1790675554,
+      "sc": 61
+    },
+    {
+      "k": "facebookincubator/velox#14914",
+      "fs": 1787718057,
       "sc": 61
     },
     {
@@ -2027,8 +2007,13 @@
       "sc": 61
     },
     {
-      "k": "Submitty/Submitty#13356",
-      "fs": 1790675554,
+      "k": "comet-ml/opik#3411",
+      "fs": 1790849398,
+      "sc": 61
+    },
+    {
+      "k": "wso2/product-is#27098",
+      "fs": 1786876446,
       "sc": 60
     },
     {
@@ -2037,8 +2022,18 @@
       "sc": 60
     },
     {
-      "k": "ohcnetwork/care_fe#15449",
+      "k": "silexlabs/Silex#1665",
       "fs": 1790675554,
+      "sc": 60
+    },
+    {
+      "k": "ohcnetwork/care_fe#16189",
+      "fs": 1790849398,
+      "sc": 60
+    },
+    {
+      "k": "Hylozoic/hylo#868",
+      "fs": 1790849398,
       "sc": 60
     },
     {
@@ -2047,13 +2042,28 @@
       "sc": 60
     },
     {
-      "k": "sphireinc/Foundry#49",
-      "fs": 1787025766,
+      "k": "custom-components/zaptec#325",
+      "fs": 1786876446,
       "sc": 60
     },
     {
-      "k": "sphireinc/Foundry#62",
-      "fs": 1787025766,
+      "k": "Blaizzy/mlx-vlm#492",
+      "fs": 1786876446,
+      "sc": 60
+    },
+    {
+      "k": "arkade-os/arkd#794",
+      "fs": 1786737612,
+      "sc": 60
+    },
+    {
+      "k": "linux-credentials/credentialsd#25",
+      "fs": 1790238637,
+      "sc": 60
+    },
+    {
+      "k": "linux-credentials/credentialsd#87",
+      "fs": 1790238637,
       "sc": 60
     },
     {
@@ -2064,11 +2074,6 @@
     {
       "k": "lambdaclass/ethlambda#308",
       "fs": 1790675554,
-      "sc": 60
-    },
-    {
-      "k": "wso2/product-is#27098",
-      "fs": 1786876446,
       "sc": 60
     },
     {
@@ -2087,23 +2092,8 @@
       "sc": 59
     },
     {
-      "k": "sphireinc/Foundry#59",
-      "fs": 1787025766,
-      "sc": 59
-    },
-    {
-      "k": "winboat-org/winboat#178",
-      "fs": 1786737612,
-      "sc": 59
-    },
-    {
-      "k": "UTDNebula/utd-trends#586",
-      "fs": 1790238637,
-      "sc": 59
-    },
-    {
-      "k": "silexlabs/Silex#1664",
-      "fs": 1790675554,
+      "k": "Acode-Foundation/Acode#1800",
+      "fs": 1786876446,
       "sc": 59
     },
     {
@@ -2112,33 +2102,18 @@
       "sc": 59
     },
     {
+      "k": "openwisp/ansible-openwisp2#515",
+      "fs": 1790238637,
+      "sc": 59
+    },
+    {
       "k": "weecology/DeepForest#1064",
-      "fs": 1786876446,
-      "sc": 59
-    },
-    {
-      "k": "guidewire-oss/fern-platform#127",
-      "fs": 1786876446,
-      "sc": 59
-    },
-    {
-      "k": "lightninglabs/lightning-terminal#1098",
       "fs": 1786876446,
       "sc": 59
     },
     {
       "k": "external-secrets/external-secrets#6064",
       "fs": 1790675554,
-      "sc": 59
-    },
-    {
-      "k": "linux-credentials/credentialsd#25",
-      "fs": 1790238637,
-      "sc": 59
-    },
-    {
-      "k": "linux-credentials/credentialsd#87",
-      "fs": 1790238637,
       "sc": 59
     },
     {
@@ -2152,13 +2127,33 @@
       "sc": 59
     },
     {
-      "k": "Blaizzy/mlx-vlm#492",
+      "k": "ray-project/ray#59884",
+      "fs": 1790849398,
+      "sc": 59
+    },
+    {
+      "k": "apache/iggy#2396",
+      "fs": 1790675554,
+      "sc": 58
+    },
+    {
+      "k": "decision-labs/geoai.js#99",
+      "fs": 1790849398,
+      "sc": 58
+    },
+    {
+      "k": "winboat-org/winboat#178",
+      "fs": 1786737612,
+      "sc": 58
+    },
+    {
+      "k": "guidewire-oss/fern-platform#127",
       "fs": 1786876446,
       "sc": 58
     },
     {
-      "k": "glzr-io/zebar#233",
-      "fs": 1789980883,
+      "k": "eclipse-opensovd/classic-diagnostic-adapter#26",
+      "fs": 1786876446,
       "sc": 58
     },
     {
@@ -2177,18 +2172,23 @@
       "sc": 57
     },
     {
-      "k": "apache/iggy#2396",
-      "fs": 1790675554,
-      "sc": 57
-    },
-    {
       "k": "DeltaV-Station/Delta-v#6516",
       "fs": 1790238637,
       "sc": 57
     },
     {
-      "k": "eclipse-opensovd/classic-diagnostic-adapter#26",
+      "k": "lightninglabs/lightning-terminal#1098",
       "fs": 1786876446,
+      "sc": 57
+    },
+    {
+      "k": "glzr-io/zebar#233",
+      "fs": 1789980883,
+      "sc": 57
+    },
+    {
+      "k": "vivoblueos/kernel#201",
+      "fs": 1790849398,
       "sc": 57
     },
     {
@@ -2212,33 +2212,18 @@
       "sc": 56
     },
     {
-      "k": "silexlabs/Silex#1665",
-      "fs": 1790675554,
+      "k": "ray-project/ray#64880",
+      "fs": 1790849398,
       "sc": 56
     },
     {
-      "k": "envoyproxy/gateway#5694",
-      "fs": 1786737612,
+      "k": "envoyproxy/gateway#6230",
+      "fs": 1790849398,
       "sc": 56
-    },
-    {
-      "k": "TheAlgorithms/C-Plus-Plus#3234",
-      "fs": 1790675554,
-      "sc": 56
-    },
-    {
-      "k": "glzr-io/zebar#242",
-      "fs": 1790238637,
-      "sc": 55
     },
     {
       "k": "glzr-io/zebar#284",
       "fs": 1789980883,
-      "sc": 55
-    },
-    {
-      "k": "paulober/MicroPico#306",
-      "fs": 1789375940,
       "sc": 55
     },
     {
@@ -2247,13 +2232,13 @@
       "sc": 55
     },
     {
-      "k": "glific/glific-frontend#3538",
-      "fs": 1790675554,
+      "k": "antgroup/YASA-Engine#57",
+      "fs": 1790238637,
       "sc": 55
     },
     {
-      "k": "antgroup/YASA-Engine#57",
-      "fs": 1790238637,
+      "k": "Infleqtion/client-superstaq#1241",
+      "fs": 1790849398,
       "sc": 55
     },
     {
