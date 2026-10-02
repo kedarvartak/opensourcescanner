@@ -107,3 +107,13 @@
 {"ts":1790901000,"k":"kestra-io/kestra#14868","e":"dropped","why":"takeability: soft-claimed by goodchanges 0d ago"}
 {"ts":1790901000,"k":"sidequestjs/sidequest#123","e":"dropped","why":"takeability: soft-claimed by bhupinder759 0d ago"}
 {"ts":1790901000,"k":"medic/cht-core#10545","e":"dropped","why":"takeability: soft-claimed by dns-18 0d ago"}
+{"ts":1790954424,"k":"LibreSign/libresign#8688","e":"dropped","why":"takeability: soft-claimed by maia-andre 1d ago"}
+{"ts":1790954424,"k":"LibreSign/libresign#8689","e":"dropped","why":"takeability: soft-claimed by maia-andre 1d ago"}
+{"ts":1790954424,"k":"kestra-io/kestra#14229","e":"dropped","why":"takeability: assigned"}
+{"ts":1790954424,"k":"mindersec/minder#6250","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1790954424,"k":"kestra-io/kestra#12742","e":"dropped","why":"takeability: assigned"}
+{"ts":1790954424,"k":"MerginMaps/mobile#4381","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1790954424,"k":"kestra-io/kestra#14127","e":"dropped","why":"takeability: assigned"}
+{"ts":1790954424,"k":"flexprice/flexprice-front#159","e":"dropped","why":"relevance: 18mo old and quiet"}
+{"ts":1790954424,"k":"usebruno/bruno#6057","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1790954424,"k":"jj-vcs/jj#7816","e":"dropped","why":"relevance: no activity in 120d"}
