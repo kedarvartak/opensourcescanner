@@ -104,3 +104,6 @@
 {"ts":1790870318,"k":"Submitty/Submitty#13402","e":"dropped","why":"takeability: soft-claimed by NobleCoder69 0d ago"}
 {"ts":1790870318,"k":"podman-container-tools/podman#26428","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1790870318,"k":"xataio/pgstream#261","e":"dropped","why":"relevance: 18mo old and quiet"}
+{"ts":1790901000,"k":"kestra-io/kestra#14868","e":"dropped","why":"takeability: soft-claimed by goodchanges 0d ago"}
+{"ts":1790901000,"k":"sidequestjs/sidequest#123","e":"dropped","why":"takeability: soft-claimed by bhupinder759 0d ago"}
+{"ts":1790901000,"k":"medic/cht-core#10545","e":"dropped","why":"takeability: soft-claimed by dns-18 0d ago"}
