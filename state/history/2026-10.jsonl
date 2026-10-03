@@ -212,3 +212,9 @@
 {"ts":1791018679,"k":"silexlabs/Silex#1665","e":"dropped","why":"not_in_board"}
 {"ts":1791018679,"k":"ohcnetwork/care_fe#16189","e":"dropped","why":"not_in_board"}
 {"ts":1791018679,"k":"goharbor/harbor-cli#863","e":"dropped","why":"not_in_board"}
+{"ts":1791036456,"k":"OpenChemistry/avogadrolibs#3099","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791036456,"k":"Berserk-hub150/moodle-ai-skill-navigator#125","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791036456,"k":"Berserk-hub150/moodle-ai-skill-navigator#134","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791036456,"k":"FreeCAD/FreeCAD#33172","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791036456,"k":"kiwix/kiwix-desktop#1521","e":"dropped","why":"takeability: assigned"}
+{"ts":1791036456,"k":"kestra-io/kestra#11957","e":"dropped","why":"takeability: soft-claimed by alokkumardalei-wq 0d ago"}
