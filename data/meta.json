@@ -3,7 +3,7 @@
   "generatedAt": "2026-10-03T09:11:19.877Z",
   "nextRefreshAt": "2026-10-04T09:11:19.877Z",
   "counts": {
-    "issues": 433,
+    "issues": 431,
     "repos": 299,
     "languages": 13
   },
@@ -14,7 +14,6 @@
     "OpenRailAssociation/netzgrafik-editor-frontend#739",
     "cedarjs/cedar#280",
     "MerginMaps/mobile#4464",
-    "open-cluster-management-io/argocd-pull-integration#191",
     "elabftw/elabftw#7483",
     "deepinv/deepinv#899",
     "SkriptLang/Skript#8526"
@@ -392,5 +391,5 @@
     },
     "passRate": 0.1417
   },
-  "revalidatedAt": "2026-10-03T14:07:36.648Z"
+  "revalidatedAt": "2026-10-03T18:31:42.216Z"
 }
