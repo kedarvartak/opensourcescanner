@@ -220,3 +220,6 @@
 {"ts":1791036456,"k":"kestra-io/kestra#11957","e":"dropped","why":"takeability: soft-claimed by alokkumardalei-wq 0d ago"}
 {"ts":1791052302,"k":"open-cluster-management-io/argocd-pull-integration#191","e":"dropped","why":"takeability: assigned"}
 {"ts":1791052302,"k":"C7-Game/OpenCiv3#960","e":"dropped","why":"closed"}
+{"ts":1791124556,"k":"OpenChemistry/avogadrolibs#3103","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791124556,"k":"BlankOn/irgsh-go#159","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791124556,"k":"spring-projects/spring-grpc#392","e":"dropped","why":"takeability: open linked PR"}
