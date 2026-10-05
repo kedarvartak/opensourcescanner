@@ -44,13 +44,13 @@
     "hasTests": false
   },
   "crafter-station/text0": {
-    "computedAt": "2026-08-14T20:00:12.543Z",
-    "outsiderPRs": 15,
-    "outsiderMergeRate": 0.9333333333333333,
-    "mergedCount": 14,
+    "computedAt": "2026-10-05T10:21:50.642Z",
+    "outsiderPRs": 16,
+    "outsiderMergeRate": 0.9375,
+    "mergedCount": 15,
     "rottingPRs": 0,
-    "medianResponseHours": 24,
-    "responseSamples": 14,
+    "medianResponseHours": 27,
+    "responseSamples": 6,
     "hasCI": false,
     "hasTests": false
   },
@@ -4389,13 +4389,13 @@
     "hasTests": true
   },
   "microsoft/aspire": {
-    "computedAt": "2026-09-17T08:42:38.997Z",
-    "outsiderPRs": 0,
-    "outsiderMergeRate": null,
+    "computedAt": "2026-10-05T10:21:50.642Z",
+    "outsiderPRs": 1,
+    "outsiderMergeRate": 0,
     "mergedCount": 0,
     "rottingPRs": 0,
     "medianResponseHours": 1,
-    "responseSamples": 13,
+    "responseSamples": 5,
     "hasCI": true,
     "hasTests": true
   },
@@ -4466,13 +4466,13 @@
     "hasTests": false
   },
   "immichFrame/ImmichFrame": {
-    "computedAt": "2026-08-16T10:34:07.104Z",
-    "outsiderPRs": 7,
-    "outsiderMergeRate": 0.2857142857142857,
-    "mergedCount": 2,
-    "rottingPRs": 0,
-    "medianResponseHours": 8,
-    "responseSamples": 18,
+    "computedAt": "2026-10-05T10:21:50.642Z",
+    "outsiderPRs": 9,
+    "outsiderMergeRate": 0.4444444444444444,
+    "mergedCount": 4,
+    "rottingPRs": 1,
+    "medianResponseHours": 2,
+    "responseSamples": 19,
     "hasCI": true,
     "hasTests": false
   },
@@ -5247,13 +5247,13 @@
     "hasTests": true
   },
   "MudBlazor/MudBlazor": {
-    "computedAt": "2026-09-15T08:43:45.924Z",
-    "outsiderPRs": 0,
-    "outsiderMergeRate": null,
-    "mergedCount": 0,
+    "computedAt": "2026-10-05T10:21:50.642Z",
+    "outsiderPRs": 7,
+    "outsiderMergeRate": 0.8571428571428571,
+    "mergedCount": 6,
     "rottingPRs": 0,
-    "medianResponseHours": 1,
-    "responseSamples": 8,
+    "medianResponseHours": 25,
+    "responseSamples": 11,
     "hasCI": true,
     "hasTests": false
   },
@@ -5874,13 +5874,13 @@
     "hasTests": true
   },
   "GraphiteEditor/Graphite": {
-    "computedAt": "2026-09-04T08:10:12.597Z",
-    "outsiderPRs": 5,
-    "outsiderMergeRate": 0,
-    "mergedCount": 0,
+    "computedAt": "2026-10-05T10:21:50.642Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 0.5,
+    "mergedCount": 2,
     "rottingPRs": 0,
-    "medianResponseHours": 0,
-    "responseSamples": 10,
+    "medianResponseHours": 1,
+    "responseSamples": 15,
     "hasCI": true,
     "hasTests": false
   },
@@ -5929,7 +5929,7 @@
     "hasTests": false
   },
   "MRtrix3/mrtrix3": {
-    "computedAt": "2026-09-19T08:11:00.777Z",
+    "computedAt": "2026-10-05T10:21:50.642Z",
     "outsiderPRs": 1,
     "outsiderMergeRate": 1,
     "mergedCount": 1,
@@ -6556,13 +6556,13 @@
     "hasTests": false
   },
   "getsentry/sentry-dotnet": {
-    "computedAt": "2026-09-17T08:42:38.997Z",
-    "outsiderPRs": 6,
-    "outsiderMergeRate": 0.8333333333333334,
-    "mergedCount": 5,
+    "computedAt": "2026-10-05T10:21:50.642Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 1,
+    "mergedCount": 4,
     "rottingPRs": 0,
-    "medianResponseHours": 75,
-    "responseSamples": 5,
+    "medianResponseHours": 14,
+    "responseSamples": 12,
     "hasCI": true,
     "hasTests": true
   },
@@ -7997,15 +7997,15 @@
     "hasTests": false
   },
   "LaneDibello/Kotor-Patch-Manager": {
-    "computedAt": "2026-09-15T08:43:45.924Z",
-    "outsiderPRs": 0,
-    "outsiderMergeRate": null,
-    "mergedCount": 0,
+    "computedAt": "2026-10-05T10:21:50.642Z",
+    "outsiderPRs": 14,
+    "outsiderMergeRate": 0.7142857142857143,
+    "mergedCount": 10,
     "rottingPRs": 0,
     "medianResponseHours": 0,
-    "responseSamples": 11,
+    "responseSamples": 5,
     "hasCI": true,
-    "hasTests": false
+    "hasTests": true
   },
   "mm5agm/Yaesu_Web_Control": {
     "computedAt": "2026-09-15T08:43:45.924Z",
@@ -8283,13 +8283,13 @@
     "hasTests": false
   },
   "litestar-org/polyfactory": {
-    "computedAt": "2026-09-21T08:54:43.954Z",
-    "outsiderPRs": 15,
-    "outsiderMergeRate": 0.6,
-    "mergedCount": 9,
-    "rottingPRs": 6,
-    "medianResponseHours": 687,
-    "responseSamples": 8,
+    "computedAt": "2026-10-05T10:21:50.642Z",
+    "outsiderPRs": 18,
+    "outsiderMergeRate": 0.4444444444444444,
+    "mergedCount": 8,
+    "rottingPRs": 1,
+    "medianResponseHours": 626,
+    "responseSamples": 7,
     "hasCI": true,
     "hasTests": true
   },
@@ -8591,13 +8591,13 @@
     "hasTests": false
   },
   "cclib/cclib": {
-    "computedAt": "2026-09-24T08:30:38.239Z",
-    "outsiderPRs": 13,
-    "outsiderMergeRate": 1,
+    "computedAt": "2026-10-05T10:21:50.642Z",
+    "outsiderPRs": 18,
+    "outsiderMergeRate": 0.7222222222222222,
     "mergedCount": 13,
     "rottingPRs": 0,
-    "medianResponseHours": 1,
-    "responseSamples": 12,
+    "medianResponseHours": 24,
+    "responseSamples": 15,
     "hasCI": true,
     "hasTests": true
   },
@@ -9203,6 +9203,193 @@
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 2,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "nexu-io/open-design": {
+    "computedAt": "2026-10-05T10:21:50.642Z",
+    "outsiderPRs": 1,
+    "outsiderMergeRate": 0,
+    "mergedCount": 0,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "AshBuk/FingerGo": {
+    "computedAt": "2026-10-05T10:21:50.642Z",
+    "outsiderPRs": 10,
+    "outsiderMergeRate": 0.9,
+    "mergedCount": 9,
+    "rottingPRs": 0,
+    "medianResponseHours": 19,
+    "responseSamples": 6,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "RosettaCommons/foundry": {
+    "computedAt": "2026-10-05T10:21:50.642Z",
+    "outsiderPRs": 13,
+    "outsiderMergeRate": 0.46153846153846156,
+    "mergedCount": 6,
+    "rottingPRs": 0,
+    "medianResponseHours": 33,
+    "responseSamples": 10,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "marimo-team/marimo": {
+    "computedAt": "2026-10-05T10:21:50.642Z",
+    "outsiderPRs": 12,
+    "outsiderMergeRate": 0.16666666666666666,
+    "mergedCount": 2,
+    "rottingPRs": 0,
+    "medianResponseHours": 5,
+    "responseSamples": 10,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "metallb/frr-k8s": {
+    "computedAt": "2026-10-05T10:21:50.642Z",
+    "outsiderPRs": 11,
+    "outsiderMergeRate": 0.2727272727272727,
+    "mergedCount": 3,
+    "rottingPRs": 0,
+    "medianResponseHours": 53,
+    "responseSamples": 7,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "conda/rattler": {
+    "computedAt": "2026-10-05T10:21:50.642Z",
+    "outsiderPRs": 6,
+    "outsiderMergeRate": 1,
+    "mergedCount": 6,
+    "rottingPRs": 0,
+    "medianResponseHours": 1,
+    "responseSamples": 9,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "Inferara/inference": {
+    "computedAt": "2026-10-05T10:21:50.642Z",
+    "outsiderPRs": 24,
+    "outsiderMergeRate": 1,
+    "mergedCount": 24,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "PedroFnseca/esp32-http-client": {
+    "computedAt": "2026-10-05T10:21:50.642Z",
+    "outsiderPRs": 2,
+    "outsiderMergeRate": 1,
+    "mergedCount": 2,
+    "rottingPRs": 0,
+    "medianResponseHours": 14,
+    "responseSamples": 9,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "Azure/azure-functions-dotnet-worker": {
+    "computedAt": "2026-10-05T10:21:50.642Z",
+    "outsiderPRs": 19,
+    "outsiderMergeRate": 0.7894736842105263,
+    "mergedCount": 15,
+    "rottingPRs": 0,
+    "medianResponseHours": 118,
+    "responseSamples": 11,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "ForNeVeR/TruePath": {
+    "computedAt": "2026-10-05T10:21:50.642Z",
+    "outsiderPRs": 15,
+    "outsiderMergeRate": 0.8,
+    "mergedCount": 12,
+    "rottingPRs": 0,
+    "medianResponseHours": 47,
+    "responseSamples": 12,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "dapr/dotnet-sdk": {
+    "computedAt": "2026-10-05T10:21:50.642Z",
+    "outsiderPRs": 19,
+    "outsiderMergeRate": 0.7894736842105263,
+    "mergedCount": 15,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "benbalter/site-inspector": {
+    "computedAt": "2026-10-05T10:21:50.642Z",
+    "outsiderPRs": 17,
+    "outsiderMergeRate": 0.6470588235294118,
+    "mergedCount": 11,
+    "rottingPRs": 0,
+    "medianResponseHours": 13,
+    "responseSamples": 10,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "benbalter/jekyll-titles-from-headings": {
+    "computedAt": "2026-10-05T10:21:50.642Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 0.5,
+    "mergedCount": 4,
+    "rottingPRs": 0,
+    "medianResponseHours": 5,
+    "responseSamples": 8,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "benbalter/jekyll-optional-front-matter": {
+    "computedAt": "2026-10-05T10:21:50.642Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 0.75,
+    "mergedCount": 6,
+    "rottingPRs": 0,
+    "medianResponseHours": 5,
+    "responseSamples": 9,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "NNTmux/newznab-tmux": {
+    "computedAt": "2026-10-05T10:21:50.642Z",
+    "outsiderPRs": 22,
+    "outsiderMergeRate": 0.45454545454545453,
+    "mergedCount": 10,
+    "rottingPRs": 0,
+    "medianResponseHours": 2,
+    "responseSamples": 18,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "wp-document-revisions/wp-document-revisions": {
+    "computedAt": "2026-10-05T10:21:50.642Z",
+    "outsiderPRs": 9,
+    "outsiderMergeRate": 0.8888888888888888,
+    "mergedCount": 8,
+    "rottingPRs": 0,
+    "medianResponseHours": 5,
+    "responseSamples": 11,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "benbalter/wordpress-static-site-exporter": {
+    "computedAt": "2026-10-05T10:21:50.642Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 1,
+    "mergedCount": 4,
+    "rottingPRs": 0,
+    "medianResponseHours": 36,
+    "responseSamples": 6,
     "hasCI": true,
     "hasTests": true
   }
