@@ -352,3 +352,5 @@
 {"ts":1791195710,"k":"paulober/MicroPico#306","e":"dropped","why":"not_in_board"}
 {"ts":1791195710,"k":"antgroup/YASA-Engine#57","e":"dropped","why":"not_in_board"}
 {"ts":1791195710,"k":"Infleqtion/client-superstaq#1241","e":"dropped","why":"not_in_board"}
+{"ts":1791222570,"k":"pasteurlabs/tesseract-core#164","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791222570,"k":"NVIDIA-NeMo/RL#1494","e":"dropped","why":"takeability: open linked PR"}
