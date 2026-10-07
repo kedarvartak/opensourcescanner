@@ -1034,10 +1034,10 @@
     "hasTests": true
   },
   "qualcomm/eld": {
-    "computedAt": "2026-09-29T09:52:34.383Z",
-    "outsiderPRs": 14,
-    "outsiderMergeRate": 0.9285714285714286,
-    "mergedCount": 13,
+    "computedAt": "2026-10-07T10:07:00.121Z",
+    "outsiderPRs": 12,
+    "outsiderMergeRate": 1,
+    "mergedCount": 12,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 0,
@@ -1155,13 +1155,13 @@
     "hasTests": false
   },
   "AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet": {
-    "computedAt": "2026-09-13T08:19:04.690Z",
-    "outsiderPRs": 7,
-    "outsiderMergeRate": 0.5714285714285714,
-    "mergedCount": 4,
+    "computedAt": "2026-10-07T10:07:00.121Z",
+    "outsiderPRs": 15,
+    "outsiderMergeRate": 0.8666666666666667,
+    "mergedCount": 13,
     "rottingPRs": 0,
     "medianResponseHours": null,
-    "responseSamples": 1,
+    "responseSamples": 2,
     "hasCI": true,
     "hasTests": true
   },
@@ -4719,13 +4719,13 @@
     "hasTests": false
   },
   "TryGhost/Ghost": {
-    "computedAt": "2026-09-16T08:37:58.861Z",
-    "outsiderPRs": 8,
+    "computedAt": "2026-10-07T10:07:00.121Z",
+    "outsiderPRs": 5,
     "outsiderMergeRate": 1,
-    "mergedCount": 8,
+    "mergedCount": 5,
     "rottingPRs": 0,
     "medianResponseHours": 1,
-    "responseSamples": 5,
+    "responseSamples": 3,
     "hasCI": true,
     "hasTests": false
   },
@@ -4906,13 +4906,13 @@
     "hasTests": false
   },
   "terrakube-io/terrakube": {
-    "computedAt": "2026-09-05T07:49:02.640Z",
-    "outsiderPRs": 13,
-    "outsiderMergeRate": 0.8461538461538461,
+    "computedAt": "2026-10-07T10:07:00.121Z",
+    "outsiderPRs": 15,
+    "outsiderMergeRate": 0.7333333333333333,
     "mergedCount": 11,
     "rottingPRs": 0,
-    "medianResponseHours": 5,
-    "responseSamples": 12,
+    "medianResponseHours": 11,
+    "responseSamples": 13,
     "hasCI": true,
     "hasTests": false
   },
@@ -5082,13 +5082,13 @@
     "hasTests": true
   },
   "krkn-chaos/krkn": {
-    "computedAt": "2026-09-09T08:15:47.343Z",
-    "outsiderPRs": 1,
+    "computedAt": "2026-10-07T10:07:00.121Z",
+    "outsiderPRs": 5,
     "outsiderMergeRate": 1,
-    "mergedCount": 1,
+    "mergedCount": 5,
     "rottingPRs": 0,
-    "medianResponseHours": 9,
-    "responseSamples": 10,
+    "medianResponseHours": 132,
+    "responseSamples": 8,
     "hasCI": true,
     "hasTests": true
   },
@@ -5940,13 +5940,13 @@
     "hasTests": false
   },
   "caura-ai/caura": {
-    "computedAt": "2026-09-18T08:17:59.170Z",
-    "outsiderPRs": 5,
-    "outsiderMergeRate": 0.8,
-    "mergedCount": 4,
+    "computedAt": "2026-10-07T10:07:00.121Z",
+    "outsiderPRs": 3,
+    "outsiderMergeRate": 1,
+    "mergedCount": 3,
     "rottingPRs": 0,
     "medianResponseHours": 0,
-    "responseSamples": 11,
+    "responseSamples": 20,
     "hasCI": true,
     "hasTests": true
   },
@@ -6567,13 +6567,13 @@
     "hasTests": true
   },
   "getsentry/sentry-unity": {
-    "computedAt": "2026-09-17T08:42:38.997Z",
-    "outsiderPRs": 15,
-    "outsiderMergeRate": 0.9333333333333333,
-    "mergedCount": 14,
+    "computedAt": "2026-10-07T10:07:00.121Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 0.75,
+    "mergedCount": 6,
     "rottingPRs": 0,
-    "medianResponseHours": null,
-    "responseSamples": 2,
+    "medianResponseHours": 62,
+    "responseSamples": 4,
     "hasCI": true,
     "hasTests": true
   },
@@ -6930,13 +6930,13 @@
     "hasTests": true
   },
   "roostorg/coop": {
-    "computedAt": "2026-09-14T08:52:20.805Z",
-    "outsiderPRs": 0,
-    "outsiderMergeRate": null,
-    "mergedCount": 0,
+    "computedAt": "2026-10-07T10:07:00.121Z",
+    "outsiderPRs": 17,
+    "outsiderMergeRate": 0.8235294117647058,
+    "mergedCount": 14,
     "rottingPRs": 0,
-    "medianResponseHours": 17,
-    "responseSamples": 3,
+    "medianResponseHours": 16,
+    "responseSamples": 4,
     "hasCI": true,
     "hasTests": false
   },
@@ -6974,13 +6974,13 @@
     "hasTests": true
   },
   "AutoDarkMode/Windows-Auto-Night-Mode": {
-    "computedAt": "2026-09-21T08:54:43.954Z",
+    "computedAt": "2026-10-07T10:07:00.121Z",
     "outsiderPRs": 6,
-    "outsiderMergeRate": 0.6666666666666666,
-    "mergedCount": 4,
-    "rottingPRs": 0,
-    "medianResponseHours": 26,
-    "responseSamples": 34,
+    "outsiderMergeRate": 0.5,
+    "mergedCount": 3,
+    "rottingPRs": 1,
+    "medianResponseHours": 21,
+    "responseSamples": 32,
     "hasCI": true,
     "hasTests": false
   },
@@ -7953,13 +7953,13 @@
     "hasTests": false
   },
   "nextcloud/server": {
-    "computedAt": "2026-09-14T08:52:20.805Z",
-    "outsiderPRs": 10,
-    "outsiderMergeRate": 1,
-    "mergedCount": 10,
+    "computedAt": "2026-10-07T10:07:00.121Z",
+    "outsiderPRs": 0,
+    "outsiderMergeRate": null,
+    "mergedCount": 0,
     "rottingPRs": 0,
-    "medianResponseHours": 3,
-    "responseSamples": 5,
+    "medianResponseHours": 13,
+    "responseSamples": 4,
     "hasCI": true,
     "hasTests": true
   },
@@ -8789,13 +8789,13 @@
     "hasTests": true
   },
   "DouglasNeuroInformatics/OpenDataCapture": {
-    "computedAt": "2026-09-29T09:52:34.383Z",
-    "outsiderPRs": 2,
-    "outsiderMergeRate": 0.5,
-    "mergedCount": 1,
+    "computedAt": "2026-10-07T10:07:00.121Z",
+    "outsiderPRs": 3,
+    "outsiderMergeRate": 0.6666666666666666,
+    "mergedCount": 2,
     "rottingPRs": 0,
-    "medianResponseHours": 60,
-    "responseSamples": 6,
+    "medianResponseHours": null,
+    "responseSamples": 0,
     "hasCI": true,
     "hasTests": false
   },
@@ -9533,6 +9533,83 @@
     "rottingPRs": 0,
     "medianResponseHours": 131,
     "responseSamples": 5,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "holoviz/panel": {
+    "computedAt": "2026-10-07T10:07:00.121Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 0.5,
+    "mergedCount": 2,
+    "rottingPRs": 0,
+    "medianResponseHours": 6,
+    "responseSamples": 4,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "NatLabRockies/GEOPHIRES-X": {
+    "computedAt": "2026-10-07T10:07:00.121Z",
+    "outsiderPRs": 5,
+    "outsiderMergeRate": 0,
+    "mergedCount": 0,
+    "rottingPRs": 0,
+    "medianResponseHours": 1,
+    "responseSamples": 10,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "ClickHouse/clickhouse-kafka-connect": {
+    "computedAt": "2026-10-07T10:07:00.121Z",
+    "outsiderPRs": 13,
+    "outsiderMergeRate": 0.8461538461538461,
+    "mergedCount": 11,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "AutoPas/AutoPas": {
+    "computedAt": "2026-10-07T10:07:00.121Z",
+    "outsiderPRs": 9,
+    "outsiderMergeRate": 1,
+    "mergedCount": 9,
+    "rottingPRs": 0,
+    "medianResponseHours": 63,
+    "responseSamples": 6,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "gwdevhub/Daybreak": {
+    "computedAt": "2026-10-07T10:07:00.121Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 0,
+    "mergedCount": 0,
+    "rottingPRs": 0,
+    "medianResponseHours": 194,
+    "responseSamples": 3,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "krusty93/relego": {
+    "computedAt": "2026-10-07T10:07:00.121Z",
+    "outsiderPRs": 2,
+    "outsiderMergeRate": 1,
+    "mergedCount": 2,
+    "rottingPRs": 0,
+    "medianResponseHours": 81,
+    "responseSamples": 3,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "RobloxChatLauncher/RobloxChatLauncher": {
+    "computedAt": "2026-10-07T10:07:00.121Z",
+    "outsiderPRs": 13,
+    "outsiderMergeRate": 0.8461538461538461,
+    "mergedCount": 11,
+    "rottingPRs": 0,
+    "medianResponseHours": 22,
+    "responseSamples": 12,
     "hasCI": true,
     "hasTests": false
   }
