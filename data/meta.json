@@ -3,7 +3,7 @@
   "generatedAt": "2026-10-07T10:06:59.963Z",
   "nextRefreshAt": "2026-10-08T10:06:59.963Z",
   "counts": {
-    "issues": 471,
+    "issues": 454,
     "repos": 318,
     "languages": 11
   },
@@ -14,7 +14,6 @@
     "MerginMaps/mobile#4295",
     "caura-ai/caura#1900",
     "WikiEducationFoundation/WikiEduDashboard#7059",
-    "benbalter/add-to-org#17",
     "WayfireWM/wayfire#3027",
     "scylladb/scylla-rust-driver#1556",
     "suitenumerique/docs#1220"
@@ -422,5 +421,6 @@
       "G4_relevance": 90
     },
     "passRate": 0.149
-  }
+  },
+  "revalidatedAt": "2026-10-07T16:03:58.971Z"
 }

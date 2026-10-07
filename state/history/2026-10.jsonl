@@ -511,3 +511,20 @@
 {"ts":1791367619,"k":"DeltaV-Station/Delta-v#6482","e":"dropped","why":"not_in_board"}
 {"ts":1791367619,"k":"CopilotKit/CopilotKit#4775","e":"dropped","why":"not_in_board"}
 {"ts":1791367619,"k":"nion-software/nionswift#1644","e":"dropped","why":"not_in_board"}
+{"ts":1791389038,"k":"wp-document-revisions/wp-document-revisions#818","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791389038,"k":"benbalter/add-to-org#17","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791389038,"k":"benbalter/gman#249","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791389038,"k":"benbalter/gman#248","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791389038,"k":"zowe/api-layer#4752","e":"dropped","why":"takeability: assigned"}
+{"ts":1791389038,"k":"newsboat/newsboat#3342","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1791389038,"k":"benbalter/count-org-loc#20","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791389038,"k":"benbalter/jekyll-readme-index#80","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791389038,"k":"benbalter/jekyll-include-cache#58","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791389038,"k":"sanger/sequencescape#6099","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791389038,"k":"benbalter/change_agent#9","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791389038,"k":"DependencyTrack/dependency-track#4847","e":"dropped","why":"relevance: 18mo old and quiet"}
+{"ts":1791389038,"k":"benbalter/jekyll-relative-links#137","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791389038,"k":"benbalter/change_agent#10","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791389038,"k":"apache/iceberg#15916","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791389038,"k":"benbalter/change_agent#11","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791389038,"k":"envoyproxy/gateway#6230","e":"dropped","why":"takeability: assigned"}
