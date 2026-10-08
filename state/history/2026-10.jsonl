@@ -528,3 +528,7 @@
 {"ts":1791389038,"k":"apache/iceberg#15916","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1791389038,"k":"benbalter/change_agent#11","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1791389038,"k":"envoyproxy/gateway#6230","e":"dropped","why":"takeability: assigned"}
+{"ts":1791420098,"k":"AutoPas/AutoPas#1196","e":"dropped","why":"takeability: soft-claimed by wheevu 0d ago"}
+{"ts":1791420098,"k":"WordPress/presence-api#730","e":"dropped","why":"takeability: assigned"}
+{"ts":1791420098,"k":"WordPress/presence-api#744","e":"dropped","why":"closed"}
+{"ts":1791420098,"k":"roostorg/coop#416","e":"dropped","why":"takeability: assigned"}
