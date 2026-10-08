@@ -3,12 +3,11 @@
   "generatedAt": "2026-10-08T10:17:56.969Z",
   "nextRefreshAt": "2026-10-09T10:17:56.969Z",
   "counts": {
-    "issues": 465,
+    "issues": 460,
     "repos": 317,
     "languages": 11
   },
   "todaysPicks": [
-    "QwikDev/qwik#8113",
     "kubefleet-dev/kubefleet#582",
     "unoplatform/uno#24992",
     "nipoppy/nipoppy#786",
@@ -416,5 +415,6 @@
       "G6_antiFarming": 224
     },
     "passRate": 0.146
-  }
+  },
+  "revalidatedAt": "2026-10-08T16:06:24.441Z"
 }
