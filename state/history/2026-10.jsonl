@@ -664,3 +664,14 @@
 {"ts":1791541379,"k":"nexu-io/open-design#2685","e":"dropped","why":"not_in_board"}
 {"ts":1791541379,"k":"deskflow/deskflow#9135","e":"dropped","why":"not_in_board"}
 {"ts":1791541379,"k":"dapr/python-sdk#853","e":"dropped","why":"not_in_board"}
+{"ts":1791560887,"k":"caura-ai/caura#1900","e":"dropped","why":"takeability: soft-claimed by Akshat-Garg-29 0d ago"}
+{"ts":1791560887,"k":"LibreSign/libresign#9067","e":"dropped","why":"takeability: assigned"}
+{"ts":1791560887,"k":"open-telemetry/opentelemetry-cpp#4681","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791560887,"k":"zen-browser/desktop#15835","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791560887,"k":"kriasoft/react-starter-kit#2093","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1791560887,"k":"ObsidianMC/Obsidian#512","e":"dropped","why":"closed"}
+{"ts":1791560887,"k":"google/perfetto#7504","e":"dropped","why":"closed"}
+{"ts":1791560887,"k":"apache/seatunnel#10203","e":"dropped","why":"takeability: soft-claimed by ryanmeowy 0d ago"}
+{"ts":1791560887,"k":"unslothai/unsloth#3560","e":"dropped","why":"closed"}
+{"ts":1791560887,"k":"ESPWortuhr/Multilayout-ESP-Wordclock#625","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1791560887,"k":"sigp/lighthouse#7336","e":"dropped","why":"relevance: 18mo old and quiet"}

@@ -3,7 +3,7 @@
   "generatedAt": "2026-10-09T10:22:59.154Z",
   "nextRefreshAt": "2026-10-10T10:22:59.154Z",
   "counts": {
-    "issues": 469,
+    "issues": 458,
     "repos": 322,
     "languages": 10
   },
@@ -428,5 +428,6 @@
       "G6_antiFarming": 235
     },
     "passRate": 0.1472
-  }
+  },
+  "revalidatedAt": "2026-10-09T15:48:07.219Z"
 }
