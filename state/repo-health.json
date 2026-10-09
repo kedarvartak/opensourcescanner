@@ -957,13 +957,13 @@
     "hasTests": false
   },
   "carlos-emr/carlos": {
-    "computedAt": "2026-09-29T09:52:34.383Z",
+    "computedAt": "2026-10-09T10:22:59.449Z",
     "outsiderPRs": 0,
     "outsiderMergeRate": null,
     "mergedCount": 0,
     "rottingPRs": 0,
     "medianResponseHours": 0,
-    "responseSamples": 17,
+    "responseSamples": 25,
     "hasCI": true,
     "hasTests": false
   },
@@ -1903,10 +1903,10 @@
     "hasTests": false
   },
   "he4rt/heartdevs.com": {
-    "computedAt": "2026-10-01T10:09:58.277Z",
-    "outsiderPRs": 17,
-    "outsiderMergeRate": 0.9411764705882353,
-    "mergedCount": 16,
+    "computedAt": "2026-10-09T10:22:59.449Z",
+    "outsiderPRs": 15,
+    "outsiderMergeRate": 1,
+    "mergedCount": 15,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 1,
@@ -3080,13 +3080,13 @@
     "hasTests": true
   },
   "BSC-ES/autosubmit": {
-    "computedAt": "2026-09-24T08:30:38.239Z",
-    "outsiderPRs": 11,
+    "computedAt": "2026-10-09T10:22:59.449Z",
+    "outsiderPRs": 14,
     "outsiderMergeRate": 1,
-    "mergedCount": 11,
+    "mergedCount": 14,
     "rottingPRs": 0,
-    "medianResponseHours": 1,
-    "responseSamples": 23,
+    "medianResponseHours": 0,
+    "responseSamples": 28,
     "hasCI": true,
     "hasTests": true
   },
@@ -5203,13 +5203,13 @@
     "hasTests": true
   },
   "open-telemetry/opentelemetry-cpp": {
-    "computedAt": "2026-08-20T04:06:35.616Z",
-    "outsiderPRs": 9,
-    "outsiderMergeRate": 0.7777777777777778,
-    "mergedCount": 7,
+    "computedAt": "2026-10-09T10:22:59.449Z",
+    "outsiderPRs": 13,
+    "outsiderMergeRate": 0.6153846153846154,
+    "mergedCount": 8,
     "rottingPRs": 0,
-    "medianResponseHours": 7,
-    "responseSamples": 11,
+    "medianResponseHours": 15,
+    "responseSamples": 17,
     "hasCI": true,
     "hasTests": false
   },
@@ -5698,10 +5698,10 @@
     "hasTests": true
   },
   "urlvet/urlvet": {
-    "computedAt": "2026-10-01T10:09:58.277Z",
-    "outsiderPRs": 20,
-    "outsiderMergeRate": 1,
-    "mergedCount": 20,
+    "computedAt": "2026-10-09T10:22:59.449Z",
+    "outsiderPRs": 19,
+    "outsiderMergeRate": 0.7368421052631579,
+    "mergedCount": 14,
     "rottingPRs": 0,
     "medianResponseHours": 10,
     "responseSamples": 3,
@@ -6611,10 +6611,10 @@
     "hasTests": false
   },
   "getsentry/sentry-symfony": {
-    "computedAt": "2026-10-01T10:09:58.277Z",
-    "outsiderPRs": 8,
-    "outsiderMergeRate": 0.875,
-    "mergedCount": 7,
+    "computedAt": "2026-10-09T10:22:59.449Z",
+    "outsiderPRs": 23,
+    "outsiderMergeRate": 0.782608695652174,
+    "mergedCount": 18,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 1,
@@ -6622,24 +6622,24 @@
     "hasTests": true
   },
   "getsentry/sentry-laravel": {
-    "computedAt": "2026-10-01T10:09:58.277Z",
-    "outsiderPRs": 13,
-    "outsiderMergeRate": 1,
-    "mergedCount": 13,
-    "rottingPRs": 1,
+    "computedAt": "2026-10-09T10:22:59.449Z",
+    "outsiderPRs": 25,
+    "outsiderMergeRate": 0.96,
+    "mergedCount": 24,
+    "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 2,
     "hasCI": true,
     "hasTests": true
   },
   "getsentry/sentry-php": {
-    "computedAt": "2026-10-01T10:09:58.277Z",
-    "outsiderPRs": 9,
+    "computedAt": "2026-10-09T10:22:59.449Z",
+    "outsiderPRs": 24,
     "outsiderMergeRate": 1,
-    "mergedCount": 9,
+    "mergedCount": 24,
     "rottingPRs": 0,
     "medianResponseHours": null,
-    "responseSamples": 1,
+    "responseSamples": 0,
     "hasCI": true,
     "hasTests": true
   },
@@ -9709,6 +9709,94 @@
     "rottingPRs": 0,
     "medianResponseHours": 1708,
     "responseSamples": 9,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "supercog-ai/agentic": {
+    "computedAt": "2026-10-09T10:22:59.449Z",
+    "outsiderPRs": 16,
+    "outsiderMergeRate": 0.75,
+    "mergedCount": 12,
+    "rottingPRs": 4,
+    "medianResponseHours": 3,
+    "responseSamples": 7,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "gardener/gardener": {
+    "computedAt": "2026-10-09T10:22:59.449Z",
+    "outsiderPRs": 1,
+    "outsiderMergeRate": 1,
+    "mergedCount": 1,
+    "rottingPRs": 0,
+    "medianResponseHours": 2,
+    "responseSamples": 24,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "safedep/vet": {
+    "computedAt": "2026-10-09T10:22:59.449Z",
+    "outsiderPRs": 5,
+    "outsiderMergeRate": 1,
+    "mergedCount": 5,
+    "rottingPRs": 0,
+    "medianResponseHours": 1,
+    "responseSamples": 17,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "dapr/cli": {
+    "computedAt": "2026-10-09T10:22:59.449Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 0.375,
+    "mergedCount": 3,
+    "rottingPRs": 0,
+    "medianResponseHours": 720,
+    "responseSamples": 19,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "ObsidianMC/Obsidian": {
+    "computedAt": "2026-10-09T10:22:59.449Z",
+    "outsiderPRs": 7,
+    "outsiderMergeRate": 0.42857142857142855,
+    "mergedCount": 3,
+    "rottingPRs": 0,
+    "medianResponseHours": 9,
+    "responseSamples": 15,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "Inidar1/terraria-modder": {
+    "computedAt": "2026-10-09T10:22:59.449Z",
+    "outsiderPRs": 9,
+    "outsiderMergeRate": 0.8888888888888888,
+    "mergedCount": 8,
+    "rottingPRs": 0,
+    "medianResponseHours": 534,
+    "responseSamples": 11,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "benbalter/jekyll-remote-theme": {
+    "computedAt": "2026-10-09T10:22:59.449Z",
+    "outsiderPRs": 7,
+    "outsiderMergeRate": 0.5714285714285714,
+    "mergedCount": 4,
+    "rottingPRs": 0,
+    "medianResponseHours": 52,
+    "responseSamples": 7,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "omines/antispam-bundle": {
+    "computedAt": "2026-10-09T10:22:59.449Z",
+    "outsiderPRs": 22,
+    "outsiderMergeRate": 0.45454545454545453,
+    "mergedCount": 10,
+    "rottingPRs": 1,
+    "medianResponseHours": 28,
+    "responseSamples": 20,
     "hasCI": true,
     "hasTests": true
   }
