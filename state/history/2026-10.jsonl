@@ -675,3 +675,10 @@
 {"ts":1791560887,"k":"unslothai/unsloth#3560","e":"dropped","why":"closed"}
 {"ts":1791560887,"k":"ESPWortuhr/Multilayout-ESP-Wordclock#625","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1791560887,"k":"sigp/lighthouse#7336","e":"dropped","why":"relevance: 18mo old and quiet"}
+{"ts":1791592096,"k":"elabftw/elabftw#7483","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791592096,"k":"oceanbase/seekdb#1476","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791592096,"k":"benbalter/jekyll-remote-theme#167","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791592096,"k":"Altinn/altinn-studio#20919","e":"dropped","why":"takeability: soft-claimed by b-hnidets 0d ago"}
+{"ts":1791592096,"k":"open-telemetry/opentelemetry-ruby#2373","e":"dropped","why":"closed"}
+{"ts":1791592096,"k":"jupyterlab/jupyter-ai#1327","e":"dropped","why":"relevance: 18mo old and quiet"}
+{"ts":1791592096,"k":"lightninglabs/lightning-terminal#1098","e":"dropped","why":"relevance: no activity in 120d"}
