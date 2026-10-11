@@ -781,3 +781,6 @@
 {"ts":1791712883,"k":"ilios/ilios#7392","e":"dropped","why":"not_in_board"}
 {"ts":1791712883,"k":"nion-software/nionswift#1478","e":"dropped","why":"not_in_board"}
 {"ts":1791712883,"k":"antgroup/YASA-Engine#57","e":"dropped","why":"not_in_board"}
+{"ts":1791731946,"k":"gardener/gardener#14240","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791731946,"k":"apache/hugegraph-computer#325","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791731946,"k":"kubeedge/ianvs#194","e":"dropped","why":"relevance: 18mo old and quiet"}
