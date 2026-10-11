@@ -1232,13 +1232,13 @@
     "hasTests": true
   },
   "pulumi/pulumi-awsx": {
-    "computedAt": "2026-10-03T09:11:20.103Z",
-    "outsiderPRs": 16,
-    "outsiderMergeRate": 0.8125,
-    "mergedCount": 13,
+    "computedAt": "2026-10-11T10:01:23.266Z",
+    "outsiderPRs": 17,
+    "outsiderMergeRate": 0.8235294117647058,
+    "mergedCount": 14,
     "rottingPRs": 0,
-    "medianResponseHours": null,
-    "responseSamples": 1,
+    "medianResponseHours": 341,
+    "responseSamples": 3,
     "hasCI": true,
     "hasTests": false
   },
@@ -8184,13 +8184,13 @@
     "hasTests": true
   },
   "fossasia/WPFAevent": {
-    "computedAt": "2026-09-18T08:17:59.170Z",
-    "outsiderPRs": 7,
-    "outsiderMergeRate": 0.8571428571428571,
-    "mergedCount": 6,
+    "computedAt": "2026-10-11T10:01:23.266Z",
+    "outsiderPRs": 5,
+    "outsiderMergeRate": 0.4,
+    "mergedCount": 2,
     "rottingPRs": 0,
-    "medianResponseHours": 15,
-    "responseSamples": 17,
+    "medianResponseHours": 6,
+    "responseSamples": 19,
     "hasCI": true,
     "hasTests": true
   },
@@ -9863,6 +9863,50 @@
     "rottingPRs": 0,
     "medianResponseHours": 21,
     "responseSamples": 16,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "MaddyUnderStars/shoot": {
+    "computedAt": "2026-10-11T10:01:23.266Z",
+    "outsiderPRs": 11,
+    "outsiderMergeRate": 0.7272727272727273,
+    "mergedCount": 8,
+    "rottingPRs": 1,
+    "medianResponseHours": 8,
+    "responseSamples": 9,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "flint-fyi/flint": {
+    "computedAt": "2026-10-11T10:01:23.266Z",
+    "outsiderPRs": 18,
+    "outsiderMergeRate": 1,
+    "mergedCount": 18,
+    "rottingPRs": 0,
+    "medianResponseHours": 5,
+    "responseSamples": 12,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "UCL-ARC/python-tooling": {
+    "computedAt": "2026-10-11T10:01:23.266Z",
+    "outsiderPRs": 17,
+    "outsiderMergeRate": 0.8823529411764706,
+    "mergedCount": 15,
+    "rottingPRs": 0,
+    "medianResponseHours": 8,
+    "responseSamples": 16,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "valeriansaliou/sonic": {
+    "computedAt": "2026-10-11T10:01:23.266Z",
+    "outsiderPRs": 7,
+    "outsiderMergeRate": 1,
+    "mergedCount": 7,
+    "rottingPRs": 0,
+    "medianResponseHours": 1,
+    "responseSamples": 23,
     "hasCI": true,
     "hasTests": false
   }
