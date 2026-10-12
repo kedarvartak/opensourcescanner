@@ -787,3 +787,6 @@
 {"ts":1791763880,"k":"benbalter/wordpress-static-site-exporter#453","e":"dropped","why":"closed"}
 {"ts":1791763880,"k":"ymir-emu/Ymir#342","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1791763880,"k":"corazawaf/coraza#1566","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791829992,"k":"k-orc/openstack-resource-controller#363","e":"dropped","why":"takeability: assigned"}
+{"ts":1791829992,"k":"WikiEducationFoundation/WikiEduDashboard#7063","e":"dropped","why":"takeability: soft-claimed by GonzaFP 1d ago"}
+{"ts":1791829992,"k":"apache/iceberg#15916","e":"dropped","why":"takeability: open linked PR"}
