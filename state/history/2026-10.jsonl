@@ -784,3 +784,6 @@
 {"ts":1791731946,"k":"gardener/gardener#14240","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1791731946,"k":"apache/hugegraph-computer#325","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1791731946,"k":"kubeedge/ianvs#194","e":"dropped","why":"relevance: 18mo old and quiet"}
+{"ts":1791763880,"k":"benbalter/wordpress-static-site-exporter#453","e":"dropped","why":"closed"}
+{"ts":1791763880,"k":"ymir-emu/Ymir#342","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1791763880,"k":"corazawaf/coraza#1566","e":"dropped","why":"takeability: open linked PR"}
