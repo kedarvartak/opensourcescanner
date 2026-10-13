@@ -794,3 +794,9 @@
 {"ts":1791858240,"k":"ls1intum/Artemis#11769","e":"dropped","why":"closed"}
 {"ts":1791858240,"k":"lovasoa/ophirofox#419","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1791858240,"k":"ls1intum/Artemis#11937","e":"dropped","why":"closed"}
+{"ts":1791909732,"k":"modoboa/modoboa#4127","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791909732,"k":"kafbat/kafka-ui#1073","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791909732,"k":"suitenumerique/docs#1220","e":"dropped","why":"closed"}
+{"ts":1791909732,"k":"OpenRailAssociation/netzgrafik-editor-frontend#1373","e":"dropped","why":"takeability: assigned"}
+{"ts":1791909732,"k":"sgl-project/sglang#9889","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791909732,"k":"falconry/falcon#2525","e":"dropped","why":"takeability: soft-claimed by Amiirhosseini 0d ago"}
