@@ -790,3 +790,7 @@
 {"ts":1791829992,"k":"k-orc/openstack-resource-controller#363","e":"dropped","why":"takeability: assigned"}
 {"ts":1791829992,"k":"WikiEducationFoundation/WikiEduDashboard#7063","e":"dropped","why":"takeability: soft-claimed by GonzaFP 1d ago"}
 {"ts":1791829992,"k":"apache/iceberg#15916","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791858240,"k":"symfony/symfony#65565","e":"dropped","why":"takeability: soft-claimed by jcparucha 0d ago"}
+{"ts":1791858240,"k":"ls1intum/Artemis#11769","e":"dropped","why":"closed"}
+{"ts":1791858240,"k":"lovasoa/ophirofox#419","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1791858240,"k":"ls1intum/Artemis#11937","e":"dropped","why":"closed"}
