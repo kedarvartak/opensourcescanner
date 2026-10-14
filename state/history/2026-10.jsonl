@@ -811,3 +811,6 @@
 {"ts":1791987536,"k":"sphireinc/Foundry#59","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1791987536,"k":"medic/cht-core#10548","e":"dropped","why":"takeability: soft-claimed by kumaranurag00748-byte 0d ago"}
 {"ts":1791987536,"k":"autowarefoundation/agnocast#1327","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1792004955,"k":"WikiEducationFoundation/WikiEduDashboard#7059","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1792004955,"k":"ggml-org/llama.cpp#17488","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1792004955,"k":"docker/model-runner#912","e":"dropped","why":"takeability: open linked PR"}
