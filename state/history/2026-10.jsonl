@@ -802,3 +802,12 @@
 {"ts":1791909732,"k":"falconry/falcon#2525","e":"dropped","why":"takeability: soft-claimed by Amiirhosseini 0d ago"}
 {"ts":1791936421,"k":"Submitty/Submitty#13306","e":"dropped","why":"takeability: assigned"}
 {"ts":1791936421,"k":"ClickHouse/clickhouse-kafka-connect#748","e":"dropped","why":"takeability: soft-claimed by Ashishgupta790 0d ago"}
+{"ts":1791987536,"k":"geeksforsocialchange/PlaceCal#3272","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1791987536,"k":"benbalter/site-inspector#127","e":"dropped","why":"closed"}
+{"ts":1791987536,"k":"C7-Game/OpenCiv3#1010","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1791987536,"k":"kgateway-dev/kgateway#14014","e":"dropped","why":"relevance: blocking label: stale"}
+{"ts":1791987536,"k":"sphireinc/Foundry#49","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1791987536,"k":"sphireinc/Foundry#62","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1791987536,"k":"sphireinc/Foundry#59","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1791987536,"k":"medic/cht-core#10548","e":"dropped","why":"takeability: soft-claimed by kumaranurag00748-byte 0d ago"}
+{"ts":1791987536,"k":"autowarefoundation/agnocast#1327","e":"dropped","why":"relevance: no activity in 120d"}
