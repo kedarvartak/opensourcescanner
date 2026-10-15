@@ -959,3 +959,4 @@
 {"ts":1792052601,"k":"scroll-tech/ceno#1116","e":"dropped","why":"not_in_board"}
 {"ts":1792052601,"k":"frappe/erpnext#47847","e":"dropped","why":"not_in_board"}
 {"ts":1792052601,"k":"ilios/ilios#7496","e":"dropped","why":"not_in_board"}
+{"ts":1792072451,"k":"apache/iggy#2396","e":"dropped","why":"takeability: open linked PR"}
