@@ -965,3 +965,13 @@
 {"ts":1792090309,"k":"actualbudget/actual#6682","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1792090309,"k":"perses/perses#3202","e":"dropped","why":"takeability: soft-claimed by armnkumar321-spec 0d ago"}
 {"ts":1792107108,"k":"DestinyItemManager/DIM#11675","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1792158226,"k":"Submitty/Submitty#13503","e":"dropped","why":"takeability: soft-claimed by bhumikaborkar7 0d ago"}
+{"ts":1792158226,"k":"nextcloud/server#65507","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1792158226,"k":"perses/perses#3222","e":"dropped","why":"takeability: soft-claimed by armnkumar321-spec 0d ago"}
+{"ts":1792158226,"k":"getsentry/sentry-php#1913","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1792158226,"k":"JdeRobot/RoboticsAcademy#3456","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1792158226,"k":"perses/perses#3258","e":"dropped","why":"takeability: soft-claimed by armnkumar321-spec 0d ago"}
+{"ts":1792158226,"k":"dokieli/dokieli#595","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1792158226,"k":"meta-pytorch/torchcodec#653","e":"dropped","why":"relevance: 18mo old and quiet"}
+{"ts":1792158226,"k":"finos/fluxnova-bpm-platform#217","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1792158226,"k":"guidewire-oss/fern-platform#127","e":"dropped","why":"relevance: no activity in 120d"}
