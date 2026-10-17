@@ -976,3 +976,7 @@
 {"ts":1792158226,"k":"finos/fluxnova-bpm-platform#217","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1792158226,"k":"guidewire-oss/fern-platform#127","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1792175752,"k":"zen-browser/desktop#11595","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1792240815,"k":"elabftw/elabftw#7610","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1792240815,"k":"openbao/openbao#2498","e":"dropped","why":"takeability: assigned"}
+{"ts":1792240815,"k":"db-operator/db-operator#239","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1792240815,"k":"dalibo/cnpg-plugin-pgbackrest#72","e":"dropped","why":"relevance: no activity in 120d"}
