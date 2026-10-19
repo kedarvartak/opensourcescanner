@@ -1101,3 +1101,8 @@
 {"ts":1792363438,"k":"RobloxChatLauncher/RobloxChatLauncher#81","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1792363438,"k":"RobloxChatLauncher/RobloxChatLauncher#82","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1792363438,"k":"stellar/stellar-rpc#477","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1792426175,"k":"Python-roborock/python-roborock#987","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1792426175,"k":"getsentry/sentry-dotnet#5415","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1792426175,"k":"ChurchCRM/CRM#10609","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1792426175,"k":"getsentry/sentry-unreal#885","e":"dropped","why":"relevance: 18mo old and quiet"}
+{"ts":1792426175,"k":"zen-browser/desktop#14389","e":"dropped","why":"closed"}
