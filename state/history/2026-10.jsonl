@@ -1106,3 +1106,12 @@
 {"ts":1792426175,"k":"ChurchCRM/CRM#10609","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1792426175,"k":"getsentry/sentry-unreal#885","e":"dropped","why":"relevance: 18mo old and quiet"}
 {"ts":1792426175,"k":"zen-browser/desktop#14389","e":"dropped","why":"closed"}
+{"ts":1792505065,"k":"caura-ai/caura#1902","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1792505065,"k":"fae-industries/ffxiv-collect#144","e":"dropped","why":"closed"}
+{"ts":1792505065,"k":"elabftw/elabftw#7528","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1792505065,"k":"serenedb/serenedb#658","e":"dropped","why":"takeability: assigned"}
+{"ts":1792505065,"k":"kgateway-dev/kgateway#14014","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1792505065,"k":"fossasia/WPFAevent#312","e":"dropped","why":"takeability: soft-claimed by aakashtripathi011 0d ago"}
+{"ts":1792505065,"k":"maximhq/bifrost#432","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1792505065,"k":"eclipse-opensovd/classic-diagnostic-adapter#26","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1792505065,"k":"apache/arrow-rs-object-store#342","e":"dropped","why":"relevance: 18mo old and quiet"}
