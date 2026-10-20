@@ -1115,3 +1115,6 @@
 {"ts":1792505065,"k":"maximhq/bifrost#432","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1792505065,"k":"eclipse-opensovd/classic-diagnostic-adapter#26","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1792505065,"k":"apache/arrow-rs-object-store#342","e":"dropped","why":"relevance: 18mo old and quiet"}
+{"ts":1792539382,"k":"callstackincubator/react-native-node-api#14","e":"dropped","why":"relevance: 18mo old and quiet"}
+{"ts":1792539382,"k":"Submitty/Submitty#13511","e":"dropped","why":"takeability: assigned"}
+{"ts":1792539382,"k":"sgl-project/sglang#9674","e":"dropped","why":"takeability: open linked PR"}
