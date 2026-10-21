@@ -2497,13 +2497,13 @@
     "hasTests": false
   },
   "UTDNebula/utd-trends": {
-    "computedAt": "2026-09-29T09:52:34.383Z",
-    "outsiderPRs": 13,
-    "outsiderMergeRate": 0.6153846153846154,
-    "mergedCount": 8,
-    "rottingPRs": 3,
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 11,
+    "outsiderMergeRate": 0.6363636363636364,
+    "mergedCount": 7,
+    "rottingPRs": 0,
     "medianResponseHours": 117,
-    "responseSamples": 9,
+    "responseSamples": 7,
     "hasCI": true,
     "hasTests": false
   },
@@ -2794,12 +2794,12 @@
     "hasTests": false
   },
   "OneBusAway/wayfinder": {
-    "computedAt": "2026-09-24T08:30:38.239Z",
-    "outsiderPRs": 13,
-    "outsiderMergeRate": 0.9230769230769231,
-    "mergedCount": 12,
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 14,
+    "outsiderMergeRate": 0.9285714285714286,
+    "mergedCount": 13,
     "rottingPRs": 0,
-    "medianResponseHours": 160,
+    "medianResponseHours": 19,
     "responseSamples": 20,
     "hasCI": true,
     "hasTests": false
@@ -3278,13 +3278,13 @@
     "hasTests": false
   },
   "dapr/components-contrib": {
-    "computedAt": "2026-08-16T10:34:07.104Z",
-    "outsiderPRs": 9,
-    "outsiderMergeRate": 0.6666666666666666,
-    "mergedCount": 6,
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 6,
+    "outsiderMergeRate": 0.8333333333333334,
+    "mergedCount": 5,
     "rottingPRs": 0,
-    "medianResponseHours": 720,
-    "responseSamples": 11,
+    "medianResponseHours": 370,
+    "responseSamples": 4,
     "hasCI": true,
     "hasTests": true
   },
@@ -4048,13 +4048,13 @@
     "hasTests": false
   },
   "hiero-ledger/hiero-mirror-node": {
-    "computedAt": "2026-08-24T04:13:45.422Z",
-    "outsiderPRs": 22,
-    "outsiderMergeRate": 0.9545454545454546,
-    "mergedCount": 21,
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 19,
+    "outsiderMergeRate": 0.9473684210526315,
+    "mergedCount": 18,
     "rottingPRs": 0,
     "medianResponseHours": null,
-    "responseSamples": 1,
+    "responseSamples": 0,
     "hasCI": true,
     "hasTests": true
   },
@@ -4290,14 +4290,14 @@
     "hasTests": true
   },
   "ASGC-Game-Jam/asgc-gamejam-2026": {
-    "computedAt": "2026-09-21T08:54:43.954Z",
-    "outsiderPRs": 16,
-    "outsiderMergeRate": 0.875,
-    "mergedCount": 14,
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 21,
+    "outsiderMergeRate": 0.9523809523809523,
+    "mergedCount": 20,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 0,
-    "hasCI": false,
+    "hasCI": true,
     "hasTests": false
   },
   "eclipse-score/baselibs": {
@@ -4312,13 +4312,13 @@
     "hasTests": false
   },
   "SynthstromAudible/DelugeFirmware": {
-    "computedAt": "2026-08-24T04:13:45.422Z",
-    "outsiderPRs": 5,
-    "outsiderMergeRate": 0.8,
-    "mergedCount": 4,
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 1,
+    "mergedCount": 8,
     "rottingPRs": 0,
-    "medianResponseHours": 5,
-    "responseSamples": 7,
+    "medianResponseHours": 7,
+    "responseSamples": 8,
     "hasCI": true,
     "hasTests": true
   },
@@ -4422,13 +4422,13 @@
     "hasTests": true
   },
   "unoplatform/uno": {
-    "computedAt": "2026-10-06T10:07:19.525Z",
-    "outsiderPRs": 1,
-    "outsiderMergeRate": 1,
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 2,
+    "outsiderMergeRate": 0.5,
     "mergedCount": 1,
     "rottingPRs": 0,
-    "medianResponseHours": null,
-    "responseSamples": 0,
+    "medianResponseHours": 11,
+    "responseSamples": 3,
     "hasCI": true,
     "hasTests": false
   },
@@ -4972,13 +4972,13 @@
     "hasTests": false
   },
   "jordigilh/kubernaut": {
-    "computedAt": "2026-10-08T10:17:57.221Z",
-    "outsiderPRs": 8,
-    "outsiderMergeRate": 0.75,
-    "mergedCount": 6,
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 5,
+    "outsiderMergeRate": 0.8,
+    "mergedCount": 4,
     "rottingPRs": 0,
-    "medianResponseHours": 1,
-    "responseSamples": 9,
+    "medianResponseHours": 2,
+    "responseSamples": 16,
     "hasCI": true,
     "hasTests": true
   },
@@ -6215,13 +6215,13 @@
     "hasTests": true
   },
   "WillCodeForCats/solaredge-modbus-multi": {
-    "computedAt": "2026-10-08T10:17:57.221Z",
-    "outsiderPRs": 10,
-    "outsiderMergeRate": 0.9,
-    "mergedCount": 9,
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 7,
+    "outsiderMergeRate": 1,
+    "mergedCount": 7,
     "rottingPRs": 0,
-    "medianResponseHours": 5,
-    "responseSamples": 15,
+    "medianResponseHours": 2,
+    "responseSamples": 21,
     "hasCI": true,
     "hasTests": true
   },
@@ -6578,13 +6578,13 @@
     "hasTests": true
   },
   "fjordllc/bootcamp": {
-    "computedAt": "2026-10-01T10:09:58.277Z",
-    "outsiderPRs": 7,
-    "outsiderMergeRate": 0.8571428571428571,
-    "mergedCount": 6,
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 6,
+    "outsiderMergeRate": 0.6666666666666666,
+    "mergedCount": 4,
     "rottingPRs": 0,
-    "medianResponseHours": 0,
-    "responseSamples": 5,
+    "medianResponseHours": 7,
+    "responseSamples": 8,
     "hasCI": true,
     "hasTests": true
   },
@@ -7590,13 +7590,13 @@
     "hasTests": false
   },
   "stride3d/stride": {
-    "computedAt": "2026-09-18T08:17:59.170Z",
-    "outsiderPRs": 6,
-    "outsiderMergeRate": 1,
-    "mergedCount": 6,
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 1,
+    "outsiderMergeRate": 0,
+    "mergedCount": 0,
     "rottingPRs": 0,
-    "medianResponseHours": 4,
-    "responseSamples": 12,
+    "medianResponseHours": 9,
+    "responseSamples": 8,
     "hasCI": true,
     "hasTests": true
   },
@@ -8327,13 +8327,13 @@
     "hasTests": false
   },
   "Tadreeb-LMS/tadreeblms": {
-    "computedAt": "2026-09-24T08:30:38.239Z",
-    "outsiderPRs": 13,
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 21,
     "outsiderMergeRate": 1,
-    "mergedCount": 13,
+    "mergedCount": 21,
     "rottingPRs": 0,
-    "medianResponseHours": null,
-    "responseSamples": 2,
+    "medianResponseHours": 142,
+    "responseSamples": 5,
     "hasCI": true,
     "hasTests": true
   },
@@ -8723,13 +8723,13 @@
     "hasTests": true
   },
   "UniClipboard/UniClipboard": {
-    "computedAt": "2026-09-26T08:39:33.165Z",
+    "computedAt": "2026-10-21T08:42:41.248Z",
     "outsiderPRs": 1,
     "outsiderMergeRate": 1,
     "mergedCount": 1,
     "rottingPRs": 0,
-    "medianResponseHours": 6,
-    "responseSamples": 8,
+    "medianResponseHours": 0,
+    "responseSamples": 4,
     "hasCI": true,
     "hasTests": true
   },
@@ -9273,10 +9273,10 @@
     "hasTests": false
   },
   "Inferara/inference": {
-    "computedAt": "2026-10-05T10:21:50.642Z",
-    "outsiderPRs": 24,
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 23,
     "outsiderMergeRate": 1,
-    "mergedCount": 24,
+    "mergedCount": 23,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 0,
@@ -9867,13 +9867,13 @@
     "hasTests": false
   },
   "MaddyUnderStars/shoot": {
-    "computedAt": "2026-10-11T10:01:23.266Z",
-    "outsiderPRs": 11,
-    "outsiderMergeRate": 0.7272727272727273,
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 13,
+    "outsiderMergeRate": 0.6153846153846154,
     "mergedCount": 8,
-    "rottingPRs": 1,
-    "medianResponseHours": 8,
-    "responseSamples": 9,
+    "rottingPRs": 0,
+    "medianResponseHours": 6,
+    "responseSamples": 8,
     "hasCI": true,
     "hasTests": true
   },
@@ -9889,24 +9889,24 @@
     "hasTests": false
   },
   "UCL-ARC/python-tooling": {
-    "computedAt": "2026-10-11T10:01:23.266Z",
-    "outsiderPRs": 17,
-    "outsiderMergeRate": 0.8823529411764706,
-    "mergedCount": 15,
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 16,
+    "outsiderMergeRate": 0.875,
+    "mergedCount": 14,
     "rottingPRs": 0,
-    "medianResponseHours": 8,
-    "responseSamples": 16,
+    "medianResponseHours": 11,
+    "responseSamples": 19,
     "hasCI": true,
     "hasTests": true
   },
   "valeriansaliou/sonic": {
-    "computedAt": "2026-10-11T10:01:23.266Z",
-    "outsiderPRs": 7,
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 2,
     "outsiderMergeRate": 1,
-    "mergedCount": 7,
+    "mergedCount": 2,
     "rottingPRs": 0,
-    "medianResponseHours": 1,
-    "responseSamples": 23,
+    "medianResponseHours": 2,
+    "responseSamples": 21,
     "hasCI": true,
     "hasTests": false
   },
@@ -10283,5 +10283,192 @@
     "responseSamples": 0,
     "hasCI": true,
     "hasTests": false
+  },
+  "HamzaHassanain/polyman": {
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 5,
+    "outsiderMergeRate": 0.8,
+    "mergedCount": 4,
+    "rottingPRs": 0,
+    "medianResponseHours": 18,
+    "responseSamples": 4,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "Openpanel-dev/openpanel": {
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 18,
+    "outsiderMergeRate": 1,
+    "mergedCount": 18,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "gianfrancodemarco/resume-builder": {
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 1,
+    "mergedCount": 4,
+    "rottingPRs": 0,
+    "medianResponseHours": 96,
+    "responseSamples": 7,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "Schneegans/Desktop-Cube": {
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 16,
+    "outsiderMergeRate": 1,
+    "mergedCount": 16,
+    "rottingPRs": 0,
+    "medianResponseHours": 15,
+    "responseSamples": 16,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "Saatvik-GT/xaytheon": {
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 1,
+    "outsiderMergeRate": 1,
+    "mergedCount": 1,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "openzim/sotoki": {
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 11,
+    "outsiderMergeRate": 0.9090909090909091,
+    "mergedCount": 10,
+    "rottingPRs": 0,
+    "medianResponseHours": 22,
+    "responseSamples": 17,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "kubestellar/kubestellar": {
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 0.75,
+    "mergedCount": 3,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 2,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "apache/auron": {
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 16,
+    "outsiderMergeRate": 1,
+    "mergedCount": 16,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "vortex-data/vortex": {
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 13,
+    "outsiderMergeRate": 0.8461538461538461,
+    "mergedCount": 11,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 1,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "eniac/zippel": {
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 0,
+    "outsiderMergeRate": null,
+    "mergedCount": 0,
+    "rottingPRs": 0,
+    "medianResponseHours": 42,
+    "responseSamples": 10,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "konippi/servo-fetch": {
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 14,
+    "outsiderMergeRate": 0.6428571428571429,
+    "mergedCount": 9,
+    "rottingPRs": 0,
+    "medianResponseHours": 78,
+    "responseSamples": 13,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "sorbet/sorbet": {
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 1,
+    "outsiderMergeRate": 1,
+    "mergedCount": 1,
+    "rottingPRs": 0,
+    "medianResponseHours": 1,
+    "responseSamples": 8,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "eyalgolan/statecraft-israel": {
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 5,
+    "outsiderMergeRate": 1,
+    "mergedCount": 5,
+    "rottingPRs": 0,
+    "medianResponseHours": 1,
+    "responseSamples": 28,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "open-feature/dotnet-sdk": {
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 19,
+    "outsiderMergeRate": 1,
+    "mergedCount": 19,
+    "rottingPRs": 0,
+    "medianResponseHours": 49,
+    "responseSamples": 5,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "ggfto/DroidDeck": {
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 1,
+    "outsiderMergeRate": 1,
+    "mergedCount": 1,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "nota-daw/nota": {
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 21,
+    "outsiderMergeRate": 1,
+    "mergedCount": 21,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "maximilian467/Developer-Island": {
+    "computedAt": "2026-10-21T08:42:41.248Z",
+    "outsiderPRs": 3,
+    "outsiderMergeRate": 0.3333333333333333,
+    "mergedCount": 1,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 1,
+    "hasCI": true,
+    "hasTests": true
   }
 }
