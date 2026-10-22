@@ -1261,3 +1261,6 @@
 {"ts":1792609552,"k":"ChurchCRM/CRM#10762","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1792609552,"k":"thunder-id/thunderid#3110","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1792626787,"k":"AutoDarkMode/Windows-Auto-Night-Mode#1214","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1792678733,"k":"apache/iggy#2517","e":"dropped","why":"takeability: soft-claimed by the4amfriend 1d ago"}
+{"ts":1792678733,"k":"maximhq/bifrost#996","e":"dropped","why":"closed"}
+{"ts":1792678733,"k":"ray-project/ray#65129","e":"dropped","why":"takeability: open linked PR"}
