@@ -1264,3 +1264,4 @@
 {"ts":1792678733,"k":"apache/iggy#2517","e":"dropped","why":"takeability: soft-claimed by the4amfriend 1d ago"}
 {"ts":1792678733,"k":"maximhq/bifrost#996","e":"dropped","why":"closed"}
 {"ts":1792678733,"k":"ray-project/ray#65129","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1792695732,"k":"openwisp/ansible-openwisp2#515","e":"dropped","why":"takeability: assigned"}
