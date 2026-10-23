@@ -3,7 +3,7 @@
   "generatedAt": "2026-10-21T08:42:41.081Z",
   "nextRefreshAt": "2026-10-22T08:42:41.081Z",
   "counts": {
-    "issues": 418,
+    "issues": 414,
     "repos": 312,
     "languages": 10
   },
@@ -15,7 +15,6 @@
     "near/mpc#2753",
     "Equal-Vote/bettervoting#1175",
     "FreeCAD/FreeCAD#28578",
-    "cedarjs/cedar#280",
     "getsentry/sentry-go#1102",
     "HamzaHassanain/polyman#12"
   ],
@@ -415,5 +414,5 @@
     },
     "passRate": 0.1365
   },
-  "revalidatedAt": "2026-10-22T23:52:12.021Z"
+  "revalidatedAt": "2026-10-23T14:02:32.873Z"
 }
