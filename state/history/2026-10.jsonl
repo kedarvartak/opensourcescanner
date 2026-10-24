@@ -1407,3 +1407,4 @@
 {"ts":1792829817,"k":"openwisp/ansible-openwisp2#515","e":"dropped","why":"not_in_board"}
 {"ts":1792829817,"k":"arkade-os/arkd#794","e":"dropped","why":"not_in_board"}
 {"ts":1792829817,"k":"hiero-ledger/hiero-sdk-rust#1262","e":"dropped","why":"not_in_board"}
+{"ts":1792847056,"k":"silexlabs/Silex#1717","e":"dropped","why":"takeability: soft-claimed by RahulSinghai606 0d ago"}
