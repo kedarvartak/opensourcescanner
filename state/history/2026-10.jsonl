@@ -1473,3 +1473,5 @@
 {"ts":1793029743,"k":"oceanbase/seekdb#91","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1793029743,"k":"MobiFlight/MobiFlight-Connector#2869","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1793059991,"k":"ngx-l402/ngx-l402#36","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1793113564,"k":"getsentry/sentry-go#1102","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1793113564,"k":"nickna/SharpTS#42","e":"dropped","why":"takeability: open linked PR"}
