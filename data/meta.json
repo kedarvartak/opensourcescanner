@@ -3,14 +3,13 @@
   "generatedAt": "2026-10-25T08:27:43.512Z",
   "nextRefreshAt": "2026-10-26T08:27:43.512Z",
   "counts": {
-    "issues": 379,
+    "issues": 370,
     "repos": 298,
     "languages": 10
   },
   "todaysPicks": [
     "FreeCAD/FreeCAD#28272",
     "valeriansaliou/sonic#340",
-    "metadist/synaplan#2597",
     "multitheftauto/mtasa-blue#4282",
     "aethersdr/AetherSDR#3406",
     "voxel51/fiftyone-brain#258",
@@ -421,5 +420,5 @@
     },
     "passRate": 0.131
   },
-  "revalidatedAt": "2026-10-31T00:20:29.104Z"
+  "revalidatedAt": "2026-10-31T14:59:18.806Z"
 }
