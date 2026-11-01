@@ -3,7 +3,7 @@
   "generatedAt": "2026-11-01T10:22:55.860Z",
   "nextRefreshAt": "2026-11-02T10:22:55.860Z",
   "counts": {
-    "issues": 426,
+    "issues": 422,
     "repos": 304,
     "languages": 10
   },
@@ -13,7 +13,6 @@
     "airqo-platform/AirQo-api#6209",
     "rancher/dashboard#14897",
     "autowarefoundation/agnocast#1327",
-    "AllYourBot/hostedgpt#884",
     "equinor/design-system#4253",
     "gianfrancodemarco/resume-builder#31",
     "deepinv/deepinv#899",
@@ -402,5 +401,6 @@
       "G6_antiFarming": 98
     },
     "passRate": 0.1273
-  }
+  },
+  "revalidatedAt": "2026-11-01T15:43:45.228Z"
 }
