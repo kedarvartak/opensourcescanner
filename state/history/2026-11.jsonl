@@ -254,3 +254,9 @@
 {"ts":1793616813,"k":"ray-project/ray#64880","e":"dropped","why":"not_in_board"}
 {"ts":1793616813,"k":"webkom/lego#3980","e":"dropped","why":"not_in_board"}
 {"ts":1793616813,"k":"holoviz/panel#8191","e":"dropped","why":"not_in_board"}
+{"ts":1793646488,"k":"symfony/symfony#67422","e":"dropped","why":"closed"}
+{"ts":1793646488,"k":"mihai-dinculescu/tapo#485","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1793646488,"k":"nf-core/tools#4581","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1793646488,"k":"mi6/ic-ui-kit#4223","e":"dropped","why":"closed"}
+{"ts":1793646488,"k":"nushell/reedline#990","e":"dropped","why":"closed"}
+{"ts":1793646488,"k":"nushell/reedline#934","e":"dropped","why":"closed"}
