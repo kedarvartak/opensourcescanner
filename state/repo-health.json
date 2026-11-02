@@ -3949,10 +3949,10 @@
     "hasTests": false
   },
   "lenra-io/dofigen": {
-    "computedAt": "2026-09-15T08:43:45.924Z",
-    "outsiderPRs": 19,
-    "outsiderMergeRate": 0.6842105263157895,
-    "mergedCount": 13,
+    "computedAt": "2026-11-02T10:53:33.501Z",
+    "outsiderPRs": 20,
+    "outsiderMergeRate": 0.7,
+    "mergedCount": 14,
     "rottingPRs": 0,
     "medianResponseHours": 46,
     "responseSamples": 15,
@@ -8580,13 +8580,13 @@
     "hasTests": true
   },
   "EnAccess/micropowermanager": {
-    "computedAt": "2026-10-18T08:10:17.334Z",
+    "computedAt": "2026-11-02T10:53:33.501Z",
     "outsiderPRs": 18,
-    "outsiderMergeRate": 0.5,
-    "mergedCount": 9,
+    "outsiderMergeRate": 0.4444444444444444,
+    "mergedCount": 8,
     "rottingPRs": 0,
     "medianResponseHours": null,
-    "responseSamples": 0,
+    "responseSamples": 1,
     "hasCI": true,
     "hasTests": false
   },
@@ -8723,13 +8723,13 @@
     "hasTests": true
   },
   "UniClipboard/UniClipboard": {
-    "computedAt": "2026-10-21T08:42:41.248Z",
-    "outsiderPRs": 1,
+    "computedAt": "2026-11-02T10:53:33.501Z",
+    "outsiderPRs": 2,
     "outsiderMergeRate": 1,
-    "mergedCount": 1,
+    "mergedCount": 2,
     "rottingPRs": 0,
-    "medianResponseHours": 0,
-    "responseSamples": 4,
+    "medianResponseHours": 12,
+    "responseSamples": 7,
     "hasCI": true,
     "hasTests": true
   },
@@ -9680,13 +9680,13 @@
     "hasTests": false
   },
   "mihai-dinculescu/tapo": {
-    "computedAt": "2026-10-25T08:27:43.786Z",
+    "computedAt": "2026-11-02T10:53:33.501Z",
     "outsiderPRs": 22,
-    "outsiderMergeRate": 0.5454545454545454,
-    "mergedCount": 12,
+    "outsiderMergeRate": 0.5,
+    "mergedCount": 11,
     "rottingPRs": 0,
-    "medianResponseHours": 4,
-    "responseSamples": 20,
+    "medianResponseHours": 6,
+    "responseSamples": 24,
     "hasCI": true,
     "hasTests": false
   },
@@ -10976,5 +10976,38 @@
     "responseSamples": 17,
     "hasCI": true,
     "hasTests": false
+  },
+  "antropos17/Aegis": {
+    "computedAt": "2026-11-02T10:53:33.501Z",
+    "outsiderPRs": 1,
+    "outsiderMergeRate": 1,
+    "mergedCount": 1,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 2,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "nushell/reedline": {
+    "computedAt": "2026-11-02T10:53:33.501Z",
+    "outsiderPRs": 16,
+    "outsiderMergeRate": 0.375,
+    "mergedCount": 6,
+    "rottingPRs": 0,
+    "medianResponseHours": 61,
+    "responseSamples": 28,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "nf-core/tools": {
+    "computedAt": "2026-11-02T10:53:33.501Z",
+    "outsiderPRs": 12,
+    "outsiderMergeRate": 1,
+    "mergedCount": 12,
+    "rottingPRs": 0,
+    "medianResponseHours": 12,
+    "responseSamples": 14,
+    "hasCI": true,
+    "hasTests": true
   }
 }
