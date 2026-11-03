@@ -3,7 +3,7 @@
   "generatedAt": "2026-11-02T10:53:33.231Z",
   "nextRefreshAt": "2026-11-03T10:53:33.231Z",
   "counts": {
-    "issues": 408,
+    "issues": 402,
     "repos": 299,
     "languages": 10
   },
@@ -11,7 +11,6 @@
     "kubefleet-dev/kubefleet#582",
     "farion1231/cc-switch#3611",
     "pipe-cd/pipecd#6684",
-    "actualbudget/actual#5413",
     "fjordllc/bootcamp#10605",
     "stride3d/stride#2785",
     "kubestellar/kubestellar#3792",
@@ -400,5 +399,5 @@
     },
     "passRate": 0.125
   },
-  "revalidatedAt": "2026-11-03T02:44:51.493Z"
+  "revalidatedAt": "2026-11-03T16:48:43.134Z"
 }
