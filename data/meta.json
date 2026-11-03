@@ -3,7 +3,7 @@
   "generatedAt": "2026-11-02T10:53:33.231Z",
   "nextRefreshAt": "2026-11-03T10:53:33.231Z",
   "counts": {
-    "issues": 412,
+    "issues": 408,
     "repos": 299,
     "languages": 10
   },
@@ -16,8 +16,7 @@
     "stride3d/stride#2785",
     "kubestellar/kubestellar#3792",
     "FreeCAD/FreeCAD#28272",
-    "jordond/jolt#160",
-    "LibreSign/libresign#8688"
+    "jordond/jolt#160"
   ],
   "shards": {
     "issues": [
@@ -401,5 +400,5 @@
     },
     "passRate": 0.125
   },
-  "revalidatedAt": "2026-11-02T19:08:08.280Z"
+  "revalidatedAt": "2026-11-03T02:44:51.493Z"
 }
