@@ -165,11 +165,11 @@
     "hasTests": false
   },
   "antgroup/YASA-Engine": {
-    "computedAt": "2026-10-24T08:16:58.016Z",
+    "computedAt": "2026-11-04T10:46:14.558Z",
     "outsiderPRs": 1,
     "outsiderMergeRate": 0,
     "mergedCount": 0,
-    "rottingPRs": 1,
+    "rottingPRs": 13,
     "medianResponseHours": 276,
     "responseSamples": 4,
     "hasCI": true,
@@ -2706,13 +2706,13 @@
     "hasTests": true
   },
   "suitenumerique/drive": {
-    "computedAt": "2026-08-16T10:34:07.104Z",
-    "outsiderPRs": 6,
-    "outsiderMergeRate": 0.8333333333333334,
-    "mergedCount": 5,
+    "computedAt": "2026-11-04T10:46:14.558Z",
+    "outsiderPRs": 2,
+    "outsiderMergeRate": 0.5,
+    "mergedCount": 1,
     "rottingPRs": 0,
-    "medianResponseHours": 16,
-    "responseSamples": 3,
+    "medianResponseHours": 7,
+    "responseSamples": 5,
     "hasCI": true,
     "hasTests": false
   },
@@ -3454,13 +3454,13 @@
     "hasTests": false
   },
   "keploy/keploy": {
-    "computedAt": "2026-10-24T08:16:58.016Z",
+    "computedAt": "2026-11-04T10:46:14.558Z",
     "outsiderPRs": 0,
     "outsiderMergeRate": null,
     "mergedCount": 0,
     "rottingPRs": 0,
-    "medianResponseHours": 7,
-    "responseSamples": 4,
+    "medianResponseHours": null,
+    "responseSamples": 2,
     "hasCI": true,
     "hasTests": true
   },
@@ -4411,13 +4411,13 @@
     "hasTests": true
   },
   "marceld23/BlocksBeyondTheStars": {
-    "computedAt": "2026-09-04T08:10:12.597Z",
-    "outsiderPRs": 1,
-    "outsiderMergeRate": 1,
+    "computedAt": "2026-11-04T10:46:14.558Z",
+    "outsiderPRs": 2,
+    "outsiderMergeRate": 0.5,
     "mergedCount": 1,
     "rottingPRs": 0,
     "medianResponseHours": null,
-    "responseSamples": 1,
+    "responseSamples": 2,
     "hasCI": true,
     "hasTests": true
   },
@@ -4444,13 +4444,13 @@
     "hasTests": true
   },
   "TypNull/Tubifarry": {
-    "computedAt": "2026-08-16T10:34:07.104Z",
-    "outsiderPRs": 16,
-    "outsiderMergeRate": 0.75,
-    "mergedCount": 12,
+    "computedAt": "2026-11-04T10:46:14.558Z",
+    "outsiderPRs": 24,
+    "outsiderMergeRate": 0.5416666666666666,
+    "mergedCount": 13,
     "rottingPRs": 0,
-    "medianResponseHours": 12,
-    "responseSamples": 32,
+    "medianResponseHours": 11,
+    "responseSamples": 37,
     "hasCI": true,
     "hasTests": false
   },
@@ -4477,13 +4477,13 @@
     "hasTests": false
   },
   "freerange/jam-coop": {
-    "computedAt": "2026-10-18T08:10:17.334Z",
-    "outsiderPRs": 21,
-    "outsiderMergeRate": 0.9047619047619048,
-    "mergedCount": 19,
+    "computedAt": "2026-11-04T10:46:14.558Z",
+    "outsiderPRs": 20,
+    "outsiderMergeRate": 0.9,
+    "mergedCount": 18,
     "rottingPRs": 0,
-    "medianResponseHours": 78,
-    "responseSamples": 7,
+    "medianResponseHours": 42,
+    "responseSamples": 6,
     "hasCI": true,
     "hasTests": true
   },
@@ -4499,13 +4499,13 @@
     "hasTests": true
   },
   "geeksforsocialchange/PlaceCal": {
-    "computedAt": "2026-10-08T10:17:57.221Z",
-    "outsiderPRs": 23,
+    "computedAt": "2026-11-04T10:46:14.558Z",
+    "outsiderPRs": 6,
     "outsiderMergeRate": 1,
-    "mergedCount": 23,
+    "mergedCount": 6,
     "rottingPRs": 0,
-    "medianResponseHours": 1,
-    "responseSamples": 5,
+    "medianResponseHours": 13,
+    "responseSamples": 4,
     "hasCI": true,
     "hasTests": false
   },
@@ -4631,13 +4631,13 @@
     "hasTests": true
   },
   "OpenRailAssociation/netzgrafik-editor-frontend": {
-    "computedAt": "2026-10-24T08:16:58.016Z",
-    "outsiderPRs": 13,
-    "outsiderMergeRate": 0.9230769230769231,
-    "mergedCount": 12,
+    "computedAt": "2026-11-04T10:46:14.558Z",
+    "outsiderPRs": 17,
+    "outsiderMergeRate": 0.8823529411764706,
+    "mergedCount": 15,
     "rottingPRs": 0,
     "medianResponseHours": null,
-    "responseSamples": 0,
+    "responseSamples": 1,
     "hasCI": true,
     "hasTests": false
   },
@@ -4972,13 +4972,13 @@
     "hasTests": false
   },
   "jordigilh/kubernaut": {
-    "computedAt": "2026-10-21T08:42:41.248Z",
+    "computedAt": "2026-11-04T10:46:14.558Z",
     "outsiderPRs": 5,
-    "outsiderMergeRate": 0.8,
-    "mergedCount": 4,
+    "outsiderMergeRate": 1,
+    "mergedCount": 5,
     "rottingPRs": 0,
-    "medianResponseHours": 2,
-    "responseSamples": 16,
+    "medianResponseHours": 0,
+    "responseSamples": 12,
     "hasCI": true,
     "hasTests": true
   },
@@ -7777,13 +7777,13 @@
     "hasTests": false
   },
   "dapr/python-sdk": {
-    "computedAt": "2026-10-15T08:23:21.556Z",
-    "outsiderPRs": 5,
-    "outsiderMergeRate": 1,
-    "mergedCount": 5,
+    "computedAt": "2026-11-04T10:46:14.558Z",
+    "outsiderPRs": 9,
+    "outsiderMergeRate": 0.8888888888888888,
+    "mergedCount": 8,
     "rottingPRs": 0,
-    "medianResponseHours": 1458,
-    "responseSamples": 4,
+    "medianResponseHours": null,
+    "responseSamples": 1,
     "hasCI": true,
     "hasTests": true
   },
@@ -8250,13 +8250,13 @@
     "hasTests": false
   },
   "PretendoNetwork/juxtaposition": {
-    "computedAt": "2026-10-24T08:16:58.016Z",
-    "outsiderPRs": 13,
-    "outsiderMergeRate": 0.9230769230769231,
-    "mergedCount": 12,
+    "computedAt": "2026-11-04T10:46:14.558Z",
+    "outsiderPRs": 15,
+    "outsiderMergeRate": 0.9333333333333333,
+    "mergedCount": 14,
     "rottingPRs": 0,
-    "medianResponseHours": 99,
-    "responseSamples": 15,
+    "medianResponseHours": 37,
+    "responseSamples": 11,
     "hasCI": true,
     "hasTests": false
   },
@@ -9559,10 +9559,10 @@
     "hasTests": true
   },
   "ClickHouse/clickhouse-kafka-connect": {
-    "computedAt": "2026-10-07T10:07:00.121Z",
-    "outsiderPRs": 13,
-    "outsiderMergeRate": 0.8461538461538461,
-    "mergedCount": 11,
+    "computedAt": "2026-11-04T10:46:14.558Z",
+    "outsiderPRs": 20,
+    "outsiderMergeRate": 0.75,
+    "mergedCount": 15,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 0,
@@ -10219,15 +10219,15 @@
     "hasTests": false
   },
   "ChurchCRM/CRM": {
-    "computedAt": "2026-10-18T08:10:17.334Z",
-    "outsiderPRs": 18,
-    "outsiderMergeRate": 0.8333333333333334,
-    "mergedCount": 15,
+    "computedAt": "2026-11-04T10:46:14.558Z",
+    "outsiderPRs": 23,
+    "outsiderMergeRate": 0.9130434782608695,
+    "mergedCount": 21,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 0,
     "hasCI": true,
-    "hasTests": false
+    "hasTests": true
   },
   "open-metadata/OpenMetadata": {
     "computedAt": "2026-11-01T10:22:56.077Z",
@@ -11009,5 +11009,82 @@
     "responseSamples": 14,
     "hasCI": true,
     "hasTests": true
+  },
+  "nextcloud/tables": {
+    "computedAt": "2026-11-04T10:46:14.558Z",
+    "outsiderPRs": 3,
+    "outsiderMergeRate": 0.6666666666666666,
+    "mergedCount": 2,
+    "rottingPRs": 0,
+    "medianResponseHours": 73,
+    "responseSamples": 3,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "ecmwf/WeatherGenerator": {
+    "computedAt": "2026-11-04T10:46:14.558Z",
+    "outsiderPRs": 7,
+    "outsiderMergeRate": 0.8571428571428571,
+    "mergedCount": 6,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 1,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "c2corg/v6_api": {
+    "computedAt": "2026-11-04T10:46:14.558Z",
+    "outsiderPRs": 1,
+    "outsiderMergeRate": 1,
+    "mergedCount": 1,
+    "rottingPRs": 0,
+    "medianResponseHours": 69,
+    "responseSamples": 6,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "Neywa-Labs/mlx-vlm": {
+    "computedAt": "2026-11-04T10:46:14.558Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 1,
+    "mergedCount": 4,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "theopenlane/core": {
+    "computedAt": "2026-11-04T10:46:14.558Z",
+    "outsiderPRs": 5,
+    "outsiderMergeRate": 1,
+    "mergedCount": 5,
+    "rottingPRs": 0,
+    "medianResponseHours": 0,
+    "responseSamples": 3,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "dotnet/maui": {
+    "computedAt": "2026-11-04T10:46:14.558Z",
+    "outsiderPRs": 10,
+    "outsiderMergeRate": 0.9,
+    "mergedCount": 9,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 2,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "mrveiss/AutoBot-AI": {
+    "computedAt": "2026-11-04T10:46:14.558Z",
+    "outsiderPRs": 0,
+    "outsiderMergeRate": null,
+    "mergedCount": 0,
+    "rottingPRs": 0,
+    "medianResponseHours": 0,
+    "responseSamples": 19,
+    "hasCI": true,
+    "hasTests": false
   }
 }
