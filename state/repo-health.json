@@ -1232,13 +1232,13 @@
     "hasTests": true
   },
   "pulumi/pulumi-awsx": {
-    "computedAt": "2026-10-24T08:16:58.016Z",
-    "outsiderPRs": 19,
-    "outsiderMergeRate": 0.9473684210526315,
-    "mergedCount": 18,
+    "computedAt": "2026-11-05T10:41:00.346Z",
+    "outsiderPRs": 20,
+    "outsiderMergeRate": 0.85,
+    "mergedCount": 17,
     "rottingPRs": 0,
     "medianResponseHours": null,
-    "responseSamples": 2,
+    "responseSamples": 0,
     "hasCI": true,
     "hasTests": false
   },
@@ -3113,13 +3113,13 @@
     "hasTests": true
   },
   "falconry/falcon": {
-    "computedAt": "2026-10-06T10:07:19.525Z",
-    "outsiderPRs": 8,
-    "outsiderMergeRate": 0.25,
+    "computedAt": "2026-11-05T10:41:00.346Z",
+    "outsiderPRs": 12,
+    "outsiderMergeRate": 0.16666666666666666,
     "mergedCount": 2,
     "rottingPRs": 0,
-    "medianResponseHours": 6,
-    "responseSamples": 27,
+    "medianResponseHours": 10,
+    "responseSamples": 21,
     "hasCI": true,
     "hasTests": true
   },
@@ -4026,24 +4026,24 @@
     "hasTests": false
   },
   "hardwood-hq/hardwood": {
-    "computedAt": "2026-10-25T08:27:43.786Z",
-    "outsiderPRs": 2,
-    "outsiderMergeRate": 0.5,
+    "computedAt": "2026-11-05T10:41:00.346Z",
+    "outsiderPRs": 1,
+    "outsiderMergeRate": 1,
     "mergedCount": 1,
     "rottingPRs": 0,
-    "medianResponseHours": 6,
-    "responseSamples": 12,
+    "medianResponseHours": 21,
+    "responseSamples": 9,
     "hasCI": true,
     "hasTests": false
   },
   "trinodb/trino": {
-    "computedAt": "2026-09-04T08:10:12.597Z",
-    "outsiderPRs": 8,
-    "outsiderMergeRate": 0.625,
+    "computedAt": "2026-11-05T10:41:00.346Z",
+    "outsiderPRs": 5,
+    "outsiderMergeRate": 1,
     "mergedCount": 5,
     "rottingPRs": 0,
-    "medianResponseHours": 5,
-    "responseSamples": 8,
+    "medianResponseHours": 0,
+    "responseSamples": 6,
     "hasCI": true,
     "hasTests": false
   },
@@ -9966,12 +9966,12 @@
     "hasTests": false
   },
   "chnzzh/lenovo-logo-changer": {
-    "computedAt": "2026-10-15T08:23:21.556Z",
-    "outsiderPRs": 8,
+    "computedAt": "2026-11-05T10:41:00.346Z",
+    "outsiderPRs": 9,
     "outsiderMergeRate": 1,
-    "mergedCount": 8,
+    "mergedCount": 9,
     "rottingPRs": 0,
-    "medianResponseHours": 16,
+    "medianResponseHours": 21,
     "responseSamples": 10,
     "hasCI": true,
     "hasTests": false
