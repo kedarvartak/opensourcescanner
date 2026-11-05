@@ -351,3 +351,7 @@
 {"ts":1793810943,"k":"ChurchCRM/CRM#11123","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1793810943,"k":"Kuadrant/mcp-gateway#717","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1793810943,"k":"Kuadrant/mcp-gateway#1014","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1793841394,"k":"ChurchCRM/CRM#10905","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1793841394,"k":"TeamNewPipe/NewPipe#13705","e":"dropped","why":"takeability: soft-claimed by sakshichitnis27 0d ago"}
+{"ts":1793841394,"k":"FlexMeasures/flexmeasures#1954","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1793841394,"k":"remsky/Kokoro-FastAPI#399","e":"dropped","why":"closed"}
