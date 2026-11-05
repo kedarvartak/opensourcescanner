@@ -395,3 +395,10 @@
 {"ts":1793875260,"k":"Neywa-Labs/mlx-vlm#492","e":"dropped","why":"not_in_board"}
 {"ts":1793875260,"k":"keploy/keploy#2998","e":"dropped","why":"not_in_board"}
 {"ts":1793875260,"k":"custom-components/zaptec#325","e":"dropped","why":"not_in_board"}
+{"ts":1793898255,"k":"thomaspoignant/go-feature-flag#5086","e":"dropped","why":"takeability: assigned"}
+{"ts":1793898255,"k":"tracel-ai/burn-onnx#303","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1793898255,"k":"snowflakedb/terraform-provider-snowflake#4294","e":"dropped","why":"takeability: assigned"}
+{"ts":1793898255,"k":"stride3d/stride#2785","e":"dropped","why":"relevance: 18mo old and quiet"}
+{"ts":1793898255,"k":"getsentry/sentry-symfony#957","e":"dropped","why":"closed"}
+{"ts":1793898255,"k":"mne-tools/mne-connectivity#522","e":"dropped","why":"takeability: soft-claimed by AnushreeKasturi 0d ago"}
+{"ts":1793898255,"k":"immichFrame/ImmichFrame#386","e":"dropped","why":"relevance: no activity in 120d"}
