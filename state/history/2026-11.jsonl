@@ -406,3 +406,6 @@
 {"ts":1793928036,"k":"carlos-emr/carlos#289","e":"dropped","why":"closed"}
 {"ts":1793928036,"k":"hotosm/drone-tm#554","e":"dropped","why":"closed"}
 {"ts":1793928036,"k":"TryGhost/Ghost#24600","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1793982869,"k":"pipe-cd/pipecd#6684","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1793982869,"k":"ecmwf/WeatherGenerator#1598","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1793982869,"k":"openchoreo/openchoreo#2978","e":"dropped","why":"relevance: no activity in 120d"}
