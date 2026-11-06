@@ -402,3 +402,7 @@
 {"ts":1793898255,"k":"getsentry/sentry-symfony#957","e":"dropped","why":"closed"}
 {"ts":1793898255,"k":"mne-tools/mne-connectivity#522","e":"dropped","why":"takeability: soft-claimed by AnushreeKasturi 0d ago"}
 {"ts":1793898255,"k":"immichFrame/ImmichFrame#386","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1793928036,"k":"alyraffauf/switchyard#31","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1793928036,"k":"carlos-emr/carlos#289","e":"dropped","why":"closed"}
+{"ts":1793928036,"k":"hotosm/drone-tm#554","e":"dropped","why":"closed"}
+{"ts":1793928036,"k":"TryGhost/Ghost#24600","e":"dropped","why":"takeability: open linked PR"}
