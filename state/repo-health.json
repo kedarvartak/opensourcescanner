@@ -1100,13 +1100,13 @@
     "hasTests": true
   },
   "unchihugo/FluentFlyout": {
-    "computedAt": "2026-08-29T10:10:04.233Z",
-    "outsiderPRs": 9,
-    "outsiderMergeRate": 0.6666666666666666,
-    "mergedCount": 6,
+    "computedAt": "2026-11-07T09:54:20.447Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 0.875,
+    "mergedCount": 7,
     "rottingPRs": 0,
     "medianResponseHours": 4,
-    "responseSamples": 17,
+    "responseSamples": 11,
     "hasCI": true,
     "hasTests": false
   },
@@ -7238,10 +7238,10 @@
     "hasTests": false
   },
   "donetick/donetick": {
-    "computedAt": "2026-10-25T08:27:43.786Z",
-    "outsiderPRs": 18,
-    "outsiderMergeRate": 0.9444444444444444,
-    "mergedCount": 17,
+    "computedAt": "2026-11-07T09:54:20.447Z",
+    "outsiderPRs": 16,
+    "outsiderMergeRate": 1,
+    "mergedCount": 16,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 0,
@@ -11086,5 +11086,82 @@
     "responseSamples": 19,
     "hasCI": true,
     "hasTests": false
+  },
+  "codeforboston/maple": {
+    "computedAt": "2026-11-07T09:54:20.447Z",
+    "outsiderPRs": 7,
+    "outsiderMergeRate": 0.7142857142857143,
+    "mergedCount": 5,
+    "rottingPRs": 0,
+    "medianResponseHours": 4,
+    "responseSamples": 5,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "gephi/gephi-lite": {
+    "computedAt": "2026-11-07T09:54:20.447Z",
+    "outsiderPRs": 14,
+    "outsiderMergeRate": 0.35714285714285715,
+    "mergedCount": 5,
+    "rottingPRs": 1,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "ClickHouse/ClickStack": {
+    "computedAt": "2026-11-07T09:54:20.447Z",
+    "outsiderPRs": 10,
+    "outsiderMergeRate": 0.9,
+    "mergedCount": 9,
+    "rottingPRs": 0,
+    "medianResponseHours": 4,
+    "responseSamples": 7,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "maldoinc/wireup": {
+    "computedAt": "2026-11-07T09:54:20.447Z",
+    "outsiderPRs": 18,
+    "outsiderMergeRate": 0.7222222222222222,
+    "mergedCount": 13,
+    "rottingPRs": 1,
+    "medianResponseHours": 22,
+    "responseSamples": 28,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "natcap/invest": {
+    "computedAt": "2026-11-07T09:54:20.447Z",
+    "outsiderPRs": 19,
+    "outsiderMergeRate": 0.8421052631578947,
+    "mergedCount": 16,
+    "rottingPRs": 0,
+    "medianResponseHours": 25,
+    "responseSamples": 4,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "Aiven-Open/bigquery-connector-for-apache-kafka": {
+    "computedAt": "2026-11-07T09:54:20.447Z",
+    "outsiderPRs": 9,
+    "outsiderMergeRate": 0.7777777777777778,
+    "mergedCount": 7,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "yegor256/mailanes": {
+    "computedAt": "2026-11-07T09:54:20.447Z",
+    "outsiderPRs": 21,
+    "outsiderMergeRate": 1,
+    "mergedCount": 21,
+    "rottingPRs": 0,
+    "medianResponseHours": 2,
+    "responseSamples": 36,
+    "hasCI": true,
+    "hasTests": true
   }
 }
