@@ -409,3 +409,4 @@
 {"ts":1793982869,"k":"pipe-cd/pipecd#6684","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1793982869,"k":"ecmwf/WeatherGenerator#1598","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1793982869,"k":"openchoreo/openchoreo#2978","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1794011751,"k":"ChurchCRM/CRM#11157","e":"dropped","why":"takeability: assigned"}
