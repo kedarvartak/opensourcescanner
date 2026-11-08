@@ -463,3 +463,7 @@
 {"ts":1794065013,"k":"nipoppy/nipoppy#646","e":"dropped","why":"relevance: 18mo old and quiet"}
 {"ts":1794065013,"k":"GraphiteEditor/Graphite#4011","e":"dropped","why":"closed"}
 {"ts":1794065013,"k":"GraphiteEditor/Graphite#3629","e":"dropped","why":"closed"}
+{"ts":1794096625,"k":"getsentry/sentry-dotnet#5415","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1794096625,"k":"NOAA-FIMS/FIMS#1550","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1794096625,"k":"grimmory-tools/grimmory#836","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1794096625,"k":"tenstorrent/tt-metal#42916","e":"dropped","why":"takeability: soft-claimed by smartcalsystems-sketch 0d ago"}
