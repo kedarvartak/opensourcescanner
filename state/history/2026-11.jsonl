@@ -467,3 +467,41 @@
 {"ts":1794096625,"k":"NOAA-FIMS/FIMS#1550","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1794096625,"k":"grimmory-tools/grimmory#836","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1794096625,"k":"tenstorrent/tt-metal#42916","e":"dropped","why":"takeability: soft-claimed by smartcalsystems-sketch 0d ago"}
+{"ts":1794132525,"k":"Berserk-hub150/moodle-ai-skill-navigator#117","e":"listed","sc":85}
+{"ts":1794132525,"k":"OpenAdaptAI/OpenAdapt#2039","e":"listed","sc":84}
+{"ts":1794132525,"k":"Tadreeb-LMS/tadreeblms#874","e":"listed","sc":83}
+{"ts":1794132525,"k":"Tadreeb-LMS/tadreeblms#875","e":"listed","sc":82}
+{"ts":1794132525,"k":"coder/coder#25693","e":"listed","sc":80}
+{"ts":1794132525,"k":"manyfold3d/manyfold#4642","e":"listed","sc":79}
+{"ts":1794132525,"k":"Apicurio/apicurio-registry#7329","e":"listed","sc":79}
+{"ts":1794132525,"k":"OpenChemistry/avogadrolibs#2095","e":"listed","sc":78}
+{"ts":1794132525,"k":"tauri-apps/plugins-workspace#2746","e":"listed","sc":75}
+{"ts":1794132525,"k":"getsentry/sentry-dotnet#4564","e":"listed","sc":72}
+{"ts":1794132525,"k":"google/xls#4478","e":"listed","sc":70}
+{"ts":1794132525,"k":"zen-browser/desktop#12402","e":"listed","sc":68}
+{"ts":1794132525,"k":"F3-Nation/f3-nation#86","e":"listed","sc":66}
+{"ts":1794132525,"k":"open-metadata/OpenMetadata#32597","e":"dropped","why":"not_in_board"}
+{"ts":1794132525,"k":"mrveiss/AutoBot-AI#20825","e":"dropped","why":"not_in_board"}
+{"ts":1794132525,"k":"mrveiss/AutoBot-AI#13534","e":"dropped","why":"not_in_board"}
+{"ts":1794132525,"k":"mrveiss/AutoBot-AI#13505","e":"dropped","why":"not_in_board"}
+{"ts":1794132525,"k":"mrveiss/AutoBot-AI#13230","e":"dropped","why":"not_in_board"}
+{"ts":1794132525,"k":"pwndbg/pwndbg#3014","e":"dropped","why":"not_in_board"}
+{"ts":1794132525,"k":"kubeedge/ianvs#307","e":"dropped","why":"not_in_board"}
+{"ts":1794132525,"k":"getsentry/sentry-dotnet#5415","e":"dropped","why":"not_in_board"}
+{"ts":1794132525,"k":"Tadreeb-LMS/tadreeblms#813","e":"dropped","why":"not_in_board"}
+{"ts":1794132525,"k":"google/xls#4161","e":"dropped","why":"not_in_board"}
+{"ts":1794132525,"k":"manyfold3d/manyfold#6407","e":"dropped","why":"not_in_board"}
+{"ts":1794132525,"k":"NOAA-FIMS/FIMS#1550","e":"dropped","why":"not_in_board"}
+{"ts":1794132525,"k":"nipoppy/nipoppy#646","e":"dropped","why":"not_in_board"}
+{"ts":1794132525,"k":"abhinavxd/libredesk#307","e":"dropped","why":"not_in_board"}
+{"ts":1794132525,"k":"marceld23/BlocksBeyondTheStars#570","e":"dropped","why":"not_in_board"}
+{"ts":1794132525,"k":"grimmory-tools/grimmory#836","e":"dropped","why":"not_in_board"}
+{"ts":1794132525,"k":"RoboSats/robosats#2308","e":"dropped","why":"not_in_board"}
+{"ts":1794132525,"k":"GraphiteEditor/Graphite#4011","e":"dropped","why":"not_in_board"}
+{"ts":1794132525,"k":"marceld23/BlocksBeyondTheStars#278","e":"dropped","why":"not_in_board"}
+{"ts":1794132525,"k":"keploy/keploy#2998","e":"dropped","why":"not_in_board"}
+{"ts":1794132525,"k":"GraphiteEditor/Graphite#3629","e":"dropped","why":"not_in_board"}
+{"ts":1794132525,"k":"LFDT-Lineth/lineth-monorepo#1022","e":"dropped","why":"not_in_board"}
+{"ts":1794132525,"k":"grafana/grafana#110677","e":"dropped","why":"not_in_board"}
+{"ts":1794132525,"k":"winboat-org/winboat#341","e":"dropped","why":"not_in_board"}
+{"ts":1794132525,"k":"tenstorrent/tt-metal#42916","e":"dropped","why":"not_in_board"}

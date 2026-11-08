@@ -946,13 +946,13 @@
     "hasTests": false
   },
   "Apicurio/apicurio-registry": {
-    "computedAt": "2026-10-18T08:10:17.334Z",
-    "outsiderPRs": 1,
-    "outsiderMergeRate": 0,
-    "mergedCount": 0,
+    "computedAt": "2026-11-08T10:08:46.022Z",
+    "outsiderPRs": 6,
+    "outsiderMergeRate": 1,
+    "mergedCount": 6,
     "rottingPRs": 0,
-    "medianResponseHours": null,
-    "responseSamples": 1,
+    "medianResponseHours": 0,
+    "responseSamples": 3,
     "hasCI": true,
     "hasTests": false
   },
@@ -1199,13 +1199,13 @@
     "hasTests": false
   },
   "Berserk-hub150/moodle-ai-skill-navigator": {
-    "computedAt": "2026-10-15T08:23:21.556Z",
+    "computedAt": "2026-11-08T10:08:46.022Z",
     "outsiderPRs": 10,
-    "outsiderMergeRate": 0.8,
-    "mergedCount": 8,
+    "outsiderMergeRate": 0.9,
+    "mergedCount": 9,
     "rottingPRs": 0,
-    "medianResponseHours": 14,
-    "responseSamples": 15,
+    "medianResponseHours": 20,
+    "responseSamples": 18,
     "hasCI": true,
     "hasTests": true
   },
@@ -6963,13 +6963,13 @@
     "hasTests": false
   },
   "OpenChemistry/avogadrolibs": {
-    "computedAt": "2026-10-25T08:27:43.786Z",
-    "outsiderPRs": 5,
+    "computedAt": "2026-11-08T10:08:46.022Z",
+    "outsiderPRs": 4,
     "outsiderMergeRate": 1,
-    "mergedCount": 5,
+    "mergedCount": 4,
     "rottingPRs": 0,
-    "medianResponseHours": 1,
-    "responseSamples": 20,
+    "medianResponseHours": 0,
+    "responseSamples": 23,
     "hasCI": true,
     "hasTests": true
   },
@@ -11161,6 +11161,61 @@
     "rottingPRs": 0,
     "medianResponseHours": 2,
     "responseSamples": 36,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "F3-Nation/f3-nation": {
+    "computedAt": "2026-11-08T10:08:46.022Z",
+    "outsiderPRs": 12,
+    "outsiderMergeRate": 1,
+    "mergedCount": 12,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 1,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "OpenAdaptAI/OpenAdapt": {
+    "computedAt": "2026-11-08T10:08:46.022Z",
+    "outsiderPRs": 5,
+    "outsiderMergeRate": 0.8,
+    "mergedCount": 4,
+    "rottingPRs": 0,
+    "medianResponseHours": 0,
+    "responseSamples": 38,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "coder/coder": {
+    "computedAt": "2026-11-08T10:08:46.022Z",
+    "outsiderPRs": 3,
+    "outsiderMergeRate": 1,
+    "mergedCount": 3,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 1,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "tauri-apps/plugins-workspace": {
+    "computedAt": "2026-11-08T10:08:46.022Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 1,
+    "mergedCount": 8,
+    "rottingPRs": 0,
+    "medianResponseHours": 4,
+    "responseSamples": 4,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "Syntaf/wetrockpolice": {
+    "computedAt": "2026-11-08T10:08:46.022Z",
+    "outsiderPRs": 7,
+    "outsiderMergeRate": 0.2857142857142857,
+    "mergedCount": 2,
+    "rottingPRs": 0,
+    "medianResponseHours": 686,
+    "responseSamples": 6,
     "hasCI": true,
     "hasTests": true
   }
