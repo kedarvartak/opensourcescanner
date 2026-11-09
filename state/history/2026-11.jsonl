@@ -509,3 +509,36 @@
 {"ts":1794152731,"k":"OFFTKP/felix86#428","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1794152731,"k":"ohcnetwork/care_fe#13408","e":"dropped","why":"takeability: soft-claimed by devxsubh 0d ago"}
 {"ts":1794184169,"k":"grimmory-tools/grimmory#64","e":"dropped","why":"closed"}
+{"ts":1794222816,"k":"FreeCAD/FreeCAD#24567","e":"listed","sc":81}
+{"ts":1794222816,"k":"wso2/product-is#27917","e":"listed","sc":79}
+{"ts":1794222816,"k":"zowe/zowe-explorer-vscode#4015","e":"listed","sc":77}
+{"ts":1794222816,"k":"dnfui/dnf-ui#14","e":"listed","sc":77}
+{"ts":1794222816,"k":"doubledashdeluxe/ddd#307","e":"listed","sc":76}
+{"ts":1794222816,"k":"symfony/symfony#66090","e":"listed","sc":74}
+{"ts":1794222816,"k":"grimmory-tools/grimmory#2489","e":"listed","sc":74}
+{"ts":1794222816,"k":"OpenRailAssociation/netzgrafik-editor-frontend#1480","e":"listed","sc":66}
+{"ts":1794222816,"k":"grimmory-tools/grimmory#1477","e":"listed","sc":66}
+{"ts":1794222816,"k":"RMC-14/RMC-14#10452","e":"listed","sc":63}
+{"ts":1794222816,"k":"RMC-14/RMC-14#9664","e":"listed","sc":60}
+{"ts":1794222816,"k":"RMC-14/RMC-14#10012","e":"listed","sc":59}
+{"ts":1794222816,"k":"OpenAdaptAI/OpenAdapt#2039","e":"dropped","why":"not_in_board"}
+{"ts":1794222816,"k":"apache/sedona#2103","e":"dropped","why":"not_in_board"}
+{"ts":1794222816,"k":"symfony/symfony#66100","e":"dropped","why":"not_in_board"}
+{"ts":1794222816,"k":"eclipse-basyx/basyx-python-sdk#674","e":"dropped","why":"not_in_board"}
+{"ts":1794222816,"k":"bolshakov/stoplight#466","e":"dropped","why":"not_in_board"}
+{"ts":1794222816,"k":"wso2/product-is#27872","e":"dropped","why":"not_in_board"}
+{"ts":1794222816,"k":"outlmd/outl#94","e":"dropped","why":"not_in_board"}
+{"ts":1794222816,"k":"FreeCAD/FreeCAD#30833","e":"dropped","why":"not_in_board"}
+{"ts":1794222816,"k":"eclipse-basyx/basyx-python-sdk#670","e":"dropped","why":"not_in_board"}
+{"ts":1794222816,"k":"thunder-id/thunderid#3110","e":"dropped","why":"not_in_board"}
+{"ts":1794222816,"k":"decision-labs/geoai.js#99","e":"dropped","why":"not_in_board"}
+{"ts":1794222816,"k":"Minestom/Minestom#3199","e":"dropped","why":"not_in_board"}
+{"ts":1794222816,"k":"karakeep-app/karakeep#2364","e":"dropped","why":"not_in_board"}
+{"ts":1794222816,"k":"grimmory-tools/grimmory#64","e":"dropped","why":"not_in_board"}
+{"ts":1794222816,"k":"tqec/tqec#690","e":"dropped","why":"not_in_board"}
+{"ts":1794222816,"k":"frappe/erpnext#47847","e":"dropped","why":"not_in_board"}
+{"ts":1794222816,"k":"snowflakedb/terraform-provider-snowflake#4670","e":"dropped","why":"not_in_board"}
+{"ts":1794222816,"k":"OFFTKP/felix86#428","e":"dropped","why":"not_in_board"}
+{"ts":1794222816,"k":"ohcnetwork/care_fe#13408","e":"dropped","why":"not_in_board"}
+{"ts":1794222816,"k":"anurag3407/career-pilot#2718","e":"dropped","why":"not_in_board"}
+{"ts":1794222816,"k":"anurag3407/career-pilot#1539","e":"dropped","why":"not_in_board"}
