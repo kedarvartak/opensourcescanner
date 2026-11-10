@@ -549,3 +549,37 @@
 {"ts":1794252477,"k":"Submitty/Submitty#13588","e":"dropped","why":"takeability: soft-claimed by akshatmalik-bruh 0d ago"}
 {"ts":1794280084,"k":"canonical/multipass#4957","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1794280084,"k":"ChurchCRM/CRM#11145","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1794308857,"k":"jordigilh/kubernaut#787","e":"listed","sc":90}
+{"ts":1794308857,"k":"erikjuhani/basalt#63","e":"listed","sc":89}
+{"ts":1794308857,"k":"mrveiss/AutoBot-AI#20825","e":"listed","sc":84}
+{"ts":1794308857,"k":"mrveiss/AutoBot-AI#13534","e":"listed","sc":83}
+{"ts":1794308857,"k":"mrveiss/AutoBot-AI#13505","e":"listed","sc":83}
+{"ts":1794308857,"k":"mrveiss/AutoBot-AI#13230","e":"listed","sc":83}
+{"ts":1794308857,"k":"jordigilh/kubernaut#1038","e":"listed","sc":81}
+{"ts":1794308857,"k":"jordigilh/kubernaut#619","e":"listed","sc":80}
+{"ts":1794308857,"k":"jordigilh/kubernaut#1414","e":"listed","sc":79}
+{"ts":1794308857,"k":"hackforla/website#8702","e":"listed","sc":78}
+{"ts":1794308857,"k":"OpenRailAssociation/netzgrafik-editor-frontend#1482","e":"listed","sc":78}
+{"ts":1794308857,"k":"eclipse-fastbelt/fastbelt#51","e":"listed","sc":76}
+{"ts":1794308857,"k":"ArcadeMakerSources/ArcadeMaker#38","e":"listed","sc":71}
+{"ts":1794308857,"k":"krkn-chaos/krkn#1447","e":"listed","sc":69}
+{"ts":1794308857,"k":"thunder-id/thunderid#2096","e":"listed","sc":65}
+{"ts":1794308857,"k":"SimpleOpenSoftware/chronicle#84","e":"listed","sc":64}
+{"ts":1794308857,"k":"openchoreo/openchoreo#3931","e":"listed","sc":61}
+{"ts":1794308857,"k":"Azure/LogicAppsUX#8257","e":"listed","sc":61}
+{"ts":1794308857,"k":"keploy/keploy#2998","e":"listed","sc":59}
+{"ts":1794308857,"k":"kgateway-dev/kgateway#13282","e":"listed","sc":58}
+{"ts":1794308857,"k":"Scottcjn/Rustchain#166","e":"listed","sc":57}
+{"ts":1794308857,"k":"sourcebot-dev/sourcebot#815","e":"listed","sc":55}
+{"ts":1794308857,"k":"canonical/multipass#4957","e":"dropped","why":"not_in_board"}
+{"ts":1794308857,"k":"OpenRailAssociation/netzgrafik-editor-frontend#1465","e":"dropped","why":"not_in_board"}
+{"ts":1794308857,"k":"hackforla/website#8684","e":"dropped","why":"not_in_board"}
+{"ts":1794308857,"k":"goharbor/harbor-cli#863","e":"dropped","why":"not_in_board"}
+{"ts":1794308857,"k":"ChurchCRM/CRM#11145","e":"dropped","why":"not_in_board"}
+{"ts":1794308857,"k":"tauri-apps/plugins-workspace#2746","e":"dropped","why":"not_in_board"}
+{"ts":1794308857,"k":"WillCodeForCats/solaredge-modbus-multi#912","e":"dropped","why":"not_in_board"}
+{"ts":1794308857,"k":"ChurchCRM/CRM#9524","e":"dropped","why":"not_in_board"}
+{"ts":1794308857,"k":"OpenRailAssociation/netzgrafik-editor-frontend#1480","e":"dropped","why":"not_in_board"}
+{"ts":1794308857,"k":"thunder-id/thunderid#3111","e":"dropped","why":"not_in_board"}
+{"ts":1794308857,"k":"Submitty/Submitty#13588","e":"dropped","why":"not_in_board"}
+{"ts":1794308857,"k":"Azure/LogicAppsUX#8537","e":"dropped","why":"not_in_board"}

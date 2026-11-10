@@ -5082,13 +5082,13 @@
     "hasTests": true
   },
   "krkn-chaos/krkn": {
-    "computedAt": "2026-10-15T08:23:21.556Z",
-    "outsiderPRs": 4,
-    "outsiderMergeRate": 1,
-    "mergedCount": 4,
+    "computedAt": "2026-11-10T11:07:37.945Z",
+    "outsiderPRs": 5,
+    "outsiderMergeRate": 0.4,
+    "mergedCount": 2,
     "rottingPRs": 0,
-    "medianResponseHours": 132,
-    "responseSamples": 6,
+    "medianResponseHours": 3,
+    "responseSamples": 3,
     "hasCI": true,
     "hasTests": true
   },
@@ -11240,5 +11240,49 @@
     "responseSamples": 20,
     "hasCI": true,
     "hasTests": true
+  },
+  "SimpleOpenSoftware/chronicle": {
+    "computedAt": "2026-11-10T11:07:37.945Z",
+    "outsiderPRs": 5,
+    "outsiderMergeRate": 0.6,
+    "mergedCount": 3,
+    "rottingPRs": 0,
+    "medianResponseHours": 90,
+    "responseSamples": 8,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "Scottcjn/Rustchain": {
+    "computedAt": "2026-11-10T11:07:37.945Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 0,
+    "mergedCount": 0,
+    "rottingPRs": 0,
+    "medianResponseHours": 1058,
+    "responseSamples": 13,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "eclipse-fastbelt/fastbelt": {
+    "computedAt": "2026-11-10T11:07:37.945Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 0.875,
+    "mergedCount": 7,
+    "rottingPRs": 0,
+    "medianResponseHours": 118,
+    "responseSamples": 8,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "erikjuhani/basalt": {
+    "computedAt": "2026-11-10T11:07:37.945Z",
+    "outsiderPRs": 23,
+    "outsiderMergeRate": 1,
+    "mergedCount": 23,
+    "rottingPRs": 0,
+    "medianResponseHours": 26,
+    "responseSamples": 7,
+    "hasCI": true,
+    "hasTests": false
   }
 }
