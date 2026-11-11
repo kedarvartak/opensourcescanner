@@ -623,3 +623,7 @@
 {"ts":1794393438,"k":"rwmt/Multiplayer-Compatibility#605","e":"dropped","why":"not_in_board"}
 {"ts":1794393438,"k":"c2corg/v6_api#2114","e":"dropped","why":"not_in_board"}
 {"ts":1794393438,"k":"sourcebot-dev/sourcebot#815","e":"dropped","why":"not_in_board"}
+{"ts":1794415895,"k":"ray-project/ray#60552","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1794415895,"k":"inpsyde/WP-Stash#50","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1794415895,"k":"puzzle/skills#1030","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1794415895,"k":"lance-format/lance#5602","e":"dropped","why":"takeability: open linked PR"}
