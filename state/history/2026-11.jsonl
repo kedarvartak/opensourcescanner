@@ -587,3 +587,39 @@
 {"ts":1794329160,"k":"openchoreo/openchoreo#3931","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1794358753,"k":"inference-sim/inference-sim#1427","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1794358753,"k":"F3-Nation/f3-nation#86","e":"dropped","why":"takeability: merged linked PR (stale)"}
+{"ts":1794393438,"k":"prefix-dev/pixi#4504","e":"listed","sc":89}
+{"ts":1794393438,"k":"writerslogic/warm#10","e":"listed","sc":86}
+{"ts":1794393438,"k":"OpenAdaptAI/OpenAdapt#2039","e":"listed","sc":84}
+{"ts":1794393438,"k":"FreeCAD/FreeCAD#30833","e":"listed","sc":81}
+{"ts":1794393438,"k":"prefix-dev/pixi#5609","e":"listed","sc":80}
+{"ts":1794393438,"k":"prefix-dev/pixi#5651","e":"listed","sc":78}
+{"ts":1794393438,"k":"CurvineIO/curvine#520","e":"listed","sc":76}
+{"ts":1794393438,"k":"inpsyde/WP-Stash#50","e":"listed","sc":74}
+{"ts":1794393438,"k":"omines/antispam-bundle#69","e":"listed","sc":71}
+{"ts":1794393438,"k":"GraphiteEditor/Graphite#2807","e":"listed","sc":70}
+{"ts":1794393438,"k":"XRPLF/rippled#6751","e":"listed","sc":70}
+{"ts":1794393438,"k":"git-bahn/git-igitt#78","e":"listed","sc":67}
+{"ts":1794393438,"k":"GraphiteEditor/Graphite#3771","e":"listed","sc":64}
+{"ts":1794393438,"k":"aws/aws-cdk#35516","e":"listed","sc":63}
+{"ts":1794393438,"k":"diennea/carapaceproxy#551","e":"listed","sc":61}
+{"ts":1794393438,"k":"Azure/LogicAppsUX#8537","e":"listed","sc":60}
+{"ts":1794393438,"k":"inference-sim/inference-sim#1427","e":"dropped","why":"not_in_board"}
+{"ts":1794393438,"k":"jordigilh/kubernaut#787","e":"dropped","why":"not_in_board"}
+{"ts":1794393438,"k":"jordigilh/kubernaut#1038","e":"dropped","why":"not_in_board"}
+{"ts":1794393438,"k":"FreeCAD/FreeCAD#24567","e":"dropped","why":"not_in_board"}
+{"ts":1794393438,"k":"Qiskit/qiskit#14970","e":"dropped","why":"not_in_board"}
+{"ts":1794393438,"k":"jordigilh/kubernaut#619","e":"dropped","why":"not_in_board"}
+{"ts":1794393438,"k":"jordigilh/kubernaut#1414","e":"dropped","why":"not_in_board"}
+{"ts":1794393438,"k":"coconut-svsm/svsm#1089","e":"dropped","why":"not_in_board"}
+{"ts":1794393438,"k":"dnfui/dnf-ui#14","e":"dropped","why":"not_in_board"}
+{"ts":1794393438,"k":"generative-computing/mellea#263","e":"dropped","why":"not_in_board"}
+{"ts":1794393438,"k":"getsentry/sentry-dotnet#5368","e":"dropped","why":"not_in_board"}
+{"ts":1794393438,"k":"linux-credentials/credentialsd#25","e":"dropped","why":"not_in_board"}
+{"ts":1794393438,"k":"grimmory-tools/grimmory#1477","e":"dropped","why":"not_in_board"}
+{"ts":1794393438,"k":"F3-Nation/f3-nation#86","e":"dropped","why":"not_in_board"}
+{"ts":1794393438,"k":"uutils/coreutils#7995","e":"dropped","why":"not_in_board"}
+{"ts":1794393438,"k":"openchoreo/openchoreo#3931","e":"dropped","why":"not_in_board"}
+{"ts":1794393438,"k":"Azure/LogicAppsUX#8257","e":"dropped","why":"not_in_board"}
+{"ts":1794393438,"k":"rwmt/Multiplayer-Compatibility#605","e":"dropped","why":"not_in_board"}
+{"ts":1794393438,"k":"c2corg/v6_api#2114","e":"dropped","why":"not_in_board"}
+{"ts":1794393438,"k":"sourcebot-dev/sourcebot#815","e":"dropped","why":"not_in_board"}

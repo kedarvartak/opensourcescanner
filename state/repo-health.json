@@ -5181,13 +5181,13 @@
     "hasTests": true
   },
   "canonical/mir": {
-    "computedAt": "2026-08-20T04:06:35.616Z",
-    "outsiderPRs": 13,
-    "outsiderMergeRate": 0.7692307692307693,
-    "mergedCount": 10,
+    "computedAt": "2026-11-11T10:37:18.440Z",
+    "outsiderPRs": 6,
+    "outsiderMergeRate": 0.5,
+    "mergedCount": 3,
     "rottingPRs": 0,
     "medianResponseHours": null,
-    "responseSamples": 0,
+    "responseSamples": 1,
     "hasCI": true,
     "hasTests": true
   },
@@ -5874,13 +5874,13 @@
     "hasTests": true
   },
   "GraphiteEditor/Graphite": {
-    "computedAt": "2026-11-01T10:22:56.077Z",
+    "computedAt": "2026-11-11T10:37:18.440Z",
     "outsiderPRs": 0,
     "outsiderMergeRate": null,
     "mergedCount": 0,
     "rottingPRs": 0,
     "medianResponseHours": 1,
-    "responseSamples": 5,
+    "responseSamples": 7,
     "hasCI": true,
     "hasTests": false
   },
@@ -7524,10 +7524,10 @@
     "hasTests": true
   },
   "XRPLF/rippled": {
-    "computedAt": "2026-10-15T08:23:21.556Z",
-    "outsiderPRs": 10,
-    "outsiderMergeRate": 1,
-    "mergedCount": 10,
+    "computedAt": "2026-11-11T10:37:18.440Z",
+    "outsiderPRs": 5,
+    "outsiderMergeRate": 0.8,
+    "mergedCount": 4,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 0,
@@ -7810,11 +7810,11 @@
     "hasTests": false
   },
   "fjall-rs/lsm-tree": {
-    "computedAt": "2026-09-13T08:19:04.690Z",
+    "computedAt": "2026-11-11T10:37:18.440Z",
     "outsiderPRs": 17,
-    "outsiderMergeRate": 0.7058823529411765,
-    "mergedCount": 12,
-    "rottingPRs": 5,
+    "outsiderMergeRate": 0.6470588235294118,
+    "mergedCount": 11,
+    "rottingPRs": 8,
     "medianResponseHours": null,
     "responseSamples": 0,
     "hasCI": true,
@@ -9790,7 +9790,7 @@
     "hasTests": false
   },
   "omines/antispam-bundle": {
-    "computedAt": "2026-10-25T08:27:43.786Z",
+    "computedAt": "2026-11-11T10:37:18.440Z",
     "outsiderPRs": 21,
     "outsiderMergeRate": 0.47619047619047616,
     "mergedCount": 10,
@@ -11284,5 +11284,71 @@
     "responseSamples": 7,
     "hasCI": true,
     "hasTests": false
+  },
+  "aws/aws-cdk": {
+    "computedAt": "2026-11-11T10:37:18.440Z",
+    "outsiderPRs": 9,
+    "outsiderMergeRate": 0.7777777777777778,
+    "mergedCount": 7,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "CurvineIO/curvine": {
+    "computedAt": "2026-11-11T10:37:18.440Z",
+    "outsiderPRs": 19,
+    "outsiderMergeRate": 0.9473684210526315,
+    "mergedCount": 18,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 1,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "git-bahn/git-igitt": {
+    "computedAt": "2026-11-11T10:37:18.440Z",
+    "outsiderPRs": 10,
+    "outsiderMergeRate": 0.9,
+    "mergedCount": 9,
+    "rottingPRs": 0,
+    "medianResponseHours": 100,
+    "responseSamples": 18,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "writerslogic/warm": {
+    "computedAt": "2026-11-11T10:37:18.440Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 1,
+    "mergedCount": 4,
+    "rottingPRs": 0,
+    "medianResponseHours": 175,
+    "responseSamples": 9,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "diennea/carapaceproxy": {
+    "computedAt": "2026-11-11T10:37:18.440Z",
+    "outsiderPRs": 25,
+    "outsiderMergeRate": 0.96,
+    "mergedCount": 24,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "inpsyde/WP-Stash": {
+    "computedAt": "2026-11-11T10:37:18.440Z",
+    "outsiderPRs": 13,
+    "outsiderMergeRate": 0.8461538461538461,
+    "mergedCount": 11,
+    "rottingPRs": 0,
+    "medianResponseHours": 151,
+    "responseSamples": 18,
+    "hasCI": true,
+    "hasTests": true
   }
 }
