@@ -585,3 +585,5 @@
 {"ts":1794308857,"k":"Azure/LogicAppsUX#8537","e":"dropped","why":"not_in_board"}
 {"ts":1794329160,"k":"uutils/coreutils#7995","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1794329160,"k":"openchoreo/openchoreo#3931","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1794358753,"k":"inference-sim/inference-sim#1427","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1794358753,"k":"F3-Nation/f3-nation#86","e":"dropped","why":"takeability: merged linked PR (stale)"}
