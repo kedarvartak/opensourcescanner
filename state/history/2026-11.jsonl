@@ -630,3 +630,34 @@
 {"ts":1794449155,"k":"OpenChemistry/avogadrolibs#2095","e":"dropped","why":"takeability: soft-claimed by KJhenelle 0d ago"}
 {"ts":1794449155,"k":"MobiFlight/MobiFlight-Connector#2717","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1794449155,"k":"perses/perses#3202","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1794481260,"k":"sympozium-ai/sympozium#252","e":"listed","sc":90}
+{"ts":1794481260,"k":"jordigilh/kubernaut#787","e":"listed","sc":88}
+{"ts":1794481260,"k":"inpsyde/multisyde#31","e":"listed","sc":86}
+{"ts":1794481260,"k":"jordigilh/kubernaut#1038","e":"listed","sc":79}
+{"ts":1794481260,"k":"inpsyde/multisyde#30","e":"listed","sc":79}
+{"ts":1794481260,"k":"graphistry/pygraphistry#1100","e":"listed","sc":79}
+{"ts":1794481260,"k":"jordigilh/kubernaut#619","e":"listed","sc":78}
+{"ts":1794481260,"k":"goharbor/harbor-cli#863","e":"listed","sc":78}
+{"ts":1794481260,"k":"jordigilh/kubernaut#1414","e":"listed","sc":77}
+{"ts":1794481260,"k":"lightninglabs/wavelength#665","e":"listed","sc":73}
+{"ts":1794481260,"k":"c2corg/v6_api#2114","e":"listed","sc":69}
+{"ts":1794481260,"k":"EnAccess/micropowermanager#1749","e":"listed","sc":69}
+{"ts":1794481260,"k":"aethersdr/AetherSDR#3911","e":"listed","sc":67}
+{"ts":1794481260,"k":"tqec/tqec#690","e":"listed","sc":62}
+{"ts":1794481260,"k":"DIGI-UW/OpenELIS-Global-2#2895","e":"listed","sc":60}
+{"ts":1794481260,"k":"luuuc/sense#170","e":"listed","sc":59}
+{"ts":1794481260,"k":"eclipse-windowbuilder/windowbuilder#1595","e":"listed","sc":59}
+{"ts":1794481260,"k":"apache/iggy#2517","e":"listed","sc":58}
+{"ts":1794481260,"k":"eunomia-bpf/bpftime#505","e":"dropped","why":"not_in_board"}
+{"ts":1794481260,"k":"kubefleet-dev/kubefleet#663","e":"dropped","why":"not_in_board"}
+{"ts":1794481260,"k":"OpenChemistry/avogadrolibs#2095","e":"dropped","why":"not_in_board"}
+{"ts":1794481260,"k":"ray-project/ray#60552","e":"dropped","why":"not_in_board"}
+{"ts":1794481260,"k":"MobiFlight/MobiFlight-Connector#2717","e":"dropped","why":"not_in_board"}
+{"ts":1794481260,"k":"agntcy/dir#1588","e":"dropped","why":"not_in_board"}
+{"ts":1794481260,"k":"inpsyde/WP-Stash#50","e":"dropped","why":"not_in_board"}
+{"ts":1794481260,"k":"puzzle/skills#1030","e":"dropped","why":"not_in_board"}
+{"ts":1794481260,"k":"aethersdr/AetherSDR#3648","e":"dropped","why":"not_in_board"}
+{"ts":1794481260,"k":"lance-format/lance#5602","e":"dropped","why":"not_in_board"}
+{"ts":1794481260,"k":"opensearch-project/k-NN#3357","e":"dropped","why":"not_in_board"}
+{"ts":1794481260,"k":"perses/perses#3202","e":"dropped","why":"not_in_board"}
+{"ts":1794481260,"k":"ChurchCRM/CRM#8900","e":"dropped","why":"not_in_board"}
