@@ -4422,13 +4422,13 @@
     "hasTests": true
   },
   "unoplatform/uno": {
-    "computedAt": "2026-10-21T08:42:41.248Z",
+    "computedAt": "2026-11-13T10:51:36.576Z",
     "outsiderPRs": 2,
     "outsiderMergeRate": 0.5,
     "mergedCount": 1,
     "rottingPRs": 0,
-    "medianResponseHours": 11,
-    "responseSamples": 3,
+    "medianResponseHours": null,
+    "responseSamples": 2,
     "hasCI": true,
     "hasTests": false
   },
@@ -8877,13 +8877,13 @@
     "hasTests": false
   },
   "abhinavxd/libredesk": {
-    "computedAt": "2026-11-01T10:22:56.077Z",
-    "outsiderPRs": 3,
-    "outsiderMergeRate": 0.6666666666666666,
-    "mergedCount": 2,
+    "computedAt": "2026-11-13T10:51:36.576Z",
+    "outsiderPRs": 2,
+    "outsiderMergeRate": 0.5,
+    "mergedCount": 1,
     "rottingPRs": 0,
-    "medianResponseHours": 20,
-    "responseSamples": 4,
+    "medianResponseHours": 51,
+    "responseSamples": 8,
     "hasCI": true,
     "hasTests": false
   },
@@ -11405,5 +11405,60 @@
     "responseSamples": 14,
     "hasCI": true,
     "hasTests": true
+  },
+  "bitcart/bitcart": {
+    "computedAt": "2026-11-13T10:51:36.576Z",
+    "outsiderPRs": 11,
+    "outsiderMergeRate": 0.45454545454545453,
+    "mergedCount": 5,
+    "rottingPRs": 4,
+    "medianResponseHours": 53,
+    "responseSamples": 3,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "kernelshard/expose": {
+    "computedAt": "2026-11-13T10:51:36.576Z",
+    "outsiderPRs": 1,
+    "outsiderMergeRate": 1,
+    "mergedCount": 1,
+    "rottingPRs": 0,
+    "medianResponseHours": 124,
+    "responseSamples": 3,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "apache/fluss": {
+    "computedAt": "2026-11-13T10:51:36.576Z",
+    "outsiderPRs": 1,
+    "outsiderMergeRate": 1,
+    "mergedCount": 1,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 1,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "PrimeBuild-pc/TweakHub": {
+    "computedAt": "2026-11-13T10:51:36.576Z",
+    "outsiderPRs": 2,
+    "outsiderMergeRate": 1,
+    "mergedCount": 2,
+    "rottingPRs": 0,
+    "medianResponseHours": 7,
+    "responseSamples": 3,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "forem/forem": {
+    "computedAt": "2026-11-13T10:51:36.576Z",
+    "outsiderPRs": 18,
+    "outsiderMergeRate": 0.9444444444444444,
+    "mergedCount": 17,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": false
   }
 }
