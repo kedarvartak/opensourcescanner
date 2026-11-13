@@ -692,3 +692,7 @@
 {"ts":1794567096,"k":"actualbudget/actual#6345","e":"dropped","why":"not_in_board"}
 {"ts":1794567096,"k":"Azure/LogicAppsUX#8555","e":"dropped","why":"not_in_board"}
 {"ts":1794567096,"k":"anurag3407/career-pilot#2702","e":"dropped","why":"not_in_board"}
+{"ts":1794588933,"k":"bolshakov/stoplight#813","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1794588933,"k":"camunda/camunda-modeler#5911","e":"dropped","why":"takeability: soft-claimed by abarnaanbazhagan2727 0d ago"}
+{"ts":1794588933,"k":"forem/forem#24791","e":"dropped","why":"takeability: soft-claimed by Voyagerroc 0d ago"}
+{"ts":1794588933,"k":"winboat-org/winboat#178","e":"dropped","why":"relevance: no activity in 120d"}
