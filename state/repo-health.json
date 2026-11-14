@@ -374,7 +374,7 @@
     "hasTests": false
   },
   "open-feature/python-sdk": {
-    "computedAt": "2026-10-15T08:23:21.556Z",
+    "computedAt": "2026-11-14T10:07:49.821Z",
     "outsiderPRs": 22,
     "outsiderMergeRate": 1,
     "mergedCount": 22,
@@ -1100,13 +1100,13 @@
     "hasTests": true
   },
   "unchihugo/FluentFlyout": {
-    "computedAt": "2026-11-07T09:54:20.447Z",
+    "computedAt": "2026-11-14T10:07:49.821Z",
     "outsiderPRs": 8,
     "outsiderMergeRate": 0.875,
     "mergedCount": 7,
     "rottingPRs": 0,
-    "medianResponseHours": 4,
-    "responseSamples": 11,
+    "medianResponseHours": 13,
+    "responseSamples": 7,
     "hasCI": true,
     "hasTests": false
   },
@@ -2343,13 +2343,13 @@
     "hasTests": true
   },
   "backstage/backstage": {
-    "computedAt": "2026-08-24T04:13:45.422Z",
-    "outsiderPRs": 0,
-    "outsiderMergeRate": null,
-    "mergedCount": 0,
+    "computedAt": "2026-11-14T10:07:49.821Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 0.75,
+    "mergedCount": 3,
     "rottingPRs": 0,
-    "medianResponseHours": 13,
-    "responseSamples": 18,
+    "medianResponseHours": 3,
+    "responseSamples": 3,
     "hasCI": true,
     "hasTests": false
   },
@@ -4598,12 +4598,12 @@
     "hasTests": false
   },
   "LibreSign/libresign": {
-    "computedAt": "2026-11-01T10:22:56.077Z",
-    "outsiderPRs": 5,
+    "computedAt": "2026-11-14T10:07:49.821Z",
+    "outsiderPRs": 6,
     "outsiderMergeRate": 1,
-    "mergedCount": 5,
+    "mergedCount": 6,
     "rottingPRs": 0,
-    "medianResponseHours": 55,
+    "medianResponseHours": 12,
     "responseSamples": 9,
     "hasCI": true,
     "hasTests": true
@@ -4917,13 +4917,13 @@
     "hasTests": false
   },
   "kestra-io/kestra": {
-    "computedAt": "2026-10-03T09:11:20.103Z",
-    "outsiderPRs": 0,
-    "outsiderMergeRate": null,
-    "mergedCount": 0,
+    "computedAt": "2026-11-14T10:07:49.821Z",
+    "outsiderPRs": 2,
+    "outsiderMergeRate": 0.5,
+    "mergedCount": 1,
     "rottingPRs": 0,
-    "medianResponseHours": null,
-    "responseSamples": 0,
+    "medianResponseHours": 19,
+    "responseSamples": 13,
     "hasCI": true,
     "hasTests": true
   },
@@ -5786,13 +5786,13 @@
     "hasTests": true
   },
   "az-digital/az_quickstart": {
-    "computedAt": "2026-08-26T04:20:57.830Z",
-    "outsiderPRs": 20,
-    "outsiderMergeRate": 0.8,
-    "mergedCount": 16,
+    "computedAt": "2026-11-14T10:07:49.821Z",
+    "outsiderPRs": 13,
+    "outsiderMergeRate": 1,
+    "mergedCount": 13,
     "rottingPRs": 0,
     "medianResponseHours": 21,
-    "responseSamples": 9,
+    "responseSamples": 5,
     "hasCI": true,
     "hasTests": false
   },
@@ -6908,13 +6908,13 @@
     "hasTests": true
   },
   "hydroshare/hydroshare": {
-    "computedAt": "2026-10-18T08:10:17.334Z",
-    "outsiderPRs": 11,
-    "outsiderMergeRate": 0.8181818181818182,
-    "mergedCount": 9,
+    "computedAt": "2026-11-14T10:07:49.821Z",
+    "outsiderPRs": 13,
+    "outsiderMergeRate": 0.7692307692307693,
+    "mergedCount": 10,
     "rottingPRs": 0,
-    "medianResponseHours": null,
-    "responseSamples": 0,
+    "medianResponseHours": 3,
+    "responseSamples": 3,
     "hasCI": true,
     "hasTests": false
   },
@@ -7238,10 +7238,10 @@
     "hasTests": false
   },
   "donetick/donetick": {
-    "computedAt": "2026-11-07T09:54:20.447Z",
-    "outsiderPRs": 16,
+    "computedAt": "2026-11-14T10:07:49.821Z",
+    "outsiderPRs": 19,
     "outsiderMergeRate": 1,
-    "mergedCount": 16,
+    "mergedCount": 19,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 0,
@@ -7832,10 +7832,10 @@
     "hasTests": true
   },
   "blaizio/blaizio": {
-    "computedAt": "2026-09-20T08:38:58.909Z",
-    "outsiderPRs": 24,
-    "outsiderMergeRate": 0.6666666666666666,
-    "mergedCount": 16,
+    "computedAt": "2026-11-14T10:07:49.821Z",
+    "outsiderPRs": 23,
+    "outsiderMergeRate": 0.6521739130434783,
+    "mergedCount": 15,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 0,
@@ -10219,10 +10219,10 @@
     "hasTests": false
   },
   "ChurchCRM/CRM": {
-    "computedAt": "2026-11-04T10:46:14.558Z",
-    "outsiderPRs": 23,
-    "outsiderMergeRate": 0.9130434782608695,
-    "mergedCount": 21,
+    "computedAt": "2026-11-14T10:07:49.821Z",
+    "outsiderPRs": 15,
+    "outsiderMergeRate": 0.9333333333333333,
+    "mergedCount": 14,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 0,
@@ -11088,18 +11088,18 @@
     "hasTests": false
   },
   "codeforboston/maple": {
-    "computedAt": "2026-11-07T09:54:20.447Z",
-    "outsiderPRs": 7,
-    "outsiderMergeRate": 0.7142857142857143,
-    "mergedCount": 5,
+    "computedAt": "2026-11-14T10:07:49.821Z",
+    "outsiderPRs": 13,
+    "outsiderMergeRate": 0.8461538461538461,
+    "mergedCount": 11,
     "rottingPRs": 0,
-    "medianResponseHours": 4,
+    "medianResponseHours": 17,
     "responseSamples": 5,
     "hasCI": true,
     "hasTests": true
   },
   "gephi/gephi-lite": {
-    "computedAt": "2026-11-07T09:54:20.447Z",
+    "computedAt": "2026-11-14T10:07:49.821Z",
     "outsiderPRs": 14,
     "outsiderMergeRate": 0.35714285714285715,
     "mergedCount": 5,
@@ -11110,10 +11110,10 @@
     "hasTests": false
   },
   "ClickHouse/ClickStack": {
-    "computedAt": "2026-11-07T09:54:20.447Z",
-    "outsiderPRs": 10,
-    "outsiderMergeRate": 0.9,
-    "mergedCount": 9,
+    "computedAt": "2026-11-14T10:07:49.821Z",
+    "outsiderPRs": 3,
+    "outsiderMergeRate": 0.6666666666666666,
+    "mergedCount": 2,
     "rottingPRs": 0,
     "medianResponseHours": 4,
     "responseSamples": 7,
@@ -11121,7 +11121,7 @@
     "hasTests": false
   },
   "maldoinc/wireup": {
-    "computedAt": "2026-11-07T09:54:20.447Z",
+    "computedAt": "2026-11-14T10:07:49.821Z",
     "outsiderPRs": 18,
     "outsiderMergeRate": 0.7222222222222222,
     "mergedCount": 13,
@@ -11132,21 +11132,21 @@
     "hasTests": true
   },
   "natcap/invest": {
-    "computedAt": "2026-11-07T09:54:20.447Z",
-    "outsiderPRs": 19,
-    "outsiderMergeRate": 0.8421052631578947,
+    "computedAt": "2026-11-14T10:07:49.821Z",
+    "outsiderPRs": 20,
+    "outsiderMergeRate": 0.8,
     "mergedCount": 16,
     "rottingPRs": 0,
-    "medianResponseHours": 25,
-    "responseSamples": 4,
+    "medianResponseHours": 34,
+    "responseSamples": 6,
     "hasCI": true,
     "hasTests": true
   },
   "Aiven-Open/bigquery-connector-for-apache-kafka": {
-    "computedAt": "2026-11-07T09:54:20.447Z",
-    "outsiderPRs": 9,
-    "outsiderMergeRate": 0.7777777777777778,
-    "mergedCount": 7,
+    "computedAt": "2026-11-14T10:07:49.821Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 0.75,
+    "mergedCount": 6,
     "rottingPRs": 0,
     "medianResponseHours": null,
     "responseSamples": 0,
@@ -11154,13 +11154,13 @@
     "hasTests": false
   },
   "yegor256/mailanes": {
-    "computedAt": "2026-11-07T09:54:20.447Z",
-    "outsiderPRs": 21,
+    "computedAt": "2026-11-14T10:07:49.821Z",
+    "outsiderPRs": 20,
     "outsiderMergeRate": 1,
-    "mergedCount": 21,
+    "mergedCount": 20,
     "rottingPRs": 0,
     "medianResponseHours": 2,
-    "responseSamples": 36,
+    "responseSamples": 31,
     "hasCI": true,
     "hasTests": true
   },
@@ -11460,5 +11460,104 @@
     "responseSamples": 0,
     "hasCI": true,
     "hasTests": false
+  },
+  "slaurent22/hk-split-maker": {
+    "computedAt": "2026-11-14T10:07:49.821Z",
+    "outsiderPRs": 22,
+    "outsiderMergeRate": 0.9545454545454546,
+    "mergedCount": 21,
+    "rottingPRs": 0,
+    "medianResponseHours": 0,
+    "responseSamples": 17,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "Scottcjn/rustchain-bounties": {
+    "computedAt": "2026-11-14T10:07:49.821Z",
+    "outsiderPRs": 6,
+    "outsiderMergeRate": 0,
+    "mergedCount": 0,
+    "rottingPRs": 0,
+    "medianResponseHours": 10,
+    "responseSamples": 7,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "tBuLi/kingdon": {
+    "computedAt": "2026-11-14T10:07:49.821Z",
+    "outsiderPRs": 5,
+    "outsiderMergeRate": 0.6,
+    "mergedCount": 3,
+    "rottingPRs": 0,
+    "medianResponseHours": 134,
+    "responseSamples": 12,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "TUM-Dev/gocast": {
+    "computedAt": "2026-11-14T10:07:49.821Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 1,
+    "mergedCount": 4,
+    "rottingPRs": 0,
+    "medianResponseHours": 163,
+    "responseSamples": 11,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "open-cluster-management-io/ocm": {
+    "computedAt": "2026-11-14T10:07:49.821Z",
+    "outsiderPRs": 11,
+    "outsiderMergeRate": 0.7272727272727273,
+    "mergedCount": 8,
+    "rottingPRs": 0,
+    "medianResponseHours": 8,
+    "responseSamples": 23,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "JakeStanger/ironbar": {
+    "computedAt": "2026-11-14T10:07:49.821Z",
+    "outsiderPRs": 13,
+    "outsiderMergeRate": 0.9230769230769231,
+    "mergedCount": 12,
+    "rottingPRs": 0,
+    "medianResponseHours": 8,
+    "responseSamples": 14,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "symgraph/GhidrAssistMCP": {
+    "computedAt": "2026-11-14T10:07:49.821Z",
+    "outsiderPRs": 21,
+    "outsiderMergeRate": 0.8571428571428571,
+    "mergedCount": 18,
+    "rottingPRs": 0,
+    "medianResponseHours": 47,
+    "responseSamples": 20,
+    "hasCI": false,
+    "hasTests": false
+  },
+  "open-feature/php-sdk": {
+    "computedAt": "2026-11-14T10:07:49.821Z",
+    "outsiderPRs": 15,
+    "outsiderMergeRate": 0.8,
+    "mergedCount": 12,
+    "rottingPRs": 0,
+    "medianResponseHours": 5,
+    "responseSamples": 8,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "serveroshq/panel": {
+    "computedAt": "2026-11-14T10:07:49.821Z",
+    "outsiderPRs": 11,
+    "outsiderMergeRate": 1,
+    "mergedCount": 11,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": true
   }
 }
