@@ -755,3 +755,11 @@
 {"ts":1794650869,"k":"aws/aws-cdk#35516","e":"dropped","why":"not_in_board"}
 {"ts":1794650869,"k":"Azure/LogicAppsUX#8257","e":"dropped","why":"not_in_board"}
 {"ts":1794650869,"k":"winboat-org/winboat#178","e":"dropped","why":"not_in_board"}
+{"ts":1794670263,"k":"LibreSign/libresign#9473","e":"dropped","why":"takeability: assigned"}
+{"ts":1794670263,"k":"kubefleet-dev/kubefleet#677","e":"dropped","why":"takeability: soft-claimed by AuricX 0d ago"}
+{"ts":1794670263,"k":"yegor256/mailanes#267","e":"dropped","why":"takeability: assigned"}
+{"ts":1794670263,"k":"coder/coder#25693","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1794670263,"k":"serveroshq/panel#17","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1794670263,"k":"serveroshq/panel#14","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1794670263,"k":"mne-tools/mne-connectivity#504","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1794670263,"k":"Kuadrant/mcp-gateway#820","e":"dropped","why":"relevance: no activity in 120d"}
