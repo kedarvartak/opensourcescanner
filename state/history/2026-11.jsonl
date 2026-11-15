@@ -763,3 +763,11 @@
 {"ts":1794670263,"k":"serveroshq/panel#14","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1794670263,"k":"mne-tools/mne-connectivity#504","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1794670263,"k":"Kuadrant/mcp-gateway#820","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1794703384,"k":"backstage/backstage#32834","e":"dropped","why":"takeability: soft-claimed by savisaluwadana 0d ago"}
+{"ts":1794703384,"k":"backstage/backstage#30740","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1794703384,"k":"serveroshq/panel#11","e":"dropped","why":"closed"}
+{"ts":1794703384,"k":"serveroshq/panel#12","e":"dropped","why":"closed"}
+{"ts":1794703384,"k":"getsentry/sentry-python#4782","e":"dropped","why":"takeability: soft-claimed by PCTEJA 0d ago"}
+{"ts":1794703384,"k":"ChurchCRM/CRM#11467","e":"dropped","why":"closed"}
+{"ts":1794703384,"k":"MobiFlight/MobiFlight-Connector#2808","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1794703384,"k":"elabftw/elabftw#7576","e":"dropped","why":"takeability: open linked PR"}
