@@ -946,13 +946,13 @@
     "hasTests": false
   },
   "Apicurio/apicurio-registry": {
-    "computedAt": "2026-11-08T10:08:46.022Z",
-    "outsiderPRs": 6,
+    "computedAt": "2026-11-15T10:39:50.094Z",
+    "outsiderPRs": 9,
     "outsiderMergeRate": 1,
-    "mergedCount": 6,
+    "mergedCount": 9,
     "rottingPRs": 0,
-    "medianResponseHours": 0,
-    "responseSamples": 3,
+    "medianResponseHours": 2,
+    "responseSamples": 6,
     "hasCI": true,
     "hasTests": false
   },
@@ -1199,7 +1199,7 @@
     "hasTests": false
   },
   "Berserk-hub150/moodle-ai-skill-navigator": {
-    "computedAt": "2026-11-08T10:08:46.022Z",
+    "computedAt": "2026-11-15T10:39:50.094Z",
     "outsiderPRs": 10,
     "outsiderMergeRate": 0.9,
     "mergedCount": 9,
@@ -4928,13 +4928,13 @@
     "hasTests": true
   },
   "medplum/medplum": {
-    "computedAt": "2026-09-12T07:58:40.439Z",
-    "outsiderPRs": 4,
-    "outsiderMergeRate": 0.75,
+    "computedAt": "2026-11-15T10:39:50.094Z",
+    "outsiderPRs": 3,
+    "outsiderMergeRate": 1,
     "mergedCount": 3,
     "rottingPRs": 0,
-    "medianResponseHours": 4,
-    "responseSamples": 6,
+    "medianResponseHours": 5,
+    "responseSamples": 13,
     "hasCI": true,
     "hasTests": false
   },
@@ -11176,13 +11176,13 @@
     "hasTests": false
   },
   "OpenAdaptAI/OpenAdapt": {
-    "computedAt": "2026-11-08T10:08:46.022Z",
-    "outsiderPRs": 5,
-    "outsiderMergeRate": 0.8,
-    "mergedCount": 4,
+    "computedAt": "2026-11-15T10:39:50.094Z",
+    "outsiderPRs": 0,
+    "outsiderMergeRate": null,
+    "mergedCount": 0,
     "rottingPRs": 0,
-    "medianResponseHours": 0,
-    "responseSamples": 38,
+    "medianResponseHours": 1,
+    "responseSamples": 30,
     "hasCI": true,
     "hasTests": true
   },
@@ -11559,5 +11559,27 @@
     "responseSamples": 0,
     "hasCI": true,
     "hasTests": true
+  },
+  "architecture-building-systems/CityEnergyAnalyst": {
+    "computedAt": "2026-11-15T10:39:50.094Z",
+    "outsiderPRs": 4,
+    "outsiderMergeRate": 0.75,
+    "mergedCount": 3,
+    "rottingPRs": 0,
+    "medianResponseHours": 30,
+    "responseSamples": 10,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "avniproject/avni-server": {
+    "computedAt": "2026-11-15T10:39:50.094Z",
+    "outsiderPRs": 6,
+    "outsiderMergeRate": 0.5,
+    "mergedCount": 3,
+    "rottingPRs": 9,
+    "medianResponseHours": 81,
+    "responseSamples": 8,
+    "hasCI": true,
+    "hasTests": false
   }
 }
