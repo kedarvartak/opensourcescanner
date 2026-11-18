@@ -910,3 +910,5 @@
 {"ts":1794938780,"k":"MerginMaps/mobile#4464","e":"dropped","why":"relevance: no activity in 120d"}
 {"ts":1794969770,"k":"LibreSign/libresign#9499","e":"dropped","why":"takeability: soft-claimed by gustavoreino 0d ago"}
 {"ts":1794969770,"k":"ChurchCRM/CRM#11583","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1795023947,"k":"open-cluster-management-io/ocm#1346","e":"dropped","why":"takeability: assigned"}
+{"ts":1795023947,"k":"datazip-inc/olake-go#670","e":"dropped","why":"takeability: soft-claimed by Rakshitha783 0d ago"}
