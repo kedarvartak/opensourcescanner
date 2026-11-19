@@ -913,3 +913,10 @@
 {"ts":1795023947,"k":"open-cluster-management-io/ocm#1346","e":"dropped","why":"takeability: assigned"}
 {"ts":1795023947,"k":"datazip-inc/olake-go#670","e":"dropped","why":"takeability: soft-claimed by Rakshitha783 0d ago"}
 {"ts":1795054433,"k":"backstage/backstage#31487","e":"dropped","why":"takeability: soft-claimed by ciiay 0d ago"}
+{"ts":1795111010,"k":"backstage/backstage#31752","e":"dropped","why":"takeability: assigned"}
+{"ts":1795111010,"k":"ChurchCRM/CRM#11471","e":"dropped","why":"takeability: merged linked PR (stale)"}
+{"ts":1795111010,"k":"f3d-app/f3d#2849","e":"dropped","why":"takeability: assigned"}
+{"ts":1795111010,"k":"fjordllc/bootcamp#10605","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1795111010,"k":"fjordllc/bootcamp#10606","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1795111010,"k":"rubyforgood/casa#7310","e":"dropped","why":"takeability: soft-claimed by jbrenesp 0d ago"}
+{"ts":1795111010,"k":"FTL-Hyperspace/FTL-Hyperspace#654","e":"dropped","why":"relevance: 18mo old and quiet"}
