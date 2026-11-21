@@ -1040,3 +1040,6 @@
 {"ts":1795195855,"k":"backstage/backstage#31751","e":"dropped","why":"takeability: assigned"}
 {"ts":1795195855,"k":"apache/auron#1910","e":"dropped","why":"closed"}
 {"ts":1795195855,"k":"brndnmtthws/conky#2247","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1795226230,"k":"royalpriest/helpdesk#20","e":"dropped","why":"closed"}
+{"ts":1795226230,"k":"maldoinc/wireup#103","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1795226230,"k":"ProjectMirador/mirador#4223","e":"dropped","why":"relevance: no activity in 120d"}
