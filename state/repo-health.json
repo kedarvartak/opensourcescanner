@@ -946,13 +946,13 @@
     "hasTests": false
   },
   "Apicurio/apicurio-registry": {
-    "computedAt": "2026-11-15T10:39:50.094Z",
-    "outsiderPRs": 9,
-    "outsiderMergeRate": 1,
-    "mergedCount": 9,
+    "computedAt": "2026-11-22T11:00:43.725Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 0.875,
+    "mergedCount": 7,
     "rottingPRs": 0,
-    "medianResponseHours": 2,
-    "responseSamples": 6,
+    "medianResponseHours": 1,
+    "responseSamples": 4,
     "hasCI": true,
     "hasTests": false
   },
@@ -1199,7 +1199,7 @@
     "hasTests": false
   },
   "Berserk-hub150/moodle-ai-skill-navigator": {
-    "computedAt": "2026-11-15T10:39:50.094Z",
+    "computedAt": "2026-11-22T11:00:43.725Z",
     "outsiderPRs": 10,
     "outsiderMergeRate": 0.9,
     "mergedCount": 9,
@@ -1892,13 +1892,13 @@
     "hasTests": false
   },
   "risingwavelabs/risingwave": {
-    "computedAt": "2026-11-09T11:13:36.817Z",
-    "outsiderPRs": 9,
-    "outsiderMergeRate": 0.6666666666666666,
-    "mergedCount": 6,
+    "computedAt": "2026-11-22T11:00:43.725Z",
+    "outsiderPRs": 7,
+    "outsiderMergeRate": 0.7142857142857143,
+    "mergedCount": 5,
     "rottingPRs": 0,
     "medianResponseHours": null,
-    "responseSamples": 1,
+    "responseSamples": 0,
     "hasCI": true,
     "hasTests": false
   },
@@ -4928,12 +4928,12 @@
     "hasTests": true
   },
   "medplum/medplum": {
-    "computedAt": "2026-11-15T10:39:50.094Z",
-    "outsiderPRs": 3,
+    "computedAt": "2026-11-22T11:00:43.725Z",
+    "outsiderPRs": 5,
     "outsiderMergeRate": 1,
-    "mergedCount": 3,
+    "mergedCount": 5,
     "rottingPRs": 0,
-    "medianResponseHours": 5,
+    "medianResponseHours": 11,
     "responseSamples": 13,
     "hasCI": true,
     "hasTests": false
@@ -5258,13 +5258,13 @@
     "hasTests": false
   },
   "OrangeJuiceExtension/OrangeJuice": {
-    "computedAt": "2026-08-21T04:10:14.241Z",
-    "outsiderPRs": 1,
-    "outsiderMergeRate": 1,
-    "mergedCount": 1,
+    "computedAt": "2026-11-22T11:00:43.725Z",
+    "outsiderPRs": 14,
+    "outsiderMergeRate": 0,
+    "mergedCount": 0,
     "rottingPRs": 0,
     "medianResponseHours": 2,
-    "responseSamples": 18,
+    "responseSamples": 16,
     "hasCI": true,
     "hasTests": false
   },
@@ -8250,7 +8250,7 @@
     "hasTests": false
   },
   "PretendoNetwork/juxtaposition": {
-    "computedAt": "2026-11-12T11:01:01.078Z",
+    "computedAt": "2026-11-22T11:00:43.725Z",
     "outsiderPRs": 17,
     "outsiderMergeRate": 0.9411764705882353,
     "mergedCount": 16,
@@ -11561,13 +11561,13 @@
     "hasTests": true
   },
   "architecture-building-systems/CityEnergyAnalyst": {
-    "computedAt": "2026-11-15T10:39:50.094Z",
-    "outsiderPRs": 4,
-    "outsiderMergeRate": 0.75,
-    "mergedCount": 3,
+    "computedAt": "2026-11-22T11:00:43.725Z",
+    "outsiderPRs": 5,
+    "outsiderMergeRate": 0.8,
+    "mergedCount": 4,
     "rottingPRs": 0,
-    "medianResponseHours": 30,
-    "responseSamples": 10,
+    "medianResponseHours": 49,
+    "responseSamples": 12,
     "hasCI": true,
     "hasTests": false
   },
@@ -11878,5 +11878,38 @@
     "responseSamples": 9,
     "hasCI": true,
     "hasTests": false
+  },
+  "uxfront-com/styleframe": {
+    "computedAt": "2026-11-22T11:00:43.725Z",
+    "outsiderPRs": 20,
+    "outsiderMergeRate": 1,
+    "mergedCount": 20,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "esnet/acme-proxy": {
+    "computedAt": "2026-11-22T11:00:43.725Z",
+    "outsiderPRs": 24,
+    "outsiderMergeRate": 0.8333333333333334,
+    "mergedCount": 20,
+    "rottingPRs": 0,
+    "medianResponseHours": null,
+    "responseSamples": 0,
+    "hasCI": true,
+    "hasTests": false
+  },
+  "aws/aws-lambda-rust-runtime": {
+    "computedAt": "2026-11-22T11:00:43.725Z",
+    "outsiderPRs": 8,
+    "outsiderMergeRate": 0.75,
+    "mergedCount": 6,
+    "rottingPRs": 2,
+    "medianResponseHours": 9,
+    "responseSamples": 9,
+    "hasCI": true,
+    "hasTests": true
   }
 }
