@@ -3,12 +3,11 @@
   "generatedAt": "2026-11-22T11:00:43.461Z",
   "nextRefreshAt": "2026-11-23T11:00:43.461Z",
   "counts": {
-    "issues": 406,
+    "issues": 398,
     "repos": 303,
     "languages": 10
   },
   "todaysPicks": [
-    "mrveiss/AutoBot-AI#13230",
     "slaurent22/hk-split-maker#161",
     "kubevela/kubevela#7101",
     "eclipse-fastbelt/fastbelt#51",
@@ -408,5 +407,5 @@
     },
     "passRate": 0.1325
   },
-  "revalidatedAt": "2026-11-24T05:07:25.447Z"
+  "revalidatedAt": "2026-11-24T19:54:37.149Z"
 }
