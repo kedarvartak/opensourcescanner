@@ -1146,3 +1146,6 @@
 {"ts":1795718903,"k":"getsentry/sentry-dotnet#4564","e":"dropped","why":"closed"}
 {"ts":1795718903,"k":"marimo-team/marimo#5196","e":"dropped","why":"relevance: 18mo old and quiet"}
 {"ts":1795718903,"k":"DLR-FT/wasm-interpreter#276","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1795750043,"k":"holoviz/panel#8191","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1795750043,"k":"abhinavxd/libredesk#307","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1795750043,"k":"safedep/vet#739","e":"dropped","why":"relevance: no activity in 120d"}
