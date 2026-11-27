@@ -1285,3 +1285,7 @@
 {"ts":1795781200,"k":"DeltaV-Station/Delta-v#5062","e":"dropped","why":"not_in_board"}
 {"ts":1795781200,"k":"DeltaV-Station/Delta-v#6482","e":"dropped","why":"not_in_board"}
 {"ts":1795781200,"k":"lance-format/lance#3938","e":"dropped","why":"not_in_board"}
+{"ts":1795804810,"k":"safedep/pmg#307","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1795804810,"k":"XRPLF/rippled#6741","e":"dropped","why":"relevance: no activity in 120d"}
+{"ts":1795804810,"k":"deepinv/deepinv#643","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1795804810,"k":"RailtownAI/railtracks#873","e":"dropped","why":"closed"}
