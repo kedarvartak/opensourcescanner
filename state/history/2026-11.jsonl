@@ -1290,3 +1290,31 @@
 {"ts":1795804810,"k":"deepinv/deepinv#643","e":"dropped","why":"takeability: open linked PR"}
 {"ts":1795804810,"k":"RailtownAI/railtracks#873","e":"dropped","why":"closed"}
 {"ts":1795834997,"k":"mrveiss/AutoBot-AI#20825","e":"dropped","why":"takeability: open linked PR"}
+{"ts":1795865956,"k":"cadence-workflow/cadence-web#1679","e":"listed","sc":85}
+{"ts":1795865956,"k":"cadence-workflow/cadence-web#1678","e":"listed","sc":85}
+{"ts":1795865956,"k":"horde/imp#133","e":"listed","sc":75}
+{"ts":1795865956,"k":"NethermindEth/dotnet-libp2p#201","e":"listed","sc":74}
+{"ts":1795865956,"k":"XRPLF/rippled#6744","e":"listed","sc":72}
+{"ts":1795865956,"k":"uutils/coreutils#10803","e":"listed","sc":71}
+{"ts":1795865956,"k":"mrveiss/AutoBot-AI#18775","e":"listed","sc":70}
+{"ts":1795865956,"k":"inveniosoftware/invenio-app-rdm#3382","e":"listed","sc":70}
+{"ts":1795865956,"k":"mi6/ic-ui-kit#4317","e":"listed","sc":67}
+{"ts":1795865956,"k":"AOSSIE-Org/Perspective#141","e":"listed","sc":60}
+{"ts":1795865956,"k":"aws/jsii-compiler#2461","e":"dropped","why":"not_in_board"}
+{"ts":1795865956,"k":"safedep/pmg#307","e":"dropped","why":"not_in_board"}
+{"ts":1795865956,"k":"manyfold3d/manyfold#6447","e":"dropped","why":"not_in_board"}
+{"ts":1795865956,"k":"carlos-emr/carlos#2152","e":"dropped","why":"not_in_board"}
+{"ts":1795865956,"k":"mrveiss/AutoBot-AI#20825","e":"dropped","why":"not_in_board"}
+{"ts":1795865956,"k":"ArcadeMakerSources/ArcadeMaker#40","e":"dropped","why":"not_in_board"}
+{"ts":1795865956,"k":"rubyforgood/casa#7295","e":"dropped","why":"not_in_board"}
+{"ts":1795865956,"k":"rubyforgood/casa#7291","e":"dropped","why":"not_in_board"}
+{"ts":1795865956,"k":"XRPLF/rippled#6741","e":"dropped","why":"not_in_board"}
+{"ts":1795865956,"k":"deepinv/deepinv#643","e":"dropped","why":"not_in_board"}
+{"ts":1795865956,"k":"rubyforgood/casa#6454","e":"dropped","why":"not_in_board"}
+{"ts":1795865956,"k":"RailtownAI/railtracks#873","e":"dropped","why":"not_in_board"}
+{"ts":1795865956,"k":"hardwood-hq/hardwood#336","e":"dropped","why":"not_in_board"}
+{"ts":1795865956,"k":"hardwood-hq/hardwood#334","e":"dropped","why":"not_in_board"}
+{"ts":1795865956,"k":"dapr/python-sdk#853","e":"dropped","why":"not_in_board"}
+{"ts":1795865956,"k":"tursodatabase/turso#5165","e":"dropped","why":"not_in_board"}
+{"ts":1795865956,"k":"Scottcjn/rustchain-bounties#269","e":"dropped","why":"not_in_board"}
+{"ts":1795865956,"k":"Scottcjn/rustchain-bounties#422","e":"dropped","why":"not_in_board"}
